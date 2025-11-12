@@ -20,25 +20,25 @@ export type ProviderConstructionOption = Readonly<{
   language: Language
   name: string
   source: string
+  version: string
   directory: string
 }>
 
 /**
  * Generates constructs for the given provider.
  */
-export async function generateProviderConstruct(
-  option: ProviderConstructionOption
-): Promise<void> {
-  const { language, name, source, directory } = option
-  const constraint = new TerraformProviderConstraint({
-    name,
-    source
-  })
+export async function generateProviderConstruct({
+  language,
+  name,
+  source,
+  version,
+  directory
+}: ProviderConstructionOption): Promise<void> {
+  const constraint = new TerraformProviderConstraint({ name, source, version })
   const constructsMaker = new ConstructsMaker({
     targetLanguage: language as CdktfLanguage,
     codeMakerOutput: directory
   })
-
   await constructsMaker.removeFoldersThatShouldNotExist([constraint])
   const filtered = await constructsMaker.filterAlreadyGenerated([constraint])
   await constructsMaker.generate([constraint], filtered)
