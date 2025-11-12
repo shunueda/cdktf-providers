@@ -4,8 +4,6 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier . --write",
-    "generate": "node scripts/generate.ts",
-    "publish": "node scripts/publish.ts",
     "start": "node src/index.ts"
   },
   "dependencies": {

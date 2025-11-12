@@ -1,0 +1,102 @@
+import { log, warn } from 'node:console'
+import { cp, glob, writeFile } from 'node:fs/promises'
+import { join } from 'node:path'
+import { ModuleKind, ScriptTarget } from 'typescript'
+import { generateProviderConstruct, type Language } from './cdktf.ts'
+import { createReadmeContent } from './readme.ts'
+import {
+  fetchProviderData,
+  fetchProviderVerionData
+} from './terraform/registry.ts'
+import { tsc } from './typescript/compile.ts'
+import {
+  createNpmPackageName,
+  createPackageJson,
+  isNpmPackagePublished
+} from './typescript/npm.ts'
+
+for await (const { attributes, id } of fetchProviderData()) {
+  // E.g. { "name": "aws", "namespace": "hashicorp", "full-name": "hashicorp/aws" }
+  const { name, namespace, ['full-name']: fullname } = attributes
+
+  // Get the latest version that matches x.x.x
+  const versionData = await fetchProviderVerionData(id)
+  const version = versionData
+    .map(it => it.attributes)
+    .filter(({ version }) => /^\d+\.\d+\.\d+$/.test(version)) // only x.x.x versions
+    .toSorted((a, b) => b['published-at'].localeCompare(a['published-at'])) // latest
+    ?.at(0)?.version
+
+  if (!version) {
+    warn(fullname, 'No valid version found, skipping.')
+    continue
+  }
+
+  // TypeScript only for now, but code is ready for more languages
+  const languages: readonly Language[] = ['typescript']
+  for (const language of languages) {
+    const dir = join('gen', namespace, name, language)
+    const prefix = `[${fullname}@${version} ${language}]`
+    try {
+      switch (language) {
+        case 'typescript': {
+          const pkgname = createNpmPackageName(namespace, name)
+
+          if (await isNpmPackagePublished(pkgname, version)) {
+            log(prefix, 'Already published, skipping.')
+            continue
+          }
+
+          log(prefix, 'Generating construct...')
+          await generateProviderConstruct({
+            language,
+            name,
+            version,
+            source: fullname,
+            directory: dir
+          })
+
+          log(prefix, 'Compiling...')
+          const files = glob(join(dir, '**', '*.ts'))
+          const { emitSkipped, diagnostics } = await tsc(files, {
+            module: ModuleKind.ES2022,
+            target: ScriptTarget.ES2022,
+            declaration: true,
+            sourceMap: true,
+            outDir: join(dir, 'dist'),
+            // Skip type cheking because we process files in chunks. We assume the
+            // generated code is always valid. Also speeds up the compilation.
+            noCheck: true,
+            noEmitOnError: true
+          })
+
+          if (emitSkipped && diagnostics.length) {
+            warn(prefix, 'Failed to compile, skipping.')
+            continue
+          }
+
+          await writeFile(
+            join(dir, 'package.json'),
+            JSON.stringify(createPackageJson(pkgname, version, dir), null, 2)
+          )
+
+          await writeFile(
+            join(dir, 'README.md'),
+            createReadmeContent({
+              terraformProviderName: fullname,
+              npmPackageName: pkgname,
+              version
+            })
+          )
+
+          await cp('LICENSE', join(dir, 'LICENSE'))
+
+          // await publishNpmPackage(dir, env.NPM_TOKEN)
+          log(prefix, 'Done.')
+        }
+      }
+    } catch (error) {
+      warn(prefix, `Error generating construct`, error)
+    }
+  }
+}
