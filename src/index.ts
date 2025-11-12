@@ -93,7 +93,6 @@ for await (const { attributes, id } of fetchProviderData()) {
 
           // await publishNpmPackage(dir, env.NPM_TOKEN)
           log(prefix, 'Done.')
-          process.exit(0) // NOCOMMIT
         }
       }
     } catch (error) {
