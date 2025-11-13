@@ -13,12 +13,18 @@ import { tsc } from './typescript/compile.ts'
 import {
   createNpmPackageName,
   createPackageJson,
-  isNpmPackagePublished
+  isNpmPackagePublished,
+  publishNpmPackage
 } from './typescript/npm.ts'
 
 for await (const { attributes, id } of fetchProviderData()) {
   // E.g. { "name": "aws", "namespace": "hashicorp", "full-name": "hashicorp/aws" }
   const { name, namespace, ['full-name']: fullname } = attributes
+
+  // NOMERGE
+  if (name !== 'coder') {
+    continue
+  }
 
   // Get the latest version that matches x.x.x
   const versionData = await fetchProviderVerionData(id)
@@ -102,8 +108,10 @@ for await (const { attributes, id } of fetchProviderData()) {
 
           await cp('LICENSE', join(dir, 'LICENSE'))
 
-          // await publishNpmPackage(dir)
+          await publishNpmPackage(dir)
           log(prefix, 'Done.')
+          // NOMERGE
+          process.exit(0)
         }
       }
     } catch (error) {

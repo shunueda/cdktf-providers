@@ -106,6 +106,14 @@ export function createPackageJson({
     peerDependencies: {
       cdktf: `^${versions.cdktf}`,
       constructs: `^${versions.constructs}`
+    },
+    // Non-standard field but used by official cdktf provider packages
+    cdktf: {
+      isDeprecated: false,
+      provider: {
+        name: `registry.terraform.io/${namespace}/${name}`,
+        version
+      }
     }
   }
 }
