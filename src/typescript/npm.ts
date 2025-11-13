@@ -9,6 +9,7 @@ import { Arborist } from '@npmcli/arborist'
 import { publish } from 'libnpmpublish'
 import { env } from 'node:process'
 import pacote from 'pacote'
+import { equalsIgnoreCase } from '../helpers/string.ts'
 import { versions } from '../versions.ts'
 
 const npmPackageScope = '@cdktf-providers'
@@ -27,7 +28,7 @@ const npmPackageScope = '@cdktf-providers'
  * createNpmPackageName('google', 'compute') // '@cdktf-providers/google-compute'
  */
 export function createNpmPackageName(namespace: string, name: string): string {
-  return `${npmPackageScope}/${namespace === name ? name : `${namespace}-${name}`}`.toLowerCase()
+  return `${npmPackageScope}/${equalsIgnoreCase(namespace, name) ? name : `${namespace}-${name}`}`.toLowerCase()
 }
 
 /**
@@ -76,7 +77,7 @@ export function createPackageJson({
   return {
     name: pkgname,
     version,
-    description: `Prebuilt ${namespace === name ? name : `${namespace}/${name}`} Provider for Terraform CDK (cdktf)`,
+    description: `Prebuilt ${equalsIgnoreCase(namespace, name) ? name : `${namespace}/${name}`} Provider for Terraform CDK (cdktf)`,
     repository: {
       type: 'git',
       url: 'https://github.com/shunueda/cdktf-providers.git',
@@ -103,7 +104,7 @@ export function createPackageJson({
     },
     files: ['dist'],
     keywords: ['cdk', 'cdktf', 'provider', 'terraform'].concat(
-      namespace === name ? [name] : [namespace, name]
+      equalsIgnoreCase(namespace, name) ? [name] : [namespace, name]
     ),
     peerDependencies: {
       cdktf: `^${versions.cdktf}`,
