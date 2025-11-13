@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClsCosShipperConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination bucket in the shipping rule to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#bucket ClsCosShipper#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#bucket ClsCosShipper#bucket}
   */
   readonly bucket: string;
   /**
   * End time for data shipping, which cannot be set to a future time. If you do not specify this parameter, it indicates continuous data shipping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#end_time ClsCosShipper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#end_time ClsCosShipper#end_time}
   */
   readonly endTime?: number;
   /**
   * Naming a shipping file. Valid values: 0 (by random number); 1 (by shipping time). Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#filename_mode ClsCosShipper#filename_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#filename_mode ClsCosShipper#filename_mode}
   */
   readonly filenameMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#id ClsCosShipper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#id ClsCosShipper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface ClsCosShipperConfig extends cdktf.TerraformMetaArguments {
   /**
   * Shipping time interval in seconds. Default value: 300. Value range: 300~900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#interval ClsCosShipper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#interval ClsCosShipper#interval}
   */
   readonly interval?: number;
   /**
   * Maximum size of a file to be shipped, in MB. Default value: 256. Value range: 100~256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#max_size ClsCosShipper#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#max_size ClsCosShipper#max_size}
   */
   readonly maxSize?: number;
   /**
   * Partition rule of shipped log, which can be represented in strftime time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#partition ClsCosShipper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#partition ClsCosShipper#partition}
   */
   readonly partition?: string;
   /**
   * Prefix of the shipping directory in the shipping rule to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#prefix ClsCosShipper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#prefix ClsCosShipper#prefix}
   */
   readonly prefix: string;
   /**
   * Shipping rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#shipper_name ClsCosShipper#shipper_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#shipper_name ClsCosShipper#shipper_name}
   */
   readonly shipperName: string;
   /**
   * Start time for data shipping, which cannot be earlier than the lifecycle start time of the log topic. If you do not specify this parameter, it will be set to the time when you create the data shipping task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#start_time ClsCosShipper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#start_time ClsCosShipper#start_time}
   */
   readonly startTime?: number;
   /**
   * COS bucket storage type. support: STANDARD_IA, ARCHIVE, DEEP_ARCHIVE, STANDARD, MAZ_STANDARD, MAZ_STANDARD_IA, INTELLIGENT_TIERING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#storage_type ClsCosShipper#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#storage_type ClsCosShipper#storage_type}
   */
   readonly storageType?: string;
   /**
   * ID of the log topic to which the shipping rule to be created belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#topic_id ClsCosShipper#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#topic_id ClsCosShipper#topic_id}
   */
   readonly topicId: string;
   /**
   * compress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#compress ClsCosShipper#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#compress ClsCosShipper#compress}
   */
   readonly compress?: ClsCosShipperCompress;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#content ClsCosShipper#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#content ClsCosShipper#content}
   */
   readonly content?: ClsCosShipperContent;
   /**
   * filter_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#filter_rules ClsCosShipper#filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#filter_rules ClsCosShipper#filter_rules}
   */
   readonly filterRules?: ClsCosShipperFilterRules[] | cdktf.IResolvable;
 }
@@ -103,7 +103,7 @@ export interface ClsCosShipperCompress {
   /**
   * Compression format. Valid values: gzip, lzop, none (no compression).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#format ClsCosShipper#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#format ClsCosShipper#format}
   */
   readonly format: string;
 }
@@ -186,31 +186,31 @@ export interface ClsCosShipperContentCsv {
   /**
   * Field delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#delimiter ClsCosShipper#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#delimiter ClsCosShipper#delimiter}
   */
   readonly delimiter: string;
   /**
   * Field delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#escape_char ClsCosShipper#escape_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#escape_char ClsCosShipper#escape_char}
   */
   readonly escapeChar: string;
   /**
   * Names of keys.Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#keys ClsCosShipper#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#keys ClsCosShipper#keys}
   */
   readonly keys: string[];
   /**
   * Content used to populate non-existing fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#non_existing_field ClsCosShipper#non_existing_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#non_existing_field ClsCosShipper#non_existing_field}
   */
   readonly nonExistingField: string;
   /**
   * Whether to print key on the first row of the CSV file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#print_key ClsCosShipper#print_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#print_key ClsCosShipper#print_key}
   */
   readonly printKey: boolean | cdktf.IResolvable;
 }
@@ -397,14 +397,14 @@ export interface ClsCosShipperContentJson {
   /**
   * Enablement flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#enable_tag ClsCosShipper#enable_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#enable_tag ClsCosShipper#enable_tag}
   */
   readonly enableTag: boolean | cdktf.IResolvable;
   /**
   * Metadata information list
   * Note: this field may return null, indicating that no valid values can be obtained..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#meta_fields ClsCosShipper#meta_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#meta_fields ClsCosShipper#meta_fields}
   */
   readonly metaFields: string[];
 }
@@ -513,19 +513,19 @@ export interface ClsCosShipperContent {
   /**
   * Content format. Valid values: json, csv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#format ClsCosShipper#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#format ClsCosShipper#format}
   */
   readonly format: string;
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#csv ClsCosShipper#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#csv ClsCosShipper#csv}
   */
   readonly csv?: ClsCosShipperContentCsv;
   /**
   * json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#json ClsCosShipper#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#json ClsCosShipper#json}
   */
   readonly json?: ClsCosShipperContentJson;
 }
@@ -666,19 +666,19 @@ export interface ClsCosShipperFilterRules {
   /**
   * Filter rule key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#key ClsCosShipper#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#key ClsCosShipper#key}
   */
   readonly key: string;
   /**
   * Filter rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#regex ClsCosShipper#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#regex ClsCosShipper#regex}
   */
   readonly regex: string;
   /**
   * Filter rule value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#value ClsCosShipper#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#value ClsCosShipper#value}
   */
   readonly value: string;
 }
@@ -843,7 +843,7 @@ export class ClsCosShipperFilterRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper tencentcloud_cls_cos_shipper}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper tencentcloud_cls_cos_shipper}
 */
 export class ClsCosShipper extends cdktf.TerraformResource {
 
@@ -859,7 +859,7 @@ export class ClsCosShipper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsCosShipper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsCosShipper to import
-  * @param importFromId The id of the existing ClsCosShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsCosShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsCosShipper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -871,7 +871,7 @@ export class ClsCosShipper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_cos_shipper tencentcloud_cls_cos_shipper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_cos_shipper tencentcloud_cls_cos_shipper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -882,8 +882,8 @@ export class ClsCosShipper extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_cos_shipper',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -636,7 +636,8 @@ export class ZoneForward extends cdktf.TerraformResource {
       terraformResourceType: 'infoblox_zone_forward',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

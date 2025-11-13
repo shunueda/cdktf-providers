@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity
+// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RemoteIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The account for this remote identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#account_id RemoteIdentity#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#account_id RemoteIdentity#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#id RemoteIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#id RemoteIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface RemoteIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The remote identity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#remote_identity_group_id RemoteIdentity#remote_identity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#remote_identity_group_id RemoteIdentity#remote_identity_group_id}
   */
   readonly remoteIdentityGroupId: string;
   /**
   * The username to be used as the remote identity for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#username RemoteIdentity#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#username RemoteIdentity#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#timeouts RemoteIdentity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#timeouts RemoteIdentity#timeouts}
   */
   readonly timeouts?: RemoteIdentityTimeouts;
 }
 export interface RemoteIdentityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#create RemoteIdentity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#create RemoteIdentity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#default RemoteIdentity#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#default RemoteIdentity#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#delete RemoteIdentity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#delete RemoteIdentity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#read RemoteIdentity#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#read RemoteIdentity#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#update RemoteIdentity#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#update RemoteIdentity#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class RemoteIdentityTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity sdm_remote_identity}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity sdm_remote_identity}
 */
 export class RemoteIdentity extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class RemoteIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteIdentity to import
-  * @param importFromId The id of the existing RemoteIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class RemoteIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/remote_identity sdm_remote_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/remote_identity sdm_remote_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class RemoteIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_remote_identity',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0',
-        providerVersionConstraint: '15.27.0'
+        providerVersion: '15.28.0',
+        providerVersionConstraint: '15.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

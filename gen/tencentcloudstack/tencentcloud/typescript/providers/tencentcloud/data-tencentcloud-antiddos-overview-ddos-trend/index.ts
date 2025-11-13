@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudAntiddosOverviewDdosTrendConfig extends cdktf.T
   /**
   * Dayu sub product code (bgpip represents advanced defense IP; net represents professional version of advanced defense IP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#business DataTencentcloudAntiddosOverviewDdosTrend#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#business DataTencentcloudAntiddosOverviewDdosTrend#business}
   */
   readonly business?: string;
   /**
   * EndTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#end_time DataTencentcloudAntiddosOverviewDdosTrend#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#end_time DataTencentcloudAntiddosOverviewDdosTrend#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#id DataTencentcloudAntiddosOverviewDdosTrend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#id DataTencentcloudAntiddosOverviewDdosTrend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DataTencentcloudAntiddosOverviewDdosTrendConfig extends cdktf.T
   /**
   * instance IpList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#ip_list DataTencentcloudAntiddosOverviewDdosTrend#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#ip_list DataTencentcloudAntiddosOverviewDdosTrend#ip_list}
   */
   readonly ipList?: string[];
   /**
   * Indicator, value [bps (attack traffic bandwidth, pps (attack packet rate)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#metric_name DataTencentcloudAntiddosOverviewDdosTrend#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#metric_name DataTencentcloudAntiddosOverviewDdosTrend#metric_name}
   */
   readonly metricName: string;
   /**
   * Statistical granularity, values [300 (5 minutes), 3600 (hours), 86400 (days)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#period DataTencentcloudAntiddosOverviewDdosTrend#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#period DataTencentcloudAntiddosOverviewDdosTrend#period}
   */
   readonly period: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#result_output_file DataTencentcloudAntiddosOverviewDdosTrend#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#result_output_file DataTencentcloudAntiddosOverviewDdosTrend#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#start_time DataTencentcloudAntiddosOverviewDdosTrend#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#start_time DataTencentcloudAntiddosOverviewDdosTrend#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend tencentcloud_antiddos_overview_ddos_trend}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend tencentcloud_antiddos_overview_ddos_trend}
 */
 export class DataTencentcloudAntiddosOverviewDdosTrend extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataTencentcloudAntiddosOverviewDdosTrend extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudAntiddosOverviewDdosTrend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAntiddosOverviewDdosTrend to import
-  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewDdosTrend that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAntiddosOverviewDdosTrend that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAntiddosOverviewDdosTrend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataTencentcloudAntiddosOverviewDdosTrend extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/antiddos_overview_ddos_trend tencentcloud_antiddos_overview_ddos_trend} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/antiddos_overview_ddos_trend tencentcloud_antiddos_overview_ddos_trend} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataTencentcloudAntiddosOverviewDdosTrend extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_antiddos_overview_ddos_trend',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

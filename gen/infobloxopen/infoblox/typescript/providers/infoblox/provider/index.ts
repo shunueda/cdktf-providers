@@ -103,7 +103,8 @@ export class InfobloxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infoblox',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       terraformProviderSource: 'infobloxopen/infoblox'
     });

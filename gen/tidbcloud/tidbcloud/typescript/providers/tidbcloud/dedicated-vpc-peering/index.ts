@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DedicatedVpcPeeringConfig extends cdktf.TerraformMetaArguments 
   /**
   * The account ID of the AWS VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#customer_account_id DedicatedVpcPeering#customer_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#customer_account_id DedicatedVpcPeering#customer_account_id}
   */
   readonly customerAccountId: string;
   /**
   * The region ID of the AWS VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#customer_region_id DedicatedVpcPeering#customer_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#customer_region_id DedicatedVpcPeering#customer_region_id}
   */
   readonly customerRegionId: string;
   /**
   * The VPC CIDR of the AWS VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#customer_vpc_cidr DedicatedVpcPeering#customer_vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#customer_vpc_cidr DedicatedVpcPeering#customer_vpc_cidr}
   */
   readonly customerVpcCidr: string;
   /**
   * The ID of the AWS VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#customer_vpc_id DedicatedVpcPeering#customer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#customer_vpc_id DedicatedVpcPeering#customer_vpc_id}
   */
   readonly customerVpcId: string;
   /**
   * The project ID for the VPC Peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#project_id DedicatedVpcPeering#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#project_id DedicatedVpcPeering#project_id}
   */
   readonly projectId?: string;
   /**
   * The region ID of the TiDB Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#tidb_cloud_region_id DedicatedVpcPeering#tidb_cloud_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#tidb_cloud_region_id DedicatedVpcPeering#tidb_cloud_region_id}
   */
   readonly tidbCloudRegionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering tidbcloud_dedicated_vpc_peering}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering tidbcloud_dedicated_vpc_peering}
 */
 export class DedicatedVpcPeering extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class DedicatedVpcPeering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedVpcPeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedVpcPeering to import
-  * @param importFromId The id of the existing DedicatedVpcPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedVpcPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedVpcPeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DedicatedVpcPeering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_vpc_peering tidbcloud_dedicated_vpc_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_vpc_peering tidbcloud_dedicated_vpc_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DedicatedVpcPeering extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_dedicated_vpc_peering',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbInstanceParamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#id MongodbInstanceParams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#id MongodbInstanceParams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface MongodbInstanceParamsConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#instance_id MongodbInstanceParams#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#instance_id MongodbInstanceParams#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -26,13 +26,13 @@ export interface MongodbInstanceParamsConfig extends cdktf.TerraformMetaArgument
   * 	- DELAY: Delay adjustment;
   * Optional field. If this parameter is not configured, it defaults to immediate adjustment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#modify_type MongodbInstanceParams#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#modify_type MongodbInstanceParams#modify_type}
   */
   readonly modifyType?: string;
   /**
   * instance_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#instance_params MongodbInstanceParams#instance_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#instance_params MongodbInstanceParams#instance_params}
   */
   readonly instanceParams: MongodbInstanceParamsInstanceParams[] | cdktf.IResolvable;
 }
@@ -40,13 +40,13 @@ export interface MongodbInstanceParamsInstanceParams {
   /**
   * Parameter names that need to be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#key MongodbInstanceParams#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#key MongodbInstanceParams#key}
   */
   readonly key: string;
   /**
   * The value corresponding to the parameter name to be modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#value MongodbInstanceParams#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#value MongodbInstanceParams#value}
   */
   readonly value: string;
 }
@@ -185,7 +185,7 @@ export class MongodbInstanceParamsInstanceParamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params tencentcloud_mongodb_instance_params}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params tencentcloud_mongodb_instance_params}
 */
 export class MongodbInstanceParams extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class MongodbInstanceParams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceParams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceParams to import
-  * @param importFromId The id of the existing MongodbInstanceParams that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceParams that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceParams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class MongodbInstanceParams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_params tencentcloud_mongodb_instance_params} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_params tencentcloud_mongodb_instance_params} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class MongodbInstanceParams extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_params',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

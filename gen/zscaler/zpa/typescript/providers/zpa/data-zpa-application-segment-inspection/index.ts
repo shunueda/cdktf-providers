@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaApplicationSegmentInspectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#id DataZpaApplicationSegmentInspection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#id DataZpaApplicationSegmentInspection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataZpaApplicationSegmentInspectionConfig extends cdktf.Terrafo
   /**
   * Name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#name DataZpaApplicationSegmentInspection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#name DataZpaApplicationSegmentInspection#name}
   */
   readonly name?: string;
   /**
   * tcp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#tcp_port_range DataZpaApplicationSegmentInspection#tcp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#tcp_port_range DataZpaApplicationSegmentInspection#tcp_port_range}
   */
   readonly tcpPortRange?: DataZpaApplicationSegmentInspectionTcpPortRange[] | cdktf.IResolvable;
   /**
   * udp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#udp_port_range DataZpaApplicationSegmentInspection#udp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#udp_port_range DataZpaApplicationSegmentInspection#udp_port_range}
   */
   readonly udpPortRange?: DataZpaApplicationSegmentInspectionUdpPortRange[] | cdktf.IResolvable;
 }
@@ -235,11 +235,11 @@ export class DataZpaApplicationSegmentInspectionServerGroupsList extends cdktf.C
 }
 export interface DataZpaApplicationSegmentInspectionTcpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#from DataZpaApplicationSegmentInspection#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#from DataZpaApplicationSegmentInspection#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#to DataZpaApplicationSegmentInspection#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#to DataZpaApplicationSegmentInspection#to}
   */
   readonly to?: string;
 }
@@ -384,11 +384,11 @@ export class DataZpaApplicationSegmentInspectionTcpPortRangeList extends cdktf.C
 }
 export interface DataZpaApplicationSegmentInspectionUdpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#from DataZpaApplicationSegmentInspection#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#from DataZpaApplicationSegmentInspection#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#to DataZpaApplicationSegmentInspection#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#to DataZpaApplicationSegmentInspection#to}
   */
   readonly to?: string;
 }
@@ -533,7 +533,7 @@ export class DataZpaApplicationSegmentInspectionUdpPortRangeList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection zpa_application_segment_inspection}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection zpa_application_segment_inspection}
 */
 export class DataZpaApplicationSegmentInspection extends cdktf.TerraformDataSource {
 
@@ -549,7 +549,7 @@ export class DataZpaApplicationSegmentInspection extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataZpaApplicationSegmentInspection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaApplicationSegmentInspection to import
-  * @param importFromId The id of the existing DataZpaApplicationSegmentInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaApplicationSegmentInspection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaApplicationSegmentInspection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -561,7 +561,7 @@ export class DataZpaApplicationSegmentInspection extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_inspection zpa_application_segment_inspection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_inspection zpa_application_segment_inspection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -572,8 +572,8 @@ export class DataZpaApplicationSegmentInspection extends cdktf.TerraformDataSour
       terraformResourceType: 'zpa_application_segment_inspection',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

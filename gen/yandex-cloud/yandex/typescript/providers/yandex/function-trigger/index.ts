@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FunctionTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#description FunctionTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#description FunctionTrigger#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#folder_id FunctionTrigger#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#folder_id FunctionTrigger#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#id FunctionTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#id FunctionTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,91 +29,91 @@ export interface FunctionTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#labels FunctionTrigger#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#labels FunctionTrigger#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#name FunctionTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#name FunctionTrigger#name}
   */
   readonly name: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#container FunctionTrigger#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#container FunctionTrigger#container}
   */
   readonly container?: FunctionTriggerContainer;
   /**
   * container_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#container_registry FunctionTrigger#container_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#container_registry FunctionTrigger#container_registry}
   */
   readonly containerRegistry?: FunctionTriggerContainerRegistry;
   /**
   * data_streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#data_streams FunctionTrigger#data_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#data_streams FunctionTrigger#data_streams}
   */
   readonly dataStreams?: FunctionTriggerDataStreams;
   /**
   * dlq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#dlq FunctionTrigger#dlq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#dlq FunctionTrigger#dlq}
   */
   readonly dlq?: FunctionTriggerDlq;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#function FunctionTrigger#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#function FunctionTrigger#function}
   */
   readonly function?: FunctionTriggerFunction;
   /**
   * iot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#iot FunctionTrigger#iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#iot FunctionTrigger#iot}
   */
   readonly iot?: FunctionTriggerIot;
   /**
   * log_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#log_group FunctionTrigger#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#log_group FunctionTrigger#log_group}
   */
   readonly logGroup?: FunctionTriggerLogGroup;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#logging FunctionTrigger#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#logging FunctionTrigger#logging}
   */
   readonly logging?: FunctionTriggerLogging;
   /**
   * mail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#mail FunctionTrigger#mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#mail FunctionTrigger#mail}
   */
   readonly mail?: FunctionTriggerMail;
   /**
   * message_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#message_queue FunctionTrigger#message_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#message_queue FunctionTrigger#message_queue}
   */
   readonly messageQueue?: FunctionTriggerMessageQueue;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#object_storage FunctionTrigger#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#object_storage FunctionTrigger#object_storage}
   */
   readonly objectStorage?: FunctionTriggerObjectStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#timeouts FunctionTrigger#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#timeouts FunctionTrigger#timeouts}
   */
   readonly timeouts?: FunctionTriggerTimeouts;
   /**
   * timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#timer FunctionTrigger#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#timer FunctionTrigger#timer}
   */
   readonly timer?: FunctionTriggerTimer;
 }
@@ -121,7 +121,7 @@ export interface FunctionTriggerContainer {
   /**
   * Yandex Cloud Serverless Container ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#id FunctionTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#id FunctionTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,25 +130,25 @@ export interface FunctionTriggerContainer {
   /**
   * Path for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#path FunctionTrigger#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#path FunctionTrigger#path}
   */
   readonly path?: string;
   /**
   * Retry attempts for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#retry_attempts FunctionTrigger#retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#retry_attempts FunctionTrigger#retry_attempts}
   */
   readonly retryAttempts?: string;
   /**
   * Retry interval in seconds for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#retry_interval FunctionTrigger#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#retry_interval FunctionTrigger#retry_interval}
   */
   readonly retryInterval?: string;
   /**
   * Service account ID for Yandex Cloud Serverless Container for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -347,55 +347,55 @@ export interface FunctionTriggerContainerRegistry {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Boolean flag for setting `create image` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#create_image FunctionTrigger#create_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#create_image FunctionTrigger#create_image}
   */
   readonly createImage?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag for setting `create image tag` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#create_image_tag FunctionTrigger#create_image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#create_image_tag FunctionTrigger#create_image_tag}
   */
   readonly createImageTag?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag for setting `delete image` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#delete_image FunctionTrigger#delete_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#delete_image FunctionTrigger#delete_image}
   */
   readonly deleteImage?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag for setting `delete image tag` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#delete_image_tag FunctionTrigger#delete_image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#delete_image_tag FunctionTrigger#delete_image_tag}
   */
   readonly deleteImageTag?: boolean | cdktf.IResolvable;
   /**
   * Image name filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#image_name FunctionTrigger#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#image_name FunctionTrigger#image_name}
   */
   readonly imageName?: string;
   /**
   * Container Registry ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#registry_id FunctionTrigger#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#registry_id FunctionTrigger#registry_id}
   */
   readonly registryId: string;
   /**
   * Image tag filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#tag FunctionTrigger#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#tag FunctionTrigger#tag}
   */
   readonly tag?: string;
 }
@@ -707,31 +707,31 @@ export interface FunctionTriggerDataStreams {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Stream database for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#database FunctionTrigger#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#database FunctionTrigger#database}
   */
   readonly database: string;
   /**
   * Service account ID to access data stream for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Stream name for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#stream_name FunctionTrigger#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#stream_name FunctionTrigger#stream_name}
   */
   readonly streamName: string;
 }
@@ -921,13 +921,13 @@ export interface FunctionTriggerDlq {
   /**
   * ID of Dead Letter Queue for Trigger (Queue ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#queue_id FunctionTrigger#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#queue_id FunctionTrigger#queue_id}
   */
   readonly queueId: string;
   /**
   * Service Account ID for Dead Letter Queue for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId: string;
 }
@@ -1036,7 +1036,7 @@ export interface FunctionTriggerFunction {
   /**
   * Yandex Cloud Function ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#id FunctionTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#id FunctionTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1045,25 +1045,25 @@ export interface FunctionTriggerFunction {
   /**
   * Retry attempts for Yandex Cloud Function for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#retry_attempts FunctionTrigger#retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#retry_attempts FunctionTrigger#retry_attempts}
   */
   readonly retryAttempts?: string;
   /**
   * Retry interval in seconds for Yandex Cloud Function for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#retry_interval FunctionTrigger#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#retry_interval FunctionTrigger#retry_interval}
   */
   readonly retryInterval?: string;
   /**
   * Service account ID for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * Tag for Yandex Cloud Function for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#tag FunctionTrigger#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#tag FunctionTrigger#tag}
   */
   readonly tag?: string;
 }
@@ -1262,31 +1262,31 @@ export interface FunctionTriggerIot {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * IoT Device ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#device_id FunctionTrigger#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#device_id FunctionTrigger#device_id}
   */
   readonly deviceId?: string;
   /**
   * IoT Registry ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#registry_id FunctionTrigger#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#registry_id FunctionTrigger#registry_id}
   */
   readonly registryId: string;
   /**
   * IoT Topic for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#topic FunctionTrigger#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#topic FunctionTrigger#topic}
   */
   readonly topic?: string;
 }
@@ -1480,15 +1480,15 @@ export class FunctionTriggerIotOutputReference extends cdktf.ComplexObject {
 }
 export interface FunctionTriggerLogGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#log_group_ids FunctionTrigger#log_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#log_group_ids FunctionTrigger#log_group_ids}
   */
   readonly logGroupIds: string[];
 }
@@ -1626,43 +1626,43 @@ export interface FunctionTriggerLogging {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Logging group ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#group_id FunctionTrigger#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#group_id FunctionTrigger#group_id}
   */
   readonly groupId: string;
   /**
   * Logging level filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#levels FunctionTrigger#levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#levels FunctionTrigger#levels}
   */
   readonly levels?: string[];
   /**
   * Resource ID filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#resource_ids FunctionTrigger#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#resource_ids FunctionTrigger#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
   * Resource type filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#resource_types FunctionTrigger#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#resource_types FunctionTrigger#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
   * Logging stream name filter setting for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#stream_names FunctionTrigger#stream_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#stream_names FunctionTrigger#stream_names}
   */
   readonly streamNames?: string[];
 }
@@ -1916,25 +1916,25 @@ export interface FunctionTriggerMail {
   /**
   * Object Storage Bucket ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#attachments_bucket_id FunctionTrigger#attachments_bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#attachments_bucket_id FunctionTrigger#attachments_bucket_id}
   */
   readonly attachmentsBucketId?: string;
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Service account ID to access object storage for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -2104,31 +2104,31 @@ export interface FunctionTriggerMessageQueue {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Message Queue ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#queue_id FunctionTrigger#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#queue_id FunctionTrigger#queue_id}
   */
   readonly queueId: string;
   /**
   * Message Queue Service Account ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#service_account_id FunctionTrigger#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Visibility timeout for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#visibility_timeout FunctionTrigger#visibility_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#visibility_timeout FunctionTrigger#visibility_timeout}
   */
   readonly visibilityTimeout?: string;
 }
@@ -2321,49 +2321,49 @@ export interface FunctionTriggerObjectStorage {
   /**
   * Batch Duration in seconds for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_cutoff FunctionTrigger#batch_cutoff}
   */
   readonly batchCutoff: string;
   /**
   * Batch Size for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#batch_size FunctionTrigger#batch_size}
   */
   readonly batchSize?: string;
   /**
   * Object Storage Bucket ID for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#bucket_id FunctionTrigger#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#bucket_id FunctionTrigger#bucket_id}
   */
   readonly bucketId: string;
   /**
   * Boolean flag for setting `create` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#create FunctionTrigger#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#create FunctionTrigger#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag for setting `delete` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#delete FunctionTrigger#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#delete FunctionTrigger#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
   * Prefix for Object Storage for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#prefix FunctionTrigger#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#prefix FunctionTrigger#prefix}
   */
   readonly prefix?: string;
   /**
   * Suffix for Object Storage for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#suffix FunctionTrigger#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#suffix FunctionTrigger#suffix}
   */
   readonly suffix?: string;
   /**
   * Boolean flag for setting `update` event for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#update FunctionTrigger#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#update FunctionTrigger#update}
   */
   readonly update?: boolean | cdktf.IResolvable;
 }
@@ -2644,15 +2644,15 @@ export class FunctionTriggerObjectStorageOutputReference extends cdktf.ComplexOb
 }
 export interface FunctionTriggerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#create FunctionTrigger#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#create FunctionTrigger#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#delete FunctionTrigger#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#delete FunctionTrigger#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#update FunctionTrigger#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#update FunctionTrigger#update}
   */
   readonly update?: string;
 }
@@ -2806,13 +2806,13 @@ export interface FunctionTriggerTimer {
   /**
   * Cron expression for timer for Yandex Cloud Functions Trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#cron_expression FunctionTrigger#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#cron_expression FunctionTrigger#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Payload to be passed to function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#payload FunctionTrigger#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#payload FunctionTrigger#payload}
   */
   readonly payload?: string;
 }
@@ -2922,7 +2922,7 @@ export class FunctionTriggerTimerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger yandex_function_trigger}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger yandex_function_trigger}
 */
 export class FunctionTrigger extends cdktf.TerraformResource {
 
@@ -2938,7 +2938,7 @@ export class FunctionTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionTrigger to import
-  * @param importFromId The id of the existing FunctionTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2950,7 +2950,7 @@ export class FunctionTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/function_trigger yandex_function_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/function_trigger yandex_function_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2961,8 +2961,8 @@ export class FunctionTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_function_trigger',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

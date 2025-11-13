@@ -24,6 +24,7 @@ Object.defineProperty(exports, 'dataTidbcloudDedicatedNodeGroup', { get: functio
 Object.defineProperty(exports, 'dataTidbcloudDedicatedNodeGroups', { get: function () { return require('./data-tidbcloud-dedicated-node-groups'); } });
 Object.defineProperty(exports, 'dataTidbcloudDedicatedPrivateEndpointConnection', { get: function () { return require('./data-tidbcloud-dedicated-private-endpoint-connection'); } });
 Object.defineProperty(exports, 'dataTidbcloudDedicatedPrivateEndpointConnections', { get: function () { return require('./data-tidbcloud-dedicated-private-endpoint-connections'); } });
+Object.defineProperty(exports, 'dataTidbcloudDedicatedPrivateLinkService', { get: function () { return require('./data-tidbcloud-dedicated-private-link-service'); } });
 Object.defineProperty(exports, 'dataTidbcloudDedicatedRegion', { get: function () { return require('./data-tidbcloud-dedicated-region'); } });
 Object.defineProperty(exports, 'dataTidbcloudDedicatedRegions', { get: function () { return require('./data-tidbcloud-dedicated-regions'); } });
 Object.defineProperty(exports, 'dataTidbcloudDedicatedVpcPeering', { get: function () { return require('./data-tidbcloud-dedicated-vpc-peering'); } });

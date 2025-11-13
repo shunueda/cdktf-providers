@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VpcPeeringConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#id VpcPeering#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#id VpcPeering#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface VpcPeeringConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#instance_id VpcPeering#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#instance_id VpcPeering#instance_id}
   */
   readonly instanceId?: number;
   /**
   * VPC peering identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#peering_id VpcPeering#peering_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#peering_id VpcPeering#peering_id}
   */
   readonly peeringId: string;
   /**
   * Configurable sleep time in seconds between retries for accepting or removing peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#sleep VpcPeering#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#sleep VpcPeering#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for accepting or removing peering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#timeout VpcPeering#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#timeout VpcPeering#timeout}
   */
   readonly timeout?: number;
   /**
   * VPC instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#vpc_id VpcPeering#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#vpc_id VpcPeering#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering cloudamqp_vpc_peering}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering cloudamqp_vpc_peering}
 */
 export class VpcPeering extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VpcPeering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPeering to import
-  * @param importFromId The id of the existing VpcPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VpcPeering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_peering cloudamqp_vpc_peering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_peering cloudamqp_vpc_peering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VpcPeering extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_vpc_peering',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

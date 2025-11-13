@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface DataZpaProvisioningKeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specifies the provisioning key type for App Connectors or ZPA Private Service Edges. The supported values are CONNECTOR_GRP and SERVICE_EDGE_GRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#association_type DataZpaProvisioningKey#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#association_type DataZpaProvisioningKey#association_type}
   */
   readonly associationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#id DataZpaProvisioningKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#id DataZpaProvisioningKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#microtenant_id DataZpaProvisioningKey#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#microtenant_id DataZpaProvisioningKey#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#microtenant_name DataZpaProvisioningKey#microtenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#microtenant_name DataZpaProvisioningKey#microtenant_name}
   */
   readonly microtenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#name DataZpaProvisioningKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#name DataZpaProvisioningKey#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key zpa_provisioning_key}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key zpa_provisioning_key}
 */
 export class DataZpaProvisioningKey extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataZpaProvisioningKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaProvisioningKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaProvisioningKey to import
-  * @param importFromId The id of the existing DataZpaProvisioningKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaProvisioningKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaProvisioningKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataZpaProvisioningKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/provisioning_key zpa_provisioning_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/provisioning_key zpa_provisioning_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataZpaProvisioningKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_provisioning_key',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -150,7 +150,8 @@ export class DataInfobloxNetworkView extends cdktf.TerraformDataSource {
       terraformResourceType: 'infoblox_network_view',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

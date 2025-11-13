@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of your cluster that you want to take a manual backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup#cluster_id Backup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup#cluster_id Backup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The description of the backup. It helps you add additional information to the backup. Allows up to 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup#description Backup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup#description Backup#description}
   */
   readonly description?: string;
   /**
   * Specify the name for a manual backup. It is recommended that you use a unique name, so that it is easy to distinguish the backup when you query the backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup#name Backup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup#name Backup#name}
   */
   readonly name: string;
   /**
   * The ID of the project. You can get the project ID from [tidbcloud_projects datasource](../data-sources/projects.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup#project_id Backup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup#project_id Backup#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup tidbcloud_backup}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup tidbcloud_backup}
 */
 export class Backup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Backup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backup to import
-  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Backup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/backup tidbcloud_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/backup tidbcloud_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Backup extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_backup',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

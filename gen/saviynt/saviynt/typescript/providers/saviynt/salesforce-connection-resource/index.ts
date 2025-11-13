@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface SalesforceConnectionResourceConfig extends cdktf.TerraformMetaA
   /**
   * Fields to retrieve for Salesforce accounts. Example: Id, Username, LastName, FirstName, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#account_field_query SalesforceConnectionResource#account_field_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#account_field_query SalesforceConnectionResource#account_field_query}
   */
   readonly accountFieldQuery?: string;
   /**
   * Query used to filter Salesforce accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#account_filter_query SalesforceConnectionResource#account_filter_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#account_filter_query SalesforceConnectionResource#account_filter_query}
   */
   readonly accountFilterQuery?: string;
   /**
   * The OAuth client ID for Salesforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#client_id SalesforceConnectionResource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#client_id SalesforceConnectionResource#client_id}
   */
   readonly clientId?: string;
   /**
   * The OAuth client secret for Salesforce. Either this field or the client_secret_wo field must be provided to configure the client_secret attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#client_secret SalesforceConnectionResource#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#client_secret SalesforceConnectionResource#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The OAuth client secret for Salesforce (write-only). Either this field or the client_secret field must be provided to configure the client_secret attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#client_secret_wo SalesforceConnectionResource#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#client_secret_wo SalesforceConnectionResource#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#connection_name SalesforceConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#connection_name SalesforceConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * JSON template used for account creation in Salesforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#createaccountjson SalesforceConnectionResource#createaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#createaccountjson SalesforceConnectionResource#createaccountjson}
   */
   readonly createaccountjson?: string;
   /**
   * Custom URL used when creating a Salesforce account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#custom_createaccount_url SalesforceConnectionResource#custom_createaccount_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#custom_createaccount_url SalesforceConnectionResource#custom_createaccount_url}
   */
   readonly customCreateaccountUrl?: string;
   /**
   * Custom configuration options for Salesforce connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#customconfigjson SalesforceConnectionResource#customconfigjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#customconfigjson SalesforceConnectionResource#customconfigjson}
   */
   readonly customconfigjson?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#defaultsavroles SalesforceConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#defaultsavroles SalesforceConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#description SalesforceConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#description SalesforceConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#email_template SalesforceConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#email_template SalesforceConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON mapping of feature licenses to permission fields in Salesforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#feature_license_json SalesforceConnectionResource#feature_license_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#feature_license_json SalesforceConnectionResource#feature_license_json}
   */
   readonly featureLicenseJson?: string;
   /**
   * JSON mapping of local fields to Salesforce fields with data types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#field_mapping_json SalesforceConnectionResource#field_mapping_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#field_mapping_json SalesforceConnectionResource#field_mapping_json}
   */
   readonly fieldMappingJson?: string;
   /**
   * Salesforce instance base URL. Example: https://@INSTANCE_NAME@.salesforce.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#instance_url SalesforceConnectionResource#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#instance_url SalesforceConnectionResource#instance_url}
   */
   readonly instanceUrl?: string;
   /**
   * JSON template used for modifying Salesforce accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#modifyaccountjson SalesforceConnectionResource#modifyaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#modifyaccountjson SalesforceConnectionResource#modifyaccountjson}
   */
   readonly modifyaccountjson?: string;
   /**
   * Comma-separated list of Salesforce objects to import. Example: "Profile,Role,Group,PermissionSet"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#object_to_be_imported SalesforceConnectionResource#object_to_be_imported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#object_to_be_imported SalesforceConnectionResource#object_to_be_imported}
   */
   readonly objectToBeImported?: string;
   /**
   * Privileged Access Management (PAM) configuration in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#pam_config SalesforceConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#pam_config SalesforceConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * The redirect URI used in OAuth flows. Example: https://@INSTANCE_NAME@.salesforce.com/services/oauth2/success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#redirect_uri SalesforceConnectionResource#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#redirect_uri SalesforceConnectionResource#redirect_uri}
   */
   readonly redirectUri?: string;
   /**
   * The OAuth refresh token used to get access tokens from Salesforce. Either this field or the refresh_token_wo field must be provided to configure the refresh_token attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#refresh_token SalesforceConnectionResource#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#refresh_token SalesforceConnectionResource#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * The OAuth refresh token used to get access tokens from Salesforce (write-only). Either this field or the refresh_token field must be provided to configure the refresh_token attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#refresh_token_wo SalesforceConnectionResource#refresh_token_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#refresh_token_wo SalesforceConnectionResource#refresh_token_wo}
   */
   readonly refreshTokenWo?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#save_in_vault SalesforceConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#save_in_vault SalesforceConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * JSON configuration to define active/inactive thresholds and lock statuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#status_threshold_config SalesforceConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#status_threshold_config SalesforceConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#vault_configuration SalesforceConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#vault_configuration SalesforceConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#vault_connection SalesforceConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#vault_connection SalesforceConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#wo_version SalesforceConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#wo_version SalesforceConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource saviynt_salesforce_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource saviynt_salesforce_connection_resource}
 */
 export class SalesforceConnectionResource extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class SalesforceConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SalesforceConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SalesforceConnectionResource to import
-  * @param importFromId The id of the existing SalesforceConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SalesforceConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SalesforceConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class SalesforceConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/salesforce_connection_resource saviynt_salesforce_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/salesforce_connection_resource saviynt_salesforce_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class SalesforceConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_salesforce_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

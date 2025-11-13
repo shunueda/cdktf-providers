@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PolicyIsolationRuleV2Config extends cdktf.TerraformMetaArgument
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#action PolicyIsolationRuleV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#action PolicyIsolationRuleV2#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#description PolicyIsolationRuleV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#description PolicyIsolationRuleV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#microtenant_id PolicyIsolationRuleV2#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#microtenant_id PolicyIsolationRuleV2#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#name PolicyIsolationRuleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#name PolicyIsolationRuleV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#zpn_isolation_profile_id PolicyIsolationRuleV2#zpn_isolation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#zpn_isolation_profile_id PolicyIsolationRuleV2#zpn_isolation_profile_id}
   */
   readonly zpnIsolationProfileId?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#conditions PolicyIsolationRuleV2#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#conditions PolicyIsolationRuleV2#conditions}
   */
   readonly conditions?: PolicyIsolationRuleV2Conditions[] | cdktf.IResolvable;
 }
 export interface PolicyIsolationRuleV2ConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#lhs PolicyIsolationRuleV2#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#lhs PolicyIsolationRuleV2#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#rhs PolicyIsolationRuleV2#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#rhs PolicyIsolationRuleV2#rhs}
   */
   readonly rhs?: string;
 }
@@ -193,19 +193,19 @@ export interface PolicyIsolationRuleV2ConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#object_type PolicyIsolationRuleV2#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#object_type PolicyIsolationRuleV2#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#values PolicyIsolationRuleV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#values PolicyIsolationRuleV2#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#entry_values PolicyIsolationRuleV2#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#entry_values PolicyIsolationRuleV2#entry_values}
   */
   readonly entryValues?: PolicyIsolationRuleV2ConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -379,13 +379,13 @@ export class PolicyIsolationRuleV2ConditionsOperandsList extends cdktf.ComplexLi
 }
 export interface PolicyIsolationRuleV2Conditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#operator PolicyIsolationRuleV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#operator PolicyIsolationRuleV2#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#operands PolicyIsolationRuleV2#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#operands PolicyIsolationRuleV2#operands}
   */
   readonly operands?: PolicyIsolationRuleV2ConditionsOperands[] | cdktf.IResolvable;
 }
@@ -535,7 +535,7 @@ export class PolicyIsolationRuleV2ConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2 zpa_policy_isolation_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2 zpa_policy_isolation_rule_v2}
 */
 export class PolicyIsolationRuleV2 extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class PolicyIsolationRuleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyIsolationRuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyIsolationRuleV2 to import
-  * @param importFromId The id of the existing PolicyIsolationRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyIsolationRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyIsolationRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class PolicyIsolationRuleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_isolation_rule_v2 zpa_policy_isolation_rule_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_isolation_rule_v2 zpa_policy_isolation_rule_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class PolicyIsolationRuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_isolation_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

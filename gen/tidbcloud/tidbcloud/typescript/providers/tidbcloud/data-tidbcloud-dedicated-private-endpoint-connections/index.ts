@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudDedicatedPrivateEndpointConnectionsConfig extends 
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections#cluster_id DataTidbcloudDedicatedPrivateEndpointConnections#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections#cluster_id DataTidbcloudDedicatedPrivateEndpointConnections#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The ID of the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections#node_group_id DataTidbcloudDedicatedPrivateEndpointConnections#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections#node_group_id DataTidbcloudDedicatedPrivateEndpointConnections#node_group_id}
   */
   readonly nodeGroupId: string;
 }
@@ -168,7 +168,7 @@ export class DataTidbcloudDedicatedPrivateEndpointConnectionsPrivateEndpointConn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections tidbcloud_dedicated_private_endpoint_connections}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections tidbcloud_dedicated_private_endpoint_connections}
 */
 export class DataTidbcloudDedicatedPrivateEndpointConnections extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataTidbcloudDedicatedPrivateEndpointConnections extends cdktf.Terr
   * Generates CDKTF code for importing a DataTidbcloudDedicatedPrivateEndpointConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudDedicatedPrivateEndpointConnections to import
-  * @param importFromId The id of the existing DataTidbcloudDedicatedPrivateEndpointConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudDedicatedPrivateEndpointConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudDedicatedPrivateEndpointConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataTidbcloudDedicatedPrivateEndpointConnections extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_private_endpoint_connections tidbcloud_dedicated_private_endpoint_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_private_endpoint_connections tidbcloud_dedicated_private_endpoint_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataTidbcloudDedicatedPrivateEndpointConnections extends cdktf.Terr
       terraformResourceType: 'tidbcloud_dedicated_private_endpoint_connections',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

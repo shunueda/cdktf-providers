@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role
+// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WorkflowRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#id WorkflowRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#id WorkflowRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface WorkflowRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The role id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#role_id WorkflowRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#role_id WorkflowRole#role_id}
   */
   readonly roleId: string;
   /**
   * The workflow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#workflow_id WorkflowRole#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#workflow_id WorkflowRole#workflow_id}
   */
   readonly workflowId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#timeouts WorkflowRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#timeouts WorkflowRole#timeouts}
   */
   readonly timeouts?: WorkflowRoleTimeouts;
 }
 export interface WorkflowRoleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#create WorkflowRole#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#create WorkflowRole#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#default WorkflowRole#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#default WorkflowRole#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#delete WorkflowRole#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#delete WorkflowRole#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#read WorkflowRole#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#read WorkflowRole#read}
   */
   readonly read?: string;
 }
@@ -228,7 +228,7 @@ export class WorkflowRoleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role sdm_workflow_role}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role sdm_workflow_role}
 */
 export class WorkflowRole extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class WorkflowRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowRole to import
-  * @param importFromId The id of the existing WorkflowRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class WorkflowRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/resources/workflow_role sdm_workflow_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/workflow_role sdm_workflow_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class WorkflowRole extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_workflow_role',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0',
-        providerVersionConstraint: '15.27.0'
+        providerVersion: '15.28.0',
+        providerVersionConstraint: '15.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

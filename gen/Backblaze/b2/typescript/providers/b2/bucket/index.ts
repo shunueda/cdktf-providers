@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket
+// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface BucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * User-defined information to be stored with the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#bucket_info Bucket#bucket_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#bucket_info Bucket#bucket_info}
   */
   readonly bucketInfo?: { [key: string]: string };
   /**
-  * The name of the bucket.
+  * The name of the bucket. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#bucket_name Bucket#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#bucket_name Bucket#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The bucket type. Either 'allPublic', meaning that files in this bucket can be downloaded by anybody, or 'allPrivate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#bucket_type Bucket#bucket_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#bucket_type Bucket#bucket_type}
   */
   readonly bucketType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#id Bucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#id Bucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface BucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * cors_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#cors_rules Bucket#cors_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#cors_rules Bucket#cors_rules}
   */
   readonly corsRules?: BucketCorsRules[] | cdktf.IResolvable;
   /**
   * default_server_side_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#default_server_side_encryption Bucket#default_server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#default_server_side_encryption Bucket#default_server_side_encryption}
   */
   readonly defaultServerSideEncryption?: BucketDefaultServerSideEncryption;
   /**
   * file_lock_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#file_lock_configuration Bucket#file_lock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#file_lock_configuration Bucket#file_lock_configuration}
   */
   readonly fileLockConfiguration?: BucketFileLockConfiguration[] | cdktf.IResolvable;
   /**
   * lifecycle_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#lifecycle_rules Bucket#lifecycle_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#lifecycle_rules Bucket#lifecycle_rules}
   */
   readonly lifecycleRules?: BucketLifecycleRules[] | cdktf.IResolvable;
 }
@@ -61,37 +61,37 @@ export interface BucketCorsRules {
   /**
   * If present, this is a list of headers that are allowed in a pre-flight OPTIONS's request's Access-Control-Request-Headers header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#allowed_headers Bucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#allowed_headers Bucket#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
   * A list specifying which operations the rule allows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#allowed_operations Bucket#allowed_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#allowed_operations Bucket#allowed_operations}
   */
   readonly allowedOperations: string[];
   /**
-  * A non-empty list specifying which origins the rule covers. 
+  * A non-empty list specifying which origins the rule covers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#allowed_origins Bucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#allowed_origins Bucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
   * A name for humans to recognize the rule in a user interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#cors_rule_name Bucket#cors_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#cors_rule_name Bucket#cors_rule_name}
   */
   readonly corsRuleName: string;
   /**
   * If present, this is a list of headers that may be exposed to an application inside the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#expose_headers Bucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#expose_headers Bucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * This specifies the maximum number of seconds that a browser may cache the response to a preflight request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#max_age_seconds Bucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#max_age_seconds Bucket#max_age_seconds}
   */
   readonly maxAgeSeconds: number;
 }
@@ -342,13 +342,13 @@ export interface BucketDefaultServerSideEncryption {
   /**
   * Server-side encryption algorithm. AES256 is the only one supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#algorithm Bucket#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#algorithm Bucket#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Server-side encryption mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#mode Bucket#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#mode Bucket#mode}
   */
   readonly mode?: string;
 }
@@ -461,15 +461,15 @@ export class BucketDefaultServerSideEncryptionOutputReference extends cdktf.Comp
 }
 export interface BucketFileLockConfigurationDefaultRetentionPeriod {
   /**
-  * Duration
+  * Duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#duration Bucket#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#duration Bucket#duration}
   */
   readonly duration: number;
   /**
-  * Unit for duration (days|years)
+  * Unit for duration (days|years).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#unit Bucket#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#unit Bucket#unit}
   */
   readonly unit: string;
 }
@@ -578,13 +578,13 @@ export interface BucketFileLockConfigurationDefaultRetention {
   /**
   * Default retention mode (compliance|governance|none).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#mode Bucket#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#mode Bucket#mode}
   */
   readonly mode: string;
   /**
   * period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#period Bucket#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#period Bucket#period}
   */
   readonly period?: BucketFileLockConfigurationDefaultRetentionPeriod;
 }
@@ -694,15 +694,15 @@ export class BucketFileLockConfigurationDefaultRetentionOutputReference extends 
 }
 export interface BucketFileLockConfiguration {
   /**
-  * If present, the boolean value specifies whether bucket is File Lock-enabled. Defaults to `false`.
+  * If present, the boolean value specifies whether bucket is File Lock-enabled. Defaults to `false`. **Modifying this attribute will force creation of a new resource.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#is_file_lock_enabled Bucket#is_file_lock_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#is_file_lock_enabled Bucket#is_file_lock_enabled}
   */
   readonly isFileLockEnabled?: boolean | cdktf.IResolvable;
   /**
   * default_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#default_retention Bucket#default_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#default_retention Bucket#default_retention}
   */
   readonly defaultRetention?: BucketFileLockConfigurationDefaultRetention;
 }
@@ -849,19 +849,25 @@ export interface BucketLifecycleRules {
   /**
   * It says how long to keep file versions that are not the current version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#days_from_hiding_to_deleting Bucket#days_from_hiding_to_deleting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#days_from_hiding_to_deleting Bucket#days_from_hiding_to_deleting}
   */
   readonly daysFromHidingToDeleting?: number;
   /**
+  * It cancels any unfinished large file versions after a given number of days.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#days_from_starting_to_canceling_unfinished_large_files Bucket#days_from_starting_to_canceling_unfinished_large_files}
+  */
+  readonly daysFromStartingToCancelingUnfinishedLargeFiles?: number;
+  /**
   * It causes files to be hidden automatically after the given number of days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#days_from_uploading_to_hiding Bucket#days_from_uploading_to_hiding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#days_from_uploading_to_hiding Bucket#days_from_uploading_to_hiding}
   */
   readonly daysFromUploadingToHiding?: number;
   /**
   * It specifies which files in the bucket it applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#file_name_prefix Bucket#file_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#file_name_prefix Bucket#file_name_prefix}
   */
   readonly fileNamePrefix: string;
 }
@@ -873,6 +879,7 @@ export function bucketLifecycleRulesToTerraform(struct?: BucketLifecycleRules | 
   }
   return {
     days_from_hiding_to_deleting: cdktf.numberToTerraform(struct!.daysFromHidingToDeleting),
+    days_from_starting_to_canceling_unfinished_large_files: cdktf.numberToTerraform(struct!.daysFromStartingToCancelingUnfinishedLargeFiles),
     days_from_uploading_to_hiding: cdktf.numberToTerraform(struct!.daysFromUploadingToHiding),
     file_name_prefix: cdktf.stringToTerraform(struct!.fileNamePrefix),
   }
@@ -887,6 +894,12 @@ export function bucketLifecycleRulesToHclTerraform(struct?: BucketLifecycleRules
   const attrs = {
     days_from_hiding_to_deleting: {
       value: cdktf.numberToHclTerraform(struct!.daysFromHidingToDeleting),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    days_from_starting_to_canceling_unfinished_large_files: {
+      value: cdktf.numberToHclTerraform(struct!.daysFromStartingToCancelingUnfinishedLargeFiles),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -933,6 +946,10 @@ export class BucketLifecycleRulesOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.daysFromHidingToDeleting = this._daysFromHidingToDeleting;
     }
+    if (this._daysFromStartingToCancelingUnfinishedLargeFiles !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.daysFromStartingToCancelingUnfinishedLargeFiles = this._daysFromStartingToCancelingUnfinishedLargeFiles;
+    }
     if (this._daysFromUploadingToHiding !== undefined) {
       hasAnyValues = true;
       internalValueResult.daysFromUploadingToHiding = this._daysFromUploadingToHiding;
@@ -949,6 +966,7 @@ export class BucketLifecycleRulesOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._daysFromHidingToDeleting = undefined;
+      this._daysFromStartingToCancelingUnfinishedLargeFiles = undefined;
       this._daysFromUploadingToHiding = undefined;
       this._fileNamePrefix = undefined;
     }
@@ -960,6 +978,7 @@ export class BucketLifecycleRulesOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._daysFromHidingToDeleting = value.daysFromHidingToDeleting;
+      this._daysFromStartingToCancelingUnfinishedLargeFiles = value.daysFromStartingToCancelingUnfinishedLargeFiles;
       this._daysFromUploadingToHiding = value.daysFromUploadingToHiding;
       this._fileNamePrefix = value.fileNamePrefix;
     }
@@ -979,6 +998,22 @@ export class BucketLifecycleRulesOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get daysFromHidingToDeletingInput() {
     return this._daysFromHidingToDeleting;
+  }
+
+  // days_from_starting_to_canceling_unfinished_large_files - computed: false, optional: true, required: false
+  private _daysFromStartingToCancelingUnfinishedLargeFiles?: number; 
+  public get daysFromStartingToCancelingUnfinishedLargeFiles() {
+    return this.getNumberAttribute('days_from_starting_to_canceling_unfinished_large_files');
+  }
+  public set daysFromStartingToCancelingUnfinishedLargeFiles(value: number) {
+    this._daysFromStartingToCancelingUnfinishedLargeFiles = value;
+  }
+  public resetDaysFromStartingToCancelingUnfinishedLargeFiles() {
+    this._daysFromStartingToCancelingUnfinishedLargeFiles = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get daysFromStartingToCancelingUnfinishedLargeFilesInput() {
+    return this._daysFromStartingToCancelingUnfinishedLargeFiles;
   }
 
   // days_from_uploading_to_hiding - computed: false, optional: true, required: false
@@ -1032,7 +1067,7 @@ export class BucketLifecycleRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket b2_bucket}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket b2_bucket}
 */
 export class Bucket extends cdktf.TerraformResource {
 
@@ -1048,7 +1083,7 @@ export class Bucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bucket to import
-  * @param importFromId The id of the existing Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1060,7 +1095,7 @@ export class Bucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/resources/bucket b2_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/resources/bucket b2_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1071,8 +1106,8 @@ export class Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'b2_bucket',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

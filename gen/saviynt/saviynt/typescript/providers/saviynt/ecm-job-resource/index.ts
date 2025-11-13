@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface EcmJobResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of ECM Jobs to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#jobs EcmJobResource#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#jobs EcmJobResource#jobs}
   */
   readonly jobs: EcmJobResourceJobs[] | cdktf.IResolvable;
 }
@@ -18,31 +18,31 @@ export interface EcmJobResourceJobs {
   /**
   * Cron expression defining the schedule for the trigger. Example: "0 0 2 * * ?"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#cron_expression EcmJobResource#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#cron_expression EcmJobResource#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Name of the job group associated with the trigger. Example: "utility"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#job_group EcmJobResource#job_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#job_group EcmJobResource#job_group}
   */
   readonly jobGroup: string;
   /**
   * Action to take on failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#on_failure EcmJobResource#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#on_failure EcmJobResource#on_failure}
   */
   readonly onFailure?: string;
   /**
   * Group classification for the trigger. Example: "GRAILS_JOBS"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#trigger_group EcmJobResource#trigger_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#trigger_group EcmJobResource#trigger_group}
   */
   readonly triggerGroup?: string;
   /**
   * Unique name of the trigger. Example: "MyTrigger_001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#trigger_name EcmJobResource#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#trigger_name EcmJobResource#trigger_name}
   */
   readonly triggerName: string;
 }
@@ -265,7 +265,7 @@ export class EcmJobResourceJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource saviynt_ecm_job_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource saviynt_ecm_job_resource}
 */
 export class EcmJobResource extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class EcmJobResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcmJobResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcmJobResource to import
-  * @param importFromId The id of the existing EcmJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcmJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcmJobResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class EcmJobResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/ecm_job_resource saviynt_ecm_job_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/ecm_job_resource saviynt_ecm_job_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class EcmJobResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_ecm_job_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

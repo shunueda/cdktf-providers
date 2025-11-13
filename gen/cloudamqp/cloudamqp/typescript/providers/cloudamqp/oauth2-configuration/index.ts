@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface Oauth2ConfigurationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Additional scopes key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#additional_scopes_key Oauth2Configuration#additional_scopes_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#additional_scopes_key Oauth2Configuration#additional_scopes_key}
   */
   readonly additionalScopesKey?: string[];
   /**
   * Audience
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#audience Oauth2Configuration#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#audience Oauth2Configuration#audience}
   */
   readonly audience?: string;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#instance_id Oauth2Configuration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#instance_id Oauth2Configuration#instance_id}
   */
   readonly instanceId: number;
   /**
   * Issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#issuer Oauth2Configuration#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#issuer Oauth2Configuration#issuer}
   */
   readonly issuer: string;
   /**
   * Oauth client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#oauth_client_id Oauth2Configuration#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#oauth_client_id Oauth2Configuration#oauth_client_id}
   */
   readonly oauthClientId?: string;
   /**
   * Oauth scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#oauth_scopes Oauth2Configuration#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#oauth_scopes Oauth2Configuration#oauth_scopes}
   */
   readonly oauthScopes?: string[];
   /**
   * Preferred username claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#preferred_username_claims Oauth2Configuration#preferred_username_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#preferred_username_claims Oauth2Configuration#preferred_username_claims}
   */
   readonly preferredUsernameClaims?: string[];
   /**
   * Resource server identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#resource_server_id Oauth2Configuration#resource_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#resource_server_id Oauth2Configuration#resource_server_id}
   */
   readonly resourceServerId: string;
   /**
   * Scope aliases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#scope_aliases Oauth2Configuration#scope_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#scope_aliases Oauth2Configuration#scope_aliases}
   */
   readonly scopeAliases?: { [key: string]: string };
   /**
   * Scope prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#scope_prefix Oauth2Configuration#scope_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#scope_prefix Oauth2Configuration#scope_prefix}
   */
   readonly scopePrefix?: string;
   /**
   * Configurable sleep time in seconds between retries for OAuth2 configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#sleep Oauth2Configuration#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#sleep Oauth2Configuration#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for OAuth2 configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#timeout Oauth2Configuration#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#timeout Oauth2Configuration#timeout}
   */
   readonly timeout?: number;
   /**
   * Verify aud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#verify_aud Oauth2Configuration#verify_aud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#verify_aud Oauth2Configuration#verify_aud}
   */
   readonly verifyAud?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration cloudamqp_oauth2_configuration}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration cloudamqp_oauth2_configuration}
 */
 export class Oauth2Configuration extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class Oauth2Configuration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Oauth2Configuration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Oauth2Configuration to import
-  * @param importFromId The id of the existing Oauth2Configuration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Oauth2Configuration that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Oauth2Configuration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class Oauth2Configuration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/oauth2_configuration cloudamqp_oauth2_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/oauth2_configuration cloudamqp_oauth2_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class Oauth2Configuration extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_oauth2_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudTcrImageManifestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#id DataTencentcloudTcrImageManifests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#id DataTencentcloudTcrImageManifests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudTcrImageManifestsConfig extends cdktf.Terraform
   /**
   * mirror version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#image_version DataTencentcloudTcrImageManifests#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#image_version DataTencentcloudTcrImageManifests#image_version}
   */
   readonly imageVersion: string;
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#namespace_name DataTencentcloudTcrImageManifests#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#namespace_name DataTencentcloudTcrImageManifests#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#registry_id DataTencentcloudTcrImageManifests#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#registry_id DataTencentcloudTcrImageManifests#registry_id}
   */
   readonly registryId: string;
   /**
   * mirror warehouse name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#repository_name DataTencentcloudTcrImageManifests#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#repository_name DataTencentcloudTcrImageManifests#repository_name}
   */
   readonly repositoryName: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#result_output_file DataTencentcloudTcrImageManifests#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#result_output_file DataTencentcloudTcrImageManifests#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests tencentcloud_tcr_image_manifests}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests tencentcloud_tcr_image_manifests}
 */
 export class DataTencentcloudTcrImageManifests extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataTencentcloudTcrImageManifests extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudTcrImageManifests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTcrImageManifests to import
-  * @param importFromId The id of the existing DataTencentcloudTcrImageManifests that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTcrImageManifests that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTcrImageManifests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataTencentcloudTcrImageManifests extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tcr_image_manifests tencentcloud_tcr_image_manifests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tcr_image_manifests tencentcloud_tcr_image_manifests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataTencentcloudTcrImageManifests extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_tcr_image_manifests',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

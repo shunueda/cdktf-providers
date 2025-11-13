@@ -6,6 +6,7 @@ Object.defineProperty(exports, 'applicationSegmentBrowserAccess', { get: functio
 Object.defineProperty(exports, 'applicationSegmentInspection', { get: function () { return require('./application-segment-inspection'); } });
 Object.defineProperty(exports, 'applicationSegmentMultimatchBulk', { get: function () { return require('./application-segment-multimatch-bulk'); } });
 Object.defineProperty(exports, 'applicationSegmentPra', { get: function () { return require('./application-segment-pra'); } });
+Object.defineProperty(exports, 'applicationSegmentWeightedlbConfig', { get: function () { return require('./application-segment-weightedlb-config'); } });
 Object.defineProperty(exports, 'applicationServer', { get: function () { return require('./application-server'); } });
 Object.defineProperty(exports, 'baCertificate', { get: function () { return require('./ba-certificate'); } });
 Object.defineProperty(exports, 'browserAccess', { get: function () { return require('./browser-access'); } });
@@ -60,6 +61,7 @@ Object.defineProperty(exports, 'dataZpaApplicationSegmentByType', { get: functio
 Object.defineProperty(exports, 'dataZpaApplicationSegmentInspection', { get: function () { return require('./data-zpa-application-segment-inspection'); } });
 Object.defineProperty(exports, 'dataZpaApplicationSegmentMultimatchBulk', { get: function () { return require('./data-zpa-application-segment-multimatch-bulk'); } });
 Object.defineProperty(exports, 'dataZpaApplicationSegmentPra', { get: function () { return require('./data-zpa-application-segment-pra'); } });
+Object.defineProperty(exports, 'dataZpaApplicationSegmentWeightedlbConfig', { get: function () { return require('./data-zpa-application-segment-weightedlb-config'); } });
 Object.defineProperty(exports, 'dataZpaApplicationServer', { get: function () { return require('./data-zpa-application-server'); } });
 Object.defineProperty(exports, 'dataZpaBaCertificate', { get: function () { return require('./data-zpa-ba-certificate'); } });
 Object.defineProperty(exports, 'dataZpaBranchConnectorGroup', { get: function () { return require('./data-zpa-branch-connector-group'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaConcatTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#bucket CiMediaConcatTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#bucket CiMediaConcatTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#id CiMediaConcatTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#id CiMediaConcatTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CiMediaConcatTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#name CiMediaConcatTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#name CiMediaConcatTemplate#name}
   */
   readonly name: string;
   /**
   * concat_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#concat_template CiMediaConcatTemplate#concat_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#concat_template CiMediaConcatTemplate#concat_template}
   */
   readonly concatTemplate: CiMediaConcatTemplateConcatTemplate;
 }
@@ -37,25 +37,25 @@ export interface CiMediaConcatTemplateConcatTemplateAudio {
   /**
   * Original audio bit rate, unit: Kbps, Value range: [8, 1000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#bitrate CiMediaConcatTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#bitrate CiMediaConcatTemplate#bitrate}
   */
   readonly bitrate?: string;
   /**
   * number of channels- When Codec is set to aac, support 1, 2, 4, 5, 6, 8- When Codec is set to mp3, support 1, 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#channels CiMediaConcatTemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#channels CiMediaConcatTemplate#channels}
   */
   readonly channels?: string;
   /**
   * Codec format, value aac, mp3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#codec CiMediaConcatTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#codec CiMediaConcatTemplate#codec}
   */
   readonly codec: string;
   /**
   * Sampling Rate- Unit: Hz- Optional 11025, 22050, 32000, 44100, 48000, 96000- Different packages, mp3 supports different sampling rates, as shown in the table below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#samplerate CiMediaConcatTemplate#samplerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#samplerate CiMediaConcatTemplate#samplerate}
   */
   readonly samplerate?: string;
 }
@@ -225,37 +225,37 @@ export interface CiMediaConcatTemplateConcatTemplateAudioMixEffectConfig {
   /**
   * bgm transition fade-in duration, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#bgm_fade_time CiMediaConcatTemplate#bgm_fade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#bgm_fade_time CiMediaConcatTemplate#bgm_fade_time}
   */
   readonly bgmFadeTime?: string;
   /**
   * Enable bgm conversion fade in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#enable_bgm_fade CiMediaConcatTemplate#enable_bgm_fade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#enable_bgm_fade CiMediaConcatTemplate#enable_bgm_fade}
   */
   readonly enableBgmFade?: string;
   /**
   * enable fade out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#enable_end_fadeout CiMediaConcatTemplate#enable_end_fadeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#enable_end_fadeout CiMediaConcatTemplate#enable_end_fadeout}
   */
   readonly enableEndFadeout?: string;
   /**
   * enable fade in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#enable_start_fadein CiMediaConcatTemplate#enable_start_fadein}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#enable_start_fadein CiMediaConcatTemplate#enable_start_fadein}
   */
   readonly enableStartFadein?: string;
   /**
   * fade out time, greater than 0, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#end_fadeout_time CiMediaConcatTemplate#end_fadeout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#end_fadeout_time CiMediaConcatTemplate#end_fadeout_time}
   */
   readonly endFadeoutTime?: string;
   /**
   * Fade in duration, greater than 0, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#start_fadein_time CiMediaConcatTemplate#start_fadein_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#start_fadein_time CiMediaConcatTemplate#start_fadein_time}
   */
   readonly startFadeinTime?: string;
 }
@@ -486,25 +486,25 @@ export interface CiMediaConcatTemplateConcatTemplateAudioMix {
   /**
   * The media address of the audio track that needs to be mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#audio_source CiMediaConcatTemplate#audio_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#audio_source CiMediaConcatTemplate#audio_source}
   */
   readonly audioSource: string;
   /**
   * Mixing mode Repeat: background sound loop, Once: The background sound is played once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#mix_mode CiMediaConcatTemplate#mix_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#mix_mode CiMediaConcatTemplate#mix_mode}
   */
   readonly mixMode?: string;
   /**
   * Whether to replace the original audio of the Input media file with the mixed audio track media.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#replace CiMediaConcatTemplate#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#replace CiMediaConcatTemplate#replace}
   */
   readonly replace?: string;
   /**
   * effect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#effect_config CiMediaConcatTemplate#effect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#effect_config CiMediaConcatTemplate#effect_config}
   */
   readonly effectConfig?: CiMediaConcatTemplateConcatTemplateAudioMixEffectConfig;
 }
@@ -706,13 +706,13 @@ export interface CiMediaConcatTemplateConcatTemplateConcatFragment {
   /**
   * node type, `start`, `end`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#mode CiMediaConcatTemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#mode CiMediaConcatTemplate#mode}
   */
   readonly mode: string;
   /**
   * Splicing object address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#url CiMediaConcatTemplate#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#url CiMediaConcatTemplate#url}
   */
   readonly url: string;
 }
@@ -853,7 +853,7 @@ export interface CiMediaConcatTemplateConcatTemplateContainer {
   /**
   * Container format: mp4, flv, hls, ts, mp3, aac.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#format CiMediaConcatTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#format CiMediaConcatTemplate#format}
   */
   readonly format: string;
 }
@@ -936,49 +936,49 @@ export interface CiMediaConcatTemplateConcatTemplateVideo {
   /**
   * Original audio bit rate, unit: Kbps, Value range: [8, 1000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#bitrate CiMediaConcatTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#bitrate CiMediaConcatTemplate#bitrate}
   */
   readonly bitrate?: string;
   /**
   * Codec format `H.264`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#codec CiMediaConcatTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#codec CiMediaConcatTemplate#codec}
   */
   readonly codec: string;
   /**
   * Bit rate-quality control factor, value range: (0, 51], If Crf is set, the setting of Bitrate will be invalid, When Bitrate is empty, the default is 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#crf CiMediaConcatTemplate#crf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#crf CiMediaConcatTemplate#crf}
   */
   readonly crf?: string;
   /**
   * Frame rate, value range: (0, 60], Unit: fps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#fps CiMediaConcatTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#fps CiMediaConcatTemplate#fps}
   */
   readonly fps?: string;
   /**
   * High, value range: [128, 4096], Unit: px, If only Height is set, Width is calculated according to the original ratio of the video, must be even.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#height CiMediaConcatTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#height CiMediaConcatTemplate#height}
   */
   readonly height?: string;
   /**
   * Whether to delete the source audio stream, the value is true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#remove CiMediaConcatTemplate#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#remove CiMediaConcatTemplate#remove}
   */
   readonly remove?: string;
   /**
   * Rotation angle, Value range: [0, 360), Unit: degree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#rotate CiMediaConcatTemplate#rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#rotate CiMediaConcatTemplate#rotate}
   */
   readonly rotate?: string;
   /**
   * width, value range: [128, 4096], Unit: px, If only Width is set, Height is calculated according to the original ratio of the video, must be even.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#width CiMediaConcatTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#width CiMediaConcatTemplate#width}
   */
   readonly width?: string;
 }
@@ -1264,31 +1264,31 @@ export interface CiMediaConcatTemplateConcatTemplate {
   /**
   * audio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#audio CiMediaConcatTemplate#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#audio CiMediaConcatTemplate#audio}
   */
   readonly audio?: CiMediaConcatTemplateConcatTemplateAudio;
   /**
   * audio_mix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#audio_mix CiMediaConcatTemplate#audio_mix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#audio_mix CiMediaConcatTemplate#audio_mix}
   */
   readonly audioMix?: CiMediaConcatTemplateConcatTemplateAudioMix[] | cdktf.IResolvable;
   /**
   * concat_fragment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#concat_fragment CiMediaConcatTemplate#concat_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#concat_fragment CiMediaConcatTemplate#concat_fragment}
   */
   readonly concatFragment: CiMediaConcatTemplateConcatTemplateConcatFragment[] | cdktf.IResolvable;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#container CiMediaConcatTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#container CiMediaConcatTemplate#container}
   */
   readonly container: CiMediaConcatTemplateConcatTemplateContainer;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#video CiMediaConcatTemplate#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#video CiMediaConcatTemplate#video}
   */
   readonly video?: CiMediaConcatTemplateConcatTemplateVideo;
 }
@@ -1482,7 +1482,7 @@ export class CiMediaConcatTemplateConcatTemplateOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template tencentcloud_ci_media_concat_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template tencentcloud_ci_media_concat_template}
 */
 export class CiMediaConcatTemplate extends cdktf.TerraformResource {
 
@@ -1498,7 +1498,7 @@ export class CiMediaConcatTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaConcatTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaConcatTemplate to import
-  * @param importFromId The id of the existing CiMediaConcatTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaConcatTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaConcatTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1510,7 +1510,7 @@ export class CiMediaConcatTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ci_media_concat_template tencentcloud_ci_media_concat_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ci_media_concat_template tencentcloud_ci_media_concat_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1521,8 +1521,8 @@ export class CiMediaConcatTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_concat_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

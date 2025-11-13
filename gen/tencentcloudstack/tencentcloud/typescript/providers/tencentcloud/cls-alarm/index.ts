@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClsAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alarm level. 0: Warning; 1: Info; 2: Critical. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#alarm_level ClsAlarm#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#alarm_level ClsAlarm#alarm_level}
   */
   readonly alarmLevel?: number;
   /**
   * list of alarm notice id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#alarm_notice_ids ClsAlarm#alarm_notice_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#alarm_notice_ids ClsAlarm#alarm_notice_ids}
   */
   readonly alarmNoticeIds: string[];
   /**
   * alarm repeat cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#alarm_period ClsAlarm#alarm_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#alarm_period ClsAlarm#alarm_period}
   */
   readonly alarmPeriod: number;
   /**
   * Trigger condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#condition ClsAlarm#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#condition ClsAlarm#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#id ClsAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#id ClsAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface ClsAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
   * user define alarm notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#message_template ClsAlarm#message_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#message_template ClsAlarm#message_template}
   */
   readonly messageTemplate?: string;
   /**
   * log alarm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#name ClsAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#name ClsAlarm#name}
   */
   readonly name: string;
   /**
   * whether to enable the alarm policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#status ClsAlarm#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#status ClsAlarm#status}
   */
   readonly status?: boolean | cdktf.IResolvable;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#tags ClsAlarm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#tags ClsAlarm#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * continuous cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#trigger_count ClsAlarm#trigger_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#trigger_count ClsAlarm#trigger_count}
   */
   readonly triggerCount: number;
   /**
   * alarm_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#alarm_targets ClsAlarm#alarm_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#alarm_targets ClsAlarm#alarm_targets}
   */
   readonly alarmTargets: ClsAlarmAlarmTargets[] | cdktf.IResolvable;
   /**
   * analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#analysis ClsAlarm#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#analysis ClsAlarm#analysis}
   */
   readonly analysis?: ClsAlarmAnalysis[] | cdktf.IResolvable;
   /**
   * call_back block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#call_back ClsAlarm#call_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#call_back ClsAlarm#call_back}
   */
   readonly callBack?: ClsAlarmCallBack;
   /**
   * monitor_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#monitor_time ClsAlarm#monitor_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#monitor_time ClsAlarm#monitor_time}
   */
   readonly monitorTime: ClsAlarmMonitorTime;
   /**
   * multi_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#multi_conditions ClsAlarm#multi_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#multi_conditions ClsAlarm#multi_conditions}
   */
   readonly multiConditions?: ClsAlarmMultiConditions[] | cdktf.IResolvable;
 }
@@ -103,43 +103,43 @@ export interface ClsAlarmAlarmTargets {
   /**
   * search end time of offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#end_time_offset ClsAlarm#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#end_time_offset ClsAlarm#end_time_offset}
   */
   readonly endTimeOffset: number;
   /**
   * logset id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#logset_id ClsAlarm#logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#logset_id ClsAlarm#logset_id}
   */
   readonly logsetId: string;
   /**
   * the number of alarm object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#number ClsAlarm#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#number ClsAlarm#number}
   */
   readonly number: number;
   /**
   * query rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#query ClsAlarm#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#query ClsAlarm#query}
   */
   readonly query: string;
   /**
   * search start time of offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#start_time_offset ClsAlarm#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#start_time_offset ClsAlarm#start_time_offset}
   */
   readonly startTimeOffset: number;
   /**
   * Retrieve grammar rules, 0: Lucene syntax, 1: CQL syntax, Default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#syntax_rule ClsAlarm#syntax_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#syntax_rule ClsAlarm#syntax_rule}
   */
   readonly syntaxRule?: number;
   /**
   * topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#topic_id ClsAlarm#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#topic_id ClsAlarm#topic_id}
   */
   readonly topicId: string;
 }
@@ -413,13 +413,13 @@ export interface ClsAlarmAnalysisConfigInfo {
   /**
   * key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#key ClsAlarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#key ClsAlarm#key}
   */
   readonly key: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#value ClsAlarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#value ClsAlarm#value}
   */
   readonly value: string;
 }
@@ -560,25 +560,25 @@ export interface ClsAlarmAnalysis {
   /**
   * analysis content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#content ClsAlarm#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#content ClsAlarm#content}
   */
   readonly content: string;
   /**
   * analysis name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#name ClsAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#name ClsAlarm#name}
   */
   readonly name: string;
   /**
   * analysis type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#type ClsAlarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#type ClsAlarm#type}
   */
   readonly type: string;
   /**
   * config_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#config_info ClsAlarm#config_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#config_info ClsAlarm#config_info}
   */
   readonly configInfo?: ClsAlarmAnalysisConfigInfo[] | cdktf.IResolvable;
 }
@@ -774,13 +774,13 @@ export interface ClsAlarmCallBack {
   /**
   * callback body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#body ClsAlarm#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#body ClsAlarm#body}
   */
   readonly body: string;
   /**
   * callback headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#headers ClsAlarm#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#headers ClsAlarm#headers}
   */
   readonly headers?: string[];
 }
@@ -892,13 +892,13 @@ export interface ClsAlarmMonitorTime {
   /**
   * time period or point in time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#time ClsAlarm#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#time ClsAlarm#time}
   */
   readonly time: number;
   /**
   * Period for periodic execution, Fixed for regular execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#type ClsAlarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#type ClsAlarm#type}
   */
   readonly type: string;
 }
@@ -1007,13 +1007,13 @@ export interface ClsAlarmMultiConditions {
   /**
   * Alarm level. 0: Warning; 1: Info; 2: Critical. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#alarm_level ClsAlarm#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#alarm_level ClsAlarm#alarm_level}
   */
   readonly alarmLevel?: number;
   /**
   * Trigger condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#condition ClsAlarm#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#condition ClsAlarm#condition}
   */
   readonly condition?: string;
 }
@@ -1158,7 +1158,7 @@ export class ClsAlarmMultiConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm tencentcloud_cls_alarm}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm tencentcloud_cls_alarm}
 */
 export class ClsAlarm extends cdktf.TerraformResource {
 
@@ -1174,7 +1174,7 @@ export class ClsAlarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsAlarm to import
-  * @param importFromId The id of the existing ClsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1186,7 +1186,7 @@ export class ClsAlarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cls_alarm tencentcloud_cls_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cls_alarm tencentcloud_cls_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1197,8 +1197,8 @@ export class ClsAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_alarm',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

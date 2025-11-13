@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface PolicyPortalAccessRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#action PolicyPortalAccessRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#action PolicyPortalAccessRule#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#description PolicyPortalAccessRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#description PolicyPortalAccessRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#microtenant_id PolicyPortalAccessRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#microtenant_id PolicyPortalAccessRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#name PolicyPortalAccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#name PolicyPortalAccessRule#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#conditions PolicyPortalAccessRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#conditions PolicyPortalAccessRule#conditions}
   */
   readonly conditions?: PolicyPortalAccessRuleConditions[] | cdktf.IResolvable;
   /**
   * privileged_portal_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#privileged_portal_capabilities PolicyPortalAccessRule#privileged_portal_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#privileged_portal_capabilities PolicyPortalAccessRule#privileged_portal_capabilities}
   */
   readonly privilegedPortalCapabilities?: PolicyPortalAccessRulePrivilegedPortalCapabilities;
 }
 export interface PolicyPortalAccessRuleConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#lhs PolicyPortalAccessRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#lhs PolicyPortalAccessRule#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#rhs PolicyPortalAccessRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#rhs PolicyPortalAccessRule#rhs}
   */
   readonly rhs?: string;
 }
@@ -195,19 +195,19 @@ export interface PolicyPortalAccessRuleConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#object_type PolicyPortalAccessRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#object_type PolicyPortalAccessRule#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#values PolicyPortalAccessRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#values PolicyPortalAccessRule#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#entry_values PolicyPortalAccessRule#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#entry_values PolicyPortalAccessRule#entry_values}
   */
   readonly entryValues?: PolicyPortalAccessRuleConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -381,13 +381,13 @@ export class PolicyPortalAccessRuleConditionsOperandsList extends cdktf.ComplexL
 }
 export interface PolicyPortalAccessRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#operator PolicyPortalAccessRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#operator PolicyPortalAccessRule#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#operands PolicyPortalAccessRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#operands PolicyPortalAccessRule#operands}
   */
   readonly operands?: PolicyPortalAccessRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -539,25 +539,25 @@ export interface PolicyPortalAccessRulePrivilegedPortalCapabilities {
   /**
   * Allows a User like an Admin to see all files marked Uninspected from other users in the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#access_uninspected_file PolicyPortalAccessRule#access_uninspected_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#access_uninspected_file PolicyPortalAccessRule#access_uninspected_file}
   */
   readonly accessUninspectedFile?: boolean | cdktf.IResolvable;
   /**
   * Allows a User to delete files to reclaim space. Allowing deletion will prevent auditing of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#delete_file PolicyPortalAccessRule#delete_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#delete_file PolicyPortalAccessRule#delete_file}
   */
   readonly deleteFile?: boolean | cdktf.IResolvable;
   /**
   * Allows a User to request approvals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#request_approvals PolicyPortalAccessRule#request_approvals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#request_approvals PolicyPortalAccessRule#request_approvals}
   */
   readonly requestApprovals?: boolean | cdktf.IResolvable;
   /**
   * Allows a User to review approvals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#review_approvals PolicyPortalAccessRule#review_approvals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#review_approvals PolicyPortalAccessRule#review_approvals}
   */
   readonly reviewApprovals?: boolean | cdktf.IResolvable;
 }
@@ -728,7 +728,7 @@ export class PolicyPortalAccessRulePrivilegedPortalCapabilitiesOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule zpa_policy_portal_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule zpa_policy_portal_access_rule}
 */
 export class PolicyPortalAccessRule extends cdktf.TerraformResource {
 
@@ -744,7 +744,7 @@ export class PolicyPortalAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyPortalAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyPortalAccessRule to import
-  * @param importFromId The id of the existing PolicyPortalAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyPortalAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyPortalAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class PolicyPortalAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_portal_access_rule zpa_policy_portal_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_portal_access_rule zpa_policy_portal_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class PolicyPortalAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_portal_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

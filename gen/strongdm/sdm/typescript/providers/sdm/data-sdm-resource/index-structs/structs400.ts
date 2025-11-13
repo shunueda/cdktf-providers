@@ -2468,7 +2468,7 @@ export class DataSdmResourceResourcesList extends cdktf.ComplexList {
 }
 export interface DataSdmResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/resource#default DataSdmResource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/resource#default DataSdmResource#default}
   */
   readonly default?: string;
 }

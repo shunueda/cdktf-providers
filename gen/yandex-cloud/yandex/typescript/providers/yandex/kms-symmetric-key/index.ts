@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface KmsSymmetricKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default encryption algorithm to be used with new versions of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#default_algorithm KmsSymmetricKey#default_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#default_algorithm KmsSymmetricKey#default_algorithm}
   */
   readonly defaultAlgorithm?: string;
   /**
   * Flag that inhibits deletion of the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#deletion_protection KmsSymmetricKey#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#deletion_protection KmsSymmetricKey#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#description KmsSymmetricKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#description KmsSymmetricKey#description}
   */
   readonly description?: string;
   /**
   * ID of the folder that the key belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#folder_id KmsSymmetricKey#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#folder_id KmsSymmetricKey#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the symmetric KMS key to return.
   *  To get the ID of a symmetric KMS key use a [SymmetricKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#id KmsSymmetricKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#id KmsSymmetricKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,38 +44,38 @@ export interface KmsSymmetricKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom labels for the key as `key:value` pairs. Maximum 64 per key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#labels KmsSymmetricKey#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#labels KmsSymmetricKey#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#name KmsSymmetricKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#name KmsSymmetricKey#name}
   */
   readonly name?: string;
   /**
   * Time period between automatic key rotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#rotation_period KmsSymmetricKey#rotation_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#rotation_period KmsSymmetricKey#rotation_period}
   */
   readonly rotationPeriod?: string;
   /**
   * Current status of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#status KmsSymmetricKey#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#status KmsSymmetricKey#status}
   */
   readonly status?: string;
   /**
   * ID of the symmetric KMS key to return.
   *  To get the ID of a symmetric KMS key use a [SymmetricKeyService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#symmetric_key_id KmsSymmetricKey#symmetric_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#symmetric_key_id KmsSymmetricKey#symmetric_key_id}
   */
   readonly symmetricKeyId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#timeouts KmsSymmetricKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#timeouts KmsSymmetricKey#timeouts}
   */
   readonly timeouts?: KmsSymmetricKeyTimeouts;
 }
@@ -83,25 +83,25 @@ export interface KmsSymmetricKeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#create KmsSymmetricKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#create KmsSymmetricKey#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#delete KmsSymmetricKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#delete KmsSymmetricKey#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#read KmsSymmetricKey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#read KmsSymmetricKey#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#update KmsSymmetricKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#update KmsSymmetricKey#update}
   */
   readonly update?: string;
 }
@@ -282,7 +282,7 @@ export class KmsSymmetricKeyTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key yandex_kms_symmetric_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key yandex_kms_symmetric_key}
 */
 export class KmsSymmetricKey extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class KmsSymmetricKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsSymmetricKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsSymmetricKey to import
-  * @param importFromId The id of the existing KmsSymmetricKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsSymmetricKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsSymmetricKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class KmsSymmetricKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/kms_symmetric_key yandex_kms_symmetric_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kms_symmetric_key yandex_kms_symmetric_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class KmsSymmetricKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kms_symmetric_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

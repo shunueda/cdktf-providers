@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PraApprovalControllerConfig extends cdktf.TerraformMetaArgument
   /**
   * The email address of the user that you are assigning the privileged approval to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#email_ids PraApprovalController#email_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#email_ids PraApprovalController#email_ids}
   */
   readonly emailIds?: string[];
   /**
   * The end date that the user no longer has access to the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#end_time PraApprovalController#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#end_time PraApprovalController#end_time}
   */
   readonly endTime?: string;
   /**
   * The unique identifier of the Microtenant for the ZPA tenant. If you are within the Default Microtenant, pass microtenantId as 0 when making requests to retrieve data from the Default Microtenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#microtenant_id PraApprovalController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#microtenant_id PraApprovalController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The start date that the user has access to the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#start_time PraApprovalController#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#start_time PraApprovalController#start_time}
   */
   readonly startTime?: string;
   /**
   * The status of the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#status PraApprovalController#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#status PraApprovalController#status}
   */
   readonly status?: string;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#applications PraApprovalController#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#applications PraApprovalController#applications}
   */
   readonly applications: PraApprovalControllerApplications[] | cdktf.IResolvable;
   /**
   * working_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#working_hours PraApprovalController#working_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#working_hours PraApprovalController#working_hours}
   */
   readonly workingHours?: PraApprovalControllerWorkingHours[] | cdktf.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface PraApprovalControllerApplications {
   /**
   * The unique identifier of the pra application segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#id PraApprovalController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#id PraApprovalController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,37 +175,37 @@ export interface PraApprovalControllerWorkingHours {
   /**
   * The days of the week that you want to enable the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#days PraApprovalController#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#days PraApprovalController#days}
   */
   readonly days?: string[];
   /**
   * The end time that the user no longer has access to the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#end_time PraApprovalController#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#end_time PraApprovalController#end_time}
   */
   readonly endTime?: string;
   /**
   * The cron expression provided to configure the privileged approval end time working hours. The standard cron expression format is [Seconds][Minutes][Hours][Day of the Month][Month][Day of the Week][Year]The cron expression provided to configure the privileged approval end time working hours. The standard cron expression format is [Seconds][Minutes][Hours][Day of the Month][Month][Day of the Week][Year]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#end_time_cron PraApprovalController#end_time_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#end_time_cron PraApprovalController#end_time_cron}
   */
   readonly endTimeCron?: string;
   /**
   * The start time that the user has access to the privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#start_time PraApprovalController#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#start_time PraApprovalController#start_time}
   */
   readonly startTime?: string;
   /**
   * The cron expression provided to configure the privileged approval start time working hours. The standard cron expression format is [Seconds][Minutes][Hours][Day of the Month][Month][Day of the Week][Year]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#start_time_cron PraApprovalController#start_time_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#start_time_cron PraApprovalController#start_time_cron}
   */
   readonly startTimeCron?: string;
   /**
   * The time zone for the time window of a privileged approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#timezone PraApprovalController#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#timezone PraApprovalController#timezone}
   */
   readonly timezone?: string;
 }
@@ -466,7 +466,7 @@ export class PraApprovalControllerWorkingHoursList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller zpa_pra_approval_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller zpa_pra_approval_controller}
 */
 export class PraApprovalController extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class PraApprovalController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PraApprovalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PraApprovalController to import
-  * @param importFromId The id of the existing PraApprovalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PraApprovalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PraApprovalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class PraApprovalController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_approval_controller zpa_pra_approval_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_approval_controller zpa_pra_approval_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class PraApprovalController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_pra_approval_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

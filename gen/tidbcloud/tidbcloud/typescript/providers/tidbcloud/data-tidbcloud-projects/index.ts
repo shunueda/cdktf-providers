@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudProjectsConfig extends cdktf.TerraformMetaArgument
   /**
   * Default:1 The number of pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects#page DataTidbcloudProjects#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects#page DataTidbcloudProjects#page}
   */
   readonly page?: number;
   /**
   * Default:10 The size of a pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects#page_size DataTidbcloudProjects#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects#page_size DataTidbcloudProjects#page_size}
   */
   readonly pageSize?: number;
 }
@@ -122,7 +122,7 @@ export class DataTidbcloudProjectsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects tidbcloud_projects}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects tidbcloud_projects}
 */
 export class DataTidbcloudProjects extends cdktf.TerraformDataSource {
 
@@ -138,7 +138,7 @@ export class DataTidbcloudProjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudProjects to import
-  * @param importFromId The id of the existing DataTidbcloudProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class DataTidbcloudProjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/projects tidbcloud_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/projects tidbcloud_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class DataTidbcloudProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_projects',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

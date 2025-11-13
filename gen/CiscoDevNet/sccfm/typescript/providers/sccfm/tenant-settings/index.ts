@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface TenantSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * This attribute indicates whether auto accept device changes is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#auto_accept_device_changes_enabled TenantSettings#auto_accept_device_changes_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#auto_accept_device_changes_enabled TenantSettings#auto_accept_device_changes_enabled}
   */
   readonly autoAcceptDeviceChangesEnabled?: boolean | cdktf.IResolvable;
   /**
   * This attribute indicates whether change request support is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#auto_discover_on_prem_fmcs_enabled TenantSettings#auto_discover_on_prem_fmcs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#auto_discover_on_prem_fmcs_enabled TenantSettings#auto_discover_on_prem_fmcs_enabled}
   */
   readonly autoDiscoverOnPremFmcsEnabled?: boolean | cdktf.IResolvable;
   /**
   * This attribute indicates whether change request support is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#change_request_support_enabled TenantSettings#change_request_support_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#change_request_support_enabled TenantSettings#change_request_support_enabled}
   */
   readonly changeRequestSupportEnabled?: boolean | cdktf.IResolvable;
   /**
   * The interval used by SCC Firewall Manager to detect conflicts on devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#conflict_detection_interval TenantSettings#conflict_detection_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#conflict_detection_interval TenantSettings#conflict_detection_interval}
   */
   readonly conflictDetectionInterval?: string;
   /**
   * This attribute indicates whether denying cisco support engineers access to the tenant is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#deny_cisco_support_access_to_tenant_enabled TenantSettings#deny_cisco_support_access_to_tenant_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#deny_cisco_support_access_to_tenant_enabled TenantSettings#deny_cisco_support_access_to_tenant_enabled}
   */
   readonly denyCiscoSupportAccessToTenantEnabled?: boolean | cdktf.IResolvable;
   /**
   * This attribute indicates whether multi cloud defense is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#multi_cloud_defense_enabled TenantSettings#multi_cloud_defense_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#multi_cloud_defense_enabled TenantSettings#multi_cloud_defense_enabled}
   */
   readonly multiCloudDefenseEnabled?: boolean | cdktf.IResolvable;
   /**
   * This attribute indicates whether scheduled deployments is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#scheduled_deployments_enabled TenantSettings#scheduled_deployments_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#scheduled_deployments_enabled TenantSettings#scheduled_deployments_enabled}
   */
   readonly scheduledDeploymentsEnabled?: boolean | cdktf.IResolvable;
   /**
   * This attribute indicates whether web analytics is enabled for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#web_analytics_enabled TenantSettings#web_analytics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#web_analytics_enabled TenantSettings#web_analytics_enabled}
   */
   readonly webAnalyticsEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings sccfm_tenant_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings sccfm_tenant_settings}
 */
 export class TenantSettings extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class TenantSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantSettings to import
-  * @param importFromId The id of the existing TenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class TenantSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.2.5/docs/resources/tenant_settings sccfm_tenant_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/tenant_settings sccfm_tenant_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class TenantSettings extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_tenant_settings',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.2.5',
-        providerVersionConstraint: '0.2.5'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

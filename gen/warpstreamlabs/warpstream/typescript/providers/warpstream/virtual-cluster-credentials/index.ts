@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VirtualClusterCredentialsConfig extends cdktf.TerraformMetaArgu
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#agent_pool VirtualClusterCredentials#agent_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#agent_pool VirtualClusterCredentials#agent_pool}
   */
   readonly agentPool?: string;
   /**
   * Whether the user is cluster superuser. If `true`, the credentials will be created with superuser privileges which enables ACL management via the Kafka Admin APIs. If `false`, and cluster ACLs are enabled, and no `ALLOW` ACLs are set, then these credentials will not be able to access the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#cluster_superuser VirtualClusterCredentials#cluster_superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#cluster_superuser VirtualClusterCredentials#cluster_superuser}
   */
   readonly clusterSuperuser?: boolean | cdktf.IResolvable;
   /**
   * Virtual Cluster Credentials Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#name VirtualClusterCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#name VirtualClusterCredentials#name}
   */
   readonly name: string;
   /**
   * Virtual Cluster ID. Deprecated in favor of `virtual_cluster_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#virtual_cluster VirtualClusterCredentials#virtual_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#virtual_cluster VirtualClusterCredentials#virtual_cluster}
   */
   readonly virtualCluster?: string;
   /**
   * Virtual Cluster ID. Required unless `virtual_cluster` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#virtual_cluster_id VirtualClusterCredentials#virtual_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#virtual_cluster_id VirtualClusterCredentials#virtual_cluster_id}
   */
   readonly virtualClusterId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials warpstream_virtual_cluster_credentials}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials warpstream_virtual_cluster_credentials}
 */
 export class VirtualClusterCredentials extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class VirtualClusterCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualClusterCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualClusterCredentials to import
-  * @param importFromId The id of the existing VirtualClusterCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualClusterCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualClusterCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class VirtualClusterCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster_credentials warpstream_virtual_cluster_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/virtual_cluster_credentials warpstream_virtual_cluster_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class VirtualClusterCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_virtual_cluster_credentials',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.1',
+        providerVersionConstraint: '2.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

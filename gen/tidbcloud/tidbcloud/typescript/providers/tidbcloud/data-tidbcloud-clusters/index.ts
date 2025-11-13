@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTidbcloudClustersConfig extends cdktf.TerraformMetaArgument
   /**
   * Default:1 The number of pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters#page DataTidbcloudClusters#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters#page DataTidbcloudClusters#page}
   */
   readonly page?: number;
   /**
   * Default:10 The size of a pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters#page_size DataTidbcloudClusters#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters#page_size DataTidbcloudClusters#page_size}
   */
   readonly pageSize?: number;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters#project_id DataTidbcloudClusters#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters#project_id DataTidbcloudClusters#project_id}
   */
   readonly projectId: string;
 }
@@ -227,7 +227,7 @@ export interface DataTidbcloudClustersItemsConfigComponents {
   /**
   * The TiFlash component of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters#tiflash DataTidbcloudClusters#tiflash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters#tiflash DataTidbcloudClusters#tiflash}
   */
   readonly tiflash?: DataTidbcloudClustersItemsConfigComponentsTiflash;
 }
@@ -749,7 +749,7 @@ export class DataTidbcloudClustersItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters tidbcloud_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters tidbcloud_clusters}
 */
 export class DataTidbcloudClusters extends cdktf.TerraformDataSource {
 
@@ -765,7 +765,7 @@ export class DataTidbcloudClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudClusters to import
-  * @param importFromId The id of the existing DataTidbcloudClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -777,7 +777,7 @@ export class DataTidbcloudClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/clusters tidbcloud_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/clusters tidbcloud_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -788,8 +788,8 @@ export class DataTidbcloudClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

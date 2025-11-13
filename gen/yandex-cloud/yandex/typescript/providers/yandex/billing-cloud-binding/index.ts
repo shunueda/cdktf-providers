@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface BillingCloudBindingConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of billing account to bind cloud to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding#billing_account_id BillingCloudBinding#billing_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding#billing_account_id BillingCloudBinding#billing_account_id}
   */
   readonly billingAccountId: string;
   /**
   * Service Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding#cloud_id BillingCloudBinding#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding#cloud_id BillingCloudBinding#cloud_id}
   */
   readonly cloudId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding yandex_billing_cloud_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding yandex_billing_cloud_binding}
 */
 export class BillingCloudBinding extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class BillingCloudBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BillingCloudBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingCloudBinding to import
-  * @param importFromId The id of the existing BillingCloudBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingCloudBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingCloudBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class BillingCloudBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/billing_cloud_binding yandex_billing_cloud_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/billing_cloud_binding yandex_billing_cloud_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class BillingCloudBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_billing_cloud_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

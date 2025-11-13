@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RestoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#backup_id Restore#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#backup_id Restore#backup_id}
   */
   readonly backupId: string;
   /**
   * The configuration of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#config Restore#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#config Restore#config}
   */
   readonly config: RestoreConfigA;
   /**
   * The name of the restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#name Restore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#name Restore#name}
   */
   readonly name: string;
   /**
   * The ID of the project. You can get the project ID from [tidbcloud_projects datasource](../data-sources/projects.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#project_id Restore#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#project_id Restore#project_id}
   */
   readonly projectId: string;
 }
@@ -100,7 +100,7 @@ export interface RestoreConfigComponentsTidb {
   /**
   * The number of nodes in the cluster. You can get the minimum and step of a node quantity from the [tidbcloud_cluster_specs datasource](./cluster_specs.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_quantity Restore#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_quantity Restore#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
@@ -109,7 +109,7 @@ export interface RestoreConfigComponentsTidb {
   *   - If the vCPUs of TiDB or TiKV component is 2 or 4, then the cluster does not support TiFlash.
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_size Restore#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_size Restore#node_size}
   */
   readonly nodeSize: string;
 }
@@ -228,7 +228,7 @@ export interface RestoreConfigComponentsTiflash {
   /**
   * The number of nodes in the cluster. You can get the minimum and step of a node quantity from the [tidbcloud_cluster_specs datasource](./cluster_specs.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_quantity Restore#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_quantity Restore#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
@@ -237,14 +237,14 @@ export interface RestoreConfigComponentsTiflash {
   *   - If the vCPUs of TiDB or TiKV component is 2 or 4, then the cluster does not support TiFlash.
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_size Restore#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_size Restore#node_size}
   */
   readonly nodeSize: string;
   /**
   * The storage size of a node in the cluster. You can get the minimum and maximum of storage size from the [tidbcloud_cluster_specs datasource](./cluster_specs.md).
   *   - Can not modify storage_size_gib of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#storage_size_gib Restore#storage_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#storage_size_gib Restore#storage_size_gib}
   */
   readonly storageSizeGib: number;
 }
@@ -389,7 +389,7 @@ export interface RestoreConfigComponentsTikv {
   /**
   * The number of nodes in the cluster. You can get the minimum and step of a node quantity from the [tidbcloud_cluster_specs datasource](./cluster_specs.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_quantity Restore#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_quantity Restore#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
@@ -398,14 +398,14 @@ export interface RestoreConfigComponentsTikv {
   *   - If the vCPUs of TiDB or TiKV component is 2 or 4, then the cluster does not support TiFlash.
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#node_size Restore#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#node_size Restore#node_size}
   */
   readonly nodeSize: string;
   /**
   * The storage size of a node in the cluster. You can get the minimum and maximum of storage size from the [tidbcloud_cluster_specs datasource](./cluster_specs.md).
   *   - Can not modify storage_size_gib of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#storage_size_gib Restore#storage_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#storage_size_gib Restore#storage_size_gib}
   */
   readonly storageSizeGib: number;
 }
@@ -548,15 +548,15 @@ export class RestoreConfigComponentsTikvOutputReference extends cdktf.ComplexObj
 }
 export interface RestoreConfigComponents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#tidb Restore#tidb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#tidb Restore#tidb}
   */
   readonly tidb: RestoreConfigComponentsTidb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#tiflash Restore#tiflash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#tiflash Restore#tiflash}
   */
   readonly tiflash?: RestoreConfigComponentsTiflash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#tikv Restore#tikv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#tikv Restore#tikv}
   */
   readonly tikv: RestoreConfigComponentsTikv;
 }
@@ -704,13 +704,13 @@ export interface RestoreConfigIpAccessListStruct {
   /**
   * The IP address or CIDR range that you want to add to the cluster's IP access list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#cidr Restore#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#cidr Restore#cidr}
   */
   readonly cidr: string;
   /**
   * Description that explains the purpose of the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#description Restore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#description Restore#description}
   */
   readonly description: string;
 }
@@ -852,26 +852,26 @@ export interface RestoreConfigA {
   * The components of the cluster.
   *   - For a Serverless Tier cluster, the components value can not be set.  - For a Dedicated Tier cluster, the components value must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#components Restore#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#components Restore#components}
   */
   readonly components: RestoreConfigComponents;
   /**
   * A list of IP addresses and Classless Inter-Domain Routing (CIDR) addresses that are allowed to access the TiDB Cloud cluster via [standard connection](https://docs.pingcap.com/tidbcloud/connect-to-tidb-cluster#connect-via-standard-connection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#ip_access_list Restore#ip_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#ip_access_list Restore#ip_access_list}
   */
   readonly ipAccessList?: RestoreConfigIpAccessListStruct[] | cdktf.IResolvable;
   /**
   * The TiDB port for connection. The port must be in the range of 1024-65535 except 10080, 4000 in default.
   *   - For a Serverless Tier cluster, only port 4000 is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#port Restore#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#port Restore#port}
   */
   readonly port?: number;
   /**
   * The root password to access the cluster. It must be 8-64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#root_password Restore#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#root_password Restore#root_password}
   */
   readonly rootPassword: string;
 }
@@ -1046,7 +1046,7 @@ export class RestoreConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore tidbcloud_restore}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore tidbcloud_restore}
 */
 export class Restore extends cdktf.TerraformResource {
 
@@ -1062,7 +1062,7 @@ export class Restore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Restore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Restore to import
-  * @param importFromId The id of the existing Restore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Restore that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Restore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1074,7 +1074,7 @@ export class Restore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/restore tidbcloud_restore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/restore tidbcloud_restore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1085,8 +1085,8 @@ export class Restore extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_restore',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

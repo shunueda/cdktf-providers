@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WafCustomRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action type, 1(Block), 2(Captcha), 3(log), 4(Redirect).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#action_type WafCustomRule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#action_type WafCustomRule#action_type}
   */
   readonly actionType: string;
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#domain WafCustomRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#domain WafCustomRule#domain}
   */
   readonly domain: string;
   /**
   * Expiration time in second-level timestamp, for example, 1677254399 indicates the expiration time is 2023-02-24 23:59:59; 0 indicates it will never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#expire_time WafCustomRule#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#expire_time WafCustomRule#expire_time}
   */
   readonly expireTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#id WafCustomRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#id WafCustomRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface WafCustomRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule execution mode: TimedJob indicates scheduled execution. CronJob indicates periodic execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#job_type WafCustomRule#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#job_type WafCustomRule#job_type}
   */
   readonly jobType?: string;
   /**
   * Rule Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#name WafCustomRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#name WafCustomRule#name}
   */
   readonly name: string;
   /**
   * If the action is a Redirect, it represents the redirect address; Other situations can be left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#redirect WafCustomRule#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#redirect WafCustomRule#redirect}
   */
   readonly redirect?: string;
   /**
   * Priority, value range 0-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#sort_id WafCustomRule#sort_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#sort_id WafCustomRule#sort_id}
   */
   readonly sortId: string;
   /**
   * The status of the rule, 1(open), 0(close).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#status WafCustomRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#status WafCustomRule#status}
   */
   readonly status?: string;
   /**
   * job_date_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#job_date_time WafCustomRule#job_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#job_date_time WafCustomRule#job_date_time}
   */
   readonly jobDateTime?: WafCustomRuleJobDateTime;
   /**
   * strategies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#strategies WafCustomRule#strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#strategies WafCustomRule#strategies}
   */
   readonly strategies: WafCustomRuleStrategies[] | cdktf.IResolvable;
 }
@@ -79,25 +79,25 @@ export interface WafCustomRuleJobDateTimeCron {
   /**
   * Days in each month for execution. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#days WafCustomRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#days WafCustomRule#days}
   */
   readonly days?: number[];
   /**
   * End time. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#end_time WafCustomRule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#end_time WafCustomRule#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#start_time WafCustomRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#start_time WafCustomRule#start_time}
   */
   readonly startTime?: string;
   /**
   * Days of each week for execution. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#w_days WafCustomRule#w_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#w_days WafCustomRule#w_days}
   */
   readonly wDays?: number[];
 }
@@ -302,13 +302,13 @@ export interface WafCustomRuleJobDateTimeTimed {
   /**
   * End timestamp, in seconds. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#end_date_time WafCustomRule#end_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#end_date_time WafCustomRule#end_date_time}
   */
   readonly endDateTime?: number;
   /**
   * Start timestamp, in seconds. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#start_date_time WafCustomRule#start_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#start_date_time WafCustomRule#start_date_time}
   */
   readonly startDateTime?: number;
 }
@@ -455,19 +455,19 @@ export interface WafCustomRuleJobDateTime {
   /**
   * Time zone. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#time_t_zone WafCustomRule#time_t_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#time_t_zone WafCustomRule#time_t_zone}
   */
   readonly timeTZone?: string;
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#cron WafCustomRule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#cron WafCustomRule#cron}
   */
   readonly cron?: WafCustomRuleJobDateTimeCron[] | cdktf.IResolvable;
   /**
   * timed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#timed WafCustomRule#timed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#timed WafCustomRule#timed}
   */
   readonly timed?: WafCustomRuleJobDateTimeTimed[] | cdktf.IResolvable;
 }
@@ -618,13 +618,13 @@ export interface WafCustomRuleStrategies {
   *                   ARGS_HEADER (Header parameter value)
   *           Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#arg WafCustomRule#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#arg WafCustomRule#arg}
   */
   readonly arg: string;
   /**
   * 0: case-sensitive, 1: case-insensitive. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#case_not_sensitive WafCustomRule#case_not_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#case_not_sensitive WafCustomRule#case_not_sensitive}
   */
   readonly caseNotSensitive?: number;
   /**
@@ -657,7 +657,7 @@ export interface WafCustomRuleStrategies {
   *               Different matching fields correspond to different logical operators. For details, see the matching field table above.
   *           Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#compare_func WafCustomRule#compare_func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#compare_func WafCustomRule#compare_func}
   */
   readonly compareFunc: string;
   /**
@@ -665,7 +665,7 @@ export interface WafCustomRuleStrategies {
   *               Currently, when the matching field is COOKIE (cookie), the matching content is not required. In other scenes, the matching content is required.
   *           Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#content WafCustomRule#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#content WafCustomRule#content}
   */
   readonly content: string;
   /**
@@ -674,7 +674,7 @@ export interface WafCustomRuleStrategies {
   * 			  <table><thead><tr><th>Matching Field</th><th>Matching Parameter</th><th>Logical Symbol</th><th>Matching Content</th></tr></thead><tbody><tr><td>IP (source IP)</td><td>Parameters are not supported.</td><td>ipmatch (match)<br>ipnmatch (mismatch)</td><td>Multiple IP addresses are separated by commas. A maximum of 20 IP addresses are allowed.</td></tr><tr><td>IPv6 (source IPv6)</td><td>Parameters are not supported.</td><td>ipmatch (match)<br>ipnmatch (mismatch)</td><td>A single IPv6 address is supported.</td></tr><tr><td>Referer (referer)</td><td>Parameters are not supported.</td><td>empty (Content is empty.)<br>null (do not exist)<br>eq (equal to)<br>neq (not equal to)<br>contains (contain)<br>ncontains (do not contain)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)<br>rematch (regular expression matching)</td><td>Enter the content, with a maximum of 512 characters.</td></tr><tr><td>URL (request path)</td><td>Parameters are not supported.</td><td>eq (equal to)<br>neq (not equal to)<br>contains (contain)<br>ncontains (do not contain)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)<br>rematch (regular expression matching)</td><td>Enter the content starting with /, with a maximum of 512 characters.</td></tr><tr><td>UserAgent (UserAgent)</td><td>Parameters are not supported.</td><td>Same logical symbols as the matching field <font color="Red">Referer</font></td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>HTTP_METHOD (HTTP request method)</td><td>Parameters are not supported.</td><td>eq (equal to)<br>neq (not equal to)</td><td>Enter the method name. The uppercase is recommended.</td></tr><tr><td>QUERY_STRING (request string)</td><td>Parameters are not supported.</td><td>Same logical symbol as the matching field <font color="Red">Request Path</font></td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>GET (GET parameter value)</td><td>Parameter entry is supported.</td><td>contains (contain)<br>ncontains (do not contain)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)</td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>GET_PARAMS_NAMES (GET parameter name)</td><td>Parameters are not supported.</td><td>exist (Parameter exists.)<br>nexist (Parameter does not exist.)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)</td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>POST (POST parameter value)</td><td>Parameter entry is supported.</td><td>Same logical symbol as the matching field <font color="Red">GET Parameter Value</font></td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>GET_POST_NAMES (POST parameter name)</td><td>Parameters are not supported.</td><td>Same logical symbol as the matching field <font color="Red">GET Parameter Name</font></td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>POST_BODY (complete body)</td><td>Parameters are not supported.</td><td>Same logical symbol as the matching field <font color="Red">Request Path</font></td><td>Enter the body content with a maximum of 512 characters.</td></tr><tr><td>COOKIE (cookie)</td><td>Parameters are not supported.</td><td>empty (Content is empty.)<br>null (do not exist)<br>rematch (regular expression matching)</td><td><font color="Red">Unsupported currently</font></td></tr><tr><td>GET_COOKIES_NAMES (cookie parameter name)</td><td>Parameters are not supported.</td><td>Same logical symbol as the matching field <font color="Red">GET Parameter Name</font></td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>ARGS_COOKIE (cookie parameter value)</td><td>Parameter entry is supported.</td><td>Same logical symbol as the matching field <font color="Red">GET Parameter Value</font></td><td>Enter the contentwith a maximum of 512 characters.</td></tr><tr><td>GET_HEADERS_NAMES (header parameter name)</td><td>Parameters are not supported.</td><td>exist (Parameter exists.)<br>nexist (Parameter does not exist.)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)<br>rematch (regular expression matching)</td><td>Enter the content with a maximum of 512 characters. The lowercase is recommended.</td></tr><tr><td>ARGS_HEADER (header parameter value)</td><td>Parameter entry is supported.</td><td>contains (contain)<br>ncontains (do not contain)<br>len_eq (length equals to)<br>len_gt (length is greater than)<br>len_lt (length is less than)<br>strprefix (prefix matching)<br>strsuffix (suffix matching)<br>rematch (regular expression matching)</td><td>Enter the content with a maximum of 512 characters.</td></tr><tr><td>CAPTCHA_RISK (CAPTCHA risk)</td><td>Parameters are not supported.</td><td>eq (equal to)<br>neq (not equal to)<br>belong (belongs to)<br>not_belong (does not belong to)<br>null (does not exist)<br>exist (exists)</td><td>Enter risk level value, supporting numerical range 0-255</td></tr><tr><td>CAPTCHA_DEVICE_RISK (CAPTCHA device risk)</td><td>Parameters are not supported.</td><td>eq (equal to)<br>neq (not equal to)<br>belong (belongs to)<br>not_belong (does not belong to)<br>null (does not exist)<br>exist (exists)</td><td>Enter device risk code, supporting values: 101, 201, 301, 401, 501, 601, 701</td></tr><tr><td>CAPTCHAR_SCORE (CAPTCHA risk assessment score)</td><td>Parameters are not supported.</td><td>numeq (numerically equal to)<br>numgt (numerically greater than)<br>numlt (numerically less than)<br>numle (numerically less than or equal to)<br>numge (numerically greater than or equal to)<br>null (does not exist)<br>exist (exists)</td><td>Enter assessment score, supporting numerical range 0-100</td></tr></tbody></table>
   *           	  Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#field WafCustomRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#field WafCustomRule#field}
   */
   readonly field: string;
 }
@@ -894,7 +894,7 @@ export class WafCustomRuleStrategiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule tencentcloud_waf_custom_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule tencentcloud_waf_custom_rule}
 */
 export class WafCustomRule extends cdktf.TerraformResource {
 
@@ -910,7 +910,7 @@ export class WafCustomRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafCustomRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafCustomRule to import
-  * @param importFromId The id of the existing WafCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafCustomRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -922,7 +922,7 @@ export class WafCustomRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/waf_custom_rule tencentcloud_waf_custom_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/waf_custom_rule tencentcloud_waf_custom_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -933,8 +933,8 @@ export class WafCustomRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_custom_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

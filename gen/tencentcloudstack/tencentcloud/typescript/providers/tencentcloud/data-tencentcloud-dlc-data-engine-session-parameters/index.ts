@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudDlcDataEngineSessionParametersConfig extends cd
   /**
   * DataEngine Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters#data_engine_id DataTencentcloudDlcDataEngineSessionParameters#data_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters#data_engine_id DataTencentcloudDlcDataEngineSessionParameters#data_engine_id}
   */
   readonly dataEngineId: string;
   /**
   * Engine name. When the engine name is specified, the name is used first to obtain the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters#data_engine_name DataTencentcloudDlcDataEngineSessionParameters#data_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters#data_engine_name DataTencentcloudDlcDataEngineSessionParameters#data_engine_name}
   */
   readonly dataEngineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters#id DataTencentcloudDlcDataEngineSessionParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters#id DataTencentcloudDlcDataEngineSessionParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataTencentcloudDlcDataEngineSessionParametersConfig extends cd
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters#result_output_file DataTencentcloudDlcDataEngineSessionParameters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters#result_output_file DataTencentcloudDlcDataEngineSessionParameters#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -180,7 +180,7 @@ export class DataTencentcloudDlcDataEngineSessionParametersDataEngineParametersL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters tencentcloud_dlc_data_engine_session_parameters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters tencentcloud_dlc_data_engine_session_parameters}
 */
 export class DataTencentcloudDlcDataEngineSessionParameters extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataTencentcloudDlcDataEngineSessionParameters extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudDlcDataEngineSessionParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDataEngineSessionParameters to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDataEngineSessionParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDataEngineSessionParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDataEngineSessionParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataTencentcloudDlcDataEngineSessionParameters extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_data_engine_session_parameters tencentcloud_dlc_data_engine_session_parameters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_data_engine_session_parameters tencentcloud_dlc_data_engine_session_parameters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class DataTencentcloudDlcDataEngineSessionParameters extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_dlc_data_engine_session_parameters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

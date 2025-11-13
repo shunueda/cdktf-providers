@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#id SecurityFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#id SecurityFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SecurityFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#instance_id SecurityFirewall#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#instance_id SecurityFirewall#instance_id}
   */
   readonly instanceId: number;
   /**
   * Configurable sleep time in seconds between retries for firewall configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#sleep SecurityFirewall#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#sleep SecurityFirewall#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for firewall configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#timeout SecurityFirewall#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#timeout SecurityFirewall#timeout}
   */
   readonly timeout?: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#rules SecurityFirewall#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#rules SecurityFirewall#rules}
   */
   readonly rules: SecurityFirewallRules[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface SecurityFirewallRules {
   /**
   * Naming descripton e.g. 'Default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#description SecurityFirewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#description SecurityFirewall#description}
   */
   readonly description?: string;
   /**
   * CIDR address: IP address with CIDR notation (e.g. 10.56.72.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#ip SecurityFirewall#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#ip SecurityFirewall#ip}
   */
   readonly ip: string;
   /**
   * Custom ports between 0 - 65554
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#ports SecurityFirewall#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#ports SecurityFirewall#ports}
   */
   readonly ports?: number[];
   /**
   * Pre-defined services 'AMQP', 'AMQPS', 'HTTPS', 'MQTT', 'MQTTS', 'STOMP', 'STOMPS', 'STREAM', 'STREAM_SSL'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#services SecurityFirewall#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#services SecurityFirewall#services}
   */
   readonly services?: string[];
 }
@@ -261,7 +261,7 @@ export class SecurityFirewallRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall cloudamqp_security_firewall}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall cloudamqp_security_firewall}
 */
 export class SecurityFirewall extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class SecurityFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityFirewall to import
-  * @param importFromId The id of the existing SecurityFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class SecurityFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/security_firewall cloudamqp_security_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/security_firewall cloudamqp_security_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class SecurityFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_security_firewall',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

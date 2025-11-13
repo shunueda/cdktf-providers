@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpcSnapshotPolicyConfigAConfig extends cdktf.TerraformMetaArgum
   /**
   * If enable snapshot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config#enable VpcSnapshotPolicyConfigA#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config#enable VpcSnapshotPolicyConfigA#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config#id VpcSnapshotPolicyConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config#id VpcSnapshotPolicyConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VpcSnapshotPolicyConfigAConfig extends cdktf.TerraformMetaArgum
   /**
   * Snapshot policy Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config#snapshot_policy_id VpcSnapshotPolicyConfigA#snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config#snapshot_policy_id VpcSnapshotPolicyConfigA#snapshot_policy_id}
   */
   readonly snapshotPolicyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config tencentcloud_vpc_snapshot_policy_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config tencentcloud_vpc_snapshot_policy_config}
 */
 export class VpcSnapshotPolicyConfigA extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpcSnapshotPolicyConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcSnapshotPolicyConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcSnapshotPolicyConfigA to import
-  * @param importFromId The id of the existing VpcSnapshotPolicyConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcSnapshotPolicyConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcSnapshotPolicyConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpcSnapshotPolicyConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_snapshot_policy_config tencentcloud_vpc_snapshot_policy_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_snapshot_policy_config tencentcloud_vpc_snapshot_policy_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpcSnapshotPolicyConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_snapshot_policy_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

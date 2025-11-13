@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachme
   /**
   * Permission configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_configuration_id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_configuration_id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_configuration_id}
   */
   readonly roleConfigurationId: string;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#zone_id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#zone_id IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#zone_id}
   */
   readonly zoneId: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#policies IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#policies IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#policies}
   */
   readonly policies: IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachmentPolicies[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachme
   /**
   * Role policy document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_policy_document IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_policy_document IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_policy_document}
   */
   readonly rolePolicyDocument: string;
   /**
   * Role policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_policy_name IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#role_policy_name IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment#role_policy_name}
   */
   readonly rolePolicyName: string;
 }
@@ -192,7 +192,7 @@ export class IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachmentPo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment tencentcloud_identity_center_role_configuration_permission_custom_policies_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment tencentcloud_identity_center_role_configuration_permission_custom_policies_attachment}
 */
 export class IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment e
   * Generates CDKTF code for importing a IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment to import
-  * @param importFromId The id of the existing IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment tencentcloud_identity_center_role_configuration_permission_custom_policies_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/identity_center_role_configuration_permission_custom_policies_attachment tencentcloud_identity_center_role_configuration_permission_custom_policies_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class IdentityCenterRoleConfigurationPermissionCustomPoliciesAttachment e
       terraformResourceType: 'tencentcloud_identity_center_role_configuration_permission_custom_policies_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

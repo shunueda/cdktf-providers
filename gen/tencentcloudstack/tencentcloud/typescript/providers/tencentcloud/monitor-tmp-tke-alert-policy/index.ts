@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorTmpTkeAlertPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#id MonitorTmpTkeAlertPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#id MonitorTmpTkeAlertPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MonitorTmpTkeAlertPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#instance_id MonitorTmpTkeAlertPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#instance_id MonitorTmpTkeAlertPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
   * alert_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#alert_rule MonitorTmpTkeAlertPolicy#alert_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#alert_rule MonitorTmpTkeAlertPolicy#alert_rule}
   */
   readonly alertRule: MonitorTmpTkeAlertPolicyAlertRule;
 }
@@ -31,19 +31,19 @@ export interface MonitorTmpTkeAlertPolicyAlertRuleNotificationAlertManager {
   /**
   * The ID of the cluster where the alertmanager is deployed. Note: This field may return null, indicating that a valid value could not be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#cluster_id MonitorTmpTkeAlertPolicy#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#cluster_id MonitorTmpTkeAlertPolicy#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Alertmanager is deployed in the cluster type. Note: This field may return null, indicating that a valid value could not be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#cluster_type MonitorTmpTkeAlertPolicy#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#cluster_type MonitorTmpTkeAlertPolicy#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Alertmanager url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#url MonitorTmpTkeAlertPolicy#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#url MonitorTmpTkeAlertPolicy#url}
   */
   readonly url: string;
 }
@@ -184,85 +184,85 @@ export interface MonitorTmpTkeAlertPolicyAlertRuleNotification {
   /**
   * Whether it is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#enabled MonitorTmpTkeAlertPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#enabled MonitorTmpTkeAlertPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Alarm notification method. At present, there are SMS, EMAIL, CALL, WECHAT methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#notify_way MonitorTmpTkeAlertPolicy#notify_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#notify_way MonitorTmpTkeAlertPolicy#notify_way}
   */
   readonly notifyWay?: string[];
   /**
   * Telephone alerts reach notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#phone_arrive_notice MonitorTmpTkeAlertPolicy#phone_arrive_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#phone_arrive_notice MonitorTmpTkeAlertPolicy#phone_arrive_notice}
   */
   readonly phoneArriveNotice?: boolean | cdktf.IResolvable;
   /**
   * Effective end timeTelephone alarm wheel interval. Units: Seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#phone_circle_interval MonitorTmpTkeAlertPolicy#phone_circle_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#phone_circle_interval MonitorTmpTkeAlertPolicy#phone_circle_interval}
   */
   readonly phoneCircleInterval?: number;
   /**
   * PhoneCircleTimes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#phone_circle_times MonitorTmpTkeAlertPolicy#phone_circle_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#phone_circle_times MonitorTmpTkeAlertPolicy#phone_circle_times}
   */
   readonly phoneCircleTimes?: number;
   /**
   * Telephone alarm wheel intervals. Units: Seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#phone_inner_interval MonitorTmpTkeAlertPolicy#phone_inner_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#phone_inner_interval MonitorTmpTkeAlertPolicy#phone_inner_interval}
   */
   readonly phoneInnerInterval?: number;
   /**
   * Telephone alarm sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#phone_notify_order MonitorTmpTkeAlertPolicy#phone_notify_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#phone_notify_order MonitorTmpTkeAlertPolicy#phone_notify_order}
   */
   readonly phoneNotifyOrder?: number[];
   /**
   * Alert Receiving Group (User Group).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#receiver_groups MonitorTmpTkeAlertPolicy#receiver_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#receiver_groups MonitorTmpTkeAlertPolicy#receiver_groups}
   */
   readonly receiverGroups?: string[];
   /**
   * Convergence time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#repeat_interval MonitorTmpTkeAlertPolicy#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#repeat_interval MonitorTmpTkeAlertPolicy#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * Effective end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#time_range_end MonitorTmpTkeAlertPolicy#time_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#time_range_end MonitorTmpTkeAlertPolicy#time_range_end}
   */
   readonly timeRangeEnd?: string;
   /**
   * The time from which it takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#time_range_start MonitorTmpTkeAlertPolicy#time_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#time_range_start MonitorTmpTkeAlertPolicy#time_range_start}
   */
   readonly timeRangeStart?: string;
   /**
   * The channel type, which defaults to amp, supports the following `amp`, `webhook`, `alertmanager`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#type MonitorTmpTkeAlertPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#type MonitorTmpTkeAlertPolicy#type}
   */
   readonly type: string;
   /**
   * If Type is webhook, the field is required. Note: This field may return null, indicating that a valid value could not be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#web_hook MonitorTmpTkeAlertPolicy#web_hook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#web_hook MonitorTmpTkeAlertPolicy#web_hook}
   */
   readonly webHook?: string;
   /**
   * alert_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#alert_manager MonitorTmpTkeAlertPolicy#alert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#alert_manager MonitorTmpTkeAlertPolicy#alert_manager}
   */
   readonly alertManager?: MonitorTmpTkeAlertPolicyAlertRuleNotificationAlertManager;
 }
@@ -719,13 +719,13 @@ export interface MonitorTmpTkeAlertPolicyAlertRuleRulesAnnotations {
   /**
   * Name of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
   */
   readonly name: string;
   /**
   * Value of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#value MonitorTmpTkeAlertPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#value MonitorTmpTkeAlertPolicy#value}
   */
   readonly value: string;
 }
@@ -866,13 +866,13 @@ export interface MonitorTmpTkeAlertPolicyAlertRuleRulesLabels {
   /**
   * Name of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
   */
   readonly name: string;
   /**
   * Value of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#value MonitorTmpTkeAlertPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#value MonitorTmpTkeAlertPolicy#value}
   */
   readonly value: string;
 }
@@ -1013,49 +1013,49 @@ export interface MonitorTmpTkeAlertPolicyAlertRuleRules {
   /**
   * A description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#describe MonitorTmpTkeAlertPolicy#describe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#describe MonitorTmpTkeAlertPolicy#describe}
   */
   readonly describe?: string;
   /**
   * Time of duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#for MonitorTmpTkeAlertPolicy#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#for MonitorTmpTkeAlertPolicy#for}
   */
   readonly for: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
   */
   readonly name: string;
   /**
   * Prometheus statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#rule MonitorTmpTkeAlertPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#rule MonitorTmpTkeAlertPolicy#rule}
   */
   readonly rule: string;
   /**
   * Alarm rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#rule_state MonitorTmpTkeAlertPolicy#rule_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#rule_state MonitorTmpTkeAlertPolicy#rule_state}
   */
   readonly ruleState?: number;
   /**
   * Alert sending template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#template MonitorTmpTkeAlertPolicy#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#template MonitorTmpTkeAlertPolicy#template}
   */
   readonly template: string;
   /**
   * annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#annotations MonitorTmpTkeAlertPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#annotations MonitorTmpTkeAlertPolicy#annotations}
   */
   readonly annotations?: MonitorTmpTkeAlertPolicyAlertRuleRulesAnnotations[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#labels MonitorTmpTkeAlertPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#labels MonitorTmpTkeAlertPolicy#labels}
   */
   readonly labels: MonitorTmpTkeAlertPolicyAlertRuleRulesLabels[] | cdktf.IResolvable;
 }
@@ -1361,13 +1361,13 @@ export interface MonitorTmpTkeAlertPolicyAlertRule {
   /**
   * If the alarm policy is derived from the CRD resource definition of the user cluster, the ClusterId is the cluster ID to which it belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#cluster_id MonitorTmpTkeAlertPolicy#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#cluster_id MonitorTmpTkeAlertPolicy#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Alarm policy ID. Note: This field may return null, indicating that a valid value could not be retrieved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#id MonitorTmpTkeAlertPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#id MonitorTmpTkeAlertPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1376,31 +1376,31 @@ export interface MonitorTmpTkeAlertPolicyAlertRule {
   /**
   * Policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#name MonitorTmpTkeAlertPolicy#name}
   */
   readonly name: string;
   /**
   * If the alarm is sent from a template, the TemplateId is the template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#template_id MonitorTmpTkeAlertPolicy#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#template_id MonitorTmpTkeAlertPolicy#template_id}
   */
   readonly templateId?: string;
   /**
   * Last modified time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#updated_at MonitorTmpTkeAlertPolicy#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#updated_at MonitorTmpTkeAlertPolicy#updated_at}
   */
   readonly updatedAt?: string;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#notification MonitorTmpTkeAlertPolicy#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#notification MonitorTmpTkeAlertPolicy#notification}
   */
   readonly notification?: MonitorTmpTkeAlertPolicyAlertRuleNotification;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#rules MonitorTmpTkeAlertPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#rules MonitorTmpTkeAlertPolicy#rules}
   */
   readonly rules: MonitorTmpTkeAlertPolicyAlertRuleRules[] | cdktf.IResolvable;
 }
@@ -1652,7 +1652,7 @@ export class MonitorTmpTkeAlertPolicyAlertRuleOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy tencentcloud_monitor_tmp_tke_alert_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy tencentcloud_monitor_tmp_tke_alert_policy}
 */
 export class MonitorTmpTkeAlertPolicy extends cdktf.TerraformResource {
 
@@ -1668,7 +1668,7 @@ export class MonitorTmpTkeAlertPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpTkeAlertPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpTkeAlertPolicy to import
-  * @param importFromId The id of the existing MonitorTmpTkeAlertPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpTkeAlertPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpTkeAlertPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1680,7 +1680,7 @@ export class MonitorTmpTkeAlertPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_tke_alert_policy tencentcloud_monitor_tmp_tke_alert_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_tke_alert_policy tencentcloud_monitor_tmp_tke_alert_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1691,8 +1691,8 @@ export class MonitorTmpTkeAlertPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_tke_alert_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

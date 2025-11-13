@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LighthouseRenewDiskConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether to automatically use the voucher. Not used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#auto_voucher LighthouseRenewDisk#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#auto_voucher LighthouseRenewDisk#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   * List of disk ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#disk_id LighthouseRenewDisk#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#disk_id LighthouseRenewDisk#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#id LighthouseRenewDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#id LighthouseRenewDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface LighthouseRenewDiskConfig extends cdktf.TerraformMetaArguments 
   /**
   * renew_disk_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#renew_disk_charge_prepaid LighthouseRenewDisk#renew_disk_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#renew_disk_charge_prepaid LighthouseRenewDisk#renew_disk_charge_prepaid}
   */
   readonly renewDiskChargePrepaid: LighthouseRenewDiskRenewDiskChargePrepaid;
 }
@@ -37,25 +37,25 @@ export interface LighthouseRenewDiskRenewDiskChargePrepaid {
   /**
   * Current instance expiration time. Such as 2018-01-01 00:00:00. Specifying this parameter can align the expiration time of the instance attached to the disk. One of this parameter and Period must be specified, and cannot be specified at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#cur_instance_deadline LighthouseRenewDisk#cur_instance_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#cur_instance_deadline LighthouseRenewDisk#cur_instance_deadline}
   */
   readonly curInstanceDeadline?: string;
   /**
   * Renewal period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#period LighthouseRenewDisk#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#period LighthouseRenewDisk#period}
   */
   readonly period?: number;
   /**
   * Automatic renewal falg. Value:NOTIFY_AND_AUTO_RENEW: Notice expires and auto-renews.NOTIFY_AND_MANUAL_RENEW: Notification expires without automatic renewal, users need to manually renew.DISABLE_NOTIFY_AND_AUTO_RENEW: No automatic renewal and no notification.Default: NOTIFY_AND_MANUAL_RENEW. If this parameter is specified as NOTIFY_AND_AUTO_RENEW, the disk will be automatically renewed monthly when the account balance is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#renew_flag LighthouseRenewDisk#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#renew_flag LighthouseRenewDisk#renew_flag}
   */
   readonly renewFlag?: string;
   /**
   * newly purchased unit. Default: m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#time_unit LighthouseRenewDisk#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#time_unit LighthouseRenewDisk#time_unit}
   */
   readonly timeUnit?: string;
 }
@@ -226,7 +226,7 @@ export class LighthouseRenewDiskRenewDiskChargePrepaidOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk tencentcloud_lighthouse_renew_disk}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk tencentcloud_lighthouse_renew_disk}
 */
 export class LighthouseRenewDisk extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class LighthouseRenewDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LighthouseRenewDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LighthouseRenewDisk to import
-  * @param importFromId The id of the existing LighthouseRenewDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LighthouseRenewDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LighthouseRenewDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class LighthouseRenewDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lighthouse_renew_disk tencentcloud_lighthouse_renew_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lighthouse_renew_disk tencentcloud_lighthouse_renew_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class LighthouseRenewDisk extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lighthouse_renew_disk',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MongodbInstanceBackupConfig extends cdktf.TerraformMetaArgument
   /**
   * 0:logical backup, 1:physical backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#backup_method MongodbInstanceBackup#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#backup_method MongodbInstanceBackup#backup_method}
   */
   readonly backupMethod: number;
   /**
   * backup notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#backup_remark MongodbInstanceBackup#backup_remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#backup_remark MongodbInstanceBackup#backup_remark}
   */
   readonly backupRemark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#id MongodbInstanceBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#id MongodbInstanceBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface MongodbInstanceBackupConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance ID, the format is: cmgo-9d0p6umb.Same as the instance ID displayed in the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#instance_id MongodbInstanceBackup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#instance_id MongodbInstanceBackup#instance_id}
   */
   readonly instanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#timeouts MongodbInstanceBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#timeouts MongodbInstanceBackup#timeouts}
   */
   readonly timeouts?: MongodbInstanceBackupTimeouts;
 }
 export interface MongodbInstanceBackupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#create MongodbInstanceBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#create MongodbInstanceBackup#create}
   */
   readonly create?: string;
 }
@@ -135,7 +135,7 @@ export class MongodbInstanceBackupTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup tencentcloud_mongodb_instance_backup}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup tencentcloud_mongodb_instance_backup}
 */
 export class MongodbInstanceBackup extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class MongodbInstanceBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceBackup to import
-  * @param importFromId The id of the existing MongodbInstanceBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class MongodbInstanceBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup tencentcloud_mongodb_instance_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup tencentcloud_mongodb_instance_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class MongodbInstanceBackup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_backup',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

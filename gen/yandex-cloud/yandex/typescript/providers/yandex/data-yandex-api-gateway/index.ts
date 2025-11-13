@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexApiGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Yandex Cloud API Gateway id used to define api gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#api_gateway_id DataYandexApiGateway#api_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#api_gateway_id DataYandexApiGateway#api_gateway_id}
   */
   readonly apiGatewayId?: string;
   /**
   * Execution timeout in seconds for the Yandex Cloud API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#execution_timeout DataYandexApiGateway#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#execution_timeout DataYandexApiGateway#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#folder_id DataYandexApiGateway#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#folder_id DataYandexApiGateway#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#id DataYandexApiGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#id DataYandexApiGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataYandexApiGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#name DataYandexApiGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#name DataYandexApiGateway#name}
   */
   readonly name?: string;
   /**
   * A set of values for variables in gateway specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#variables DataYandexApiGateway#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#variables DataYandexApiGateway#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * canary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#canary DataYandexApiGateway#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#canary DataYandexApiGateway#canary}
   */
   readonly canary?: DataYandexApiGatewayCanary;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#connectivity DataYandexApiGateway#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#connectivity DataYandexApiGateway#connectivity}
   */
   readonly connectivity?: DataYandexApiGatewayConnectivity;
   /**
   * custom_domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#custom_domains DataYandexApiGateway#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#custom_domains DataYandexApiGateway#custom_domains}
   */
   readonly customDomains?: DataYandexApiGatewayCustomDomains[] | cdktf.IResolvable;
 }
@@ -155,11 +155,11 @@ export class DataYandexApiGatewayLogOptionsList extends cdktf.ComplexList {
 }
 export interface DataYandexApiGatewayCanary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#variables DataYandexApiGateway#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#variables DataYandexApiGateway#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#weight DataYandexApiGateway#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#weight DataYandexApiGateway#weight}
   */
   readonly weight?: number;
 }
@@ -272,7 +272,7 @@ export class DataYandexApiGatewayCanaryOutputReference extends cdktf.ComplexObje
 }
 export interface DataYandexApiGatewayConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#network_id DataYandexApiGateway#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#network_id DataYandexApiGateway#network_id}
   */
   readonly networkId: string;
 }
@@ -353,15 +353,15 @@ export class DataYandexApiGatewayConnectivityOutputReference extends cdktf.Compl
 }
 export interface DataYandexApiGatewayCustomDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#certificate_id DataYandexApiGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#certificate_id DataYandexApiGateway#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#domain_id DataYandexApiGateway#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#domain_id DataYandexApiGateway#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#fqdn DataYandexApiGateway#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#fqdn DataYandexApiGateway#fqdn}
   */
   readonly fqdn: string;
 }
@@ -529,7 +529,7 @@ export class DataYandexApiGatewayCustomDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway yandex_api_gateway}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway yandex_api_gateway}
 */
 export class DataYandexApiGateway extends cdktf.TerraformDataSource {
 
@@ -545,7 +545,7 @@ export class DataYandexApiGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexApiGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexApiGateway to import
-  * @param importFromId The id of the existing DataYandexApiGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexApiGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexApiGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class DataYandexApiGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/api_gateway yandex_api_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/api_gateway yandex_api_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class DataYandexApiGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_api_gateway',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

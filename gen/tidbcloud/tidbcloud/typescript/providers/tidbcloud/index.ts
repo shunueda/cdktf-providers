@@ -24,6 +24,7 @@ export * as dataTidbcloudDedicatedNodeGroup from './data-tidbcloud-dedicated-nod
 export * as dataTidbcloudDedicatedNodeGroups from './data-tidbcloud-dedicated-node-groups';
 export * as dataTidbcloudDedicatedPrivateEndpointConnection from './data-tidbcloud-dedicated-private-endpoint-connection';
 export * as dataTidbcloudDedicatedPrivateEndpointConnections from './data-tidbcloud-dedicated-private-endpoint-connections';
+export * as dataTidbcloudDedicatedPrivateLinkService from './data-tidbcloud-dedicated-private-link-service';
 export * as dataTidbcloudDedicatedRegion from './data-tidbcloud-dedicated-region';
 export * as dataTidbcloudDedicatedRegions from './data-tidbcloud-dedicated-regions';
 export * as dataTidbcloudDedicatedVpcPeering from './data-tidbcloud-dedicated-vpc-peering';

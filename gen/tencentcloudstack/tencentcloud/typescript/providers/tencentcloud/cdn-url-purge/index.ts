@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnUrlPurgeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify purge area. NOTE: only purge same area cache contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#area CdnUrlPurge#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#area CdnUrlPurge#area}
   */
   readonly area?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#id CdnUrlPurge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#id CdnUrlPurge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CdnUrlPurgeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Change to purge again. NOTE: this argument only works while resource update, if set to `0` or null will not be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#redo CdnUrlPurge#redo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#redo CdnUrlPurge#redo}
   */
   readonly redo?: number;
   /**
   * Whether to encode urls, if set to `true` will auto encode instead of manual process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#url_encode CdnUrlPurge#url_encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#url_encode CdnUrlPurge#url_encode}
   */
   readonly urlEncode?: boolean | cdktf.IResolvable;
   /**
   * List of url to purge. NOTE: urls need include protocol prefix `http://` or `https://`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#urls CdnUrlPurge#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#urls CdnUrlPurge#urls}
   */
   readonly urls: string[];
 }
@@ -141,7 +141,7 @@ export class CdnUrlPurgePurgeHistoryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge tencentcloud_cdn_url_purge}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge tencentcloud_cdn_url_purge}
 */
 export class CdnUrlPurge extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class CdnUrlPurge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnUrlPurge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnUrlPurge to import
-  * @param importFromId The id of the existing CdnUrlPurge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnUrlPurge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnUrlPurge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class CdnUrlPurge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cdn_url_purge tencentcloud_cdn_url_purge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cdn_url_purge tencentcloud_cdn_url_purge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class CdnUrlPurge extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdn_url_purge',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

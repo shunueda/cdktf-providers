@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DynamicAttributeResourceConfig extends cdktf.TerraformMetaArgum
   /**
   * Error string or structured error details as flattened text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#dynamic_attribute_errors DynamicAttributeResource#dynamic_attribute_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#dynamic_attribute_errors DynamicAttributeResource#dynamic_attribute_errors}
   */
   readonly dynamicAttributeErrors?: string;
   /**
   * Set of dynamic attribute configuration blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#dynamic_attributes DynamicAttributeResource#dynamic_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#dynamic_attributes DynamicAttributeResource#dynamic_attributes}
   */
   readonly dynamicAttributes: { [key: string]: DynamicAttributeResourceDynamicAttributes } | cdktf.IResolvable;
   /**
   * Endpoint associated with the dynamic attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#endpoint DynamicAttributeResource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#endpoint DynamicAttributeResource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Security system associated with the dynamic attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#security_system DynamicAttributeResource#security_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#security_system DynamicAttributeResource#security_system}
   */
   readonly securitySystem: string;
   /**
   * User who last updated the dynamic attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#update_user DynamicAttributeResource#update_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#update_user DynamicAttributeResource#update_user}
   */
   readonly updateUser?: string;
 }
@@ -42,109 +42,109 @@ export interface DynamicAttributeResourceDynamicAttributes {
   /**
   * Accounts column mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#accounts_column DynamicAttributeResource#accounts_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#accounts_column DynamicAttributeResource#accounts_column}
   */
   readonly accountsColumn?: string;
   /**
   * Action string value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#action_string DynamicAttributeResource#action_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#action_string DynamicAttributeResource#action_string}
   */
   readonly actionString?: string;
   /**
   * Action to perform when the parent attribute changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#action_to_perform_when_parent_attribute_changes DynamicAttributeResource#action_to_perform_when_parent_attribute_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#action_to_perform_when_parent_attribute_changes DynamicAttributeResource#action_to_perform_when_parent_attribute_changes}
   */
   readonly actionToPerformWhenParentAttributeChanges?: string;
   /**
   * Group or categorize the attribute in the request form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#attribute_group DynamicAttributeResource#attribute_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#attribute_group DynamicAttributeResource#attribute_group}
   */
   readonly attributeGroup?: string;
   /**
   * Name to be shown in the Access Requests form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#attribute_lable DynamicAttributeResource#attribute_lable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#attribute_lable DynamicAttributeResource#attribute_lable}
   */
   readonly attributeLable?: string;
   /**
   * Specify the dynamic attribute name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#attribute_name DynamicAttributeResource#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#attribute_name DynamicAttributeResource#attribute_name}
   */
   readonly attributeName: string;
   /**
   * Attribute type used for filtering and display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#attribute_type DynamicAttributeResource#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#attribute_type DynamicAttributeResource#attribute_type}
   */
   readonly attributeType?: string;
   /**
   * Value options or query for the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#attribute_value DynamicAttributeResource#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#attribute_value DynamicAttributeResource#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * Default value for the attribute(Currently not configurable for BOOLEAN attribute type from Terraform).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#default_value DynamicAttributeResource#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#default_value DynamicAttributeResource#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Description of values as CSV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#description_as_csv DynamicAttributeResource#description_as_csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#description_as_csv DynamicAttributeResource#description_as_csv}
   */
   readonly descriptionAsCsv?: string;
   /**
   * Whether the attribute is editable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#editable DynamicAttributeResource#editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#editable DynamicAttributeResource#editable}
   */
   readonly editable?: string;
   /**
   * Whether to hide this attribute on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#hide_on_create DynamicAttributeResource#hide_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#hide_on_create DynamicAttributeResource#hide_on_create}
   */
   readonly hideOnCreate?: string;
   /**
   * Whether to hide this attribute on update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#hide_on_update DynamicAttributeResource#hide_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#hide_on_update DynamicAttributeResource#hide_on_update}
   */
   readonly hideOnUpdate?: string;
   /**
   * Sequence for display of the dynamic attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#order_index DynamicAttributeResource#order_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#order_index DynamicAttributeResource#order_index}
   */
   readonly orderIndex?: string;
   /**
   * Parent attribute this one depends on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#parent_attribute DynamicAttributeResource#parent_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#parent_attribute DynamicAttributeResource#parent_attribute}
   */
   readonly parentAttribute?: string;
   /**
   * Type of request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#request_type DynamicAttributeResource#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#request_type DynamicAttributeResource#request_type}
   */
   readonly requestType: string;
   /**
   * Whether this attribute is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#required DynamicAttributeResource#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#required DynamicAttributeResource#required}
   */
   readonly required?: string;
   /**
   * Whether to show this on child requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#showonchild DynamicAttributeResource#showonchild}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#showonchild DynamicAttributeResource#showonchild}
   */
   readonly showonchild?: string;
 }
@@ -745,7 +745,7 @@ export class DynamicAttributeResourceDynamicAttributesMap extends cdktf.ComplexM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource saviynt_dynamic_attribute_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource saviynt_dynamic_attribute_resource}
 */
 export class DynamicAttributeResource extends cdktf.TerraformResource {
 
@@ -761,7 +761,7 @@ export class DynamicAttributeResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicAttributeResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicAttributeResource to import
-  * @param importFromId The id of the existing DynamicAttributeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicAttributeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicAttributeResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +773,7 @@ export class DynamicAttributeResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/dynamic_attribute_resource saviynt_dynamic_attribute_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/dynamic_attribute_resource saviynt_dynamic_attribute_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,8 +784,8 @@ export class DynamicAttributeResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_dynamic_attribute_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

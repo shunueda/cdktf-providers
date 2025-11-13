@@ -292,7 +292,8 @@ export class DataInfobloxIpv4RangeTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'infoblox_ipv4_range_template',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

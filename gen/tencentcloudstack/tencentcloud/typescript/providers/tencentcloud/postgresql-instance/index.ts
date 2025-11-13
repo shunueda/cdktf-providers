@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface PostgresqlInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto renew flag, `1` for enabled. NOTES: Only support prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#auto_renew_flag PostgresqlInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#auto_renew_flag PostgresqlInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to use voucher, `1` for enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#auto_voucher PostgresqlInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#auto_voucher PostgresqlInstance#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Availability zone. NOTE: This field could not be modified, please use `db_node_set` instead of modification. The changes on this field will be suppressed when using the `db_node_set`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#availability_zone PostgresqlInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#availability_zone PostgresqlInstance#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Pay type of the postgresql instance. Values `POSTPAID_BY_HOUR` (Default), `PREPAID`. It only support to update the type from `POSTPAID_BY_HOUR` to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#charge_type PostgresqlInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#charge_type PostgresqlInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Charset of the root account. Valid values are `UTF8`,`LATIN1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#charset PostgresqlInstance#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#charset PostgresqlInstance#charset}
   */
   readonly charset?: string;
   /**
   * Number of CPU cores. Allowed value must be equal `cpu` that data source `tencentcloud_postgresql_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#cpu PostgresqlInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#cpu PostgresqlInstance#cpu}
   */
   readonly cpu?: number;
   /**
   * PostgreSQL kernel version number. If it is specified, an instance running kernel DBKernelVersion will be created. It supports updating the minor kernel version immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#db_kernel_version PostgresqlInstance#db_kernel_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#db_kernel_version PostgresqlInstance#db_kernel_version}
   */
   readonly dbKernelVersion?: string;
   /**
   * PostgreSQL major version number. Valid values: 10, 11, 12, 13, 14, 15, 16. If it is specified, an instance running the latest kernel of PostgreSQL DBMajorVersion will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#db_major_version PostgresqlInstance#db_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#db_major_version PostgresqlInstance#db_major_version}
   */
   readonly dbMajorVersion?: string;
   /**
   * PostgreSQL major version number. Valid values: 10, 11, 12, 13, 14, 15, 16. If it is specified, an instance running the latest kernel of PostgreSQL DBMajorVersion will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#db_major_vesion PostgresqlInstance#db_major_vesion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#db_major_vesion PostgresqlInstance#db_major_vesion}
   */
   readonly dbMajorVesion?: string;
   /**
   * Whether to enable instance deletion protection. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#delete_protection PostgresqlInstance#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#delete_protection PostgresqlInstance#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Version of the postgresql database engine. Valid values: `10.4`, `10.17`, `10.23`, `11.8`, `11.12`, `11.22`, `12.4`, `12.7`, `12.18`, `13.3`, `14.2`, `14.11`, `15.1`, `16.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#engine_version PostgresqlInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#engine_version PostgresqlInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#id PostgresqlInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#id PostgresqlInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,133 +83,133 @@ export interface PostgresqlInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the cluster served by KMS. If KMSClusterId is blank, use the KMS of the default cluster. If you choose to specify a KMS cluster, you need to pass in KMSClusterId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#kms_cluster_id PostgresqlInstance#kms_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#kms_cluster_id PostgresqlInstance#kms_cluster_id}
   */
   readonly kmsClusterId?: string;
   /**
   * KeyId of the custom key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#kms_key_id PostgresqlInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#kms_key_id PostgresqlInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Region of the custom key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#kms_region PostgresqlInstance#kms_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#kms_region PostgresqlInstance#kms_region}
   */
   readonly kmsRegion?: string;
   /**
   * max_standby_archive_delay applies when WAL data is being read from WAL archive (and is therefore not current). Units are milliseconds if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#max_standby_archive_delay PostgresqlInstance#max_standby_archive_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#max_standby_archive_delay PostgresqlInstance#max_standby_archive_delay}
   */
   readonly maxStandbyArchiveDelay?: number;
   /**
   * max_standby_streaming_delay applies when WAL data is being received via streaming replication. Units are milliseconds if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#max_standby_streaming_delay PostgresqlInstance#max_standby_streaming_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#max_standby_streaming_delay PostgresqlInstance#max_standby_streaming_delay}
   */
   readonly maxStandbyStreamingDelay?: number;
   /**
   * Memory size(in GB). Allowed value must be larger than `memory` that data source `tencentcloud_postgresql_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#memory PostgresqlInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#memory PostgresqlInstance#memory}
   */
   readonly memory: number;
   /**
   * Name of the postgresql instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#name PostgresqlInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#name PostgresqlInstance#name}
   */
   readonly name: string;
   /**
   * Whether to support data transparent encryption, 1: yes, 0: no (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#need_support_tde PostgresqlInstance#need_support_tde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#need_support_tde PostgresqlInstance#need_support_tde}
   */
   readonly needSupportTde?: number;
   /**
   * Specify Prepaid period in month. Default `1`. Values: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`. This field is valid only when creating a `PREPAID` type instance, or updating the charge type from `POSTPAID_BY_HOUR` to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#period PostgresqlInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#period PostgresqlInstance#period}
   */
   readonly period?: number;
   /**
   * Project id, default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#project_id PostgresqlInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#project_id PostgresqlInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Indicates whether to enable the access to an instance from public network or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#public_access_switch PostgresqlInstance#public_access_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#public_access_switch PostgresqlInstance#public_access_switch}
   */
   readonly publicAccessSwitch?: boolean | cdktf.IResolvable;
   /**
   * Password of root account. This parameter can be specified when you purchase master instances, but it should be ignored when you purchase read-only instances or disaster recovery instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#root_password PostgresqlInstance#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#root_password PostgresqlInstance#root_password}
   */
   readonly rootPassword: string;
   /**
   * Instance root account name. This parameter is optional, Default value is `root`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#root_user PostgresqlInstance#root_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#root_user PostgresqlInstance#root_user}
   */
   readonly rootUser?: string;
   /**
   * ID of security group. If both vpc_id and subnet_id are not set, this argument should not be set either.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#security_groups PostgresqlInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#security_groups PostgresqlInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Volume size(in GB). Allowed value must be a multiple of 10. The storage must be set with the limit of `storage_min` and `storage_max` which data source `tencentcloud_postgresql_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#storage PostgresqlInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#storage PostgresqlInstance#storage}
   */
   readonly storage: number;
   /**
   * ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#subnet_id PostgresqlInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#subnet_id PostgresqlInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The available tags within this postgresql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#tags PostgresqlInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#tags PostgresqlInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specify Voucher Ids if `auto_voucher` was `1`, only support using 1 vouchers for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#voucher_ids PostgresqlInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#voucher_ids PostgresqlInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * ID of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#vpc_id PostgresqlInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#vpc_id PostgresqlInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Switch time after instance configurations are modified. `0`: Switch immediately; `2`: Switch during maintenance time window. Default: `0`. Note: This only takes effect when updating the `memory`, `storage`, `cpu`, `db_node_set`, `db_kernel_version` fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#wait_switch PostgresqlInstance#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#wait_switch PostgresqlInstance#wait_switch}
   */
   readonly waitSwitch?: number;
   /**
   * backup_plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#backup_plan PostgresqlInstance#backup_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#backup_plan PostgresqlInstance#backup_plan}
   */
   readonly backupPlan?: PostgresqlInstanceBackupPlan;
   /**
   * db_node_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#db_node_set PostgresqlInstance#db_node_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#db_node_set PostgresqlInstance#db_node_set}
   */
   readonly dbNodeSet?: PostgresqlInstanceDbNodeSet[] | cdktf.IResolvable;
 }
@@ -217,37 +217,37 @@ export interface PostgresqlInstanceBackupPlan {
   /**
   * List of backup period per week, available values: `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `sunday`. NOTE: At least specify two days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#backup_period PostgresqlInstance#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#backup_period PostgresqlInstance#backup_period}
   */
   readonly backupPeriod?: string[];
   /**
   * Specify days of the retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#base_backup_retention_period PostgresqlInstance#base_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#base_backup_retention_period PostgresqlInstance#base_backup_retention_period}
   */
   readonly baseBackupRetentionPeriod?: number;
   /**
   * Specify latest backup start time, format `hh:mm:ss`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#max_backup_start_time PostgresqlInstance#max_backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#max_backup_start_time PostgresqlInstance#max_backup_start_time}
   */
   readonly maxBackupStartTime?: string;
   /**
   * Specify earliest backup start time, format `hh:mm:ss`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#min_backup_start_time PostgresqlInstance#min_backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#min_backup_start_time PostgresqlInstance#min_backup_start_time}
   */
   readonly minBackupStartTime?: string;
   /**
   * If it is in monthly dimension, the format is numeric characters, such as ["1","2"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#monthly_backup_period PostgresqlInstance#monthly_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#monthly_backup_period PostgresqlInstance#monthly_backup_period}
   */
   readonly monthlyBackupPeriod?: string[];
   /**
   * Specify days of the retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#monthly_backup_retention_period PostgresqlInstance#monthly_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#monthly_backup_retention_period PostgresqlInstance#monthly_backup_retention_period}
   */
   readonly monthlyBackupRetentionPeriod?: number;
 }
@@ -483,19 +483,19 @@ export interface PostgresqlInstanceDbNodeSet {
   /**
   * Dedicated cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#dedicated_cluster_id PostgresqlInstance#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#dedicated_cluster_id PostgresqlInstance#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
   * Indicates node type, available values:`Primary`, `Standby`. Default: `Standby`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#role PostgresqlInstance#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#role PostgresqlInstance#role}
   */
   readonly role?: string;
   /**
   * Indicates the node available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#zone PostgresqlInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#zone PostgresqlInstance#zone}
   */
   readonly zone: string;
 }
@@ -666,7 +666,7 @@ export class PostgresqlInstanceDbNodeSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance tencentcloud_postgresql_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance tencentcloud_postgresql_instance}
 */
 export class PostgresqlInstance extends cdktf.TerraformResource {
 
@@ -682,7 +682,7 @@ export class PostgresqlInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlInstance to import
-  * @param importFromId The id of the existing PostgresqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -694,7 +694,7 @@ export class PostgresqlInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_instance tencentcloud_postgresql_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_instance tencentcloud_postgresql_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -705,8 +705,8 @@ export class PostgresqlInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

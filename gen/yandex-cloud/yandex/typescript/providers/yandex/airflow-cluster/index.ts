@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,145 @@ export interface AirflowClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password that is used to log in to Apache Airflow web UI under `admin` user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#admin_password AirflowCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#admin_password AirflowCluster#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Configuration of the Apache Airflow application itself. The value of this attribute is a two-level map. Keys of top-level map are the names of [configuration sections](https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html#airflow-configuration-options). Keys of inner maps are the names of configuration options within corresponding section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#airflow_config AirflowCluster#airflow_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#airflow_config AirflowCluster#airflow_config}
   */
   readonly airflowConfig?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * Apache Airflow version in format `<major>.<minor>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#airflow_version AirflowCluster#airflow_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#airflow_version AirflowCluster#airflow_version}
   */
   readonly airflowVersion?: string;
   /**
   * Parameters of the location and access to the code that will be executed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#code_sync AirflowCluster#code_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#code_sync AirflowCluster#code_sync}
   */
   readonly codeSync: AirflowClusterCodeSync;
   /**
+  * Configuration of dag-processor instances. Only for airflow version 3.*.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#dag_processor AirflowCluster#dag_processor}
+  */
+  readonly dagProcessor?: AirflowClusterDagProcessor;
+  /**
   * System packages that are installed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#deb_packages AirflowCluster#deb_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#deb_packages AirflowCluster#deb_packages}
   */
   readonly debPackages?: string[];
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#deletion_protection AirflowCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#deletion_protection AirflowCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#description AirflowCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#description AirflowCluster#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#folder_id AirflowCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#folder_id AirflowCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#labels AirflowCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#labels AirflowCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Configuration of Lockbox Secrets Backend. [See documentation](https://yandex.cloud/docs/managed-airflow/tutorials/lockbox-secrets-in-maf-cluster) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#lockbox_secrets_backend AirflowCluster#lockbox_secrets_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#lockbox_secrets_backend AirflowCluster#lockbox_secrets_backend}
   */
   readonly lockboxSecretsBackend?: AirflowClusterLockboxSecretsBackend;
   /**
   * Cloud Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#logging AirflowCluster#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#logging AirflowCluster#logging}
   */
   readonly logging?: AirflowClusterLogging;
   /**
   * Configuration of window for maintenance operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#maintenance_window AirflowCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#maintenance_window AirflowCluster#maintenance_window}
   */
   readonly maintenanceWindow?: AirflowClusterMaintenanceWindow;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#name AirflowCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#name AirflowCluster#name}
   */
   readonly name: string;
   /**
   * Python packages that are installed in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#pip_packages AirflowCluster#pip_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#pip_packages AirflowCluster#pip_packages}
   */
   readonly pipPackages?: string[];
   /**
   * Version of Python that Airflow will run on. Must be in format `<major>.<minor>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#python_version AirflowCluster#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#python_version AirflowCluster#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Configuration of scheduler instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#scheduler AirflowCluster#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#scheduler AirflowCluster#scheduler}
   */
   readonly scheduler: AirflowClusterScheduler;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#security_group_ids AirflowCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#security_group_ids AirflowCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource. For more information, see [documentation](https://yandex.cloud/docs/managed-airflow/concepts/impersonation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#service_account_id AirflowCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#service_account_id AirflowCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * The list of VPC subnets identifiers which resource is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#subnet_ids AirflowCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#subnet_ids AirflowCluster#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * Configuration of `triggerer` instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#triggerer AirflowCluster#triggerer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#triggerer AirflowCluster#triggerer}
   */
   readonly triggerer?: AirflowClusterTriggerer;
   /**
   * Configuration of `webserver` instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#webserver AirflowCluster#webserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#webserver AirflowCluster#webserver}
   */
   readonly webserver: AirflowClusterWebserver;
   /**
   * Configuration of worker instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#worker AirflowCluster#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#worker AirflowCluster#worker}
   */
   readonly worker: AirflowClusterWorker;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#timeouts AirflowCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#timeouts AirflowCluster#timeouts}
   */
   readonly timeouts?: AirflowClusterTimeouts;
 }
@@ -150,7 +156,7 @@ export interface AirflowClusterCodeSyncS3 {
   /**
   * The name of the Object Storage bucket that stores DAG files used in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#bucket AirflowCluster#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#bucket AirflowCluster#bucket}
   */
   readonly bucket: string;
 }
@@ -243,7 +249,7 @@ export interface AirflowClusterCodeSync {
   /**
   * Currently only Object Storage (S3) is supported as the source of DAG files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#s3 AirflowCluster#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#s3 AirflowCluster#s3}
   */
   readonly s3: AirflowClusterCodeSyncS3;
 }
@@ -332,11 +338,136 @@ export class AirflowClusterCodeSyncOutputReference extends cdktf.ComplexObject {
     return this._s3.internalValue;
   }
 }
+export interface AirflowClusterDagProcessor {
+  /**
+  * The number of dag-processor instances in the cluster.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#count AirflowCluster#count}
+  */
+  readonly count: number;
+  /**
+  * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
+  */
+  readonly resourcePresetId: string;
+}
+
+export function airflowClusterDagProcessorToTerraform(struct?: AirflowClusterDagProcessor | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    count: cdktf.numberToTerraform(struct!.count),
+    resource_preset_id: cdktf.stringToTerraform(struct!.resourcePresetId),
+  }
+}
+
+
+export function airflowClusterDagProcessorToHclTerraform(struct?: AirflowClusterDagProcessor | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    count: {
+      value: cdktf.numberToHclTerraform(struct!.count),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    resource_preset_id: {
+      value: cdktf.stringToHclTerraform(struct!.resourcePresetId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AirflowClusterDagProcessorOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AirflowClusterDagProcessor | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._count !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.count = this._count;
+    }
+    if (this._resourcePresetId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.resourcePresetId = this._resourcePresetId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AirflowClusterDagProcessor | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._count = undefined;
+      this._resourcePresetId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._count = value.count;
+      this._resourcePresetId = value.resourcePresetId;
+    }
+  }
+
+  // count - computed: false, optional: false, required: true
+  private _count?: number; 
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+  public set count(value: number) {
+    this._count = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countInput() {
+    return this._count;
+  }
+
+  // resource_preset_id - computed: false, optional: false, required: true
+  private _resourcePresetId?: string; 
+  public get resourcePresetId() {
+    return this.getStringAttribute('resource_preset_id');
+  }
+  public set resourcePresetId(value: string) {
+    this._resourcePresetId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourcePresetIdInput() {
+    return this._resourcePresetId;
+  }
+}
 export interface AirflowClusterLockboxSecretsBackend {
   /**
   * Enables usage of Lockbox Secrets Backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#enabled AirflowCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#enabled AirflowCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -429,25 +560,25 @@ export interface AirflowClusterLogging {
   /**
   * Enables delivery of logs generated by the Airflow components to [Cloud Logging](https://yandex.cloud/docs/logging/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#enabled AirflowCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#enabled AirflowCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Logs will be written to **default log group** of specified folder. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#folder_id AirflowCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#folder_id AirflowCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Logs will be written to the **specified log group**. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#log_group_id AirflowCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#log_group_id AirflowCluster#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum level of messages that will be sent to Cloud Logging. Can be either `TRACE`, `DEBUG`, `INFO`, `WARN`, `ERROR` or `FATAL`. If not set then server default is applied (currently `INFO`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#min_level AirflowCluster#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#min_level AirflowCluster#min_level}
   */
   readonly minLevel?: string;
 }
@@ -627,19 +758,19 @@ export interface AirflowClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window. One of `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#day AirflowCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#day AirflowCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#hour AirflowCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#hour AirflowCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. If `WEEKLY`, day and hour must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#type AirflowCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#type AirflowCluster#type}
   */
   readonly type?: string;
 }
@@ -793,13 +924,13 @@ export interface AirflowClusterScheduler {
   /**
   * The number of scheduler instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#count AirflowCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#count AirflowCluster#count}
   */
   readonly count: number;
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -918,13 +1049,13 @@ export interface AirflowClusterTriggerer {
   /**
   * The number of triggerer instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#count AirflowCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#count AirflowCluster#count}
   */
   readonly count: number;
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1043,13 +1174,13 @@ export interface AirflowClusterWebserver {
   /**
   * The number of webserver instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#count AirflowCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#count AirflowCluster#count}
   */
   readonly count: number;
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1168,19 +1299,19 @@ export interface AirflowClusterWorker {
   /**
   * The maximum number of worker instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#max_count AirflowCluster#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#max_count AirflowCluster#max_count}
   */
   readonly maxCount: number;
   /**
   * The minimum number of worker instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#min_count AirflowCluster#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#min_count AirflowCluster#min_count}
   */
   readonly minCount: number;
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#resource_preset_id AirflowCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1325,19 +1456,19 @@ export interface AirflowClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#create AirflowCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#create AirflowCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#delete AirflowCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#delete AirflowCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#update AirflowCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#update AirflowCluster#update}
   */
   readonly update?: string;
 }
@@ -1489,7 +1620,7 @@ export class AirflowClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster yandex_airflow_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster yandex_airflow_cluster}
 */
 export class AirflowCluster extends cdktf.TerraformResource {
 
@@ -1505,7 +1636,7 @@ export class AirflowCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AirflowCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AirflowCluster to import
-  * @param importFromId The id of the existing AirflowCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AirflowCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AirflowCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1517,7 +1648,7 @@ export class AirflowCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/airflow_cluster yandex_airflow_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/airflow_cluster yandex_airflow_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1528,8 +1659,8 @@ export class AirflowCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_airflow_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1543,6 +1674,7 @@ export class AirflowCluster extends cdktf.TerraformResource {
     this._airflowConfig = config.airflowConfig;
     this._airflowVersion = config.airflowVersion;
     this._codeSync.internalValue = config.codeSync;
+    this._dagProcessor.internalValue = config.dagProcessor;
     this._debPackages = config.debPackages;
     this._deletionProtection = config.deletionProtection;
     this._description = config.description;
@@ -1634,6 +1766,22 @@ export class AirflowCluster extends cdktf.TerraformResource {
     return this.getStringAttribute('created_at');
   }
 
+  // dag_processor - computed: false, optional: true, required: false
+  private _dagProcessor = new AirflowClusterDagProcessorOutputReference(this, "dag_processor");
+  public get dagProcessor() {
+    return this._dagProcessor;
+  }
+  public putDagProcessor(value: AirflowClusterDagProcessor) {
+    this._dagProcessor.internalValue = value;
+  }
+  public resetDagProcessor() {
+    this._dagProcessor.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dagProcessorInput() {
+    return this._dagProcessor.internalValue;
+  }
+
   // deb_packages - computed: false, optional: true, required: false
   private _debPackages?: string[]; 
   public get debPackages() {
@@ -1696,11 +1844,6 @@ export class AirflowCluster extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get folderIdInput() {
     return this._folderId;
-  }
-
-  // health - computed: true, optional: false, required: false
-  public get health() {
-    return this.getStringAttribute('health');
   }
 
   // id - computed: true, optional: false, required: false
@@ -1945,6 +2088,7 @@ export class AirflowCluster extends cdktf.TerraformResource {
       airflow_config: cdktf.hashMapper(cdktf.hashMapper(cdktf.stringToTerraform))(this._airflowConfig),
       airflow_version: cdktf.stringToTerraform(this._airflowVersion),
       code_sync: airflowClusterCodeSyncToTerraform(this._codeSync.internalValue),
+      dag_processor: airflowClusterDagProcessorToTerraform(this._dagProcessor.internalValue),
       deb_packages: cdktf.listMapper(cdktf.stringToTerraform, false)(this._debPackages),
       deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
       description: cdktf.stringToTerraform(this._description),
@@ -1992,6 +2136,12 @@ export class AirflowCluster extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "AirflowClusterCodeSync",
+      },
+      dag_processor: {
+        value: airflowClusterDagProcessorToHclTerraform(this._dagProcessor.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "AirflowClusterDagProcessor",
       },
       deb_packages: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._debPackages),

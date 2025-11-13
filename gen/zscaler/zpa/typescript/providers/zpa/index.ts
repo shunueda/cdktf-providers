@@ -6,6 +6,7 @@ export * as applicationSegmentBrowserAccess from './application-segment-browser-
 export * as applicationSegmentInspection from './application-segment-inspection';
 export * as applicationSegmentMultimatchBulk from './application-segment-multimatch-bulk';
 export * as applicationSegmentPra from './application-segment-pra';
+export * as applicationSegmentWeightedlbConfig from './application-segment-weightedlb-config';
 export * as applicationServer from './application-server';
 export * as baCertificate from './ba-certificate';
 export * as browserAccess from './browser-access';
@@ -60,6 +61,7 @@ export * as dataZpaApplicationSegmentByType from './data-zpa-application-segment
 export * as dataZpaApplicationSegmentInspection from './data-zpa-application-segment-inspection';
 export * as dataZpaApplicationSegmentMultimatchBulk from './data-zpa-application-segment-multimatch-bulk';
 export * as dataZpaApplicationSegmentPra from './data-zpa-application-segment-pra';
+export * as dataZpaApplicationSegmentWeightedlbConfig from './data-zpa-application-segment-weightedlb-config';
 export * as dataZpaApplicationServer from './data-zpa-application-server';
 export * as dataZpaBaCertificate from './data-zpa-ba-certificate';
 export * as dataZpaBranchConnectorGroup from './data-zpa-branch-connector-group';

@@ -529,6 +529,7 @@ Object.defineProperty(exports, 'kubernetesCluster', { get: function () { return 
 Object.defineProperty(exports, 'kubernetesClusterAttachment', { get: function () { return require('./kubernetes-cluster-attachment'); } });
 Object.defineProperty(exports, 'kubernetesClusterEndpoint', { get: function () { return require('./kubernetes-cluster-endpoint'); } });
 Object.defineProperty(exports, 'kubernetesClusterMasterAttachment', { get: function () { return require('./kubernetes-cluster-master-attachment'); } });
+Object.defineProperty(exports, 'kubernetesClusterRelease', { get: function () { return require('./kubernetes-cluster-release'); } });
 Object.defineProperty(exports, 'kubernetesEncryptionProtection', { get: function () { return require('./kubernetes-encryption-protection'); } });
 Object.defineProperty(exports, 'kubernetesHealthCheckPolicy', { get: function () { return require('./kubernetes-health-check-policy'); } });
 Object.defineProperty(exports, 'kubernetesLogConfig', { get: function () { return require('./kubernetes-log-config'); } });
@@ -714,6 +715,7 @@ Object.defineProperty(exports, 'oceanusStopJob', { get: function () { return req
 Object.defineProperty(exports, 'oceanusTriggerJobSavepoint', { get: function () { return require('./oceanus-trigger-job-savepoint'); } });
 Object.defineProperty(exports, 'oceanusWorkSpace', { get: function () { return require('./oceanus-work-space'); } });
 Object.defineProperty(exports, 'openIdentityCenterOperation', { get: function () { return require('./open-identity-center-operation'); } });
+Object.defineProperty(exports, 'organizationExternalSamlIdentityProvider', { get: function () { return require('./organization-external-saml-identity-provider'); } });
 Object.defineProperty(exports, 'organizationInstance', { get: function () { return require('./organization-instance'); } });
 Object.defineProperty(exports, 'organizationMemberAuthPolicyAttachment', { get: function () { return require('./organization-member-auth-policy-attachment'); } });
 Object.defineProperty(exports, 'organizationOrgIdentity', { get: function () { return require('./organization-org-identity'); } });
@@ -941,7 +943,9 @@ Object.defineProperty(exports, 'tcrTagRetentionRule', { get: function () { retur
 Object.defineProperty(exports, 'tcrToken', { get: function () { return require('./tcr-token'); } });
 Object.defineProperty(exports, 'tcrVpcAttachment', { get: function () { return require('./tcr-vpc-attachment'); } });
 Object.defineProperty(exports, 'tcrWebhookTrigger', { get: function () { return require('./tcr-webhook-trigger'); } });
+Object.defineProperty(exports, 'tcssClusterAccess', { get: function () { return require('./tcss-cluster-access'); } });
 Object.defineProperty(exports, 'tcssImageRegistry', { get: function () { return require('./tcss-image-registry'); } });
+Object.defineProperty(exports, 'tcssRefreshTaskOperation', { get: function () { return require('./tcss-refresh-task-operation'); } });
 Object.defineProperty(exports, 'tdcpgCluster', { get: function () { return require('./tdcpg-cluster'); } });
 Object.defineProperty(exports, 'tdcpgInstance', { get: function () { return require('./tdcpg-instance'); } });
 Object.defineProperty(exports, 'tdmqInstance', { get: function () { return require('./tdmq-instance'); } });

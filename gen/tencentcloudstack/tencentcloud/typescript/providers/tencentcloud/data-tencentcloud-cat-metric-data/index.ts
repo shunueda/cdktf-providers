@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataTencentcloudCatMetricDataConfig extends cdktf.TerraformMeta
   /**
   * Analysis of task type, supported types: `AnalyzeTaskType_Network`: network quality, `AnalyzeTaskType_Browse`: page performance, `AnalyzeTaskType_Transport`: port performance, `AnalyzeTaskType_UploadDownload`: file transport, `AnalyzeTaskType_MediaStream`: audiovisual experience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#analyze_task_type DataTencentcloudCatMetricData#analyze_task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#analyze_task_type DataTencentcloudCatMetricData#analyze_task_type}
   */
   readonly analyzeTaskType: string;
   /**
   * Detailed fields of metrics, specified metrics can be passed or aggregate metrics, such as avg(ping_time) means entire delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#field DataTencentcloudCatMetricData#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#field DataTencentcloudCatMetricData#field}
   */
   readonly field: string;
   /**
   * Filter conditions can be passed as a single filter or multiple parameters concatenated together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#filter DataTencentcloudCatMetricData#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#filter DataTencentcloudCatMetricData#filter}
   */
   readonly filter?: string;
   /**
   * Multiple condition filtering, supports combining multiple filtering conditions for query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#filters DataTencentcloudCatMetricData#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#filters DataTencentcloudCatMetricData#filters}
   */
   readonly filters: string[];
   /**
   * Aggregation time, such as 1m, 1d, 30d, and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#group_by DataTencentcloudCatMetricData#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#group_by DataTencentcloudCatMetricData#group_by}
   */
   readonly groupBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#id DataTencentcloudCatMetricData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#id DataTencentcloudCatMetricData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,19 @@ export interface DataTencentcloudCatMetricDataConfig extends cdktf.TerraformMeta
   /**
   * Metric type, metrics queries are passed with gauge by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#metric_type DataTencentcloudCatMetricData#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#metric_type DataTencentcloudCatMetricData#metric_type}
   */
   readonly metricType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#result_output_file DataTencentcloudCatMetricData#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#result_output_file DataTencentcloudCatMetricData#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data tencentcloud_cat_metric_data}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data tencentcloud_cat_metric_data}
 */
 export class DataTencentcloudCatMetricData extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataTencentcloudCatMetricData extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCatMetricData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCatMetricData to import
-  * @param importFromId The id of the existing DataTencentcloudCatMetricData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCatMetricData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCatMetricData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataTencentcloudCatMetricData extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/cat_metric_data tencentcloud_cat_metric_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/cat_metric_data tencentcloud_cat_metric_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataTencentcloudCatMetricData extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cat_metric_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

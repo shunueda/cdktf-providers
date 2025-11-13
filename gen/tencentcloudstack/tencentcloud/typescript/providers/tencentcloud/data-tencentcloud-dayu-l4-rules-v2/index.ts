@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDayuL4RulesV2Config extends cdktf.TerraformMeta
   /**
   * Type of the resource that the layer 4 rule works for, valid values are `bgpip`, `bgp`, `bgp-multip` and `net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#business DataTencentcloudDayuL4RulesV2#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#business DataTencentcloudDayuL4RulesV2#business}
   */
   readonly business: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#id DataTencentcloudDayuL4RulesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#id DataTencentcloudDayuL4RulesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudDayuL4RulesV2Config extends cdktf.TerraformMeta
   /**
   * Ip of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#ip DataTencentcloudDayuL4RulesV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#ip DataTencentcloudDayuL4RulesV2#ip}
   */
   readonly ip?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#result_output_file DataTencentcloudDayuL4RulesV2#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#result_output_file DataTencentcloudDayuL4RulesV2#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Virtual port of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#virtual_port DataTencentcloudDayuL4RulesV2#virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#virtual_port DataTencentcloudDayuL4RulesV2#virtual_port}
   */
   readonly virtualPort?: number;
 }
@@ -267,7 +267,7 @@ export class DataTencentcloudDayuL4RulesV2ListStructList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2 tencentcloud_dayu_l4_rules_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2 tencentcloud_dayu_l4_rules_v2}
 */
 export class DataTencentcloudDayuL4RulesV2 extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataTencentcloudDayuL4RulesV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDayuL4RulesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDayuL4RulesV2 to import
-  * @param importFromId The id of the existing DataTencentcloudDayuL4RulesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDayuL4RulesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDayuL4RulesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataTencentcloudDayuL4RulesV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dayu_l4_rules_v2 tencentcloud_dayu_l4_rules_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dayu_l4_rules_v2 tencentcloud_dayu_l4_rules_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataTencentcloudDayuL4RulesV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dayu_l4_rules_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

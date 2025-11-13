@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface PolicyCredentialRuleConfig extends cdktf.TerraformMetaArguments
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#action PolicyCredentialRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#action PolicyCredentialRule#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#description PolicyCredentialRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#description PolicyCredentialRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#microtenant_id PolicyCredentialRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#microtenant_id PolicyCredentialRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#name PolicyCredentialRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#name PolicyCredentialRule#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#conditions PolicyCredentialRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#conditions PolicyCredentialRule#conditions}
   */
   readonly conditions?: PolicyCredentialRuleConditions[] | cdktf.IResolvable;
   /**
   * credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#credential PolicyCredentialRule#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#credential PolicyCredentialRule#credential}
   */
   readonly credential?: PolicyCredentialRuleCredential[] | cdktf.IResolvable;
   /**
   * credential_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#credential_pool PolicyCredentialRule#credential_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#credential_pool PolicyCredentialRule#credential_pool}
   */
   readonly credentialPool?: PolicyCredentialRuleCredentialPool[] | cdktf.IResolvable;
 }
 export interface PolicyCredentialRuleConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#lhs PolicyCredentialRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#lhs PolicyCredentialRule#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#rhs PolicyCredentialRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#rhs PolicyCredentialRule#rhs}
   */
   readonly rhs?: string;
 }
@@ -201,19 +201,19 @@ export interface PolicyCredentialRuleConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#object_type PolicyCredentialRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#object_type PolicyCredentialRule#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#values PolicyCredentialRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#values PolicyCredentialRule#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#entry_values PolicyCredentialRule#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#entry_values PolicyCredentialRule#entry_values}
   */
   readonly entryValues?: PolicyCredentialRuleConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -387,13 +387,13 @@ export class PolicyCredentialRuleConditionsOperandsList extends cdktf.ComplexLis
 }
 export interface PolicyCredentialRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#operator PolicyCredentialRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#operator PolicyCredentialRule#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#operands PolicyCredentialRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#operands PolicyCredentialRule#operands}
   */
   readonly operands?: PolicyCredentialRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -543,7 +543,7 @@ export class PolicyCredentialRuleConditionsList extends cdktf.ComplexList {
 }
 export interface PolicyCredentialRuleCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#id PolicyCredentialRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#id PolicyCredentialRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -662,7 +662,7 @@ export class PolicyCredentialRuleCredentialList extends cdktf.ComplexList {
 }
 export interface PolicyCredentialRuleCredentialPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#id PolicyCredentialRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#id PolicyCredentialRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -781,7 +781,7 @@ export class PolicyCredentialRuleCredentialPoolList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule zpa_policy_credential_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule zpa_policy_credential_rule}
 */
 export class PolicyCredentialRule extends cdktf.TerraformResource {
 
@@ -797,7 +797,7 @@ export class PolicyCredentialRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyCredentialRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyCredentialRule to import
-  * @param importFromId The id of the existing PolicyCredentialRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyCredentialRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyCredentialRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -809,7 +809,7 @@ export class PolicyCredentialRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_credential_rule zpa_policy_credential_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_credential_rule zpa_policy_credential_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,8 +820,8 @@ export class PolicyCredentialRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_credential_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

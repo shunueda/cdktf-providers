@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlbVirtualHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of domains (host/authority header) that will be matched to this virtual host. Wildcard hosts are supported in the form of '*.foo.com' or '*-bar.foo.com'. If not specified, all domains will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#authority AlbVirtualHost#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#authority AlbVirtualHost#authority}
   */
   readonly authority?: string[];
   /**
   * The ID of the HTTP router to which the virtual host belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#http_router_id AlbVirtualHost#http_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#http_router_id AlbVirtualHost#http_router_id}
   */
   readonly httpRouterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#id AlbVirtualHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#id AlbVirtualHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface AlbVirtualHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name: string;
   /**
   * modify_request_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#modify_request_headers AlbVirtualHost#modify_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#modify_request_headers AlbVirtualHost#modify_request_headers}
   */
   readonly modifyRequestHeaders?: AlbVirtualHostModifyRequestHeaders[] | cdktf.IResolvable;
   /**
   * modify_response_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#modify_response_headers AlbVirtualHost#modify_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#modify_response_headers AlbVirtualHost#modify_response_headers}
   */
   readonly modifyResponseHeaders?: AlbVirtualHostModifyResponseHeaders[] | cdktf.IResolvable;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
   */
   readonly rateLimit?: AlbVirtualHostRateLimit;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#route AlbVirtualHost#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#route AlbVirtualHost#route}
   */
   readonly route?: AlbVirtualHostRoute[] | cdktf.IResolvable;
   /**
   * route_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#route_options AlbVirtualHost#route_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#route_options AlbVirtualHost#route_options}
   */
   readonly routeOptions?: AlbVirtualHostRouteOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#timeouts AlbVirtualHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#timeouts AlbVirtualHost#timeouts}
   */
   readonly timeouts?: AlbVirtualHostTimeouts;
 }
@@ -73,25 +73,25 @@ export interface AlbVirtualHostModifyRequestHeaders {
   /**
   * Append string to the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#append AlbVirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#append AlbVirtualHost#append}
   */
   readonly append?: string;
   /**
   * Name of the header to modify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name: string;
   /**
   * If set, remove the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#remove AlbVirtualHost#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#remove AlbVirtualHost#remove}
   */
   readonly remove?: boolean | cdktf.IResolvable;
   /**
   * New value for a header. Header values support the following [formatters](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_conn_man/headers#custom-request-response-headers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace AlbVirtualHost#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace AlbVirtualHost#replace}
   */
   readonly replace?: string;
 }
@@ -293,25 +293,25 @@ export interface AlbVirtualHostModifyResponseHeaders {
   /**
   * Append string to the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#append AlbVirtualHost#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#append AlbVirtualHost#append}
   */
   readonly append?: string;
   /**
   * Name of the header to modify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name: string;
   /**
   * If set, remove the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#remove AlbVirtualHost#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#remove AlbVirtualHost#remove}
   */
   readonly remove?: boolean | cdktf.IResolvable;
   /**
   * New value for a header. Header values support the following [formatters](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_conn_man/headers#custom-request-response-headers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace AlbVirtualHost#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace AlbVirtualHost#replace}
   */
   readonly replace?: string;
 }
@@ -513,13 +513,13 @@ export interface AlbVirtualHostRateLimitAllRequests {
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -634,13 +634,13 @@ export interface AlbVirtualHostRateLimitRequestsPerIp {
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -755,13 +755,13 @@ export interface AlbVirtualHostRateLimit {
   /**
   * all_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
   */
   readonly allRequests?: AlbVirtualHostRateLimitAllRequests;
   /**
   * requests_per_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
   */
   readonly requestsPerIp?: AlbVirtualHostRateLimitRequestsPerIp;
 }
@@ -876,19 +876,19 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcMatchFqmn {
   /**
   * Match exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
   */
   readonly exact?: string;
   /**
   * Match prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
   */
   readonly prefix?: string;
   /**
   * Match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
   */
   readonly regex?: string;
 }
@@ -1032,7 +1032,7 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcMatch {
   /**
   * fqmn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#fqmn AlbVirtualHost#fqmn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#fqmn AlbVirtualHost#fqmn}
   */
   readonly fqmn?: AlbVirtualHostRouteGrpcRouteGrpcMatchFqmn;
 }
@@ -1150,13 +1150,13 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimitAllRequests
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -1271,13 +1271,13 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimitRequestsPer
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -1392,13 +1392,13 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimit {
   /**
   * all_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
   */
   readonly allRequests?: AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimitAllRequests;
   /**
   * requests_per_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
   */
   readonly requestsPerIp?: AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimitRequestsPerIp;
 }
@@ -1513,37 +1513,37 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcRouteAction {
   /**
   * If set, will automatically rewrite host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#auto_host_rewrite AlbVirtualHost#auto_host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#auto_host_rewrite AlbVirtualHost#auto_host_rewrite}
   */
   readonly autoHostRewrite?: boolean | cdktf.IResolvable;
   /**
   * Backend group to route requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#backend_group_id AlbVirtualHost#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#backend_group_id AlbVirtualHost#backend_group_id}
   */
   readonly backendGroupId: string;
   /**
   * Host rewrite specifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#host_rewrite AlbVirtualHost#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#host_rewrite AlbVirtualHost#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
   * Specifies the idle timeout (time without any data transfer for the active request) for the route. It is useful for streaming scenarios - one should set idle_timeout to something meaningful and max_timeout to the maximum time the stream is allowed to be alive. If not specified, there is no per-route idle timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#idle_timeout AlbVirtualHost#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#idle_timeout AlbVirtualHost#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * Lower timeout may be specified by the client (using grpc-timeout header). If not set, default is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#max_timeout AlbVirtualHost#max_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#max_timeout AlbVirtualHost#max_timeout}
   */
   readonly maxTimeout?: string;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
   */
   readonly rateLimit?: AlbVirtualHostRouteGrpcRouteGrpcRouteActionRateLimit;
 }
@@ -1771,7 +1771,7 @@ export interface AlbVirtualHostRouteGrpcRouteGrpcStatusResponseAction {
   /**
   * The status of the response. Supported values are: ok, invalid_argumet, not_found, permission_denied, unauthenticated, unimplemented, internal, unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#status AlbVirtualHost#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#status AlbVirtualHost#status}
   */
   readonly status?: string;
 }
@@ -1857,19 +1857,19 @@ export interface AlbVirtualHostRouteGrpcRoute {
   /**
   * grpc_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#grpc_match AlbVirtualHost#grpc_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#grpc_match AlbVirtualHost#grpc_match}
   */
   readonly grpcMatch?: AlbVirtualHostRouteGrpcRouteGrpcMatch[] | cdktf.IResolvable;
   /**
   * grpc_route_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#grpc_route_action AlbVirtualHost#grpc_route_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#grpc_route_action AlbVirtualHost#grpc_route_action}
   */
   readonly grpcRouteAction?: AlbVirtualHostRouteGrpcRouteGrpcRouteAction;
   /**
   * grpc_status_response_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#grpc_status_response_action AlbVirtualHost#grpc_status_response_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#grpc_status_response_action AlbVirtualHost#grpc_status_response_action}
   */
   readonly grpcStatusResponseAction?: AlbVirtualHostRouteGrpcRouteGrpcStatusResponseAction;
 }
@@ -2013,13 +2013,13 @@ export interface AlbVirtualHostRouteHttpRouteDirectResponseAction {
   /**
   * Response body text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#body AlbVirtualHost#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#body AlbVirtualHost#body}
   */
   readonly body?: string;
   /**
   * HTTP response status. Should be between `100` and `599`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#status AlbVirtualHost#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#status AlbVirtualHost#status}
   */
   readonly status?: number;
 }
@@ -2134,19 +2134,19 @@ export interface AlbVirtualHostRouteHttpRouteHttpMatchPath {
   /**
   * Match exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
   */
   readonly exact?: string;
   /**
   * Match prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
   */
   readonly prefix?: string;
   /**
   * Match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
   */
   readonly regex?: string;
 }
@@ -2290,13 +2290,13 @@ export interface AlbVirtualHostRouteHttpRouteHttpMatch {
   /**
   * List of methods (strings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#http_method AlbVirtualHost#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#http_method AlbVirtualHost#http_method}
   */
   readonly httpMethod?: string[];
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#path AlbVirtualHost#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#path AlbVirtualHost#path}
   */
   readonly path?: AlbVirtualHostRouteHttpRouteHttpMatchPath;
 }
@@ -2443,13 +2443,13 @@ export interface AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimitAllRequests
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -2564,13 +2564,13 @@ export interface AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimitRequestsPer
   /**
   * Limit value specified with per minute time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_minute AlbVirtualHost#per_minute}
   */
   readonly perMinute?: number;
   /**
   * Limit value specified with per second time unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#per_second AlbVirtualHost#per_second}
   */
   readonly perSecond?: number;
 }
@@ -2685,13 +2685,13 @@ export interface AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimit {
   /**
   * all_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#all_requests AlbVirtualHost#all_requests}
   */
   readonly allRequests?: AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimitAllRequests;
   /**
   * requests_per_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#requests_per_ip AlbVirtualHost#requests_per_ip}
   */
   readonly requestsPerIp?: AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimitRequestsPerIp;
 }
@@ -2806,13 +2806,13 @@ export interface AlbVirtualHostRouteHttpRouteHttpRouteActionRegexRewrite {
   /**
   * RE2 regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
   */
   readonly regex?: string;
   /**
   * The string which should be used to substitute matched substrings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#substitute AlbVirtualHost#substitute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#substitute AlbVirtualHost#substitute}
   */
   readonly substitute?: string;
 }
@@ -2927,55 +2927,55 @@ export interface AlbVirtualHostRouteHttpRouteHttpRouteAction {
   /**
   * If set, will automatically rewrite host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#auto_host_rewrite AlbVirtualHost#auto_host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#auto_host_rewrite AlbVirtualHost#auto_host_rewrite}
   */
   readonly autoHostRewrite?: boolean | cdktf.IResolvable;
   /**
   * Backend group to route requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#backend_group_id AlbVirtualHost#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#backend_group_id AlbVirtualHost#backend_group_id}
   */
   readonly backendGroupId: string;
   /**
   * Host rewrite specifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#host_rewrite AlbVirtualHost#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#host_rewrite AlbVirtualHost#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
   * Specifies the idle timeout (time without any data transfer for the active request) for the route. It is useful for streaming scenarios (i.e. long-polling, server-sent events) - one should set idle_timeout to something meaningful and timeout to the maximum time the stream is allowed to be alive. If not specified, there is no per-route idle timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#idle_timeout AlbVirtualHost#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#idle_timeout AlbVirtualHost#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * If not empty, matched path prefix will be replaced by this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#prefix_rewrite AlbVirtualHost#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#prefix_rewrite AlbVirtualHost#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
   * Specifies the request timeout (overall time request processing is allowed to take) for the route. If not set, default is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#timeout AlbVirtualHost#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#timeout AlbVirtualHost#timeout}
   */
   readonly timeout?: string;
   /**
   * List of upgrade types. Only specified upgrade types will be allowed. For example, `websocket`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#upgrade_types AlbVirtualHost#upgrade_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#upgrade_types AlbVirtualHost#upgrade_types}
   */
   readonly upgradeTypes?: string[];
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#rate_limit AlbVirtualHost#rate_limit}
   */
   readonly rateLimit?: AlbVirtualHostRouteHttpRouteHttpRouteActionRateLimit;
   /**
   * regex_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex_rewrite AlbVirtualHost#regex_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex_rewrite AlbVirtualHost#regex_rewrite}
   */
   readonly regexRewrite?: AlbVirtualHostRouteHttpRouteHttpRouteActionRegexRewrite;
 }
@@ -3290,43 +3290,43 @@ export interface AlbVirtualHostRouteHttpRouteRedirectAction {
   /**
   * If set, remove query part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#remove_query AlbVirtualHost#remove_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#remove_query AlbVirtualHost#remove_query}
   */
   readonly removeQuery?: boolean | cdktf.IResolvable;
   /**
   * Replaces hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace_host AlbVirtualHost#replace_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace_host AlbVirtualHost#replace_host}
   */
   readonly replaceHost?: string;
   /**
   * Replace path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace_path AlbVirtualHost#replace_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace_path AlbVirtualHost#replace_path}
   */
   readonly replacePath?: string;
   /**
   * Replaces port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace_port AlbVirtualHost#replace_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace_port AlbVirtualHost#replace_port}
   */
   readonly replacePort?: number;
   /**
   * Replace only matched prefix. Example:<br/> match:{ prefix_match: `/some` } <br/> redirect: { replace_prefix: `/other` } <br/> will redirect `/something` to `/otherthing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace_prefix AlbVirtualHost#replace_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace_prefix AlbVirtualHost#replace_prefix}
   */
   readonly replacePrefix?: string;
   /**
   * Replaces scheme. If the original scheme is `http` or `https`, will also remove the 80 or 443 port, if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#replace_scheme AlbVirtualHost#replace_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#replace_scheme AlbVirtualHost#replace_scheme}
   */
   readonly replaceScheme?: string;
   /**
   * The HTTP status code to use in the redirect response. Supported values are: `moved_permanently`, `found`, `see_other`, `temporary_redirect`, `permanent_redirect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#response_code AlbVirtualHost#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#response_code AlbVirtualHost#response_code}
   */
   readonly responseCode?: string;
 }
@@ -3586,25 +3586,25 @@ export interface AlbVirtualHostRouteHttpRoute {
   /**
   * direct_response_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#direct_response_action AlbVirtualHost#direct_response_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#direct_response_action AlbVirtualHost#direct_response_action}
   */
   readonly directResponseAction?: AlbVirtualHostRouteHttpRouteDirectResponseAction;
   /**
   * http_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#http_match AlbVirtualHost#http_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#http_match AlbVirtualHost#http_match}
   */
   readonly httpMatch?: AlbVirtualHostRouteHttpRouteHttpMatch[] | cdktf.IResolvable;
   /**
   * http_route_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#http_route_action AlbVirtualHost#http_route_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#http_route_action AlbVirtualHost#http_route_action}
   */
   readonly httpRouteAction?: AlbVirtualHostRouteHttpRouteHttpRouteAction;
   /**
   * redirect_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#redirect_action AlbVirtualHost#redirect_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#redirect_action AlbVirtualHost#redirect_action}
   */
   readonly redirectAction?: AlbVirtualHostRouteHttpRouteRedirectAction;
 }
@@ -3777,19 +3777,19 @@ export interface AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeade
   /**
   * Match exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
   */
   readonly exact?: string;
   /**
   * Match prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
   */
   readonly prefix?: string;
   /**
   * Match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
   */
   readonly regex?: string;
 }
@@ -3931,13 +3931,13 @@ export class AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeaderVal
 }
 export interface AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#value AlbVirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#value AlbVirtualHost#value}
   */
   readonly value?: AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeaderValue;
 }
@@ -4047,17 +4047,17 @@ export class AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeaderOut
 }
 export interface AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#any AlbVirtualHost#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#any AlbVirtualHost#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#remote_ip AlbVirtualHost#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#remote_ip AlbVirtualHost#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#header AlbVirtualHost#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#header AlbVirtualHost#header}
   */
   readonly header?: AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipalsHeader;
 }
@@ -4233,7 +4233,7 @@ export interface AlbVirtualHostRouteRouteOptionsRbacPrincipals {
   /**
   * and_principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#and_principals AlbVirtualHost#and_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#and_principals AlbVirtualHost#and_principals}
   */
   readonly andPrincipals: AlbVirtualHostRouteRouteOptionsRbacPrincipalsAndPrincipals[] | cdktf.IResolvable;
 }
@@ -4346,13 +4346,13 @@ export class AlbVirtualHostRouteRouteOptionsRbacPrincipalsList extends cdktf.Com
 }
 export interface AlbVirtualHostRouteRouteOptionsRbac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#action AlbVirtualHost#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#action AlbVirtualHost#action}
   */
   readonly action?: string;
   /**
   * principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#principals AlbVirtualHost#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#principals AlbVirtualHost#principals}
   */
   readonly principals: AlbVirtualHostRouteRouteOptionsRbacPrincipals[] | cdktf.IResolvable;
 }
@@ -4464,13 +4464,13 @@ export interface AlbVirtualHostRouteRouteOptions {
   /**
   * SWS profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#security_profile_id AlbVirtualHost#security_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#security_profile_id AlbVirtualHost#security_profile_id}
   */
   readonly securityProfileId?: string;
   /**
   * rbac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#rbac AlbVirtualHost#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#rbac AlbVirtualHost#rbac}
   */
   readonly rbac?: AlbVirtualHostRouteRouteOptionsRbac;
 }
@@ -4585,31 +4585,31 @@ export interface AlbVirtualHostRoute {
   /**
   * Disables security profile for the route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#disable_security_profile AlbVirtualHost#disable_security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#disable_security_profile AlbVirtualHost#disable_security_profile}
   */
   readonly disableSecurityProfile?: boolean | cdktf.IResolvable;
   /**
   * Name of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name?: string;
   /**
   * grpc_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#grpc_route AlbVirtualHost#grpc_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#grpc_route AlbVirtualHost#grpc_route}
   */
   readonly grpcRoute?: AlbVirtualHostRouteGrpcRoute;
   /**
   * http_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#http_route AlbVirtualHost#http_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#http_route AlbVirtualHost#http_route}
   */
   readonly httpRoute?: AlbVirtualHostRouteHttpRoute;
   /**
   * route_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#route_options AlbVirtualHost#route_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#route_options AlbVirtualHost#route_options}
   */
   readonly routeOptions?: AlbVirtualHostRouteRouteOptions;
 }
@@ -4843,19 +4843,19 @@ export interface AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeaderValu
   /**
   * Match exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#exact AlbVirtualHost#exact}
   */
   readonly exact?: string;
   /**
   * Match prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#prefix AlbVirtualHost#prefix}
   */
   readonly prefix?: string;
   /**
   * Match regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#regex AlbVirtualHost#regex}
   */
   readonly regex?: string;
 }
@@ -4997,13 +4997,13 @@ export class AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeaderValueOut
 }
 export interface AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#name AlbVirtualHost#name}
   */
   readonly name: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#value AlbVirtualHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#value AlbVirtualHost#value}
   */
   readonly value?: AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeaderValue;
 }
@@ -5113,17 +5113,17 @@ export class AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeaderOutputRe
 }
 export interface AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#any AlbVirtualHost#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#any AlbVirtualHost#any}
   */
   readonly any?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#remote_ip AlbVirtualHost#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#remote_ip AlbVirtualHost#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#header AlbVirtualHost#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#header AlbVirtualHost#header}
   */
   readonly header?: AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipalsHeader;
 }
@@ -5299,7 +5299,7 @@ export interface AlbVirtualHostRouteOptionsRbacPrincipals {
   /**
   * and_principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#and_principals AlbVirtualHost#and_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#and_principals AlbVirtualHost#and_principals}
   */
   readonly andPrincipals: AlbVirtualHostRouteOptionsRbacPrincipalsAndPrincipals[] | cdktf.IResolvable;
 }
@@ -5412,13 +5412,13 @@ export class AlbVirtualHostRouteOptionsRbacPrincipalsList extends cdktf.ComplexL
 }
 export interface AlbVirtualHostRouteOptionsRbac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#action AlbVirtualHost#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#action AlbVirtualHost#action}
   */
   readonly action?: string;
   /**
   * principals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#principals AlbVirtualHost#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#principals AlbVirtualHost#principals}
   */
   readonly principals: AlbVirtualHostRouteOptionsRbacPrincipals[] | cdktf.IResolvable;
 }
@@ -5530,13 +5530,13 @@ export interface AlbVirtualHostRouteOptions {
   /**
   * SWS profile ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#security_profile_id AlbVirtualHost#security_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#security_profile_id AlbVirtualHost#security_profile_id}
   */
   readonly securityProfileId?: string;
   /**
   * rbac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#rbac AlbVirtualHost#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#rbac AlbVirtualHost#rbac}
   */
   readonly rbac?: AlbVirtualHostRouteOptionsRbac;
 }
@@ -5649,15 +5649,15 @@ export class AlbVirtualHostRouteOptionsOutputReference extends cdktf.ComplexObje
 }
 export interface AlbVirtualHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#create AlbVirtualHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#create AlbVirtualHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#delete AlbVirtualHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#delete AlbVirtualHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#update AlbVirtualHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#update AlbVirtualHost#update}
   */
   readonly update?: string;
 }
@@ -5809,7 +5809,7 @@ export class AlbVirtualHostTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host yandex_alb_virtual_host}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host yandex_alb_virtual_host}
 */
 export class AlbVirtualHost extends cdktf.TerraformResource {
 
@@ -5825,7 +5825,7 @@ export class AlbVirtualHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbVirtualHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbVirtualHost to import
-  * @param importFromId The id of the existing AlbVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbVirtualHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbVirtualHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5837,7 +5837,7 @@ export class AlbVirtualHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/alb_virtual_host yandex_alb_virtual_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/alb_virtual_host yandex_alb_virtual_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5848,8 +5848,8 @@ export class AlbVirtualHost extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_alb_virtual_host',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

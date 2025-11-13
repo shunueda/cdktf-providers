@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface YdbDatabaseServerlessConfig extends cdktf.TerraformMetaArgument
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#deletion_protection YdbDatabaseServerless#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#deletion_protection YdbDatabaseServerless#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#description YdbDatabaseServerless#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#description YdbDatabaseServerless#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#folder_id YdbDatabaseServerless#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#folder_id YdbDatabaseServerless#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#id YdbDatabaseServerless#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#id YdbDatabaseServerless#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface YdbDatabaseServerlessConfig extends cdktf.TerraformMetaArgument
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#labels YdbDatabaseServerless#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#labels YdbDatabaseServerless#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location ID for the Yandex Database serverless cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#location_id YdbDatabaseServerless#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#location_id YdbDatabaseServerless#location_id}
   */
   readonly locationId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#name YdbDatabaseServerless#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#name YdbDatabaseServerless#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#sleep_after YdbDatabaseServerless#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#sleep_after YdbDatabaseServerless#sleep_after}
   */
   readonly sleepAfter?: number;
   /**
   * serverless_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#serverless_database YdbDatabaseServerless#serverless_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#serverless_database YdbDatabaseServerless#serverless_database}
   */
   readonly serverlessDatabase?: YdbDatabaseServerlessServerlessDatabase[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#timeouts YdbDatabaseServerless#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#timeouts YdbDatabaseServerless#timeouts}
   */
   readonly timeouts?: YdbDatabaseServerlessTimeouts;
 }
 export interface YdbDatabaseServerlessServerlessDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#enable_throttling_rcu_limit YdbDatabaseServerless#enable_throttling_rcu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#enable_throttling_rcu_limit YdbDatabaseServerless#enable_throttling_rcu_limit}
   */
   readonly enableThrottlingRcuLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#provisioned_rcu_limit YdbDatabaseServerless#provisioned_rcu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#provisioned_rcu_limit YdbDatabaseServerless#provisioned_rcu_limit}
   */
   readonly provisionedRcuLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#storage_size_limit YdbDatabaseServerless#storage_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#storage_size_limit YdbDatabaseServerless#storage_size_limit}
   */
   readonly storageSizeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#throttling_rcu_limit YdbDatabaseServerless#throttling_rcu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#throttling_rcu_limit YdbDatabaseServerless#throttling_rcu_limit}
   */
   readonly throttlingRcuLimit?: number;
 }
@@ -284,7 +284,7 @@ export class YdbDatabaseServerlessServerlessDatabaseList extends cdktf.ComplexLi
 }
 export interface YdbDatabaseServerlessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#default YdbDatabaseServerless#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#default YdbDatabaseServerless#default}
   */
   readonly default?: string;
 }
@@ -378,7 +378,7 @@ export class YdbDatabaseServerlessTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless yandex_ydb_database_serverless}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless yandex_ydb_database_serverless}
 */
 export class YdbDatabaseServerless extends cdktf.TerraformResource {
 
@@ -394,7 +394,7 @@ export class YdbDatabaseServerless extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbDatabaseServerless resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbDatabaseServerless to import
-  * @param importFromId The id of the existing YdbDatabaseServerless that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbDatabaseServerless that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbDatabaseServerless to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class YdbDatabaseServerless extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/ydb_database_serverless yandex_ydb_database_serverless} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/ydb_database_serverless yandex_ydb_database_serverless} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class YdbDatabaseServerless extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_database_serverless',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaServiceEdgeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group#id DataZpaServiceEdgeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group#id DataZpaServiceEdgeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataZpaServiceEdgeGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group#name DataZpaServiceEdgeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group#name DataZpaServiceEdgeGroup#name}
   */
   readonly name?: string;
 }
@@ -766,7 +766,7 @@ export class DataZpaServiceEdgeGroupTrustedNetworksList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group zpa_service_edge_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group zpa_service_edge_group}
 */
 export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
 
@@ -782,7 +782,7 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaServiceEdgeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaServiceEdgeGroup to import
-  * @param importFromId The id of the existing DataZpaServiceEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaServiceEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaServiceEdgeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -794,7 +794,7 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/service_edge_group zpa_service_edge_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/service_edge_group zpa_service_edge_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -805,8 +805,8 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_service_edge_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -827,6 +827,11 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
   // alt_cloud - computed: true, optional: false, required: false
   public get altCloud() {
     return this.getStringAttribute('alt_cloud');
+  }
+
+  // city - computed: true, optional: false, required: false
+  public get city() {
+    return this.getStringAttribute('city');
   }
 
   // city_country - computed: true, optional: false, required: false
@@ -852,6 +857,11 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
   // enabled - computed: true, optional: false, required: false
   public get enabled() {
     return this.getBooleanAttribute('enabled');
+  }
+
+  // exclusive_for_business_continuity - computed: true, optional: false, required: false
+  public get exclusiveForBusinessContinuity() {
+    return this.getBooleanAttribute('exclusive_for_business_continuity');
   }
 
   // geo_location_id - computed: true, optional: false, required: false
@@ -936,9 +946,19 @@ export class DataZpaServiceEdgeGroup extends cdktf.TerraformDataSource {
     return this._name;
   }
 
+  // name_without_trim - computed: true, optional: false, required: false
+  public get nameWithoutTrim() {
+    return this.getStringAttribute('name_without_trim');
+  }
+
   // override_version_profile - computed: true, optional: false, required: false
   public get overrideVersionProfile() {
     return this.getBooleanAttribute('override_version_profile');
+  }
+
+  // restricted_entity - computed: true, optional: false, required: false
+  public get restrictedEntity() {
+    return this.getBooleanAttribute('restricted_entity');
   }
 
   // service_edges - computed: true, optional: false, required: false

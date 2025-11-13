@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnOriginGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#folder_id CdnOriginGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#folder_id CdnOriginGroup#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#id CdnOriginGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#id CdnOriginGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CdnOriginGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#name CdnOriginGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#name CdnOriginGroup#name}
   */
   readonly name: string;
   /**
   * CDN provider is a content delivery service provider. Possible values: "ourcdn" (default) or "gcore"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#provider_type CdnOriginGroup#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#provider_type CdnOriginGroup#provider_type}
   */
   readonly providerType?: string;
   /**
   * If the option is active (has true value), in case the origin responds with 4XX or 5XX codes, use the next origin from the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#use_next CdnOriginGroup#use_next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#use_next CdnOriginGroup#use_next}
   */
   readonly useNext?: boolean | cdktf.IResolvable;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#origin CdnOriginGroup#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#origin CdnOriginGroup#origin}
   */
   readonly origin: CdnOriginGroupOrigin[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#timeouts CdnOriginGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#timeouts CdnOriginGroup#timeouts}
   */
   readonly timeouts?: CdnOriginGroupTimeouts;
 }
@@ -55,19 +55,19 @@ export interface CdnOriginGroupOrigin {
   /**
   * Specifies whether the origin is used in its origin group as backup. A backup origin is used when one of active origins becomes unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#backup CdnOriginGroup#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#backup CdnOriginGroup#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * The origin is enabled and used as a source for the CDN. Default `enabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#enabled CdnOriginGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#enabled CdnOriginGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP address or Domain name of your origin and the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#source CdnOriginGroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#source CdnOriginGroup#source}
   */
   readonly source: string;
 }
@@ -243,15 +243,15 @@ export class CdnOriginGroupOriginList extends cdktf.ComplexList {
 }
 export interface CdnOriginGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#create CdnOriginGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#create CdnOriginGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#delete CdnOriginGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#delete CdnOriginGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#update CdnOriginGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#update CdnOriginGroup#update}
   */
   readonly update?: string;
 }
@@ -403,7 +403,7 @@ export class CdnOriginGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group yandex_cdn_origin_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group yandex_cdn_origin_group}
 */
 export class CdnOriginGroup extends cdktf.TerraformResource {
 
@@ -419,7 +419,7 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnOriginGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnOriginGroup to import
-  * @param importFromId The id of the existing CdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnOriginGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/cdn_origin_group yandex_cdn_origin_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_origin_group yandex_cdn_origin_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,8 +442,8 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cdn_origin_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

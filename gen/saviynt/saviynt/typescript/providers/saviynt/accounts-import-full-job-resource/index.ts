@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface AccountsImportFullJobResourceConfig extends cdktf.TerraformMeta
   /**
   * List of Accounts Import Full Job configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#jobs AccountsImportFullJobResource#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#jobs AccountsImportFullJobResource#jobs}
   */
   readonly jobs: AccountsImportFullJobResourceJobs[] | cdktf.IResolvable;
 }
@@ -18,31 +18,31 @@ export interface AccountsImportFullJobResourceJobs {
   /**
   * Name of the connection for the accounts import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#connection_name AccountsImportFullJobResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#connection_name AccountsImportFullJobResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Cron expression defining the schedule for the trigger. Example: "0 0 2 * * ?"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#cron_expression AccountsImportFullJobResource#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#cron_expression AccountsImportFullJobResource#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Name of the job group associated with the trigger. Example: "utility"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#job_group AccountsImportFullJobResource#job_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#job_group AccountsImportFullJobResource#job_group}
   */
   readonly jobGroup: string;
   /**
   * Group classification for the trigger. Example: "GRAILS_JOBS"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#trigger_group AccountsImportFullJobResource#trigger_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#trigger_group AccountsImportFullJobResource#trigger_group}
   */
   readonly triggerGroup?: string;
   /**
   * Unique name of the trigger. Example: "MyTrigger_001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#trigger_name AccountsImportFullJobResource#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#trigger_name AccountsImportFullJobResource#trigger_name}
   */
   readonly triggerName: string;
 }
@@ -262,7 +262,7 @@ export class AccountsImportFullJobResourceJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource saviynt_accounts_import_full_job_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource saviynt_accounts_import_full_job_resource}
 */
 export class AccountsImportFullJobResource extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class AccountsImportFullJobResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountsImportFullJobResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountsImportFullJobResource to import
-  * @param importFromId The id of the existing AccountsImportFullJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountsImportFullJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountsImportFullJobResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class AccountsImportFullJobResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/accounts_import_full_job_resource saviynt_accounts_import_full_job_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/accounts_import_full_job_resource saviynt_accounts_import_full_job_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class AccountsImportFullJobResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_accounts_import_full_job_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

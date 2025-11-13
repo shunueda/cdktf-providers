@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TeoAccelerationDomainConfig extends cdktf.TerraformMetaArgument
   /**
   * Accelerated domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#domain_name TeoAccelerationDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#domain_name TeoAccelerationDomain#domain_name}
   */
   readonly domainName: string;
   /**
   * HTTP back-to-origin port, the value is 1-65535, effective when OriginProtocol=FOLLOW/HTTP, if not filled in, the default value is 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#http_origin_port TeoAccelerationDomain#http_origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#http_origin_port TeoAccelerationDomain#http_origin_port}
   */
   readonly httpOriginPort?: number;
   /**
   * HTTPS back-to-origin port. The value range is 1-65535. It takes effect when OriginProtocol=FOLLOW/HTTPS. If it is not filled in, the default value is 443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#https_origin_port TeoAccelerationDomain#https_origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#https_origin_port TeoAccelerationDomain#https_origin_port}
   */
   readonly httpsOriginPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#id TeoAccelerationDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#id TeoAccelerationDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface TeoAccelerationDomainConfig extends cdktf.TerraformMetaArgument
   /**
   * IPv6 status, the value is: `follow`: follow the site IPv6 configuration; `on`: on; `off`: off. If not filled in, the default is: `follow`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#ipv6_status TeoAccelerationDomain#ipv6_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#ipv6_status TeoAccelerationDomain#ipv6_status}
   */
   readonly ipv6Status?: string;
   /**
   * Origin return protocol, possible values are: `FOLLOW`: protocol follow; `HTTP`: HTTP protocol back to source; `HTTPS`: HTTPS protocol back to source. If not filled in, the default is: `FOLLOW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#origin_protocol TeoAccelerationDomain#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#origin_protocol TeoAccelerationDomain#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
   * Accelerated domain name status, the values are: `online`: enabled; `offline`: disabled. Default is `online`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#status TeoAccelerationDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#status TeoAccelerationDomain#status}
   */
   readonly status?: string;
   /**
   * ID of the site related with the accelerated domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#zone_id TeoAccelerationDomain#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#zone_id TeoAccelerationDomain#zone_id}
   */
   readonly zoneId: string;
   /**
   * origin_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#origin_info TeoAccelerationDomain#origin_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#origin_info TeoAccelerationDomain#origin_info}
   */
   readonly originInfo: TeoAccelerationDomainOriginInfo;
 }
@@ -67,13 +67,13 @@ export interface TeoAccelerationDomainOriginInfoPrivateParameters {
   /**
   * The parameter name. Valid values: `AccessKeyId`: Access Key ID; `SecretAccessKey`: Secret Access Key; `SignatureVersion`: authentication version, v2 or v4; `Region`: bucket region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#name TeoAccelerationDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#name TeoAccelerationDomain#name}
   */
   readonly name: string;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#value TeoAccelerationDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#value TeoAccelerationDomain#value}
   */
   readonly value: string;
 }
@@ -214,49 +214,49 @@ export interface TeoAccelerationDomainOriginInfo {
   /**
   * The ID of the secondary origin group. This parameter is valid only when OriginType is ORIGIN_GROUP. This field indicates the old version capability, which cannot be configured or modified on the control panel after being called. Please submit a ticket if required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#backup_origin TeoAccelerationDomain#backup_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#backup_origin TeoAccelerationDomain#backup_origin}
   */
   readonly backupOrigin?: string;
   /**
   * Custom origin server HOST header. this parameter is valid only when OriginType=IP_DOMAIN.If the OriginType is another type of origin, this parameter does not need to be passed in, otherwise an error will be reported. If OriginType is COS or AWS_S3, the HOST header for origin-pull will remain consistent with the origin server domain name. If OriginType is ORIGIN_GROUP, the HOST header follows the ORIGIN site GROUP configuration. if not configured, it defaults to the acceleration domain name. If OriginType is VOD or SPACE, no configuration is required for this header, and the domain name takes effect based on the corresponding origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#host_header TeoAccelerationDomain#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#host_header TeoAccelerationDomain#host_header}
   */
   readonly hostHeader?: string;
   /**
   * Origin server address, which varies according to the value of OriginType: When OriginType = IP_DOMAIN, fill in an IPv4 address, an IPv6 address, or a domain name; When OriginType = COS, fill in the access domain name of the COS bucket; When OriginType = AWS_S3, fill in the access domain name of the S3 bucket; When OriginType = ORIGIN_GROUP, fill in the origin server group ID; When OriginType = VOD, fill in the VOD application ID; When OriginType = LB, fill in the Cloud Load Balancer instance ID. This feature is currently only available to the allowlist; When OriginType = SPACE, fill in the origin server uninstallation space ID. This feature is currently only available to the allowlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#origin TeoAccelerationDomain#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#origin TeoAccelerationDomain#origin}
   */
   readonly origin: string;
   /**
   * Origin server type, with values: IP_DOMAIN: IPv4, IPv6, or domain name type origin server; COS: Tencent Cloud COS origin server; AWS_S3: AWS S3 origin server; ORIGIN_GROUP: origin server group type origin server; VOD: Video on Demand; SPACE: origin server uninstallation. Currently only available to the allowlist; LB: load balancing. Currently only available to the allowlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#origin_type TeoAccelerationDomain#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#origin_type TeoAccelerationDomain#origin_type}
   */
   readonly originType: string;
   /**
   * Whether access to the private Cloud Object Storage origin server is allowed. This parameter is valid only when OriginType is COS or AWS_S3. Valid values: on: Enable private authentication; off: Disable private authentication. If it is not specified, the default value is off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#private_access TeoAccelerationDomain#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#private_access TeoAccelerationDomain#private_access}
   */
   readonly privateAccess?: string;
   /**
   * VOD bucket ID. This parameter is required when OriginType = VOD and VodOriginScope = bucket. Data source: the storage ID of the bucket in the Cloud VOD Professional Edition application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#vod_bucket_id TeoAccelerationDomain#vod_bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#vod_bucket_id TeoAccelerationDomain#vod_bucket_id}
   */
   readonly vodBucketId?: string;
   /**
   * The scope of cloud on-demand back-to-source. This parameter is effective when OriginType = VOD. The possible values are: all: all files in the cloud on-demand application corresponding to the current origin station. The default value is all; bucket: files in a specified bucket under the cloud on-demand application corresponding to the current origin station. The bucket is specified by the parameter VodBucketId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#vod_origin_scope TeoAccelerationDomain#vod_origin_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#vod_origin_scope TeoAccelerationDomain#vod_origin_scope}
   */
   readonly vodOriginScope?: string;
   /**
   * private_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#private_parameters TeoAccelerationDomain#private_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#private_parameters TeoAccelerationDomain#private_parameters}
   */
   readonly privateParameters?: TeoAccelerationDomainOriginInfoPrivateParameters[] | cdktf.IResolvable;
 }
@@ -537,7 +537,7 @@ export class TeoAccelerationDomainOriginInfoOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain tencentcloud_teo_acceleration_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain tencentcloud_teo_acceleration_domain}
 */
 export class TeoAccelerationDomain extends cdktf.TerraformResource {
 
@@ -553,7 +553,7 @@ export class TeoAccelerationDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoAccelerationDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoAccelerationDomain to import
-  * @param importFromId The id of the existing TeoAccelerationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoAccelerationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoAccelerationDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -565,7 +565,7 @@ export class TeoAccelerationDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_acceleration_domain tencentcloud_teo_acceleration_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_acceleration_domain tencentcloud_teo_acceleration_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -576,8 +576,8 @@ export class TeoAccelerationDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_acceleration_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

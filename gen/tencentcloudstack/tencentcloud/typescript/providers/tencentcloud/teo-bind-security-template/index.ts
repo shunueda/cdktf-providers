@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoBindSecurityTemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * List of domain names to bind to/unbind from a policy template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#entity TeoBindSecurityTemplate#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#entity TeoBindSecurityTemplate#entity}
   */
   readonly entity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#id TeoBindSecurityTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#id TeoBindSecurityTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface TeoBindSecurityTemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * Unbind operation option. valid values: `unbind-keep-policy`: unbind a domain name from the policy template while retaining the current policy. `unbind-use-default`: unbind a domain name from the policy template and use the default blank policy. default value: `unbind-keep-policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#operate TeoBindSecurityTemplate#operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#operate TeoBindSecurityTemplate#operate}
   */
   readonly operate?: string;
   /**
@@ -33,19 +33,19 @@ export interface TeoBindSecurityTemplateConfig extends cdktf.TerraformMetaArgume
   * 
   * Note: After unbinding, the domain name will use an independent policy and rule quota will be calculated separately. Please make sure there is sufficient rule quota before unbinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#template_id TeoBindSecurityTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#template_id TeoBindSecurityTemplate#template_id}
   */
   readonly templateId: string;
   /**
   * Site ID of the policy template to be bound to or unbound from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#zone_id TeoBindSecurityTemplate#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#zone_id TeoBindSecurityTemplate#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template tencentcloud_teo_bind_security_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template tencentcloud_teo_bind_security_template}
 */
 export class TeoBindSecurityTemplate extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class TeoBindSecurityTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoBindSecurityTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoBindSecurityTemplate to import
-  * @param importFromId The id of the existing TeoBindSecurityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoBindSecurityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoBindSecurityTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class TeoBindSecurityTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_bind_security_template tencentcloud_teo_bind_security_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_bind_security_template tencentcloud_teo_bind_security_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class TeoBindSecurityTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_bind_security_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

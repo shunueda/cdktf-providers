@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoOwnershipVerifyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Verify domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify#domain TeoOwnershipVerify#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify#domain TeoOwnershipVerify#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify#id TeoOwnershipVerify#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify#id TeoOwnershipVerify#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface TeoOwnershipVerifyConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify tencentcloud_teo_ownership_verify}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify tencentcloud_teo_ownership_verify}
 */
 export class TeoOwnershipVerify extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class TeoOwnershipVerify extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoOwnershipVerify resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoOwnershipVerify to import
-  * @param importFromId The id of the existing TeoOwnershipVerify that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoOwnershipVerify that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoOwnershipVerify to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class TeoOwnershipVerify extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/teo_ownership_verify tencentcloud_teo_ownership_verify} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/teo_ownership_verify tencentcloud_teo_ownership_verify} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class TeoOwnershipVerify extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_ownership_verify',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

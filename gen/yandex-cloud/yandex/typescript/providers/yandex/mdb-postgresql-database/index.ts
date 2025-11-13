@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MdbPostgresqlDatabaseConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#cluster_id MdbPostgresqlDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#cluster_id MdbPostgresqlDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#deletion_protection MdbPostgresqlDatabase#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#deletion_protection MdbPostgresqlDatabase#deletion_protection}
   */
   readonly deletionProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#id MdbPostgresqlDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#id MdbPostgresqlDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface MdbPostgresqlDatabaseConfig extends cdktf.TerraformMetaArgument
   /**
   * POSIX locale for string sorting order. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#lc_collate MdbPostgresqlDatabase#lc_collate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#lc_collate MdbPostgresqlDatabase#lc_collate}
   */
   readonly lcCollate?: string;
   /**
   * POSIX locale for character classification. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#lc_type MdbPostgresqlDatabase#lc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#lc_type MdbPostgresqlDatabase#lc_type}
   */
   readonly lcType?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#name MdbPostgresqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#name MdbPostgresqlDatabase#name}
   */
   readonly name: string;
   /**
   * Name of the user assigned as the owner of the database. Forbidden to change in an existing database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#owner MdbPostgresqlDatabase#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#owner MdbPostgresqlDatabase#owner}
   */
   readonly owner: string;
   /**
   * Name of the template database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#template_db MdbPostgresqlDatabase#template_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#template_db MdbPostgresqlDatabase#template_db}
   */
   readonly templateDb?: string;
   /**
   * extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#extension MdbPostgresqlDatabase#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#extension MdbPostgresqlDatabase#extension}
   */
   readonly extension?: MdbPostgresqlDatabaseExtension[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#timeouts MdbPostgresqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#timeouts MdbPostgresqlDatabase#timeouts}
   */
   readonly timeouts?: MdbPostgresqlDatabaseTimeouts;
 }
@@ -73,7 +73,7 @@ export interface MdbPostgresqlDatabaseExtension {
   /**
   * Name of the database extension. For more information on available extensions see [the official documentation](https://yandex.cloud/docs/managed-postgresql/operations/cluster-extensions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#name MdbPostgresqlDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#name MdbPostgresqlDatabase#name}
   */
   readonly name: string;
 }
@@ -186,19 +186,19 @@ export class MdbPostgresqlDatabaseExtensionList extends cdktf.ComplexList {
 }
 export interface MdbPostgresqlDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#create MdbPostgresqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#create MdbPostgresqlDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#delete MdbPostgresqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#delete MdbPostgresqlDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#read MdbPostgresqlDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#read MdbPostgresqlDatabase#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#update MdbPostgresqlDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#update MdbPostgresqlDatabase#update}
   */
   readonly update?: string;
 }
@@ -379,7 +379,7 @@ export class MdbPostgresqlDatabaseTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database yandex_mdb_postgresql_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database yandex_mdb_postgresql_database}
 */
 export class MdbPostgresqlDatabase extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class MdbPostgresqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbPostgresqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbPostgresqlDatabase to import
-  * @param importFromId The id of the existing MdbPostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbPostgresqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbPostgresqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class MdbPostgresqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_database yandex_mdb_postgresql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_database yandex_mdb_postgresql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class MdbPostgresqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_postgresql_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

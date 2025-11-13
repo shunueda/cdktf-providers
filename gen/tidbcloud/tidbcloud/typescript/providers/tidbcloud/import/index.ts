@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ImportConfig extends cdktf.TerraformMetaArguments {
   /**
   * The arn of AWS IAM role, used for importing from S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#aws_role_arn Import#aws_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#aws_role_arn Import#aws_role_arn}
   */
   readonly awsRoleArn?: string;
   /**
   * The ID of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#cluster_id Import#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#cluster_id Import#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The CSV configuration.See https://docs.pingcap.com/tidbcloud/csv-config-for-import-data for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#csv_format Import#csv_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#csv_format Import#csv_format}
   */
   readonly csvFormat?: ImportCsvFormat;
   /**
   * The format of data to import.Enum: "SqlFile" "AuroraSnapshot" "CSV" "Parquet".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#data_format Import#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#data_format Import#data_format}
   */
   readonly dataFormat: string;
   /**
   * The local file path, used for importing from LOCAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#file_name Import#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#file_name Import#file_name}
   */
   readonly fileName?: string;
   /**
   * The ID of the project. You can get the project ID from [tidbcloud_projects datasource](../data-sources/projects.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#project_id Import#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#project_id Import#project_id}
   */
   readonly projectId: string;
   /**
   * The full s3 path that contains data to import, used for importing from S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#source_url Import#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#source_url Import#source_url}
   */
   readonly sourceUrl?: string;
   /**
   * The target db and table to import data, used for importing from LOCAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#target_table Import#target_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#target_table Import#target_table}
   */
   readonly targetTable?: ImportTargetTable;
   /**
   * The type of data source. Enum: "S3" "LOCAL".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#type Import#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#type Import#type}
   */
   readonly type: string;
 }
@@ -151,31 +151,31 @@ export interface ImportCsvFormat {
   /**
   * In CSV file whether to parse backslash inside fields as escape characters (default true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#backslash_escape Import#backslash_escape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#backslash_escape Import#backslash_escape}
   */
   readonly backslashEscape?: boolean | cdktf.IResolvable;
   /**
   * The delimiter used for quoting of CSV file (default "\"").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#delimiter Import#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#delimiter Import#delimiter}
   */
   readonly delimiter?: string;
   /**
   * In CSV file whether regard the first row as header (default true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#header Import#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#header Import#header}
   */
   readonly header?: boolean | cdktf.IResolvable;
   /**
   * The field separator of CSV file (default ",").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#separator Import#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#separator Import#separator}
   */
   readonly separator?: string;
   /**
   * In CSV file whether to treat Separator as the line terminator and trim all trailing separators (default false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#trim_last_separator Import#trim_last_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#trim_last_separator Import#trim_last_separator}
   */
   readonly trimLastSeparator?: boolean | cdktf.IResolvable;
 }
@@ -387,13 +387,13 @@ export interface ImportTargetTable {
   /**
   * The database of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#database Import#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#database Import#database}
   */
   readonly database?: string;
   /**
   * The table of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#table Import#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#table Import#table}
   */
   readonly table?: string;
 }
@@ -516,7 +516,7 @@ export class ImportTargetTableOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import tidbcloud_import}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import tidbcloud_import}
 */
 export class Import extends cdktf.TerraformResource {
 
@@ -532,7 +532,7 @@ export class Import extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Import resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Import to import
-  * @param importFromId The id of the existing Import that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Import that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Import to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class Import extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/import tidbcloud_import} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/import tidbcloud_import} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class Import extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_import',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

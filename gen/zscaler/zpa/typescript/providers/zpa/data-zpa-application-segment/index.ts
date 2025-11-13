@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaApplicationSegmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#id DataZpaApplicationSegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#id DataZpaApplicationSegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#is_incomplete_dr_config DataZpaApplicationSegment#is_incomplete_dr_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#is_incomplete_dr_config DataZpaApplicationSegment#is_incomplete_dr_config}
   */
   readonly isIncompleteDrConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#microtenant_id DataZpaApplicationSegment#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#microtenant_id DataZpaApplicationSegment#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#microtenant_name DataZpaApplicationSegment#microtenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#microtenant_name DataZpaApplicationSegment#microtenant_name}
   */
   readonly microtenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#name DataZpaApplicationSegment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#name DataZpaApplicationSegment#name}
   */
   readonly name?: string;
   /**
   * tcp_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#tcp_port_range DataZpaApplicationSegment#tcp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#tcp_port_range DataZpaApplicationSegment#tcp_port_range}
   */
   readonly tcpPortRange?: DataZpaApplicationSegmentTcpPortRange[] | cdktf.IResolvable;
   /**
   * udp_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#udp_port_range DataZpaApplicationSegment#udp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#udp_port_range DataZpaApplicationSegment#udp_port_range}
   */
   readonly udpPortRange?: DataZpaApplicationSegmentUdpPortRange[] | cdktf.IResolvable;
 }
@@ -120,11 +120,11 @@ export class DataZpaApplicationSegmentServerGroupsList extends cdktf.ComplexList
 }
 export interface DataZpaApplicationSegmentTcpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#from DataZpaApplicationSegment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#from DataZpaApplicationSegment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#to DataZpaApplicationSegment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#to DataZpaApplicationSegment#to}
   */
   readonly to?: string;
 }
@@ -269,11 +269,11 @@ export class DataZpaApplicationSegmentTcpPortRangeList extends cdktf.ComplexList
 }
 export interface DataZpaApplicationSegmentUdpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#from DataZpaApplicationSegment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#from DataZpaApplicationSegment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#to DataZpaApplicationSegment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#to DataZpaApplicationSegment#to}
   */
   readonly to?: string;
 }
@@ -418,7 +418,7 @@ export class DataZpaApplicationSegmentUdpPortRangeList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment zpa_application_segment}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment zpa_application_segment}
 */
 export class DataZpaApplicationSegment extends cdktf.TerraformDataSource {
 
@@ -434,7 +434,7 @@ export class DataZpaApplicationSegment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaApplicationSegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaApplicationSegment to import
-  * @param importFromId The id of the existing DataZpaApplicationSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaApplicationSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaApplicationSegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class DataZpaApplicationSegment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment zpa_application_segment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment zpa_application_segment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class DataZpaApplicationSegment extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_application_segment',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

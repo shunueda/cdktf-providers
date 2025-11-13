@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LiteHbaseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * AutoRenewFlag, Value range: 0: indicates NOTIFY_AND_MANUAL_RENEW; 1: indicates NOTIFY_AND_AUTO_RENEW; 2: indicates DISABLE_NOTIFY_AND_MANUAL_RENEW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#auto_renew_flag LiteHbaseInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#auto_renew_flag LiteHbaseInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Instance single-node disk capacity, in GB. The single-node disk capacity must be greater than or equal to 100 and less than or equal to 250 times the number of CPU cores. The capacity adjustment step is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#disk_size LiteHbaseInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#disk_size LiteHbaseInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * Instance disk type, Value range: CLOUD_HSSD: indicate performance cloud storage(ESSD). CLOUD_BSSD: indicate standard cloud storage(SSD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#disk_type LiteHbaseInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#disk_type LiteHbaseInstance#disk_type}
   */
   readonly diskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#id LiteHbaseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#id LiteHbaseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface LiteHbaseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name. Length limit is 6-36 characters. Only Chinese characters, letters, numbers, -, and _ are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#instance_name LiteHbaseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#instance_name LiteHbaseInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Instance node type, can be filled in as 4C16G, 8C32G, 16C64G, 32C128G, case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#node_type LiteHbaseInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#node_type LiteHbaseInstance#node_type}
   */
   readonly nodeType?: string;
   /**
   * Instance pay mode. Value range: 0: indicates post-pay mode, that is, pay-as-you-go. 1: indicates pre-pay mode, that is, monthly subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#pay_mode LiteHbaseInstance#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#pay_mode LiteHbaseInstance#pay_mode}
   */
   readonly payMode: number;
   /**
   * Time span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#time_span LiteHbaseInstance#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#time_span LiteHbaseInstance#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Time unit, fill in m which means month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#time_unit LiteHbaseInstance#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#time_unit LiteHbaseInstance#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#tags LiteHbaseInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#tags LiteHbaseInstance#tags}
   */
   readonly tags?: LiteHbaseInstanceTags[] | cdktf.IResolvable;
   /**
   * zone_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#zone_settings LiteHbaseInstance#zone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#zone_settings LiteHbaseInstance#zone_settings}
   */
   readonly zoneSettings: LiteHbaseInstanceZoneSettings[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface LiteHbaseInstanceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#tag_key LiteHbaseInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#tag_key LiteHbaseInstance#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#tag_value LiteHbaseInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#tag_value LiteHbaseInstance#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -232,13 +232,13 @@ export interface LiteHbaseInstanceZoneSettingsVpcSettings {
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#subnet_id LiteHbaseInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#subnet_id LiteHbaseInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#vpc_id LiteHbaseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#vpc_id LiteHbaseInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -347,19 +347,19 @@ export interface LiteHbaseInstanceZoneSettings {
   /**
   * Number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#node_num LiteHbaseInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#node_num LiteHbaseInstance#node_num}
   */
   readonly nodeNum: number;
   /**
   * The availability zone to which the instance belongs, such as ap-guangzhou-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#zone LiteHbaseInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#zone LiteHbaseInstance#zone}
   */
   readonly zone: string;
   /**
   * vpc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#vpc_settings LiteHbaseInstance#vpc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#vpc_settings LiteHbaseInstance#vpc_settings}
   */
   readonly vpcSettings: LiteHbaseInstanceZoneSettingsVpcSettings;
 }
@@ -524,7 +524,7 @@ export class LiteHbaseInstanceZoneSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance tencentcloud_lite_hbase_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance tencentcloud_lite_hbase_instance}
 */
 export class LiteHbaseInstance extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class LiteHbaseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LiteHbaseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LiteHbaseInstance to import
-  * @param importFromId The id of the existing LiteHbaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LiteHbaseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LiteHbaseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class LiteHbaseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/lite_hbase_instance tencentcloud_lite_hbase_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/lite_hbase_instance tencentcloud_lite_hbase_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class LiteHbaseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_lite_hbase_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

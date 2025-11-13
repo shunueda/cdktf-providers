@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface SecuritySystemResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specify the workflow to be used for approvals for an access request, which can be for an account, entitlements, role, and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#access_add_workflow SecuritySystemResource#access_add_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#access_add_workflow SecuritySystemResource#access_add_workflow}
   */
   readonly accessAddWorkflow?: string;
   /**
   * Specify the workflow to be used when access has to be revoked, which can be for an account, entitlement, or any other de-provisioning task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#access_remove_workflow SecuritySystemResource#access_remove_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#access_remove_workflow SecuritySystemResource#access_remove_workflow}
   */
   readonly accessRemoveWorkflow?: string;
   /**
   * Workflow for adding a service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#add_service_account_workflow SecuritySystemResource#add_service_account_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#add_service_account_workflow SecuritySystemResource#add_service_account_workflow}
   */
   readonly addServiceAccountWorkflow?: string;
   /**
   * Specify true to enable automated provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#automated_provisioning SecuritySystemResource#automated_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#automated_provisioning SecuritySystemResource#automated_provisioning}
   */
   readonly automatedProvisioning?: string;
   /**
   * Query to filter the access and display of the endpoint to specific users. If you do not define a query, the endpoint is displayed for all users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#connection_parameters SecuritySystemResource#connection_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#connection_parameters SecuritySystemResource#connection_parameters}
   */
   readonly connectionParameters?: string;
   /**
   * Select the connection name for performing reconciliation of identity objects from third-party application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#connectionname SecuritySystemResource#connectionname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#connectionname SecuritySystemResource#connectionname}
   */
   readonly connectionname?: string;
   /**
   * Specify a user-friendly display name that is shown on the the user interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#display_name SecuritySystemResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#display_name SecuritySystemResource#display_name}
   */
   readonly displayName: string;
   /**
   * Contains JSON configuration for external risk connections and is applicable only for a few connections like SAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#external_risk_connection_json SecuritySystemResource#external_risk_connection_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#external_risk_connection_json SecuritySystemResource#external_risk_connection_json}
   */
   readonly externalRiskConnectionJson?: string;
   /**
   * Firefighter ID Request Access Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#firefighterid_request_access_workflow SecuritySystemResource#firefighterid_request_access_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#firefighterid_request_access_workflow SecuritySystemResource#firefighterid_request_access_workflow}
   */
   readonly firefighteridRequestAccessWorkflow?: string;
   /**
   * Firefighter ID Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#firefighterid_workflow SecuritySystemResource#firefighterid_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#firefighterid_workflow SecuritySystemResource#firefighterid_workflow}
   */
   readonly firefighteridWorkflow?: string;
   /**
   * Security system for which you want to create an endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#hostname SecuritySystemResource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#hostname SecuritySystemResource#hostname}
   */
   readonly hostname?: string;
   /**
   * You can use this option used to filter out columns in SOD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#inherent_sod_report_fields SecuritySystemResource#inherent_sod_report_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#inherent_sod_report_fields SecuritySystemResource#inherent_sod_report_fields}
   */
   readonly inherentSodReportFields?: string[];
   /**
   * Use this flag to prevent users from raising duplicate requests for the same applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#instant_provision SecuritySystemResource#instant_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#instant_provision SecuritySystemResource#instant_provision}
   */
   readonly instantProvision?: string;
   /**
   * Use this setting to assign the password policy for the security system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#policy_rule SecuritySystemResource#policy_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#policy_rule SecuritySystemResource#policy_rule}
   */
   readonly policyRule?: string;
   /**
   * Use this setting to assign the password policy which will be used to set the service account passwords for the security system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#policy_rule_service_account SecuritySystemResource#policy_rule_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#policy_rule_service_account SecuritySystemResource#policy_rule_service_account}
   */
   readonly policyRuleServiceAccount?: string;
   /**
   * Description for the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#port SecuritySystemResource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#port SecuritySystemResource#port}
   */
   readonly port?: string;
   /**
   * Query to filter the access and display of the endpoint to specific users. If you do not define a query, the endpoint is displayed for all users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#proposed_account_owners_workflow SecuritySystemResource#proposed_account_owners_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#proposed_account_owners_workflow SecuritySystemResource#proposed_account_owners_workflow}
   */
   readonly proposedAccountOwnersWorkflow?: string;
   /**
   * Specify relevant comments for performing provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#provisioning_comments SecuritySystemResource#provisioning_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#provisioning_comments SecuritySystemResource#provisioning_comments}
   */
   readonly provisioningComments?: string;
   /**
   * You can use a separate connection to an endpoint where you are performing provisioning or deprovisioning. Based on your requirement, you can specify a separate connection where you want to perform provisioning and de-provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#provisioning_connection SecuritySystemResource#provisioning_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#provisioning_connection SecuritySystemResource#provisioning_connection}
   */
   readonly provisioningConnection?: string;
   /**
   * Specify the number of tries to be used for performing provisioning / de-provisioning to the third-party application. You can specify provisioningTries between 1 to 20 based on your requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#provisioning_tries SecuritySystemResource#provisioning_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#provisioning_tries SecuritySystemResource#provisioning_tries}
   */
   readonly provisioningTries?: string;
   /**
   * Specify true to import data from the endpoint associated to the security system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#recon_application SecuritySystemResource#recon_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#recon_application SecuritySystemResource#recon_application}
   */
   readonly reconApplication?: string;
   /**
   * Workflow for removing a service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#remove_service_account_workflow SecuritySystemResource#remove_service_account_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#remove_service_account_workflow SecuritySystemResource#remove_service_account_workflow}
   */
   readonly removeServiceAccountWorkflow?: string;
   /**
   * Specify the Service Desk Connection used for integration with a ticketing system, which can be a disconnected system too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#service_desk_connection SecuritySystemResource#service_desk_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#service_desk_connection SecuritySystemResource#service_desk_connection}
   */
   readonly serviceDeskConnection?: string;
   /**
   * Name of the security system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#systemname SecuritySystemResource#systemname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#systemname SecuritySystemResource#systemname}
   */
   readonly systemname: string;
   /**
   * Specify true to enable the connectivity with any system over the open-source connectors such as REST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#use_open_connector SecuritySystemResource#use_open_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#use_open_connector SecuritySystemResource#use_open_connector}
   */
   readonly useOpenConnector?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource saviynt_security_system_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource saviynt_security_system_resource}
 */
 export class SecuritySystemResource extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class SecuritySystemResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecuritySystemResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecuritySystemResource to import
-  * @param importFromId The id of the existing SecuritySystemResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecuritySystemResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecuritySystemResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class SecuritySystemResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/security_system_resource saviynt_security_system_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/security_system_resource saviynt_security_system_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class SecuritySystemResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_security_system_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

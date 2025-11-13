@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key
+// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSdmProxyClusterKeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique identifier of the Relay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key#id DataSdmProxyClusterKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key#id DataSdmProxyClusterKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataSdmProxyClusterKeyConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the proxy cluster which this key authenticates to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key#proxy_cluster_id DataSdmProxyClusterKey#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key#proxy_cluster_id DataSdmProxyClusterKey#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key#timeouts DataSdmProxyClusterKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key#timeouts DataSdmProxyClusterKey#timeouts}
   */
   readonly timeouts?: DataSdmProxyClusterKeyTimeouts;
 }
@@ -111,7 +111,7 @@ export class DataSdmProxyClusterKeyProxyClusterKeysList extends cdktf.ComplexLis
 }
 export interface DataSdmProxyClusterKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key#default DataSdmProxyClusterKey#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key#default DataSdmProxyClusterKey#default}
   */
   readonly default?: string;
 }
@@ -205,7 +205,7 @@ export class DataSdmProxyClusterKeyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key sdm_proxy_cluster_key}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key sdm_proxy_cluster_key}
 */
 export class DataSdmProxyClusterKey extends cdktf.TerraformDataSource {
 
@@ -221,7 +221,7 @@ export class DataSdmProxyClusterKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmProxyClusterKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmProxyClusterKey to import
-  * @param importFromId The id of the existing DataSdmProxyClusterKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmProxyClusterKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmProxyClusterKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DataSdmProxyClusterKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.27.0/docs/data-sources/proxy_cluster_key sdm_proxy_cluster_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/proxy_cluster_key sdm_proxy_cluster_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class DataSdmProxyClusterKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_proxy_cluster_key',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0',
-        providerVersionConstraint: '15.27.0'
+        providerVersion: '15.28.0',
+        providerVersionConstraint: '15.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

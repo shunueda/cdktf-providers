@@ -261,7 +261,8 @@ export class DataInfobloxIpv6Network extends cdktf.TerraformDataSource {
       terraformResourceType: 'infoblox_ipv6_network',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

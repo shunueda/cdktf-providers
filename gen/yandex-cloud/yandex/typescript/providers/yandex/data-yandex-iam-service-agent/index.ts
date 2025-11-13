@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexIamServiceAgentConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent#cloud_id DataYandexIamServiceAgent#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent#cloud_id DataYandexIamServiceAgent#cloud_id}
   */
   readonly cloudId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent#id DataYandexIamServiceAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent#id DataYandexIamServiceAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataYandexIamServiceAgentConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the service-control microservice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent#microservice_id DataYandexIamServiceAgent#microservice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent#microservice_id DataYandexIamServiceAgent#microservice_id}
   */
   readonly microserviceId?: string;
   /**
   * ID of the service-control service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent#service_id DataYandexIamServiceAgent#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent#service_id DataYandexIamServiceAgent#service_id}
   */
   readonly serviceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent yandex_iam_service_agent}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent yandex_iam_service_agent}
 */
 export class DataYandexIamServiceAgent extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataYandexIamServiceAgent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexIamServiceAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexIamServiceAgent to import
-  * @param importFromId The id of the existing DataYandexIamServiceAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexIamServiceAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexIamServiceAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataYandexIamServiceAgent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/iam_service_agent yandex_iam_service_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_agent yandex_iam_service_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataYandexIamServiceAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_iam_service_agent',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

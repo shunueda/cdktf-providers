@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataRunSqlScriptOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#id WedataRunSqlScriptOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#id WedataRunSqlScriptOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface WedataRunSqlScriptOperationConfig extends cdktf.TerraformMetaAr
   /**
   * Advanced running parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#params WedataRunSqlScriptOperation#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#params WedataRunSqlScriptOperation#params}
   */
   readonly params?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#project_id WedataRunSqlScriptOperation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#project_id WedataRunSqlScriptOperation#project_id}
   */
   readonly projectId: string;
   /**
   * Script content. executed by default if not transmitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#script_content WedataRunSqlScriptOperation#script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#script_content WedataRunSqlScriptOperation#script_content}
   */
   readonly scriptContent?: string;
   /**
   * Script id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#script_id WedataRunSqlScriptOperation#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#script_id WedataRunSqlScriptOperation#script_id}
   */
   readonly scriptId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation tencentcloud_wedata_run_sql_script_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation tencentcloud_wedata_run_sql_script_operation}
 */
 export class WedataRunSqlScriptOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WedataRunSqlScriptOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataRunSqlScriptOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataRunSqlScriptOperation to import
-  * @param importFromId The id of the existing WedataRunSqlScriptOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataRunSqlScriptOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataRunSqlScriptOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WedataRunSqlScriptOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_run_sql_script_operation tencentcloud_wedata_run_sql_script_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_run_sql_script_operation tencentcloud_wedata_run_sql_script_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WedataRunSqlScriptOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_run_sql_script_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

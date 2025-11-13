@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServerlessExportConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#cluster_id ServerlessExport#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#cluster_id ServerlessExport#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The display name of the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#display_name ServerlessExport#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#display_name ServerlessExport#display_name}
   */
   readonly displayName?: string;
   /**
   * The options of the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#export_options ServerlessExport#export_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#export_options ServerlessExport#export_options}
   */
   readonly exportOptions?: ServerlessExportExportOptions;
   /**
   * The target type of the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#target ServerlessExport#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#target ServerlessExport#target}
   */
   readonly target?: ServerlessExportTarget;
 }
@@ -36,25 +36,25 @@ export interface ServerlessExportExportOptionsCsvFormat {
   /**
   * Delimiter of string type variables in CSV files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#delimiter ServerlessExport#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#delimiter ServerlessExport#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Representation of null values in CSV files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#null_value ServerlessExport#null_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#null_value ServerlessExport#null_value}
   */
   readonly nullValue?: string;
   /**
   * Separator of each value in CSV files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#separator ServerlessExport#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#separator ServerlessExport#separator}
   */
   readonly separator?: string;
   /**
   * Export CSV files of the tables without header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#skip_header ServerlessExport#skip_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#skip_header ServerlessExport#skip_header}
   */
   readonly skipHeader?: boolean | cdktf.IResolvable;
 }
@@ -237,13 +237,13 @@ export interface ServerlessExportExportOptionsFilterTable {
   /**
   * The table-filter expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#patterns ServerlessExport#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#patterns ServerlessExport#patterns}
   */
   readonly patterns?: string[];
   /**
   * Export only selected records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#where ServerlessExport#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#where ServerlessExport#where}
   */
   readonly where?: string;
 }
@@ -368,13 +368,13 @@ export interface ServerlessExportExportOptionsFilter {
   /**
   * Use SQL to filter the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#sql ServerlessExport#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#sql ServerlessExport#sql}
   */
   readonly sql?: string;
   /**
   * Use table-filter to filter the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#table ServerlessExport#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#table ServerlessExport#table}
   */
   readonly table?: ServerlessExportExportOptionsFilterTable;
 }
@@ -499,7 +499,7 @@ export interface ServerlessExportExportOptionsParquetFormat {
   /**
   * The compression of the parquet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#compression ServerlessExport#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#compression ServerlessExport#compression}
   */
   readonly compression?: string;
 }
@@ -595,31 +595,31 @@ export interface ServerlessExportExportOptions {
   /**
   * The compression of the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#compression ServerlessExport#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#compression ServerlessExport#compression}
   */
   readonly compression?: string;
   /**
   * The format of the csv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#csv_format ServerlessExport#csv_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#csv_format ServerlessExport#csv_format}
   */
   readonly csvFormat?: ServerlessExportExportOptionsCsvFormat;
   /**
   * The exported file type. Available values are SQL, CSV and Parquet. Default is CSV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#file_type ServerlessExport#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#file_type ServerlessExport#file_type}
   */
   readonly fileType?: string;
   /**
   * The filter of the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#filter ServerlessExport#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#filter ServerlessExport#filter}
   */
   readonly filter?: ServerlessExportExportOptionsFilter;
   /**
   * The format of the parquet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#parquet_format ServerlessExport#parquet_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#parquet_format ServerlessExport#parquet_format}
   */
   readonly parquetFormat?: ServerlessExportExportOptionsParquetFormat;
 }
@@ -831,19 +831,19 @@ export interface ServerlessExportTargetAzureBlob {
   /**
   * The auth method of the export target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
   */
   readonly authType: string;
   /**
   * The sas token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#sas_token ServerlessExport#sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#sas_token ServerlessExport#sas_token}
   */
   readonly sasToken?: string;
   /**
   * The Azure Blob URI of the export target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#uri ServerlessExport#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#uri ServerlessExport#uri}
   */
   readonly uri: string;
 }
@@ -991,19 +991,19 @@ export interface ServerlessExportTargetGcs {
   /**
   * The auth method of the export target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
   */
   readonly authType: string;
   /**
   * The service account key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#service_account_key ServerlessExport#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#service_account_key ServerlessExport#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * The GCS URI of the export target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#uri ServerlessExport#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#uri ServerlessExport#uri}
   */
   readonly uri: string;
 }
@@ -1151,7 +1151,7 @@ export interface ServerlessExportTargetS3AccessKey {
   /**
   * The access key ID of the S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#id ServerlessExport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#id ServerlessExport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1160,7 +1160,7 @@ export interface ServerlessExportTargetS3AccessKey {
   /**
   * The secret access key of the S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#secret ServerlessExport#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#secret ServerlessExport#secret}
   */
   readonly secret: string;
 }
@@ -1279,25 +1279,25 @@ export interface ServerlessExportTargetS3 {
   /**
   * The access key of the S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#access_key ServerlessExport#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#access_key ServerlessExport#access_key}
   */
   readonly accessKey?: ServerlessExportTargetS3AccessKey;
   /**
   * The auth method of the export S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#auth_type ServerlessExport#auth_type}
   */
   readonly authType: string;
   /**
   * The role arn of the S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#role_arn ServerlessExport#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#role_arn ServerlessExport#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The URI of the S3 folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#uri ServerlessExport#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#uri ServerlessExport#uri}
   */
   readonly uri: string;
 }
@@ -1474,25 +1474,25 @@ export interface ServerlessExportTarget {
   /**
   * Azure Blob target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#azure_blob ServerlessExport#azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#azure_blob ServerlessExport#azure_blob}
   */
   readonly azureBlob?: ServerlessExportTargetAzureBlob;
   /**
   * GCS target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#gcs ServerlessExport#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#gcs ServerlessExport#gcs}
   */
   readonly gcs?: ServerlessExportTargetGcs;
   /**
   * S3 target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#s3 ServerlessExport#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#s3 ServerlessExport#s3}
   */
   readonly s3?: ServerlessExportTargetS3;
   /**
   * The exported target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#type ServerlessExport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#type ServerlessExport#type}
   */
   readonly type?: string;
 }
@@ -1673,7 +1673,7 @@ export class ServerlessExportTargetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export tidbcloud_serverless_export}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export tidbcloud_serverless_export}
 */
 export class ServerlessExport extends cdktf.TerraformResource {
 
@@ -1689,7 +1689,7 @@ export class ServerlessExport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessExport to import
-  * @param importFromId The id of the existing ServerlessExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1701,7 +1701,7 @@ export class ServerlessExport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_export tidbcloud_serverless_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_export tidbcloud_serverless_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1712,8 +1712,8 @@ export class ServerlessExport extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_serverless_export',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

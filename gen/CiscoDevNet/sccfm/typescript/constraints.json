@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "sccfm": "0.2.5"
+    "sccfm": "0.3.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WedataWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bundle Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#bundle_id WedataWorkflow#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#bundle_id WedataWorkflow#bundle_id}
   */
   readonly bundleId?: string;
   /**
   * Bundle Information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#bundle_info WedataWorkflow#bundle_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#bundle_info WedataWorkflow#bundle_info}
   */
   readonly bundleInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#id WedataWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#id WedataWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface WedataWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * Workflow Owner ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#owner_uin WedataWorkflow#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#owner_uin WedataWorkflow#owner_uin}
   */
   readonly ownerUin?: string;
   /**
   * Parent folder path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#parent_folder_path WedataWorkflow#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#parent_folder_path WedataWorkflow#parent_folder_path}
   */
   readonly parentFolderPath: string;
   /**
   * Project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#project_id WedataWorkflow#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#project_id WedataWorkflow#project_id}
   */
   readonly projectId: string;
   /**
   * Workflow description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#workflow_desc WedataWorkflow#workflow_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#workflow_desc WedataWorkflow#workflow_desc}
   */
   readonly workflowDesc?: string;
   /**
   * Workflow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#workflow_name WedataWorkflow#workflow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#workflow_name WedataWorkflow#workflow_name}
   */
   readonly workflowName: string;
   /**
   * Workflow type, value example: cycle cycle workflow;manual manual workflow, passed in cycle by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#workflow_type WedataWorkflow#workflow_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#workflow_type WedataWorkflow#workflow_type}
   */
   readonly workflowType?: string;
   /**
   * workflow_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#workflow_params WedataWorkflow#workflow_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#workflow_params WedataWorkflow#workflow_params}
   */
   readonly workflowParams?: WedataWorkflowWorkflowParams[] | cdktf.IResolvable;
   /**
   * workflow_scheduler_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#workflow_scheduler_configuration WedataWorkflow#workflow_scheduler_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#workflow_scheduler_configuration WedataWorkflow#workflow_scheduler_configuration}
   */
   readonly workflowSchedulerConfiguration?: WedataWorkflowWorkflowSchedulerConfiguration;
 }
@@ -79,13 +79,13 @@ export interface WedataWorkflowWorkflowParams {
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#param_key WedataWorkflow#param_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#param_key WedataWorkflow#param_key}
   */
   readonly paramKey: string;
   /**
   * Parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#param_value WedataWorkflow#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#param_value WedataWorkflow#param_value}
   */
   readonly paramValue: string;
 }
@@ -226,25 +226,25 @@ export interface WedataWorkflowWorkflowSchedulerConfiguration {
   /**
   * calendar id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#calendar_id WedataWorkflow#calendar_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#calendar_id WedataWorkflow#calendar_id}
   */
   readonly calendarId?: string;
   /**
   * Do you want to turn on calendar scheduling 1 on 0 off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#calendar_open WedataWorkflow#calendar_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#calendar_open WedataWorkflow#calendar_open}
   */
   readonly calendarOpen?: string;
   /**
   * Workflows have cross-workflow dependencies and are scheduled using cron expressions. If you save unified scheduling, unsupported dependencies will be broken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#clear_link WedataWorkflow#clear_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#clear_link WedataWorkflow#clear_link}
   */
   readonly clearLink?: boolean | cdktf.IResolvable;
   /**
   * Crontab expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#crontab_expression WedataWorkflow#crontab_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#crontab_expression WedataWorkflow#crontab_expression}
   */
   readonly crontabExpression: string;
   /**
@@ -258,31 +258,31 @@ export interface WedataWorkflowWorkflowSchedulerConfiguration {
   * MINUTE_CYCLE: Minute
   * CRONTAB_CYCLE: crontab expression type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#cycle_type WedataWorkflow#cycle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#cycle_type WedataWorkflow#cycle_type}
   */
   readonly cycleType: string;
   /**
   * Workflow dependence, yes or no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#dependency_workflow WedataWorkflow#dependency_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#dependency_workflow WedataWorkflow#dependency_workflow}
   */
   readonly dependencyWorkflow?: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#end_time WedataWorkflow#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#end_time WedataWorkflow#end_time}
   */
   readonly endTime: string;
   /**
   * Execution time right-closed interval, example: 23:59, only if the cycle type is MINUTE_CYCLE needs to be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#execution_end_time WedataWorkflow#execution_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#execution_end_time WedataWorkflow#execution_end_time}
   */
   readonly executionEndTime?: string;
   /**
   * Execution time left-closed interval, example: 00:00, only if the cycle type is MINUTE_CYCLE needs to be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#execution_start_time WedataWorkflow#execution_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#execution_start_time WedataWorkflow#execution_start_time}
   */
   readonly executionStartTime?: string;
   /**
@@ -302,31 +302,31 @@ export interface WedataWorkflowWorkflowSchedulerConfiguration {
   * 
   * https://capi.woa.com/object/detail? product=wedata&env=api_dev&version=2025-08-06&name=WorkflowSchedulerConfigurationInfo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#main_cyclic_config WedataWorkflow#main_cyclic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#main_cyclic_config WedataWorkflow#main_cyclic_config}
   */
   readonly mainCyclicConfig?: string;
   /**
   * 0: Do not modify 1: Change the upstream dependency configuration of the task to the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#modify_cycle_value WedataWorkflow#modify_cycle_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#modify_cycle_value WedataWorkflow#modify_cycle_value}
   */
   readonly modifyCycleValue?: string;
   /**
   * time zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#schedule_time_zone WedataWorkflow#schedule_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#schedule_time_zone WedataWorkflow#schedule_time_zone}
   */
   readonly scheduleTimeZone: string;
   /**
   * Self-dependence, default value serial, values are: parallel, serial, orderly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#self_depend WedataWorkflow#self_depend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#self_depend WedataWorkflow#self_depend}
   */
   readonly selfDepend: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#start_time WedataWorkflow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#start_time WedataWorkflow#start_time}
   */
   readonly startTime: string;
   /**
@@ -358,7 +358,7 @@ export interface WedataWorkflowWorkflowSchedulerConfiguration {
   * 
   * https://capi.woa.com/object/detail? product=wedata&env=api_dev&version=2025-08-06&name=WorkflowSchedulerConfigurationInfo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#subordinate_cyclic_config WedataWorkflow#subordinate_cyclic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#subordinate_cyclic_config WedataWorkflow#subordinate_cyclic_config}
   */
   readonly subordinateCyclicConfig?: string;
 }
@@ -830,7 +830,7 @@ export class WedataWorkflowWorkflowSchedulerConfigurationOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow tencentcloud_wedata_workflow}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow tencentcloud_wedata_workflow}
 */
 export class WedataWorkflow extends cdktf.TerraformResource {
 
@@ -846,7 +846,7 @@ export class WedataWorkflow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataWorkflow to import
-  * @param importFromId The id of the existing WedataWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -858,7 +858,7 @@ export class WedataWorkflow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_workflow tencentcloud_wedata_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_workflow tencentcloud_wedata_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -869,8 +869,8 @@ export class WedataWorkflow extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_workflow',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

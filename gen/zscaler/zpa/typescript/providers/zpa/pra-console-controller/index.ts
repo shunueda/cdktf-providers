@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PraConsoleControllerConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the privileged console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#description PraConsoleController#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#description PraConsoleController#description}
   */
   readonly description?: string;
   /**
   * Whether or not the privileged console is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#enabled PraConsoleController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#enabled PraConsoleController#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The privileged console icon. The icon image is converted to base64 encoded text format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#icon_text PraConsoleController#icon_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#icon_text PraConsoleController#icon_text}
   */
   readonly iconText?: string;
   /**
   * The unique identifier of the Microtenant for the ZPA tenant. If you are within the Default Microtenant, pass microtenantId as 0 when making requests to retrieve data from the Default Microtenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#microtenant_id PraConsoleController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#microtenant_id PraConsoleController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The name of the privileged console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#name PraConsoleController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#name PraConsoleController#name}
   */
   readonly name?: string;
   /**
   * pra_application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#pra_application PraConsoleController#pra_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#pra_application PraConsoleController#pra_application}
   */
   readonly praApplication: PraConsoleControllerPraApplication[] | cdktf.IResolvable;
   /**
   * pra_portals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#pra_portals PraConsoleController#pra_portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#pra_portals PraConsoleController#pra_portals}
   */
   readonly praPortals: PraConsoleControllerPraPortals[] | cdktf.IResolvable;
 }
 export interface PraConsoleControllerPraApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#id PraConsoleController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#id PraConsoleController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ export interface PraConsoleControllerPraPortals {
   /**
   * The unique identifier of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#id PraConsoleController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#id PraConsoleController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -289,7 +289,7 @@ export class PraConsoleControllerPraPortalsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller zpa_pra_console_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller zpa_pra_console_controller}
 */
 export class PraConsoleController extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class PraConsoleController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PraConsoleController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PraConsoleController to import
-  * @param importFromId The id of the existing PraConsoleController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PraConsoleController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PraConsoleController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class PraConsoleController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/pra_console_controller zpa_pra_console_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/pra_console_controller zpa_pra_console_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class PraConsoleController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_pra_console_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

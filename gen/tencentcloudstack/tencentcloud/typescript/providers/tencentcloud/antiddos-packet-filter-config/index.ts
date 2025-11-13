@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosPacketFilterConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#id AntiddosPacketFilterConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#id AntiddosPacketFilterConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AntiddosPacketFilterConfigConfig extends cdktf.TerraformMetaArg
   /**
   * resource id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#instance_id AntiddosPacketFilterConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#instance_id AntiddosPacketFilterConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * packet_filter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#packet_filter_config AntiddosPacketFilterConfig#packet_filter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#packet_filter_config AntiddosPacketFilterConfig#packet_filter_config}
   */
   readonly packetFilterConfig: AntiddosPacketFilterConfigPacketFilterConfig;
 }
@@ -31,133 +31,133 @@ export interface AntiddosPacketFilterConfigPacketFilterConfig {
   /**
   * Action, value [drop (discard) transmit (release) drop_black (discard and pull black) drop_rst (intercept) drop_black_rst (intercept and pull black) forward (continue protection)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#action AntiddosPacketFilterConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#action AntiddosPacketFilterConfig#action}
   */
   readonly action: string;
   /**
   * The detection depth starting from the detection position, with a value of [0-1500].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#depth AntiddosPacketFilterConfig#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#depth AntiddosPacketFilterConfig#depth}
   */
   readonly depth?: number;
   /**
   * The second detection depth starting from the second detection position, with a value of [01500].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#depth2 AntiddosPacketFilterConfig#depth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#depth2 AntiddosPacketFilterConfig#depth2}
   */
   readonly depth2?: number;
   /**
   * end destination port, ranging from 0 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#dport_end AntiddosPacketFilterConfig#dport_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#dport_end AntiddosPacketFilterConfig#dport_end}
   */
   readonly dportEnd: number;
   /**
   * Starting destination port, ranging from 0 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#dport_start AntiddosPacketFilterConfig#dport_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#dport_start AntiddosPacketFilterConfig#dport_start}
   */
   readonly dportStart: number;
   /**
   * Whether to include detection values, with a value of [0 (inclusive) and 1 (exclusive)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#is_not AntiddosPacketFilterConfig#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#is_not AntiddosPacketFilterConfig#is_not}
   */
   readonly isNot?: number;
   /**
   * Whether the second detection includes detection values, with a value of [0 (inclusive) and 1 (exclusive)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#is_not2 AntiddosPacketFilterConfig#is_not2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#is_not2 AntiddosPacketFilterConfig#is_not2}
   */
   readonly isNot2?: number;
   /**
   * Detection position, value [begin_l3 (IP header) begin_l4 (TCP/UDP header) begin_l5 (T payload) no_match (mismatch)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#match_begin AntiddosPacketFilterConfig#match_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#match_begin AntiddosPacketFilterConfig#match_begin}
   */
   readonly matchBegin?: string;
   /**
   * Second detection position, value [begin_l5 (load) no_match (mismatch)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#match_begin2 AntiddosPacketFilterConfig#match_begin2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#match_begin2 AntiddosPacketFilterConfig#match_begin2}
   */
   readonly matchBegin2?: string;
   /**
   * When there is a second detection condition, the AND or relationship with the first detection condition, with the value [and (and relationship) none (fill in this value when there is no second detection condition)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#match_logic AntiddosPacketFilterConfig#match_logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#match_logic AntiddosPacketFilterConfig#match_logic}
   */
   readonly matchLogic?: string;
   /**
   * Detection type, value [Sunday (keyword) pcre (regular expression)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#match_type AntiddosPacketFilterConfig#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#match_type AntiddosPacketFilterConfig#match_type}
   */
   readonly matchType?: string;
   /**
   * The second detection type, with a value of [Sunday (keyword) pcre (regular expression)].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#match_type2 AntiddosPacketFilterConfig#match_type2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#match_type2 AntiddosPacketFilterConfig#match_type2}
   */
   readonly matchType2?: string;
   /**
   * The offset from the detection position, with a value range of [0, Depth].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#offset AntiddosPacketFilterConfig#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#offset AntiddosPacketFilterConfig#offset}
   */
   readonly offset?: number;
   /**
   * The offset from the second detection position, with a value range of [0, Depth2].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#offset2 AntiddosPacketFilterConfig#offset2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#offset2 AntiddosPacketFilterConfig#offset2}
   */
   readonly offset2?: number;
   /**
   * Greater than message length, value 1+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#pkt_len_gt AntiddosPacketFilterConfig#pkt_len_gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#pkt_len_gt AntiddosPacketFilterConfig#pkt_len_gt}
   */
   readonly pktLenGt?: number;
   /**
   * The maximum message length, ranging from 1 to 1500, must be greater than or equal to the minimum message length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#pktlen_max AntiddosPacketFilterConfig#pktlen_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#pktlen_max AntiddosPacketFilterConfig#pktlen_max}
   */
   readonly pktlenMax: number;
   /**
   * Minimum message length, ranging from 1 to 1500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#pktlen_min AntiddosPacketFilterConfig#pktlen_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#pktlen_min AntiddosPacketFilterConfig#pktlen_min}
   */
   readonly pktlenMin: number;
   /**
   * Protocol, value [TCP udp icmp all].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#protocol AntiddosPacketFilterConfig#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#protocol AntiddosPacketFilterConfig#protocol}
   */
   readonly protocol: string;
   /**
   * End source port, values range from 1 to 65535, must be greater than or equal to the start source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#sport_end AntiddosPacketFilterConfig#sport_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#sport_end AntiddosPacketFilterConfig#sport_end}
   */
   readonly sportEnd: number;
   /**
   * Starting source port, ranging from 0 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#sport_start AntiddosPacketFilterConfig#sport_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#sport_start AntiddosPacketFilterConfig#sport_start}
   */
   readonly sportStart: number;
   /**
   * Detection value, key string or regular expression, value [When the detection type is Sunday, please fill in the string or hexadecimal bytecode, for example, x313233 corresponds to the hexadecimal word&gt;section code of the string &#39;123&#39;; when the detection type is pcre, please fill in the regular expression character string;].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#str AntiddosPacketFilterConfig#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#str AntiddosPacketFilterConfig#str}
   */
   readonly str?: string;
   /**
   * key string or regular expression, value [When the detection type is Sunday, please fill in the string or hexadecimal bytecode, for example, x313233 corresponds to the hexadecimal word&gt;section code of the string &#39;123&#39;; when the detection type is pcre, please fill in the regular expression character string;].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#str2 AntiddosPacketFilterConfig#str2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#str2 AntiddosPacketFilterConfig#str2}
   */
   readonly str2?: string;
 }
@@ -826,7 +826,7 @@ export class AntiddosPacketFilterConfigPacketFilterConfigOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config tencentcloud_antiddos_packet_filter_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config tencentcloud_antiddos_packet_filter_config}
 */
 export class AntiddosPacketFilterConfig extends cdktf.TerraformResource {
 
@@ -842,7 +842,7 @@ export class AntiddosPacketFilterConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosPacketFilterConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosPacketFilterConfig to import
-  * @param importFromId The id of the existing AntiddosPacketFilterConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosPacketFilterConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosPacketFilterConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -854,7 +854,7 @@ export class AntiddosPacketFilterConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/antiddos_packet_filter_config tencentcloud_antiddos_packet_filter_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/antiddos_packet_filter_config tencentcloud_antiddos_packet_filter_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -865,8 +865,8 @@ export class AntiddosPacketFilterConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_packet_filter_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

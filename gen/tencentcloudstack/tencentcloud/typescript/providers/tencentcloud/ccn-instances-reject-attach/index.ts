@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CcnInstancesRejectAttachConfig extends cdktf.TerraformMetaArgum
   /**
   * CCN Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#ccn_id CcnInstancesRejectAttach#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#ccn_id CcnInstancesRejectAttach#ccn_id}
   */
   readonly ccnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#id CcnInstancesRejectAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#id CcnInstancesRejectAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface CcnInstancesRejectAttachConfig extends cdktf.TerraformMetaArgum
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#instances CcnInstancesRejectAttach#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#instances CcnInstancesRejectAttach#instances}
   */
   readonly instances: CcnInstancesRejectAttachInstances[] | cdktf.IResolvable;
 }
@@ -31,31 +31,31 @@ export interface CcnInstancesRejectAttachInstances {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#description CcnInstancesRejectAttach#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#description CcnInstancesRejectAttach#description}
   */
   readonly description?: string;
   /**
   * Attachment Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#instance_id CcnInstancesRejectAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#instance_id CcnInstancesRejectAttach#instance_id}
   */
   readonly instanceId: string;
   /**
   * Instance Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#instance_region CcnInstancesRejectAttach#instance_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#instance_region CcnInstancesRejectAttach#instance_region}
   */
   readonly instanceRegion: string;
   /**
   * InstanceType: `VPC`, `DIRECTCONNECT`, `BMVPC`, `VPNGW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#instance_type CcnInstancesRejectAttach#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#instance_type CcnInstancesRejectAttach#instance_type}
   */
   readonly instanceType?: string;
   /**
   * ID of the routing table associated with the instance. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#route_table_id CcnInstancesRejectAttach#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#route_table_id CcnInstancesRejectAttach#route_table_id}
   */
   readonly routeTableId?: string;
 }
@@ -281,7 +281,7 @@ export class CcnInstancesRejectAttachInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach tencentcloud_ccn_instances_reject_attach}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach tencentcloud_ccn_instances_reject_attach}
 */
 export class CcnInstancesRejectAttach extends cdktf.TerraformResource {
 
@@ -297,7 +297,7 @@ export class CcnInstancesRejectAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CcnInstancesRejectAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnInstancesRejectAttach to import
-  * @param importFromId The id of the existing CcnInstancesRejectAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnInstancesRejectAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnInstancesRejectAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class CcnInstancesRejectAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ccn_instances_reject_attach tencentcloud_ccn_instances_reject_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ccn_instances_reject_attach tencentcloud_ccn_instances_reject_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class CcnInstancesRejectAttach extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ccn_instances_reject_attach',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

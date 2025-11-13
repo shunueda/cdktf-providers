@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,133 +8,145 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceEdgeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#city_country ServiceEdgeGroup#city_country}
+  * City for the Service Edge Group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#city ServiceEdgeGroup#city}
+  */
+  readonly city?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#city_country ServiceEdgeGroup#city_country}
   */
   readonly cityCountry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#country_code ServiceEdgeGroup#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#country_code ServiceEdgeGroup#country_code}
   */
   readonly countryCode?: string;
   /**
   * Description of the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#description ServiceEdgeGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#description ServiceEdgeGroup#description}
   */
   readonly description?: string;
   /**
   * Whether this Service Edge Group is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#enabled ServiceEdgeGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#enabled ServiceEdgeGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
+  * Indicates whether the Service Edge Group is exclusive for business continuity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#exclusive_for_business_continuity ServiceEdgeGroup#exclusive_for_business_continuity}
+  */
+  readonly exclusiveForBusinessContinuity?: boolean | cdktf.IResolvable;
+  /**
   * If enabled, allows ZPA Private Service Edge Groups within the specified distance to be prioritized over a closer ZPA Public Service Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#grace_distance_enabled ServiceEdgeGroup#grace_distance_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#grace_distance_enabled ServiceEdgeGroup#grace_distance_enabled}
   */
   readonly graceDistanceEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the maximum distance in miles or kilometers to ZPA Private Service Edge groups that would override a ZPA Public Service Edge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#grace_distance_value ServiceEdgeGroup#grace_distance_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#grace_distance_value ServiceEdgeGroup#grace_distance_value}
   */
   readonly graceDistanceValue?: string;
   /**
   * Indicates the grace distance unit of measure in miles or kilometers. This value is only required if grace_distance_value is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#grace_distance_value_unit ServiceEdgeGroup#grace_distance_value_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#grace_distance_value_unit ServiceEdgeGroup#grace_distance_value_unit}
   */
   readonly graceDistanceValueUnit?: string;
   /**
   * Enable or disable public access for the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#is_public ServiceEdgeGroup#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#is_public ServiceEdgeGroup#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * Latitude for the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#latitude ServiceEdgeGroup#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#latitude ServiceEdgeGroup#latitude}
   */
   readonly latitude: string;
   /**
   * Location for the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#location ServiceEdgeGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#location ServiceEdgeGroup#location}
   */
   readonly location: string;
   /**
   * Longitude for the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#longitude ServiceEdgeGroup#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#longitude ServiceEdgeGroup#longitude}
   */
   readonly longitude: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#microtenant_id ServiceEdgeGroup#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#microtenant_id ServiceEdgeGroup#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#name ServiceEdgeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#name ServiceEdgeGroup#name}
   */
   readonly name: string;
   /**
   * Whether the default version profile of the App Connector Group is applied or overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#override_version_profile ServiceEdgeGroup#override_version_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#override_version_profile ServiceEdgeGroup#override_version_profile}
   */
   readonly overrideVersionProfile?: boolean | cdktf.IResolvable;
   /**
   * Service Edges in this group will attempt to update to a newer version of the software during this specified day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#upgrade_day ServiceEdgeGroup#upgrade_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#upgrade_day ServiceEdgeGroup#upgrade_day}
   */
   readonly upgradeDay?: string;
   /**
   * Service Edges in this group will attempt to update to a newer version of the software during this specified time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#upgrade_time_in_secs ServiceEdgeGroup#upgrade_time_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#upgrade_time_in_secs ServiceEdgeGroup#upgrade_time_in_secs}
   */
   readonly upgradeTimeInSecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#use_in_dr_mode ServiceEdgeGroup#use_in_dr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#use_in_dr_mode ServiceEdgeGroup#use_in_dr_mode}
   */
   readonly useInDrMode?: boolean | cdktf.IResolvable;
   /**
   * ID of the version profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#version_profile_id ServiceEdgeGroup#version_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#version_profile_id ServiceEdgeGroup#version_profile_id}
   */
   readonly versionProfileId?: string;
   /**
   * Name of the version profile. To learn more, see Version Profile Use Cases. This value is required, if the value for overrideVersionProfile is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#version_profile_name ServiceEdgeGroup#version_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#version_profile_name ServiceEdgeGroup#version_profile_name}
   */
   readonly versionProfileName?: string;
   /**
   * ID of the version profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#version_profile_visibility_scope ServiceEdgeGroup#version_profile_visibility_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#version_profile_visibility_scope ServiceEdgeGroup#version_profile_visibility_scope}
   */
   readonly versionProfileVisibilityScope?: string;
   /**
   * service_edges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#service_edges ServiceEdgeGroup#service_edges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#service_edges ServiceEdgeGroup#service_edges}
   */
   readonly serviceEdges?: ServiceEdgeGroupServiceEdges;
   /**
   * trusted_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#trusted_networks ServiceEdgeGroup#trusted_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#trusted_networks ServiceEdgeGroup#trusted_networks}
   */
   readonly trustedNetworks?: ServiceEdgeGroupTrustedNetworks[] | cdktf.IResolvable;
 }
 export interface ServiceEdgeGroupServiceEdges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#id ServiceEdgeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#id ServiceEdgeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -221,7 +233,7 @@ export class ServiceEdgeGroupServiceEdgesOutputReference extends cdktf.ComplexOb
 }
 export interface ServiceEdgeGroupTrustedNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#id ServiceEdgeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#id ServiceEdgeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -340,7 +352,7 @@ export class ServiceEdgeGroupTrustedNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group zpa_service_edge_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group zpa_service_edge_group}
 */
 export class ServiceEdgeGroup extends cdktf.TerraformResource {
 
@@ -356,7 +368,7 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceEdgeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceEdgeGroup to import
-  * @param importFromId The id of the existing ServiceEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceEdgeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +380,7 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/service_edge_group zpa_service_edge_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/service_edge_group zpa_service_edge_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +391,8 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_service_edge_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -390,10 +402,12 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._city = config.city;
     this._cityCountry = config.cityCountry;
     this._countryCode = config.countryCode;
     this._description = config.description;
     this._enabled = config.enabled;
+    this._exclusiveForBusinessContinuity = config.exclusiveForBusinessContinuity;
     this._graceDistanceEnabled = config.graceDistanceEnabled;
     this._graceDistanceValue = config.graceDistanceValue;
     this._graceDistanceValueUnit = config.graceDistanceValueUnit;
@@ -418,7 +432,23 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // city_country - computed: true, optional: true, required: false
+  // city - computed: false, optional: true, required: false
+  private _city?: string; 
+  public get city() {
+    return this.getStringAttribute('city');
+  }
+  public set city(value: string) {
+    this._city = value;
+  }
+  public resetCity() {
+    this._city = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cityInput() {
+    return this._city;
+  }
+
+  // city_country - computed: false, optional: true, required: false
   private _cityCountry?: string; 
   public get cityCountry() {
     return this.getStringAttribute('city_country');
@@ -480,6 +510,22 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enabledInput() {
     return this._enabled;
+  }
+
+  // exclusive_for_business_continuity - computed: false, optional: true, required: false
+  private _exclusiveForBusinessContinuity?: boolean | cdktf.IResolvable; 
+  public get exclusiveForBusinessContinuity() {
+    return this.getBooleanAttribute('exclusive_for_business_continuity');
+  }
+  public set exclusiveForBusinessContinuity(value: boolean | cdktf.IResolvable) {
+    this._exclusiveForBusinessContinuity = value;
+  }
+  public resetExclusiveForBusinessContinuity() {
+    this._exclusiveForBusinessContinuity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exclusiveForBusinessContinuityInput() {
+    return this._exclusiveForBusinessContinuity;
   }
 
   // grace_distance_enabled - computed: true, optional: true, required: false
@@ -769,10 +815,12 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      city: cdktf.stringToTerraform(this._city),
       city_country: cdktf.stringToTerraform(this._cityCountry),
       country_code: cdktf.stringToTerraform(this._countryCode),
       description: cdktf.stringToTerraform(this._description),
       enabled: cdktf.booleanToTerraform(this._enabled),
+      exclusive_for_business_continuity: cdktf.booleanToTerraform(this._exclusiveForBusinessContinuity),
       grace_distance_enabled: cdktf.booleanToTerraform(this._graceDistanceEnabled),
       grace_distance_value: cdktf.stringToTerraform(this._graceDistanceValue),
       grace_distance_value_unit: cdktf.stringToTerraform(this._graceDistanceValueUnit),
@@ -796,6 +844,12 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      city: {
+        value: cdktf.stringToHclTerraform(this._city),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       city_country: {
         value: cdktf.stringToHclTerraform(this._cityCountry),
         isBlock: false,
@@ -816,6 +870,12 @@ export class ServiceEdgeGroup extends cdktf.TerraformResource {
       },
       enabled: {
         value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      exclusive_for_business_continuity: {
+        value: cdktf.booleanToHclTerraform(this._exclusiveForBusinessContinuity),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

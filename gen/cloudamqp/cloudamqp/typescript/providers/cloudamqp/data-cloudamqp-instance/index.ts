@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudamqpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance#id DataCloudamqpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance#id DataCloudamqpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataCloudamqpInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * Identifier for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance#instance_id DataCloudamqpInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance#instance_id DataCloudamqpInstance#instance_id}
   */
   readonly instanceId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance cloudamqp_instance}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance cloudamqp_instance}
 */
 export class DataCloudamqpInstance extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataCloudamqpInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudamqpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudamqpInstance to import
-  * @param importFromId The id of the existing DataCloudamqpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudamqpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudamqpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataCloudamqpInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/data-sources/instance cloudamqp_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/data-sources/instance cloudamqp_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataCloudamqpInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_instance',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

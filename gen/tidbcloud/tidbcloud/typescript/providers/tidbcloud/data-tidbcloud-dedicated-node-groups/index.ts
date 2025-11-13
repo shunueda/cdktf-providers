@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_groups
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTidbcloudDedicatedNodeGroupsConfig extends cdktf.TerraformM
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_groups#cluster_id DataTidbcloudDedicatedNodeGroups#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_groups#cluster_id DataTidbcloudDedicatedNodeGroups#cluster_id}
   */
   readonly clusterId: string;
 }
@@ -428,7 +428,7 @@ export class DataTidbcloudDedicatedNodeGroupsNodeGroupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_groups tidbcloud_dedicated_node_groups}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_groups tidbcloud_dedicated_node_groups}
 */
 export class DataTidbcloudDedicatedNodeGroups extends cdktf.TerraformDataSource {
 
@@ -444,7 +444,7 @@ export class DataTidbcloudDedicatedNodeGroups extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTidbcloudDedicatedNodeGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudDedicatedNodeGroups to import
-  * @param importFromId The id of the existing DataTidbcloudDedicatedNodeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudDedicatedNodeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudDedicatedNodeGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -456,7 +456,7 @@ export class DataTidbcloudDedicatedNodeGroups extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_groups tidbcloud_dedicated_node_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_groups tidbcloud_dedicated_node_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -467,8 +467,8 @@ export class DataTidbcloudDedicatedNodeGroups extends cdktf.TerraformDataSource 
       terraformResourceType: 'tidbcloud_dedicated_node_groups',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

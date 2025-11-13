@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexMdbKafkaClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#cluster_id DataYandexMdbKafkaCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#cluster_id DataYandexMdbKafkaCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#deletion_protection DataYandexMdbKafkaCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#deletion_protection DataYandexMdbKafkaCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#folder_id DataYandexMdbKafkaCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#folder_id DataYandexMdbKafkaCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#id DataYandexMdbKafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#id DataYandexMdbKafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataYandexMdbKafkaClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
   */
   readonly name?: string;
   /**
   * The list of VPC subnets identifiers which resource is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#subnet_ids DataYandexMdbKafkaCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#subnet_ids DataYandexMdbKafkaCluster#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#config DataYandexMdbKafkaCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#config DataYandexMdbKafkaCluster#config}
   */
   readonly config?: DataYandexMdbKafkaClusterConfigA;
   /**
   * topic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#topic DataYandexMdbKafkaCluster#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#topic DataYandexMdbKafkaCluster#topic}
   */
   readonly topic?: DataYandexMdbKafkaClusterTopic[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#user DataYandexMdbKafkaCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#user DataYandexMdbKafkaCluster#user}
   */
   readonly user?: DataYandexMdbKafkaClusterUser[] | cdktf.IResolvable;
 }
@@ -252,7 +252,7 @@ export interface DataYandexMdbKafkaClusterConfigAccess {
   /**
   * Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#data_transfer DataYandexMdbKafkaCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#data_transfer DataYandexMdbKafkaCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
 }
@@ -338,19 +338,19 @@ export interface DataYandexMdbKafkaClusterConfigDiskSizeAutoscaling {
   /**
   * Maximum possible size of disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_size_limit DataYandexMdbKafkaCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_size_limit DataYandexMdbKafkaCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Percent of disk utilization. Disk will autoscale immediately, if this threshold reached. Value is between 0 and 100. Default value is 0 (autoscaling disabled). Must be not less then 'planned_usage_threshold' value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#emergency_usage_threshold DataYandexMdbKafkaCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#emergency_usage_threshold DataYandexMdbKafkaCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Percent of disk utilization. During maintenance disk will autoscale, if this threshold reached. Value is between 0 and 100. Default value is 0 (autoscaling disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#planned_usage_threshold DataYandexMdbKafkaCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#planned_usage_threshold DataYandexMdbKafkaCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -491,121 +491,121 @@ export interface DataYandexMdbKafkaClusterConfigKafkaKafkaConfig {
   /**
   * Enable auto creation of topic on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#auto_create_topics_enable DataYandexMdbKafkaCluster#auto_create_topics_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#auto_create_topics_enable DataYandexMdbKafkaCluster#auto_create_topics_enable}
   */
   readonly autoCreateTopicsEnable?: boolean | cdktf.IResolvable;
   /**
   * Compression type of kafka topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#compression_type DataYandexMdbKafkaCluster#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#compression_type DataYandexMdbKafkaCluster#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The replication factor for automatically created topics, and for topics created with -1 as the replication factor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#default_replication_factor DataYandexMdbKafkaCluster#default_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#default_replication_factor DataYandexMdbKafkaCluster#default_replication_factor}
   */
   readonly defaultReplicationFactor?: string;
   /**
   * The number of messages accumulated on a log partition before messages are flushed to disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_flush_interval_messages DataYandexMdbKafkaCluster#log_flush_interval_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_flush_interval_messages DataYandexMdbKafkaCluster#log_flush_interval_messages}
   */
   readonly logFlushIntervalMessages?: string;
   /**
   * The maximum time in ms that a message in any topic is kept in memory before flushed to disk. If not set, the value in log.flush.scheduler.interval.ms is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_flush_interval_ms DataYandexMdbKafkaCluster#log_flush_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_flush_interval_ms DataYandexMdbKafkaCluster#log_flush_interval_ms}
   */
   readonly logFlushIntervalMs?: string;
   /**
   * The frequency in ms that the log flusher checks whether any log needs to be flushed to disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_flush_scheduler_interval_ms DataYandexMdbKafkaCluster#log_flush_scheduler_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_flush_scheduler_interval_ms DataYandexMdbKafkaCluster#log_flush_scheduler_interval_ms}
   */
   readonly logFlushSchedulerIntervalMs?: string;
   /**
   * Should pre allocate file when create new segment?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_preallocate DataYandexMdbKafkaCluster#log_preallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_preallocate DataYandexMdbKafkaCluster#log_preallocate}
   */
   readonly logPreallocate?: boolean | cdktf.IResolvable;
   /**
   * The maximum size of the log before deleting it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_retention_bytes DataYandexMdbKafkaCluster#log_retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_retention_bytes DataYandexMdbKafkaCluster#log_retention_bytes}
   */
   readonly logRetentionBytes?: string;
   /**
   * The number of hours to keep a log file before deleting it (in hours), tertiary to log.retention.ms property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_retention_hours DataYandexMdbKafkaCluster#log_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_retention_hours DataYandexMdbKafkaCluster#log_retention_hours}
   */
   readonly logRetentionHours?: string;
   /**
   * The number of minutes to keep a log file before deleting it (in minutes), secondary to log.retention.ms property. If not set, the value in log.retention.hours is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_retention_minutes DataYandexMdbKafkaCluster#log_retention_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_retention_minutes DataYandexMdbKafkaCluster#log_retention_minutes}
   */
   readonly logRetentionMinutes?: string;
   /**
   * The number of milliseconds to keep a log file before deleting it (in milliseconds), If not set, the value in log.retention.minutes is used. If set to -1, no time limit is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_retention_ms DataYandexMdbKafkaCluster#log_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_retention_ms DataYandexMdbKafkaCluster#log_retention_ms}
   */
   readonly logRetentionMs?: string;
   /**
   * The maximum size of a single log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#log_segment_bytes DataYandexMdbKafkaCluster#log_segment_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#log_segment_bytes DataYandexMdbKafkaCluster#log_segment_bytes}
   */
   readonly logSegmentBytes?: string;
   /**
   * The largest record batch size allowed by Kafka (after compression if compression is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#message_max_bytes DataYandexMdbKafkaCluster#message_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#message_max_bytes DataYandexMdbKafkaCluster#message_max_bytes}
   */
   readonly messageMaxBytes?: string;
   /**
   * The default number of log partitions per topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#num_partitions DataYandexMdbKafkaCluster#num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#num_partitions DataYandexMdbKafkaCluster#num_partitions}
   */
   readonly numPartitions?: string;
   /**
   * For subscribed consumers, committed offset of a specific partition will be expired and discarded after this period of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#offsets_retention_minutes DataYandexMdbKafkaCluster#offsets_retention_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#offsets_retention_minutes DataYandexMdbKafkaCluster#offsets_retention_minutes}
   */
   readonly offsetsRetentionMinutes?: string;
   /**
   * The number of bytes of messages to attempt to fetch for each partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#replica_fetch_max_bytes DataYandexMdbKafkaCluster#replica_fetch_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#replica_fetch_max_bytes DataYandexMdbKafkaCluster#replica_fetch_max_bytes}
   */
   readonly replicaFetchMaxBytes?: string;
   /**
   * The list of SASL mechanisms enabled in the Kafka server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#sasl_enabled_mechanisms DataYandexMdbKafkaCluster#sasl_enabled_mechanisms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#sasl_enabled_mechanisms DataYandexMdbKafkaCluster#sasl_enabled_mechanisms}
   */
   readonly saslEnabledMechanisms?: string[];
   /**
   * The SO_RCVBUF buffer of the socket server sockets. If the value is -1, the OS default will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#socket_receive_buffer_bytes DataYandexMdbKafkaCluster#socket_receive_buffer_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#socket_receive_buffer_bytes DataYandexMdbKafkaCluster#socket_receive_buffer_bytes}
   */
   readonly socketReceiveBufferBytes?: string;
   /**
   * The SO_SNDBUF buffer of the socket server sockets. If the value is -1, the OS default will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#socket_send_buffer_bytes DataYandexMdbKafkaCluster#socket_send_buffer_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#socket_send_buffer_bytes DataYandexMdbKafkaCluster#socket_send_buffer_bytes}
   */
   readonly socketSendBufferBytes?: string;
   /**
   * A list of cipher suites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#ssl_cipher_suites DataYandexMdbKafkaCluster#ssl_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#ssl_cipher_suites DataYandexMdbKafkaCluster#ssl_cipher_suites}
   */
   readonly sslCipherSuites?: string[];
 }
@@ -1242,19 +1242,19 @@ export interface DataYandexMdbKafkaClusterConfigKafkaResources {
   /**
   * Volume of the storage available to a Kafka host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of Kafka hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a Kafka host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1389,13 +1389,13 @@ export interface DataYandexMdbKafkaClusterConfigKafka {
   /**
   * kafka_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#kafka_config DataYandexMdbKafkaCluster#kafka_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#kafka_config DataYandexMdbKafkaCluster#kafka_config}
   */
   readonly kafkaConfig?: DataYandexMdbKafkaClusterConfigKafkaKafkaConfig;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
   */
   readonly resources: DataYandexMdbKafkaClusterConfigKafkaResources;
 }
@@ -1507,7 +1507,7 @@ export interface DataYandexMdbKafkaClusterConfigKafkaUi {
   /**
   * Enables KAFKA UI on cluster. The default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#enabled DataYandexMdbKafkaCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#enabled DataYandexMdbKafkaCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1593,19 +1593,19 @@ export interface DataYandexMdbKafkaClusterConfigKraftResources {
   /**
   * Volume of the storage available to a KRaft-controller host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of the storage of KRaft-controller hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
   * The ID of the preset for computational resources available to a KRaft-controller host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
   */
   readonly resourcePresetId?: string;
 }
@@ -1749,7 +1749,7 @@ export interface DataYandexMdbKafkaClusterConfigKraft {
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
   */
   readonly resources?: DataYandexMdbKafkaClusterConfigKraftResources;
 }
@@ -1835,7 +1835,7 @@ export interface DataYandexMdbKafkaClusterConfigRestApi {
   /**
   * Enables REST API on cluster. The default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#enabled DataYandexMdbKafkaCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#enabled DataYandexMdbKafkaCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1921,19 +1921,19 @@ export interface DataYandexMdbKafkaClusterConfigZookeeperResources {
   /**
   * Volume of the storage available to a ZooKeeper host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_size DataYandexMdbKafkaCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of the storage of ZooKeeper hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_type_id DataYandexMdbKafkaCluster#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
   * The ID of the preset for computational resources available to a ZooKeeper host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-kafka/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resource_preset_id DataYandexMdbKafkaCluster#resource_preset_id}
   */
   readonly resourcePresetId?: string;
 }
@@ -2077,7 +2077,7 @@ export interface DataYandexMdbKafkaClusterConfigZookeeper {
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#resources DataYandexMdbKafkaCluster#resources}
   */
   readonly resources?: DataYandexMdbKafkaClusterConfigZookeeperResources;
 }
@@ -2163,77 +2163,77 @@ export interface DataYandexMdbKafkaClusterConfigA {
   /**
   * Determines whether each broker will be assigned a public IP address. The default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#assign_public_ip DataYandexMdbKafkaCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#assign_public_ip DataYandexMdbKafkaCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Count of brokers per availability zone. The default is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#brokers_count DataYandexMdbKafkaCluster#brokers_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#brokers_count DataYandexMdbKafkaCluster#brokers_count}
   */
   readonly brokersCount?: number;
   /**
   * Enables managed schema registry on cluster. The default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#schema_registry DataYandexMdbKafkaCluster#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#schema_registry DataYandexMdbKafkaCluster#schema_registry}
   */
   readonly schemaRegistry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#unmanaged_topics DataYandexMdbKafkaCluster#unmanaged_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#unmanaged_topics DataYandexMdbKafkaCluster#unmanaged_topics}
   */
   readonly unmanagedTopics?: boolean | cdktf.IResolvable;
   /**
   * Version of the Kafka server software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#version DataYandexMdbKafkaCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#version DataYandexMdbKafkaCluster#version}
   */
   readonly version: string;
   /**
   * List of availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#zones DataYandexMdbKafkaCluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#zones DataYandexMdbKafkaCluster#zones}
   */
   readonly zones: string[];
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#access DataYandexMdbKafkaCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#access DataYandexMdbKafkaCluster#access}
   */
   readonly access?: DataYandexMdbKafkaClusterConfigAccess;
   /**
   * disk_size_autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#disk_size_autoscaling DataYandexMdbKafkaCluster#disk_size_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#disk_size_autoscaling DataYandexMdbKafkaCluster#disk_size_autoscaling}
   */
   readonly diskSizeAutoscaling?: DataYandexMdbKafkaClusterConfigDiskSizeAutoscaling;
   /**
   * kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#kafka DataYandexMdbKafkaCluster#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#kafka DataYandexMdbKafkaCluster#kafka}
   */
   readonly kafka: DataYandexMdbKafkaClusterConfigKafka;
   /**
   * kafka_ui block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#kafka_ui DataYandexMdbKafkaCluster#kafka_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#kafka_ui DataYandexMdbKafkaCluster#kafka_ui}
   */
   readonly kafkaUi?: DataYandexMdbKafkaClusterConfigKafkaUi;
   /**
   * kraft block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#kraft DataYandexMdbKafkaCluster#kraft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#kraft DataYandexMdbKafkaCluster#kraft}
   */
   readonly kraft?: DataYandexMdbKafkaClusterConfigKraft;
   /**
   * rest_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#rest_api DataYandexMdbKafkaCluster#rest_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#rest_api DataYandexMdbKafkaCluster#rest_api}
   */
   readonly restApi?: DataYandexMdbKafkaClusterConfigRestApi;
   /**
   * zookeeper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#zookeeper DataYandexMdbKafkaCluster#zookeeper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#zookeeper DataYandexMdbKafkaCluster#zookeeper}
   */
   readonly zookeeper?: DataYandexMdbKafkaClusterConfigZookeeper;
 }
@@ -2658,79 +2658,79 @@ export interface DataYandexMdbKafkaClusterTopicTopicConfig {
   /**
   * Retention policy to use on log segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#cleanup_policy DataYandexMdbKafkaCluster#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#cleanup_policy DataYandexMdbKafkaCluster#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Compression type of kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#compression_type DataYandexMdbKafkaCluster#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#compression_type DataYandexMdbKafkaCluster#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The amount of time to retain delete tombstone markers for log compacted topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#delete_retention_ms DataYandexMdbKafkaCluster#delete_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#delete_retention_ms DataYandexMdbKafkaCluster#delete_retention_ms}
   */
   readonly deleteRetentionMs?: string;
   /**
   * The time to wait before deleting a file from the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#file_delete_delay_ms DataYandexMdbKafkaCluster#file_delete_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#file_delete_delay_ms DataYandexMdbKafkaCluster#file_delete_delay_ms}
   */
   readonly fileDeleteDelayMs?: string;
   /**
   * This setting allows specifying an interval at which we will force an fsync of data written to the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#flush_messages DataYandexMdbKafkaCluster#flush_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#flush_messages DataYandexMdbKafkaCluster#flush_messages}
   */
   readonly flushMessages?: string;
   /**
   * This setting allows specifying a time interval at which we will force an fsync of data written to the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#flush_ms DataYandexMdbKafkaCluster#flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#flush_ms DataYandexMdbKafkaCluster#flush_ms}
   */
   readonly flushMs?: string;
   /**
   * The largest record batch size allowed by Kafka (after compression if compression is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#max_message_bytes DataYandexMdbKafkaCluster#max_message_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#max_message_bytes DataYandexMdbKafkaCluster#max_message_bytes}
   */
   readonly maxMessageBytes?: string;
   /**
   * The minimum time a message will remain uncompacted in the log. Only applicable for logs that are being compacted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#min_compaction_lag_ms DataYandexMdbKafkaCluster#min_compaction_lag_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#min_compaction_lag_ms DataYandexMdbKafkaCluster#min_compaction_lag_ms}
   */
   readonly minCompactionLagMs?: string;
   /**
   * When a producer sets acks to "all" (or "-1"), this configuration specifies the minimum number of replicas that must acknowledge a write for the write to be considered successful. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#min_insync_replicas DataYandexMdbKafkaCluster#min_insync_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#min_insync_replicas DataYandexMdbKafkaCluster#min_insync_replicas}
   */
   readonly minInsyncReplicas?: string;
   /**
   * True if we should preallocate the file on disk when creating a new log segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#preallocate DataYandexMdbKafkaCluster#preallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#preallocate DataYandexMdbKafkaCluster#preallocate}
   */
   readonly preallocate?: boolean | cdktf.IResolvable;
   /**
   * This configuration controls the maximum size a partition (which consists of log segments) can grow to before we will discard old log segments to free up space if we are using the "delete" retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#retention_bytes DataYandexMdbKafkaCluster#retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#retention_bytes DataYandexMdbKafkaCluster#retention_bytes}
   */
   readonly retentionBytes?: string;
   /**
   * This configuration controls the maximum time we will retain a log before we will discard old log segments to free up space if we are using the "delete" retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#retention_ms DataYandexMdbKafkaCluster#retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#retention_ms DataYandexMdbKafkaCluster#retention_ms}
   */
   readonly retentionMs?: string;
   /**
   * This configuration controls the segment file size for the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#segment_bytes DataYandexMdbKafkaCluster#segment_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#segment_bytes DataYandexMdbKafkaCluster#segment_bytes}
   */
   readonly segmentBytes?: string;
 }
@@ -3164,25 +3164,25 @@ export interface DataYandexMdbKafkaClusterTopic {
   /**
   * The name of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
   */
   readonly name: string;
   /**
   * The number of the topic's partitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#partitions DataYandexMdbKafkaCluster#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#partitions DataYandexMdbKafkaCluster#partitions}
   */
   readonly partitions: number;
   /**
   * Amount of data copies (replicas) for the topic in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#replication_factor DataYandexMdbKafkaCluster#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#replication_factor DataYandexMdbKafkaCluster#replication_factor}
   */
   readonly replicationFactor: number;
   /**
   * topic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#topic_config DataYandexMdbKafkaCluster#topic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#topic_config DataYandexMdbKafkaCluster#topic_config}
   */
   readonly topicConfig?: DataYandexMdbKafkaClusterTopicTopicConfig;
 }
@@ -3378,19 +3378,19 @@ export interface DataYandexMdbKafkaClusterUserPermission {
   /**
   * Set of hosts, to which this permission grants access to. Only ip-addresses allowed as value of single host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#allow_hosts DataYandexMdbKafkaCluster#allow_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#allow_hosts DataYandexMdbKafkaCluster#allow_hosts}
   */
   readonly allowHosts?: string[];
   /**
   * The role type to grant to the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#role DataYandexMdbKafkaCluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#role DataYandexMdbKafkaCluster#role}
   */
   readonly role: string;
   /**
   * The name of the topic that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#topic_name DataYandexMdbKafkaCluster#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#topic_name DataYandexMdbKafkaCluster#topic_name}
   */
   readonly topicName: string;
 }
@@ -3560,19 +3560,19 @@ export interface DataYandexMdbKafkaClusterUser {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#name DataYandexMdbKafkaCluster#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#password DataYandexMdbKafkaCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#password DataYandexMdbKafkaCluster#password}
   */
   readonly password: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#permission DataYandexMdbKafkaCluster#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#permission DataYandexMdbKafkaCluster#permission}
   */
   readonly permission?: DataYandexMdbKafkaClusterUserPermission[] | cdktf.IResolvable;
 }
@@ -3740,7 +3740,7 @@ export class DataYandexMdbKafkaClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster yandex_mdb_kafka_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster yandex_mdb_kafka_cluster}
 */
 export class DataYandexMdbKafkaCluster extends cdktf.TerraformDataSource {
 
@@ -3756,7 +3756,7 @@ export class DataYandexMdbKafkaCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbKafkaCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbKafkaCluster to import
-  * @param importFromId The id of the existing DataYandexMdbKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbKafkaCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3768,7 +3768,7 @@ export class DataYandexMdbKafkaCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_kafka_cluster yandex_mdb_kafka_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_kafka_cluster yandex_mdb_kafka_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3779,8 +3779,8 @@ export class DataYandexMdbKafkaCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_kafka_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

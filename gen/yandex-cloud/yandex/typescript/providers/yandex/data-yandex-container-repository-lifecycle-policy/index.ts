@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataYandexContainerRepositoryLifecyclePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#id DataYandexContainerRepositoryLifecyclePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#id DataYandexContainerRepositoryLifecyclePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataYandexContainerRepositoryLifecyclePolicyConfig extends cdkt
   /**
   * The ID of a specific Lifecycle Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#lifecycle_policy_id DataYandexContainerRepositoryLifecyclePolicy#lifecycle_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#lifecycle_policy_id DataYandexContainerRepositoryLifecyclePolicy#lifecycle_policy_id}
   */
   readonly lifecyclePolicyId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#name DataYandexContainerRepositoryLifecyclePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#name DataYandexContainerRepositoryLifecyclePolicy#name}
   */
   readonly name?: string;
   /**
   * The ID of the repository that the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#repository_id DataYandexContainerRepositoryLifecyclePolicy#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#repository_id DataYandexContainerRepositoryLifecyclePolicy#repository_id}
   */
   readonly repositoryId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#timeouts DataYandexContainerRepositoryLifecyclePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#timeouts DataYandexContainerRepositoryLifecyclePolicy#timeouts}
   */
   readonly timeouts?: DataYandexContainerRepositoryLifecyclePolicyTimeouts;
 }
@@ -136,7 +136,7 @@ export class DataYandexContainerRepositoryLifecyclePolicyRuleList extends cdktf.
 }
 export interface DataYandexContainerRepositoryLifecyclePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#default DataYandexContainerRepositoryLifecyclePolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#default DataYandexContainerRepositoryLifecyclePolicy#default}
   */
   readonly default?: string;
 }
@@ -230,7 +230,7 @@ export class DataYandexContainerRepositoryLifecyclePolicyTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy}
 */
 export class DataYandexContainerRepositoryLifecyclePolicy extends cdktf.TerraformDataSource {
 
@@ -246,7 +246,7 @@ export class DataYandexContainerRepositoryLifecyclePolicy extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataYandexContainerRepositoryLifecyclePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexContainerRepositoryLifecyclePolicy to import
-  * @param importFromId The id of the existing DataYandexContainerRepositoryLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexContainerRepositoryLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexContainerRepositoryLifecyclePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class DataYandexContainerRepositoryLifecyclePolicy extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class DataYandexContainerRepositoryLifecyclePolicy extends cdktf.Terrafor
       terraformResourceType: 'yandex_container_repository_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

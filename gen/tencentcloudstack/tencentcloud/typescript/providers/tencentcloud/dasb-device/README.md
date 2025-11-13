@@ -1,3 +1,3 @@
 # `tencentcloud_dasb_device`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_dasb_device`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dasb_device).
+Refer to the Terraform Registry for docs: [`tencentcloud_dasb_device`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dasb_device).

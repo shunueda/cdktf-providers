@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TcrServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service account description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#description TcrServiceAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#description TcrServiceAccount#description}
   */
   readonly description?: string;
   /**
   * whether to disable Service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#disable TcrServiceAccount#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#disable TcrServiceAccount#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * expiration date (unit: day), calculated from the current time, priority is higher than ExpiresAt Service account description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#duration TcrServiceAccount#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#duration TcrServiceAccount#duration}
   */
   readonly duration?: number;
   /**
   * Service account expiration time (time stamp, unit: milliseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#expires_at TcrServiceAccount#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#expires_at TcrServiceAccount#expires_at}
   */
   readonly expiresAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#id TcrServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#id TcrServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface TcrServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#name TcrServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#name TcrServiceAccount#name}
   */
   readonly name: string;
   /**
   * Password of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#password TcrServiceAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#password TcrServiceAccount#password}
   */
   readonly password?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#registry_id TcrServiceAccount#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#registry_id TcrServiceAccount#registry_id}
   */
   readonly registryId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#tags TcrServiceAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#tags TcrServiceAccount#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#permissions TcrServiceAccount#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#permissions TcrServiceAccount#permissions}
   */
   readonly permissions: TcrServiceAccountPermissions[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface TcrServiceAccountPermissions {
   /**
   * Actions, currently support: `tcr:PushRepository`, `tcr:PullRepository`, `tcr:CreateRepository`, `tcr:CreateHelmChart`, `tcr:DescribeHelmCharts`. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#actions TcrServiceAccount#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#actions TcrServiceAccount#actions}
   */
   readonly actions: string[];
   /**
   * resource path, currently only supports Namespace. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#resource TcrServiceAccount#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#resource TcrServiceAccount#resource}
   */
   readonly resource: string;
 }
@@ -218,7 +218,7 @@ export class TcrServiceAccountPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account tencentcloud_tcr_service_account}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account tencentcloud_tcr_service_account}
 */
 export class TcrServiceAccount extends cdktf.TerraformResource {
 
@@ -234,7 +234,7 @@ export class TcrServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrServiceAccount to import
-  * @param importFromId The id of the existing TcrServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class TcrServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tcr_service_account tencentcloud_tcr_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tcr_service_account tencentcloud_tcr_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class TcrServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_service_account',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

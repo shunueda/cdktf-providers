@@ -1,3 +1,3 @@
 # `tencentcloud_tse_cngw_strategy_bind_group`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_tse_cngw_strategy_bind_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_cngw_strategy_bind_group).
+Refer to the Terraform Registry for docs: [`tencentcloud_tse_cngw_strategy_bind_group`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_cngw_strategy_bind_group).

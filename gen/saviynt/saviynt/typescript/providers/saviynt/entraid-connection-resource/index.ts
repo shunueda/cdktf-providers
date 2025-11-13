@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,367 +10,367 @@ export interface EntraidConnectionResourceConfig extends cdktf.TerraformMetaArgu
   /**
   * Azure Active Directory tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#aad_tenant_id EntraidConnectionResource#aad_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#aad_tenant_id EntraidConnectionResource#aad_tenant_id}
   */
   readonly aadTenantId: string;
   /**
   * Access token used for API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#access_token EntraidConnectionResource#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#access_token EntraidConnectionResource#access_token}
   */
   readonly accessToken?: string;
   /**
   * Access token used for API calls (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#access_token_wo EntraidConnectionResource#access_token_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#access_token_wo EntraidConnectionResource#access_token_wo}
   */
   readonly accessTokenWo?: string;
   /**
   * Attributes for account configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#account_attributes EntraidConnectionResource#account_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#account_attributes EntraidConnectionResource#account_attributes}
   */
   readonly accountAttributes?: string;
   /**
   * Fields to import for accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#account_import_fields EntraidConnectionResource#account_import_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#account_import_fields EntraidConnectionResource#account_import_fields}
   */
   readonly accountImportFields?: string;
   /**
   * Filter for accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#accounts_filter EntraidConnectionResource#accounts_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#accounts_filter EntraidConnectionResource#accounts_filter}
   */
   readonly accountsFilter?: string;
   /**
   * JSON template to add access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#add_access_json EntraidConnectionResource#add_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#add_access_json EntraidConnectionResource#add_access_json}
   */
   readonly addAccessJson?: string;
   /**
   * JSON to add access to entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#add_access_to_entitlement_json EntraidConnectionResource#add_access_to_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#add_access_to_entitlement_json EntraidConnectionResource#add_access_to_entitlement_json}
   */
   readonly addAccessToEntitlementJson?: string;
   /**
   * Authentication endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#authentication_endpoint EntraidConnectionResource#authentication_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#authentication_endpoint EntraidConnectionResource#authentication_endpoint}
   */
   readonly authenticationEndpoint?: string;
   /**
   * Azure management endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#azure_management_endpoint EntraidConnectionResource#azure_management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#azure_management_endpoint EntraidConnectionResource#azure_management_endpoint}
   */
   readonly azureManagementEndpoint?: string;
   /**
   * Access token for Azure management APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#azure_mgmt_access_token EntraidConnectionResource#azure_mgmt_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#azure_mgmt_access_token EntraidConnectionResource#azure_mgmt_access_token}
   */
   readonly azureMgmtAccessToken?: string;
   /**
   * Access token for Azure management APIs (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#azure_mgmt_access_token_wo EntraidConnectionResource#azure_mgmt_access_token_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#azure_mgmt_access_token_wo EntraidConnectionResource#azure_mgmt_access_token_wo}
   */
   readonly azureMgmtAccessTokenWo?: string;
   /**
   * JSON template to change password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#change_pass_json EntraidConnectionResource#change_pass_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#change_pass_json EntraidConnectionResource#change_pass_json}
   */
   readonly changePassJson?: string;
   /**
   * Client ID for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#client_id EntraidConnectionResource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#client_id EntraidConnectionResource#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#client_secret EntraidConnectionResource#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#client_secret EntraidConnectionResource#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Client Secret for authentication (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#client_secret_wo EntraidConnectionResource#client_secret_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#client_secret_wo EntraidConnectionResource#client_secret_wo}
   */
   readonly clientSecretWo?: string;
   /**
   * Main config JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#config_json EntraidConnectionResource#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#config_json EntraidConnectionResource#config_json}
   */
   readonly configJson?: string;
   /**
   * Configuration for the connection in JSON format. Either the connection_json field or the connection_json_wo field must be populated to set the connection_json attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#connection_json EntraidConnectionResource#connection_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#connection_json EntraidConnectionResource#connection_json}
   */
   readonly connectionJson?: string;
   /**
   * Connection JSON configuration (write-only). Either the connection_json field or the connection_json_wo field must be populated to set the connection_json attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#connection_json_wo EntraidConnectionResource#connection_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#connection_json_wo EntraidConnectionResource#connection_json_wo}
   */
   readonly connectionJsonWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#connection_name EntraidConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#connection_name EntraidConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * JSON template to create an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_account_json EntraidConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_account_json EntraidConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   * JSON to create channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_channel_json EntraidConnectionResource#create_channel_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_channel_json EntraidConnectionResource#create_channel_json}
   */
   readonly createChannelJson?: string;
   /**
   * JSON to create group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_group_json EntraidConnectionResource#create_group_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_group_json EntraidConnectionResource#create_group_json}
   */
   readonly createGroupJson?: string;
   /**
   * Configuration to create new endpoints.Value accpetd are YES/NO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_new_endpoints EntraidConnectionResource#create_new_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_new_endpoints EntraidConnectionResource#create_new_endpoints}
   */
   readonly createNewEndpoints?: string;
   /**
   * JSON to create service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_service_principal_json EntraidConnectionResource#create_service_principal_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_service_principal_json EntraidConnectionResource#create_service_principal_json}
   */
   readonly createServicePrincipalJson?: string;
   /**
   * JSON to create team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_team_json EntraidConnectionResource#create_team_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_team_json EntraidConnectionResource#create_team_json}
   */
   readonly createTeamJson?: string;
   /**
   * Flag or configuration for creating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#create_users EntraidConnectionResource#create_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#create_users EntraidConnectionResource#create_users}
   */
   readonly createUsers?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#defaultsavroles EntraidConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#defaultsavroles EntraidConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * JSON to delete group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#delete_group_json EntraidConnectionResource#delete_group_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#delete_group_json EntraidConnectionResource#delete_group_json}
   */
   readonly deleteGroupJson?: string;
   /**
   * Delta tokens JSON data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#delta_tokens_json EntraidConnectionResource#delta_tokens_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#delta_tokens_json EntraidConnectionResource#delta_tokens_json}
   */
   readonly deltaTokensJson?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#description EntraidConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#description EntraidConnectionResource#description}
   */
   readonly description?: string;
   /**
   * JSON template to disable an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#disable_account_json EntraidConnectionResource#disable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#disable_account_json EntraidConnectionResource#disable_account_json}
   */
   readonly disableAccountJson?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#email_template EntraidConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#email_template EntraidConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON template to enable an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#enable_account_json EntraidConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#enable_account_json EntraidConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * Endpoints filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#endpoints_filter EntraidConnectionResource#endpoints_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#endpoints_filter EntraidConnectionResource#endpoints_filter}
   */
   readonly endpointsFilter?: string;
   /**
   * Configuration for enhanced directory roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#enhanced_directory_roles EntraidConnectionResource#enhanced_directory_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#enhanced_directory_roles EntraidConnectionResource#enhanced_directory_roles}
   */
   readonly enhancedDirectoryRoles?: string;
   /**
   * Attribute used for entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#entitlement_attribute EntraidConnectionResource#entitlement_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#entitlement_attribute EntraidConnectionResource#entitlement_attribute}
   */
   readonly entitlementAttribute?: string;
   /**
   * Filter JSON for entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#entitlement_filter_json EntraidConnectionResource#entitlement_filter_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#entitlement_filter_json EntraidConnectionResource#entitlement_filter_json}
   */
   readonly entitlementFilterJson?: string;
   /**
   * Depth level for import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#import_depth EntraidConnectionResource#import_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#import_depth EntraidConnectionResource#import_depth}
   */
   readonly importDepth?: string;
   /**
   * JSON configuration for importing users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#import_user_json EntraidConnectionResource#import_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#import_user_json EntraidConnectionResource#import_user_json}
   */
   readonly importUserJson?: string;
   /**
   * Type of managed accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#managed_account_type EntraidConnectionResource#managed_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#managed_account_type EntraidConnectionResource#managed_account_type}
   */
   readonly managedAccountType?: string;
   /**
   * Microsoft Graph API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#microsoft_graph_endpoint EntraidConnectionResource#microsoft_graph_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#microsoft_graph_endpoint EntraidConnectionResource#microsoft_graph_endpoint}
   */
   readonly microsoftGraphEndpoint?: string;
   /**
   * JSON to modify user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#modify_user_data_json EntraidConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#modify_user_data_json EntraidConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * PAM configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#pam_config EntraidConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#pam_config EntraidConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * JSON to remove access from entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#remove_access_from_entitlement_json EntraidConnectionResource#remove_access_from_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#remove_access_from_entitlement_json EntraidConnectionResource#remove_access_from_entitlement_json}
   */
   readonly removeAccessFromEntitlementJson?: string;
   /**
   * JSON template to remove access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#remove_access_json EntraidConnectionResource#remove_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#remove_access_json EntraidConnectionResource#remove_access_json}
   */
   readonly removeAccessJson?: string;
   /**
   * JSON template to remove account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#remove_account_json EntraidConnectionResource#remove_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#remove_account_json EntraidConnectionResource#remove_account_json}
   */
   readonly removeAccountJson?: string;
   /**
   * JSON to remove service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#remove_service_principal_json EntraidConnectionResource#remove_service_principal_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#remove_service_principal_json EntraidConnectionResource#remove_service_principal_json}
   */
   readonly removeServicePrincipalJson?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#save_in_vault EntraidConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#save_in_vault EntraidConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Attributes for service account configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#service_account_attributes EntraidConnectionResource#service_account_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#service_account_attributes EntraidConnectionResource#service_account_attributes}
   */
   readonly serviceAccountAttributes?: string;
   /**
   * Configuration for status thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#status_threshold_config EntraidConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#status_threshold_config EntraidConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * JSON template to update an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#update_account_json EntraidConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#update_account_json EntraidConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   * JSON to update group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#update_group_json EntraidConnectionResource#update_group_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#update_group_json EntraidConnectionResource#update_group_json}
   */
   readonly updateGroupJson?: string;
   /**
   * JSON to update service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#update_service_principal_json EntraidConnectionResource#update_service_principal_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#update_service_principal_json EntraidConnectionResource#update_service_principal_json}
   */
   readonly updateServicePrincipalJson?: string;
   /**
   * JSON template to update user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#update_user_json EntraidConnectionResource#update_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#update_user_json EntraidConnectionResource#update_user_json}
   */
   readonly updateUserJson?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#vault_configuration EntraidConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#vault_configuration EntraidConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#vault_connection EntraidConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#vault_connection EntraidConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Windows connector JSON configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#windows_connector_json EntraidConnectionResource#windows_connector_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#windows_connector_json EntraidConnectionResource#windows_connector_json}
   */
   readonly windowsConnectorJson?: string;
   /**
   * Windows connector JSON configuration (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#windows_connector_json_wo EntraidConnectionResource#windows_connector_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#windows_connector_json_wo EntraidConnectionResource#windows_connector_json_wo}
   */
   readonly windowsConnectorJsonWo?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#wo_version EntraidConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#wo_version EntraidConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource saviynt_entraid_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource saviynt_entraid_connection_resource}
 */
 export class EntraidConnectionResource extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class EntraidConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntraidConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntraidConnectionResource to import
-  * @param importFromId The id of the existing EntraidConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntraidConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntraidConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class EntraidConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/entraid_connection_resource saviynt_entraid_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/entraid_connection_resource saviynt_entraid_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class EntraidConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_entraid_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScfLayerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The compatible runtimes of layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#compatible_runtimes ScfLayer#compatible_runtimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#compatible_runtimes ScfLayer#compatible_runtimes}
   */
   readonly compatibleRuntimes: string[];
   /**
   * The description of layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#description ScfLayer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#description ScfLayer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#id ScfLayer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#id ScfLayer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ScfLayerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#layer_name ScfLayer#layer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#layer_name ScfLayer#layer_name}
   */
   readonly layerName: string;
   /**
   * The license info of layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#license_info ScfLayer#license_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#license_info ScfLayer#license_info}
   */
   readonly licenseInfo?: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#content ScfLayer#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#content ScfLayer#content}
   */
   readonly content: ScfLayerContent;
 }
@@ -49,25 +49,25 @@ export interface ScfLayerContent {
   /**
   * Cos bucket name of the SCF layer, such as `cos-1234567890`, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#cos_bucket_name ScfLayer#cos_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#cos_bucket_name ScfLayer#cos_bucket_name}
   */
   readonly cosBucketName?: string;
   /**
   * Cos bucket region of the SCF layer, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#cos_bucket_region ScfLayer#cos_bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#cos_bucket_region ScfLayer#cos_bucket_region}
   */
   readonly cosBucketRegion?: string;
   /**
   * Cos object name of the SCF layer, should have suffix `.zip` or `.jar`, conflict with `zip_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#cos_object_name ScfLayer#cos_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#cos_object_name ScfLayer#cos_object_name}
   */
   readonly cosObjectName?: string;
   /**
   * Zip file of the SCF layer, conflict with `cos_bucket_name`, `cos_object_name`, `cos_bucket_region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#zip_file ScfLayer#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#zip_file ScfLayer#zip_file}
   */
   readonly zipFile?: string;
 }
@@ -238,7 +238,7 @@ export class ScfLayerContentOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer tencentcloud_scf_layer}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer tencentcloud_scf_layer}
 */
 export class ScfLayer extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class ScfLayer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfLayer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfLayer to import
-  * @param importFromId The id of the existing ScfLayer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfLayer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfLayer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class ScfLayer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/scf_layer tencentcloud_scf_layer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/scf_layer tencentcloud_scf_layer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class ScfLayer extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_layer',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

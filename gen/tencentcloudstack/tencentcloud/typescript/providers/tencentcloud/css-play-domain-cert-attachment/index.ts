@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CssPlayDomainCertAttachmentConfig extends cdktf.TerraformMetaAr
   /**
   * Tencent cloud ssl certificate Id. Refer to `tencentcloud_ssl_certificate` to create or obtain the resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#cloud_cert_id CssPlayDomainCertAttachment#cloud_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#cloud_cert_id CssPlayDomainCertAttachment#cloud_cert_id}
   */
   readonly cloudCertId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#id CssPlayDomainCertAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#id CssPlayDomainCertAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface CssPlayDomainCertAttachmentConfig extends cdktf.TerraformMetaAr
   /**
   * domain_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#domain_info CssPlayDomainCertAttachment#domain_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#domain_info CssPlayDomainCertAttachment#domain_info}
   */
   readonly domainInfo: CssPlayDomainCertAttachmentDomainInfo;
 }
@@ -31,13 +31,13 @@ export interface CssPlayDomainCertAttachmentDomainInfo {
   /**
   * domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#domain_name CssPlayDomainCertAttachment#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#domain_name CssPlayDomainCertAttachment#domain_name}
   */
   readonly domainName: string;
   /**
   * Whether to enable the https rule for the domain name. 1: enable, 0: disabled, -1: remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#status CssPlayDomainCertAttachment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#status CssPlayDomainCertAttachment#status}
   */
   readonly status: number;
 }
@@ -144,7 +144,7 @@ export class CssPlayDomainCertAttachmentDomainInfoOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment tencentcloud_css_play_domain_cert_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment tencentcloud_css_play_domain_cert_attachment}
 */
 export class CssPlayDomainCertAttachment extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class CssPlayDomainCertAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssPlayDomainCertAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssPlayDomainCertAttachment to import
-  * @param importFromId The id of the existing CssPlayDomainCertAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssPlayDomainCertAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssPlayDomainCertAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class CssPlayDomainCertAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/css_play_domain_cert_attachment tencentcloud_css_play_domain_cert_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/css_play_domain_cert_attachment tencentcloud_css_play_domain_cert_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class CssPlayDomainCertAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_play_domain_cert_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

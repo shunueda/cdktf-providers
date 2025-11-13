@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VpcNetworkAclQuintupleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#id VpcNetworkAclQuintuple#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#id VpcNetworkAclQuintuple#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface VpcNetworkAclQuintupleConfig extends cdktf.TerraformMetaArgumen
   /**
   * Network ACL instance ID. For example:acl-12345678.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_id VpcNetworkAclQuintuple#network_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_id VpcNetworkAclQuintuple#network_acl_id}
   */
   readonly networkAclId: string;
   /**
   * network_acl_quintuple_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_set VpcNetworkAclQuintuple#network_acl_quintuple_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_set VpcNetworkAclQuintuple#network_acl_quintuple_set}
   */
   readonly networkAclQuintupleSet: VpcNetworkAclQuintupleNetworkAclQuintupleSet;
 }
@@ -31,67 +31,67 @@ export interface VpcNetworkAclQuintupleNetworkAclQuintupleSetEgress {
   /**
   * Action, ACCEPT or DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#action VpcNetworkAclQuintuple#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#action VpcNetworkAclQuintuple#action}
   */
   readonly action?: string;
   /**
   * Creation time, used as an output parameter of DescribeNetworkAclQuintupleEntries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#create_time VpcNetworkAclQuintuple#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#create_time VpcNetworkAclQuintuple#create_time}
   */
   readonly createTime?: string;
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#description VpcNetworkAclQuintuple#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#description VpcNetworkAclQuintuple#description}
   */
   readonly description?: string;
   /**
   * Destination CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#destination_cidr VpcNetworkAclQuintuple#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#destination_cidr VpcNetworkAclQuintuple#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
   * Destination port (all, single port, range). When Protocol is ALL or ICMP, Port cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#destination_port VpcNetworkAclQuintuple#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#destination_port VpcNetworkAclQuintuple#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * Direction, INGRESS or EGRESS, is used as an output parameter of DescribeNetworkAclQuintupleEntries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_direction VpcNetworkAclQuintuple#network_acl_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_direction VpcNetworkAclQuintuple#network_acl_direction}
   */
   readonly networkAclDirection?: string;
   /**
   * Unique ID of a network ACL entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_entry_id VpcNetworkAclQuintuple#network_acl_quintuple_entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_entry_id VpcNetworkAclQuintuple#network_acl_quintuple_entry_id}
   */
   readonly networkAclQuintupleEntryId?: string;
   /**
   * Priority, starting from 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#priority VpcNetworkAclQuintuple#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#priority VpcNetworkAclQuintuple#priority}
   */
   readonly priority?: number;
   /**
   * Protocol, value: TCP,UDP, ICMP, ALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#protocol VpcNetworkAclQuintuple#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#protocol VpcNetworkAclQuintuple#protocol}
   */
   readonly protocol?: string;
   /**
   * Source CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#source_cidr VpcNetworkAclQuintuple#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#source_cidr VpcNetworkAclQuintuple#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * Source port (all, single port, range). When Protocol is ALL or ICMP, Port cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#source_port VpcNetworkAclQuintuple#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#source_port VpcNetworkAclQuintuple#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -499,67 +499,67 @@ export interface VpcNetworkAclQuintupleNetworkAclQuintupleSetIngress {
   /**
   * Action, ACCEPT or DROP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#action VpcNetworkAclQuintuple#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#action VpcNetworkAclQuintuple#action}
   */
   readonly action?: string;
   /**
   * Creation time, used as an output parameter of DescribeNetworkAclQuintupleEntries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#create_time VpcNetworkAclQuintuple#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#create_time VpcNetworkAclQuintuple#create_time}
   */
   readonly createTime?: string;
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#description VpcNetworkAclQuintuple#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#description VpcNetworkAclQuintuple#description}
   */
   readonly description?: string;
   /**
   * Destination CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#destination_cidr VpcNetworkAclQuintuple#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#destination_cidr VpcNetworkAclQuintuple#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
   * Destination port (all, single port, range). When Protocol is ALL or ICMP, Port cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#destination_port VpcNetworkAclQuintuple#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#destination_port VpcNetworkAclQuintuple#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * Direction, INGRESS or EGRESS, is used as an output parameter of DescribeNetworkAclQuintupleEntries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_direction VpcNetworkAclQuintuple#network_acl_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_direction VpcNetworkAclQuintuple#network_acl_direction}
   */
   readonly networkAclDirection?: string;
   /**
   * Unique ID of a network ACL entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_entry_id VpcNetworkAclQuintuple#network_acl_quintuple_entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#network_acl_quintuple_entry_id VpcNetworkAclQuintuple#network_acl_quintuple_entry_id}
   */
   readonly networkAclQuintupleEntryId?: string;
   /**
   * Priority, starting from 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#priority VpcNetworkAclQuintuple#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#priority VpcNetworkAclQuintuple#priority}
   */
   readonly priority?: number;
   /**
   * Protocol, value: TCP,UDP, ICMP, ALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#protocol VpcNetworkAclQuintuple#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#protocol VpcNetworkAclQuintuple#protocol}
   */
   readonly protocol?: string;
   /**
   * 源CIDR。.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#source_cidr VpcNetworkAclQuintuple#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#source_cidr VpcNetworkAclQuintuple#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * source port (all, single port, range). When the protocol is ALL or ICMP, the port cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#source_port VpcNetworkAclQuintuple#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#source_port VpcNetworkAclQuintuple#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -967,13 +967,13 @@ export interface VpcNetworkAclQuintupleNetworkAclQuintupleSet {
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#egress VpcNetworkAclQuintuple#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#egress VpcNetworkAclQuintuple#egress}
   */
   readonly egress?: VpcNetworkAclQuintupleNetworkAclQuintupleSetEgress[] | cdktf.IResolvable;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#ingress VpcNetworkAclQuintuple#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#ingress VpcNetworkAclQuintuple#ingress}
   */
   readonly ingress?: VpcNetworkAclQuintupleNetworkAclQuintupleSetIngress[] | cdktf.IResolvable;
 }
@@ -1086,7 +1086,7 @@ export class VpcNetworkAclQuintupleNetworkAclQuintupleSetOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple tencentcloud_vpc_network_acl_quintuple}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple tencentcloud_vpc_network_acl_quintuple}
 */
 export class VpcNetworkAclQuintuple extends cdktf.TerraformResource {
 
@@ -1102,7 +1102,7 @@ export class VpcNetworkAclQuintuple extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcNetworkAclQuintuple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcNetworkAclQuintuple to import
-  * @param importFromId The id of the existing VpcNetworkAclQuintuple that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcNetworkAclQuintuple that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcNetworkAclQuintuple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1114,7 +1114,7 @@ export class VpcNetworkAclQuintuple extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/vpc_network_acl_quintuple tencentcloud_vpc_network_acl_quintuple} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/vpc_network_acl_quintuple tencentcloud_vpc_network_acl_quintuple} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1125,8 +1125,8 @@ export class VpcNetworkAclQuintuple extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_network_acl_quintuple',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

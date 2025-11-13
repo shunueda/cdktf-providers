@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDcdbLogFilesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#id DataTencentcloudDcdbLogFiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#id DataTencentcloudDcdbLogFiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudDcdbLogFilesConfig extends cdktf.TerraformMetaA
   /**
   * Instance ID in the format of `tdsqlshard-ow728lmc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#instance_id DataTencentcloudDcdbLogFiles#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#instance_id DataTencentcloudDcdbLogFiles#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#result_output_file DataTencentcloudDcdbLogFiles#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#result_output_file DataTencentcloudDcdbLogFiles#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Instance shard ID in the format of `shard-rc754ljk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#shard_id DataTencentcloudDcdbLogFiles#shard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#shard_id DataTencentcloudDcdbLogFiles#shard_id}
   */
   readonly shardId: string;
   /**
   * Requested log type. Valid values: 1 (binlog), 2 (cold backup), 3 (errlog), 4 (slowlog).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#type DataTencentcloudDcdbLogFiles#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#type DataTencentcloudDcdbLogFiles#type}
   */
   readonly type: number;
 }
@@ -131,7 +131,7 @@ export class DataTencentcloudDcdbLogFilesFilesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files tencentcloud_dcdb_log_files}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files tencentcloud_dcdb_log_files}
 */
 export class DataTencentcloudDcdbLogFiles extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataTencentcloudDcdbLogFiles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDcdbLogFiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbLogFiles to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbLogFiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbLogFiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbLogFiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataTencentcloudDcdbLogFiles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dcdb_log_files tencentcloud_dcdb_log_files} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dcdb_log_files tencentcloud_dcdb_log_files} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataTencentcloudDcdbLogFiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dcdb_log_files',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -12913,6 +12913,16 @@ export class DataSdmResourceResourcesRdpOutputReference extends cdktf.ComplexObj
     return this.getStringAttribute('id');
   }
 
+  // identity_alias_healthcheck_username - computed: true, optional: false, required: false
+  public get identityAliasHealthcheckUsername() {
+    return this.getStringAttribute('identity_alias_healthcheck_username');
+  }
+
+  // identity_set_id - computed: true, optional: false, required: false
+  public get identitySetId() {
+    return this.getStringAttribute('identity_set_id');
+  }
+
   // lock_required - computed: true, optional: false, required: false
   public get lockRequired() {
     return this.getBooleanAttribute('lock_required');

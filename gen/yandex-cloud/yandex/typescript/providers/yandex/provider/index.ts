@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,57 +11,57 @@ export interface YandexProviderConfig {
   * The ID of the [Cloud](https://yandex.cloud/docs/resource-manager/concepts/resources-hierarchy#cloud) to apply any resources to.
   * This can also be specified using environment variable `YC_CLOUD_ID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#cloud_id YandexProvider#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#cloud_id YandexProvider#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * The endpoint for API calls, default value is **api.cloud.yandex.net:443**.
   * This can also be defined by environment variable `YC_ENDPOINT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#endpoint YandexProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#endpoint YandexProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The ID of the [Folder](https://yandex.cloud/docs/resource-manager/concepts/resources-hierarchy#folder) to operate under, if not specified by a given resource.
   * This can also be specified using environment variable `YC_FOLDER_ID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#folder_id YandexProvider#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#folder_id YandexProvider#folder_id}
   */
   readonly folderId?: string;
   /**
   * Explicitly allow the provider to perform "insecure" SSL requests. If omitted, default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#insecure YandexProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#insecure YandexProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * This is the maximum number of times an API call is retried, in the case where requests are being throttled or experiencing transient failures. The delay between the subsequent API calls increases exponentially.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#max_retries YandexProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#max_retries YandexProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The ID of the [Cloud Organization](https://yandex.cloud/docs/organization/quickstart) to operate under.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#organization_id YandexProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#organization_id YandexProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Disable use of TLS. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#plaintext YandexProvider#plaintext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#plaintext YandexProvider#plaintext}
   */
   readonly plaintext?: boolean | cdktf.IResolvable;
   /**
   * Profile name to use in the shared credentials file. Default value is `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#profile YandexProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#profile YandexProvider#profile}
   */
   readonly profile?: string;
   /**
   * [The region](https://yandex.cloud/docs/overview/concepts/region) where operations will take place. For example `ru-central1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#region_id YandexProvider#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#region_id YandexProvider#region_id}
   */
   readonly regionId?: string;
   /**
@@ -74,7 +74,7 @@ export interface YandexProviderConfig {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#service_account_key_file YandexProvider#service_account_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#service_account_key_file YandexProvider#service_account_key_file}
   */
   readonly serviceAccountKeyFile?: string;
   /**
@@ -84,80 +84,80 @@ export interface YandexProviderConfig {
   * ~> The `storage_access_key` and `storage_secret_key` attributes from the shared credentials file are used only when the provider and a storage data/resource do not have an access/secret keys explicitly specified.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#shared_credentials_file YandexProvider#shared_credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#shared_credentials_file YandexProvider#shared_credentials_file}
   */
   readonly sharedCredentialsFile?: string;
   /**
   * Yandex Cloud Object Storage access key, which is used when a storage data/resource doesn't have an access key explicitly specified. 
   * This can also be specified using environment variable `YC_STORAGE_ACCESS_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#storage_access_key YandexProvider#storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#storage_access_key YandexProvider#storage_access_key}
   */
   readonly storageAccessKey?: string;
   /**
   * Yandex Cloud [Object Storage Endpoint](https://yandex.cloud/docs/storage/s3/#request-url), which is used to connect to `S3 API`. Default value is **storage.yandexcloud.net**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#storage_endpoint YandexProvider#storage_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#storage_endpoint YandexProvider#storage_endpoint}
   */
   readonly storageEndpoint?: string;
   /**
   * Yandex Cloud Object Storage secret key, which is used when a storage data/resource doesn't have a secret key explicitly specified.
   * This can also be specified using environment variable `YC_STORAGE_SECRET_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#storage_secret_key YandexProvider#storage_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#storage_secret_key YandexProvider#storage_secret_key}
   */
   readonly storageSecretKey?: string;
   /**
   * Security token or IAM token used for authentication in Yandex Cloud.
   * Check [documentation](https://yandex.cloud/docs/iam/operations/iam-token/create) about how to create IAM token. This can also be specified using environment variable `YC_TOKEN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#token YandexProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#token YandexProvider#token}
   */
   readonly token?: string;
   /**
   * Yandex Cloud Message Queue service access key, which is used when a YMQ queue resource doesn't have an access key explicitly specified.
   *   This can also be specified using environment variable `YC_MESSAGE_QUEUE_ACCESS_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#ymq_access_key YandexProvider#ymq_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#ymq_access_key YandexProvider#ymq_access_key}
   */
   readonly ymqAccessKey?: string;
   /**
   * Yandex Cloud Message Queue service endpoint. Default value is **message-queue.api.cloud.yandex.net**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#ymq_endpoint YandexProvider#ymq_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#ymq_endpoint YandexProvider#ymq_endpoint}
   */
   readonly ymqEndpoint?: string;
   /**
   * Yandex Cloud Message Queue service secret key, which is used when a YMQ queue resource doesn't have a secret key explicitly specified.
   * This can also be specified using environment variable `YC_MESSAGE_QUEUE_SECRET_KEY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#ymq_secret_key YandexProvider#ymq_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#ymq_secret_key YandexProvider#ymq_secret_key}
   */
   readonly ymqSecretKey?: string;
   /**
   * The Yandex Query API endpoint, default value is **grpc.yandex-query.cloud.yandex.net:2135**.
   * This can also be defined by environment variable `YC_YQ_ENDPOINT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#yq_endpoint YandexProvider#yq_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#yq_endpoint YandexProvider#yq_endpoint}
   */
   readonly yqEndpoint?: string;
   /**
   * The default [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) to operate under, if not specified by a given resource.
   * This can also be specified using environment variable `YC_ZONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#zone YandexProvider#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#zone YandexProvider#zone}
   */
   readonly zone?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#alias YandexProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#alias YandexProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs yandex}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs yandex}
 */
 export class YandexProvider extends cdktf.TerraformProvider {
 
@@ -173,7 +173,7 @@ export class YandexProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a YandexProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YandexProvider to import
-  * @param importFromId The id of the existing YandexProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YandexProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YandexProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class YandexProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs yandex} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs yandex} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class YandexProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'yandex',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       terraformProviderSource: 'yandex-cloud/yandex'
     });

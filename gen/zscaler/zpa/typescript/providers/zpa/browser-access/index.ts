@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface BrowserAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether users can bypass ZPA to access applications. Default: NEVER. Supported values: ALWAYS, NEVER, ON_NET. The value NEVER indicates the use of the client forwarding policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#bypass_type BrowserAccess#bypass_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#bypass_type BrowserAccess#bypass_type}
   */
   readonly bypassType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#config_space BrowserAccess#config_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#config_space BrowserAccess#config_space}
   */
   readonly configSpace?: string;
   /**
   * Description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#description BrowserAccess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#description BrowserAccess#description}
   */
   readonly description?: string;
   /**
   * List of domains and IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#domain_names BrowserAccess#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#domain_names BrowserAccess#domain_names}
   */
   readonly domainNames: string[];
   /**
   * Whether Double Encryption is enabled or disabled for the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#double_encrypt BrowserAccess#double_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#double_encrypt BrowserAccess#double_encrypt}
   */
   readonly doubleEncrypt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#enabled BrowserAccess#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#enabled BrowserAccess#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#fqdn_dns_check BrowserAccess#fqdn_dns_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#fqdn_dns_check BrowserAccess#fqdn_dns_check}
   */
   readonly fqdnDnsCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#health_check_type BrowserAccess#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#health_check_type BrowserAccess#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * Whether health reporting for the app is Continuous or On Access. Supported values: NONE, ON_ACCESS, CONTINUOUS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#health_reporting BrowserAccess#health_reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#health_reporting BrowserAccess#health_reporting}
   */
   readonly healthReporting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#icmp_access_type BrowserAccess#icmp_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#icmp_access_type BrowserAccess#icmp_access_type}
   */
   readonly icmpAccessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#ip_anchored BrowserAccess#ip_anchored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#ip_anchored BrowserAccess#ip_anchored}
   */
   readonly ipAnchored?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Zscaler Client Connector (formerly Zscaler App or Z App) receives CNAME DNS records from the connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#is_cname_enabled BrowserAccess#is_cname_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#is_cname_enabled BrowserAccess#is_cname_enabled}
   */
   readonly isCnameEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#is_incomplete_dr_config BrowserAccess#is_incomplete_dr_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#is_incomplete_dr_config BrowserAccess#is_incomplete_dr_config}
   */
   readonly isIncompleteDrConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#microtenant_id BrowserAccess#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#microtenant_id BrowserAccess#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#name BrowserAccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#name BrowserAccess#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#passive_health_enabled BrowserAccess#passive_health_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#passive_health_enabled BrowserAccess#passive_health_enabled}
   */
   readonly passiveHealthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#segment_group_id BrowserAccess#segment_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#segment_group_id BrowserAccess#segment_group_id}
   */
   readonly segmentGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#segment_group_name BrowserAccess#segment_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#segment_group_name BrowserAccess#segment_group_name}
   */
   readonly segmentGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#select_connector_close_to_app BrowserAccess#select_connector_close_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#select_connector_close_to_app BrowserAccess#select_connector_close_to_app}
   */
   readonly selectConnectorCloseToApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#tcp_keep_alive BrowserAccess#tcp_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#tcp_keep_alive BrowserAccess#tcp_keep_alive}
   */
   readonly tcpKeepAlive?: string;
   /**
   * tcp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#tcp_port_range BrowserAccess#tcp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#tcp_port_range BrowserAccess#tcp_port_range}
   */
   readonly tcpPortRange?: BrowserAccessTcpPortRange[] | cdktf.IResolvable;
   /**
   * TCP port ranges used to access the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#tcp_port_ranges BrowserAccess#tcp_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#tcp_port_ranges BrowserAccess#tcp_port_ranges}
   */
   readonly tcpPortRanges?: string[];
   /**
   * udp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#udp_port_range BrowserAccess#udp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#udp_port_range BrowserAccess#udp_port_range}
   */
   readonly udpPortRange?: BrowserAccessUdpPortRange[] | cdktf.IResolvable;
   /**
   * UDP port ranges used to access the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#udp_port_ranges BrowserAccess#udp_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#udp_port_ranges BrowserAccess#udp_port_ranges}
   */
   readonly udpPortRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#use_in_dr_mode BrowserAccess#use_in_dr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#use_in_dr_mode BrowserAccess#use_in_dr_mode}
   */
   readonly useInDrMode?: boolean | cdktf.IResolvable;
   /**
   * clientless_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#clientless_apps BrowserAccess#clientless_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#clientless_apps BrowserAccess#clientless_apps}
   */
   readonly clientlessApps: BrowserAccessClientlessApps[] | cdktf.IResolvable;
   /**
   * server_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#server_groups BrowserAccess#server_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#server_groups BrowserAccess#server_groups}
   */
   readonly serverGroups?: BrowserAccessServerGroups[] | cdktf.IResolvable;
   /**
   * zpn_er_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#zpn_er_id BrowserAccess#zpn_er_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#zpn_er_id BrowserAccess#zpn_er_id}
   */
   readonly zpnErId?: BrowserAccessZpnErId[] | cdktf.IResolvable;
 }
 export interface BrowserAccessTcpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#from BrowserAccess#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#from BrowserAccess#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#to BrowserAccess#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#to BrowserAccess#to}
   */
   readonly to?: string;
 }
@@ -299,11 +299,11 @@ export class BrowserAccessTcpPortRangeList extends cdktf.ComplexList {
 }
 export interface BrowserAccessUdpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#from BrowserAccess#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#from BrowserAccess#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#to BrowserAccess#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#to BrowserAccess#to}
   */
   readonly to?: string;
 }
@@ -450,65 +450,65 @@ export interface BrowserAccessClientlessApps {
   /**
   * If you want ZPA to forward unauthenticated HTTP preflight OPTIONS requests from the browser to the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#allow_options BrowserAccess#allow_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#allow_options BrowserAccess#allow_options}
   */
   readonly allowOptions?: boolean | cdktf.IResolvable;
   /**
   * Port for the BA app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#application_port BrowserAccess#application_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#application_port BrowserAccess#application_port}
   */
   readonly applicationPort: string;
   /**
   * Protocol for the BA app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#application_protocol BrowserAccess#application_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#application_protocol BrowserAccess#application_protocol}
   */
   readonly applicationProtocol: string;
   /**
   * ID of the BA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#certificate_id BrowserAccess#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#certificate_id BrowserAccess#certificate_id}
   */
   readonly certificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#description BrowserAccess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#description BrowserAccess#description}
   */
   readonly description?: string;
   /**
   * Domain name or IP address of the BA app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#domain BrowserAccess#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#domain BrowserAccess#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#enabled BrowserAccess#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#enabled BrowserAccess#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The external domain name prefix of the Browser Access application that is used for Zscaler-managed certificates when creating a privileged portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#ext_domain BrowserAccess#ext_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#ext_domain BrowserAccess#ext_domain}
   */
   readonly extDomain?: string;
   /**
   * The domain prefix for the privileged portal URL. The supported string can include numbers, lower case characters, and only supports a hyphen (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#ext_label BrowserAccess#ext_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#ext_label BrowserAccess#ext_label}
   */
   readonly extLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#microtenant_id BrowserAccess#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#microtenant_id BrowserAccess#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#name BrowserAccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#name BrowserAccess#name}
   */
   readonly name: string;
   /**
   * Indicates whether Use Untrusted Certificates is enabled or disabled for a BA app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#trust_untrusted_cert BrowserAccess#trust_untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#trust_untrusted_cert BrowserAccess#trust_untrusted_cert}
   */
   readonly trustUntrustedCert?: boolean | cdktf.IResolvable;
 }
@@ -949,7 +949,7 @@ export class BrowserAccessClientlessAppsList extends cdktf.ComplexList {
 }
 export interface BrowserAccessServerGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#id BrowserAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#id BrowserAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1065,7 +1065,7 @@ export class BrowserAccessServerGroupsList extends cdktf.ComplexList {
 }
 export interface BrowserAccessZpnErId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#id BrowserAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#id BrowserAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1181,7 +1181,7 @@ export class BrowserAccessZpnErIdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access zpa_browser_access}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access zpa_browser_access}
 */
 export class BrowserAccess extends cdktf.TerraformResource {
 
@@ -1197,7 +1197,7 @@ export class BrowserAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrowserAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrowserAccess to import
-  * @param importFromId The id of the existing BrowserAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrowserAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrowserAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1209,7 +1209,7 @@ export class BrowserAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/browser_access zpa_browser_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/browser_access zpa_browser_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1220,8 +1220,8 @@ export class BrowserAccess extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_browser_access',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

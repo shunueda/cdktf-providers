@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ServerlessClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The auto scaling config of the essential cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#auto_scaling ServerlessCluster#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#auto_scaling ServerlessCluster#auto_scaling}
   */
   readonly autoScaling?: ServerlessClusterAutoScaling;
   /**
   * The automated backup policy of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#automated_backup_policy ServerlessCluster#automated_backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#automated_backup_policy ServerlessCluster#automated_backup_policy}
   */
   readonly automatedBackupPolicy?: ServerlessClusterAutomatedBackupPolicy;
   /**
   * The display name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#display_name ServerlessCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#display_name ServerlessCluster#display_name}
   */
   readonly displayName: string;
   /**
   * The encryption settings for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#encryption_config ServerlessCluster#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#encryption_config ServerlessCluster#encryption_config}
   */
   readonly encryptionConfig?: ServerlessClusterEncryptionConfig;
   /**
   * The endpoints for connecting to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#endpoints ServerlessCluster#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#endpoints ServerlessCluster#endpoints}
   */
   readonly endpoints?: ServerlessClusterEndpoints;
   /**
   * The ID of the project. When not provided, the default project will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#project_id ServerlessCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#project_id ServerlessCluster#project_id}
   */
   readonly projectId?: string;
   /**
   * The region of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#region ServerlessCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#region ServerlessCluster#region}
   */
   readonly region: ServerlessClusterRegion;
   /**
   * The spending limit of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#spending_limit ServerlessCluster#spending_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#spending_limit ServerlessCluster#spending_limit}
   */
   readonly spendingLimit?: ServerlessClusterSpendingLimit;
 }
@@ -60,13 +60,13 @@ export interface ServerlessClusterAutoScaling {
   /**
   * The maximum RCU (Request Capacity Unit) of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#max_rcu ServerlessCluster#max_rcu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#max_rcu ServerlessCluster#max_rcu}
   */
   readonly maxRcu: number;
   /**
   * The minimum RCU (Request Capacity Unit) of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#min_rcu ServerlessCluster#min_rcu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#min_rcu ServerlessCluster#min_rcu}
   */
   readonly minRcu: number;
 }
@@ -185,13 +185,13 @@ export interface ServerlessClusterAutomatedBackupPolicy {
   /**
   * The number of days to retain automated backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#retention_days ServerlessCluster#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#retention_days ServerlessCluster#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * The UTC time of day in HH:mm format when the automated backup will start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#start_time ServerlessCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#start_time ServerlessCluster#start_time}
   */
   readonly startTime?: string;
 }
@@ -316,7 +316,7 @@ export interface ServerlessClusterEncryptionConfig {
   /**
   * Whether enhanced encryption is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#enhanced_encryption_enabled ServerlessCluster#enhanced_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#enhanced_encryption_enabled ServerlessCluster#enhanced_encryption_enabled}
   */
   readonly enhancedEncryptionEnabled?: boolean | cdktf.IResolvable;
 }
@@ -536,7 +536,7 @@ export interface ServerlessClusterEndpointsPublic {
   /**
   * Whether the public endpoint is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#disabled ServerlessCluster#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#disabled ServerlessCluster#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -642,7 +642,7 @@ export interface ServerlessClusterEndpoints {
   /**
   * The public endpoint for connecting to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#public ServerlessCluster#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#public ServerlessCluster#public}
   */
   readonly public?: ServerlessClusterEndpointsPublic;
 }
@@ -744,7 +744,7 @@ export interface ServerlessClusterRegion {
   /**
   * The unique name of the region. The format is `regions/{region-id}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#name ServerlessCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#name ServerlessCluster#name}
   */
   readonly name: string;
 }
@@ -852,7 +852,7 @@ export interface ServerlessClusterSpendingLimit {
   /**
   * Maximum monthly spending limit in USD cents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#monthly ServerlessCluster#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#monthly ServerlessCluster#monthly}
   */
   readonly monthly?: number;
 }
@@ -946,7 +946,7 @@ export class ServerlessClusterSpendingLimitOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster tidbcloud_serverless_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster tidbcloud_serverless_cluster}
 */
 export class ServerlessCluster extends cdktf.TerraformResource {
 
@@ -962,7 +962,7 @@ export class ServerlessCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessCluster to import
-  * @param importFromId The id of the existing ServerlessCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -974,7 +974,7 @@ export class ServerlessCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/serverless_cluster tidbcloud_serverless_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/serverless_cluster tidbcloud_serverless_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -985,8 +985,8 @@ export class ServerlessCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_serverless_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

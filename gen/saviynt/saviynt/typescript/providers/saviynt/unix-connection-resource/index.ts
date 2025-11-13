@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,301 +10,301 @@ export interface UnixConnectionResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Property for ACCOUNT_ENTITLEMENT_MAPPING_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#account_entitlement_mapping_command UnixConnectionResource#account_entitlement_mapping_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#account_entitlement_mapping_command UnixConnectionResource#account_entitlement_mapping_command}
   */
   readonly accountEntitlementMappingCommand?: string;
   /**
   * Property for ACCOUNTS_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#accounts_file UnixConnectionResource#accounts_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#accounts_file UnixConnectionResource#accounts_file}
   */
   readonly accountsFile?: string;
   /**
   * Property for ADD_ACCESS_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#add_access_command UnixConnectionResource#add_access_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#add_access_command UnixConnectionResource#add_access_command}
   */
   readonly addAccessCommand?: string;
   /**
   * Property for ADD_GROUP_OWNER_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#add_group_owner_command UnixConnectionResource#add_group_owner_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#add_group_owner_command UnixConnectionResource#add_group_owner_command}
   */
   readonly addGroupOwnerCommand?: string;
   /**
   * Property for ADD_PRIMARY_GROUP_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#add_primary_group_command UnixConnectionResource#add_primary_group_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#add_primary_group_command UnixConnectionResource#add_primary_group_command}
   */
   readonly addPrimaryGroupCommand?: string;
   /**
   * Property for CHANGE_PASSWRD_JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#change_password_json UnixConnectionResource#change_password_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#change_password_json UnixConnectionResource#change_password_json}
   */
   readonly changePasswordJson?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#connection_name UnixConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#connection_name UnixConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Property for CREATE_GROUP_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#create_group_command UnixConnectionResource#create_group_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#create_group_command UnixConnectionResource#create_group_command}
   */
   readonly createGroupCommand?: string;
   /**
   * Property for CUSTOM_CONFIG_JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#custom_config_json UnixConnectionResource#custom_config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#custom_config_json UnixConnectionResource#custom_config_json}
   */
   readonly customConfigJson?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#defaultsavroles UnixConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#defaultsavroles UnixConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Property for DELETE_GROUP_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#delete_group_command UnixConnectionResource#delete_group_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#delete_group_command UnixConnectionResource#delete_group_command}
   */
   readonly deleteGroupCommand?: string;
   /**
   * Property for DEPROVISION_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#deprovision_account_command UnixConnectionResource#deprovision_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#deprovision_account_command UnixConnectionResource#deprovision_account_command}
   */
   readonly deprovisionAccountCommand?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#description UnixConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#description UnixConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Property for DISABLE_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#disable_account_command UnixConnectionResource#disable_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#disable_account_command UnixConnectionResource#disable_account_command}
   */
   readonly disableAccountCommand?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#email_template UnixConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#email_template UnixConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * Property for ENABLE_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#enable_account_command UnixConnectionResource#enable_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#enable_account_command UnixConnectionResource#enable_account_command}
   */
   readonly enableAccountCommand?: string;
   /**
   * Property for FIREFIGHTERID_GRANT_ACCESS_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#fire_fighter_id_grant_access_command UnixConnectionResource#fire_fighter_id_grant_access_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#fire_fighter_id_grant_access_command UnixConnectionResource#fire_fighter_id_grant_access_command}
   */
   readonly fireFighterIdGrantAccessCommand?: string;
   /**
   * Property for FIREFIGHTERID_REVOKE_ACCESS_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#fire_fighter_id_revoke_access_command UnixConnectionResource#fire_fighter_id_revoke_access_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#fire_fighter_id_revoke_access_command UnixConnectionResource#fire_fighter_id_revoke_access_command}
   */
   readonly fireFighterIdRevokeAccessCommand?: string;
   /**
   * Property for GROUPS_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#groups_file UnixConnectionResource#groups_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#groups_file UnixConnectionResource#groups_file}
   */
   readonly groupsFile?: string;
   /**
   * Property for HOST_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#host_name UnixConnectionResource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#host_name UnixConnectionResource#host_name}
   */
   readonly hostName: string;
   /**
   * Property for INACTIVE_LOCK_ACCOUNT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#inactive_lock_account UnixConnectionResource#inactive_lock_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#inactive_lock_account UnixConnectionResource#inactive_lock_account}
   */
   readonly inactiveLockAccount?: string;
   /**
   * Property for LOCK_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#lock_account_command UnixConnectionResource#lock_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#lock_account_command UnixConnectionResource#lock_account_command}
   */
   readonly lockAccountCommand?: string;
   /**
   * Property for PassThroughConnectionDetails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#pass_through_connection_details UnixConnectionResource#pass_through_connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#pass_through_connection_details UnixConnectionResource#pass_through_connection_details}
   */
   readonly passThroughConnectionDetails?: string;
   /**
   * Property for PASSPHRASE. Either this or passphrase_wo need to be set to configure the passphrase attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#passphrase UnixConnectionResource#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#passphrase UnixConnectionResource#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Passphrase write-only attribute. Either this or passphrase need to be set to configure the passphrase attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#passphrase_wo UnixConnectionResource#passphrase_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#passphrase_wo UnixConnectionResource#passphrase_wo}
   */
   readonly passphraseWo?: string;
   /**
   * Property for PASSWORD. Either this or password_wo need to be set to configure the password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#password UnixConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#password UnixConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Password write-only attribute. Either this or password need to be set to configure the password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#password_wo UnixConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#password_wo UnixConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Property for PEM_KEY_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#pem_key_file UnixConnectionResource#pem_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#pem_key_file UnixConnectionResource#pem_key_file}
   */
   readonly pemKeyFile?: string;
   /**
   * Property for PORT_NUMBER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#port_number UnixConnectionResource#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#port_number UnixConnectionResource#port_number}
   */
   readonly portNumber: string;
   /**
   * Property for PROVISION_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#provision_account_command UnixConnectionResource#provision_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#provision_account_command UnixConnectionResource#provision_account_command}
   */
   readonly provisionAccountCommand?: string;
   /**
   * Property for REMOVE_ACCESS_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#remove_access_command UnixConnectionResource#remove_access_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#remove_access_command UnixConnectionResource#remove_access_command}
   */
   readonly removeAccessCommand?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#save_in_vault UnixConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#save_in_vault UnixConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#server_type UnixConnectionResource#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#server_type UnixConnectionResource#server_type}
   */
   readonly serverType?: string;
   /**
   * Property for SHADOW_FILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#shadow_file UnixConnectionResource#shadow_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#shadow_file UnixConnectionResource#shadow_file}
   */
   readonly shadowFile?: string;
   /**
   * Property for SSH_KEY. Either this or ssh_key_wo need to be set to configure the ssh_key attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_key UnixConnectionResource#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_key UnixConnectionResource#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * SSH key write-only attribute. Either this or ssh_key need to be set to configure the ssh_key attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_key_wo UnixConnectionResource#ssh_key_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_key_wo UnixConnectionResource#ssh_key_wo}
   */
   readonly sshKeyWo?: string;
   /**
   * Property for SSHPassThroughPassphrase. Either this or ssh_pass_through_passphrase_wo need to be set to configure the ssh_pass_through_passphrase attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_passphrase UnixConnectionResource#ssh_pass_through_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_passphrase UnixConnectionResource#ssh_pass_through_passphrase}
   */
   readonly sshPassThroughPassphrase?: string;
   /**
   * SSH pass-through passphrase write-only attribute. Either this or ssh_pass_through_passphrase need to be set to configure the ssh_pass_through_passphrase attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_passphrase_wo UnixConnectionResource#ssh_pass_through_passphrase_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_passphrase_wo UnixConnectionResource#ssh_pass_through_passphrase_wo}
   */
   readonly sshPassThroughPassphraseWo?: string;
   /**
   * Property for SSHPassThroughPassword. Either this or ssh_pass_through_password_wo need to be set to configure the ssh_pass_through_password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_password UnixConnectionResource#ssh_pass_through_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_password UnixConnectionResource#ssh_pass_through_password}
   */
   readonly sshPassThroughPassword?: string;
   /**
   * SSH pass-through password write-only attribute. Either this or ssh_pass_through_password need to be set to configure the ssh_pass_through_password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_password_wo UnixConnectionResource#ssh_pass_through_password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_password_wo UnixConnectionResource#ssh_pass_through_password_wo}
   */
   readonly sshPassThroughPasswordWo?: string;
   /**
   * Property for SSHPassThroughSSHKEY. Either this or ssh_pass_through_sshkey_wo need to be set to configure the ssh_pass_through_sshkey attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_sshkey UnixConnectionResource#ssh_pass_through_sshkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_sshkey UnixConnectionResource#ssh_pass_through_sshkey}
   */
   readonly sshPassThroughSshkey?: string;
   /**
   * Property for SSHPassThroughSSHKEY. Either this or ssh_pass_through_sshkey need to be set to configure the ssh_pass_through_sshkey attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#ssh_pass_through_sshkey_wo UnixConnectionResource#ssh_pass_through_sshkey_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#ssh_pass_through_sshkey_wo UnixConnectionResource#ssh_pass_through_sshkey_wo}
   */
   readonly sshPassThroughSshkeyWo?: string;
   /**
   * Property for STATUS_THRESHOLD_CONFIG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#status_threshold_config UnixConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#status_threshold_config UnixConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * Property for UNLOCK_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#unlock_account_command UnixConnectionResource#unlock_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#unlock_account_command UnixConnectionResource#unlock_account_command}
   */
   readonly unlockAccountCommand?: string;
   /**
   * Property for UPDATE_ACCOUNT_COMMAND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#update_account_command UnixConnectionResource#update_account_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#update_account_command UnixConnectionResource#update_account_command}
   */
   readonly updateAccountCommand?: string;
   /**
   * Property for USERNAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#username UnixConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#username UnixConnectionResource#username}
   */
   readonly username: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#vault_configuration UnixConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#vault_configuration UnixConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#vault_connection UnixConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#vault_connection UnixConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#wo_version UnixConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#wo_version UnixConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource saviynt_unix_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource saviynt_unix_connection_resource}
 */
 export class UnixConnectionResource extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class UnixConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnixConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnixConnectionResource to import
-  * @param importFromId The id of the existing UnixConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnixConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnixConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class UnixConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/unix_connection_resource saviynt_unix_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/unix_connection_resource saviynt_unix_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class UnixConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_unix_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

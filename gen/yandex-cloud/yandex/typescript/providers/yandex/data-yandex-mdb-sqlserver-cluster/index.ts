@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexMdbSqlserverClusterConfig extends cdktf.TerraformMeta
   /**
   * The ID of the SQLServer cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#cluster_id DataYandexMdbSqlserverCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#cluster_id DataYandexMdbSqlserverCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#deletion_protection DataYandexMdbSqlserverCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#deletion_protection DataYandexMdbSqlserverCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#folder_id DataYandexMdbSqlserverCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#folder_id DataYandexMdbSqlserverCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#id DataYandexMdbSqlserverCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#id DataYandexMdbSqlserverCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataYandexMdbSqlserverClusterConfig extends cdktf.TerraformMeta
   /**
   * The name of the SQLServer cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#name DataYandexMdbSqlserverCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#name DataYandexMdbSqlserverCluster#name}
   */
   readonly name?: string;
   /**
   * SQL Collation cluster will be created with. This attribute cannot be changed when cluster is created!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#sqlcollation DataYandexMdbSqlserverCluster#sqlcollation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#sqlcollation DataYandexMdbSqlserverCluster#sqlcollation}
   */
   readonly sqlcollation?: string;
   /**
   * SQLServer cluster config. Detail info in `SQLServer config` section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#sqlserver_config DataYandexMdbSqlserverCluster#sqlserver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#sqlserver_config DataYandexMdbSqlserverCluster#sqlserver_config}
   */
   readonly sqlserverConfig?: { [key: string]: string };
 }
@@ -549,7 +549,7 @@ export class DataYandexMdbSqlserverClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster}
 */
 export class DataYandexMdbSqlserverCluster extends cdktf.TerraformDataSource {
 
@@ -565,7 +565,7 @@ export class DataYandexMdbSqlserverCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbSqlserverCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbSqlserverCluster to import
-  * @param importFromId The id of the existing DataYandexMdbSqlserverCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbSqlserverCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbSqlserverCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -577,7 +577,7 @@ export class DataYandexMdbSqlserverCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -588,8 +588,8 @@ export class DataYandexMdbSqlserverCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_sqlserver_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

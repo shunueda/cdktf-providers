@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,117 +10,117 @@ export interface PolicyAccessRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#action PolicyAccessRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#action PolicyAccessRule#action}
   */
   readonly action?: string;
   /**
   * This field defines the description of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#action_id PolicyAccessRule#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#action_id PolicyAccessRule#action_id}
   */
   readonly actionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#bypass_default_rule PolicyAccessRule#bypass_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#bypass_default_rule PolicyAccessRule#bypass_default_rule}
   */
   readonly bypassDefaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#custom_msg PolicyAccessRule#custom_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#custom_msg PolicyAccessRule#custom_msg}
   */
   readonly customMsg?: string;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#default_rule PolicyAccessRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#default_rule PolicyAccessRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#description PolicyAccessRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#description PolicyAccessRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#lss_default_rule PolicyAccessRule#lss_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#lss_default_rule PolicyAccessRule#lss_default_rule}
   */
   readonly lssDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#name PolicyAccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#name PolicyAccessRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#operator PolicyAccessRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#operator PolicyAccessRule#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#policy_set_id PolicyAccessRule#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#policy_set_id PolicyAccessRule#policy_set_id}
   */
   readonly policySetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#policy_type PolicyAccessRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#policy_type PolicyAccessRule#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#priority PolicyAccessRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#priority PolicyAccessRule#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#reauth_default_rule PolicyAccessRule#reauth_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#reauth_default_rule PolicyAccessRule#reauth_default_rule}
   */
   readonly reauthDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#reauth_idle_timeout PolicyAccessRule#reauth_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#reauth_idle_timeout PolicyAccessRule#reauth_idle_timeout}
   */
   readonly reauthIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#reauth_timeout PolicyAccessRule#reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#reauth_timeout PolicyAccessRule#reauth_timeout}
   */
   readonly reauthTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#rule_order PolicyAccessRule#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#rule_order PolicyAccessRule#rule_order}
   */
   readonly ruleOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#zpn_cbi_profile_id PolicyAccessRule#zpn_cbi_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#zpn_cbi_profile_id PolicyAccessRule#zpn_cbi_profile_id}
   */
   readonly zpnCbiProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#zpn_inspection_profile_id PolicyAccessRule#zpn_inspection_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#zpn_inspection_profile_id PolicyAccessRule#zpn_inspection_profile_id}
   */
   readonly zpnInspectionProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#zpn_isolation_profile_id PolicyAccessRule#zpn_isolation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#zpn_isolation_profile_id PolicyAccessRule#zpn_isolation_profile_id}
   */
   readonly zpnIsolationProfileId?: string;
   /**
   * app_connector_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#app_connector_groups PolicyAccessRule#app_connector_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#app_connector_groups PolicyAccessRule#app_connector_groups}
   */
   readonly appConnectorGroups?: PolicyAccessRuleAppConnectorGroups[] | cdktf.IResolvable;
   /**
   * app_server_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#app_server_groups PolicyAccessRule#app_server_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#app_server_groups PolicyAccessRule#app_server_groups}
   */
   readonly appServerGroups?: PolicyAccessRuleAppServerGroups[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#conditions PolicyAccessRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#conditions PolicyAccessRule#conditions}
   */
   readonly conditions?: PolicyAccessRuleConditions[] | cdktf.IResolvable;
 }
 export interface PolicyAccessRuleAppConnectorGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#id PolicyAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#id PolicyAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -236,7 +236,7 @@ export class PolicyAccessRuleAppConnectorGroupsList extends cdktf.ComplexList {
 }
 export interface PolicyAccessRuleAppServerGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#id PolicyAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#id PolicyAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -352,41 +352,41 @@ export class PolicyAccessRuleAppServerGroupsList extends cdktf.ComplexList {
 }
 export interface PolicyAccessRuleConditionsOperands {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#idp_id PolicyAccessRule#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#idp_id PolicyAccessRule#idp_id}
   */
   readonly idpId?: string;
   /**
   * This signifies the key for the object type. String ID example: id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#lhs PolicyAccessRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#lhs PolicyAccessRule#lhs}
   */
   readonly lhs: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#name PolicyAccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#name PolicyAccessRule#name}
   */
   readonly name?: string;
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#object_type PolicyAccessRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#object_type PolicyAccessRule#object_type}
   */
   readonly objectType: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#rhs PolicyAccessRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#rhs PolicyAccessRule#rhs}
   */
   readonly rhs?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#rhs_list PolicyAccessRule#rhs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#rhs_list PolicyAccessRule#rhs_list}
   */
   readonly rhsList?: string[];
 }
@@ -675,17 +675,17 @@ export class PolicyAccessRuleConditionsOperandsList extends cdktf.ComplexList {
 }
 export interface PolicyAccessRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#microtenant_id PolicyAccessRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#operator PolicyAccessRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#operator PolicyAccessRule#operator}
   */
   readonly operator: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#operands PolicyAccessRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#operands PolicyAccessRule#operands}
   */
   readonly operands?: PolicyAccessRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -861,7 +861,7 @@ export class PolicyAccessRuleConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule zpa_policy_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule zpa_policy_access_rule}
 */
 export class PolicyAccessRule extends cdktf.TerraformResource {
 
@@ -877,7 +877,7 @@ export class PolicyAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyAccessRule to import
-  * @param importFromId The id of the existing PolicyAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -889,7 +889,7 @@ export class PolicyAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/policy_access_rule zpa_policy_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/policy_access_rule zpa_policy_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -900,8 +900,8 @@ export class PolicyAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

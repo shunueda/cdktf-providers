@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MdbSqlserverClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#deletion_protection MdbSqlserverCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#deletion_protection MdbSqlserverCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#description MdbSqlserverCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#description MdbSqlserverCluster#description}
   */
   readonly description?: string;
   /**
   * Deployment environment of the SQLServer cluster. (PRODUCTION, PRESTABLE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#environment MdbSqlserverCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#environment MdbSqlserverCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#folder_id MdbSqlserverCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#folder_id MdbSqlserverCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A list of IDs of the host groups hosting VMs of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#host_group_ids MdbSqlserverCluster#host_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#host_group_ids MdbSqlserverCluster#host_group_ids}
   */
   readonly hostGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#id MdbSqlserverCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#id MdbSqlserverCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface MdbSqlserverClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#labels MdbSqlserverCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#labels MdbSqlserverCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#network_id MdbSqlserverCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#network_id MdbSqlserverCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#security_group_ids MdbSqlserverCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#security_group_ids MdbSqlserverCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * SQL Collation cluster will be created with. This attribute cannot be changed when cluster is created!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#sqlcollation MdbSqlserverCluster#sqlcollation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#sqlcollation MdbSqlserverCluster#sqlcollation}
   */
   readonly sqlcollation?: string;
   /**
   * SQLServer cluster config. Detail info in `SQLServer config` section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#sqlserver_config MdbSqlserverCluster#sqlserver_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#sqlserver_config MdbSqlserverCluster#sqlserver_config}
   */
   readonly sqlserverConfig?: { [key: string]: string };
   /**
   * Version of the SQLServer cluster. (2016sp2std, 2016sp2ent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#version MdbSqlserverCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#version MdbSqlserverCluster#version}
   */
   readonly version: string;
   /**
   * backup_window_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#backup_window_start MdbSqlserverCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#backup_window_start MdbSqlserverCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbSqlserverClusterBackupWindowStart;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#database MdbSqlserverCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#database MdbSqlserverCluster#database}
   */
   readonly database: MdbSqlserverClusterDatabase[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#host MdbSqlserverCluster#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#host MdbSqlserverCluster#host}
   */
   readonly host: MdbSqlserverClusterHost[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#resources MdbSqlserverCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#resources MdbSqlserverCluster#resources}
   */
   readonly resources: MdbSqlserverClusterResources;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#timeouts MdbSqlserverCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#timeouts MdbSqlserverCluster#timeouts}
   */
   readonly timeouts?: MdbSqlserverClusterTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#user MdbSqlserverCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#user MdbSqlserverCluster#user}
   */
   readonly user: MdbSqlserverClusterUser[] | cdktf.IResolvable;
 }
@@ -127,13 +127,13 @@ export interface MdbSqlserverClusterBackupWindowStart {
   /**
   * The hour at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#hours MdbSqlserverCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#hours MdbSqlserverCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#minutes MdbSqlserverCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#minutes MdbSqlserverCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -248,7 +248,7 @@ export interface MdbSqlserverClusterDatabase {
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
   */
   readonly name: string;
 }
@@ -363,19 +363,19 @@ export interface MdbSqlserverClusterHost {
   /**
   * Sets whether the host should get a public IP address on creation. Changing this parameter for an existing host is not supported at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#assign_public_ip MdbSqlserverCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#assign_public_ip MdbSqlserverCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#subnet_id MdbSqlserverCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#subnet_id MdbSqlserverCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#zone MdbSqlserverCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#zone MdbSqlserverCluster#zone}
   */
   readonly zone: string;
 }
@@ -553,19 +553,19 @@ export interface MdbSqlserverClusterResources {
   /**
   * Volume of the storage available to a SQLServer host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#disk_size MdbSqlserverCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#disk_size MdbSqlserverCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of SQLServer hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#disk_type_id MdbSqlserverCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#disk_type_id MdbSqlserverCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a SQLServer host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-sqlserver/concepts/instance-types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#resource_preset_id MdbSqlserverCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#resource_preset_id MdbSqlserverCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -698,15 +698,15 @@ export class MdbSqlserverClusterResourcesOutputReference extends cdktf.ComplexOb
 }
 export interface MdbSqlserverClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#create MdbSqlserverCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#create MdbSqlserverCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#delete MdbSqlserverCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#delete MdbSqlserverCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#update MdbSqlserverCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#update MdbSqlserverCluster#update}
   */
   readonly update?: string;
 }
@@ -860,13 +860,13 @@ export interface MdbSqlserverClusterUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#database_name MdbSqlserverCluster#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#database_name MdbSqlserverCluster#database_name}
   */
   readonly databaseName: string;
   /**
   * List user's roles in the database. Allowed roles: `OWNER`, `SECURITYADMIN`, `ACCESSADMIN`, `BACKUPOPERATOR`, `DDLADMIN`, `DATAWRITER`, `DATAREADER`, `DENYDATAWRITER`, `DENYDATAREADER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#roles MdbSqlserverCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#roles MdbSqlserverCluster#roles}
   */
   readonly roles?: string[];
 }
@@ -1010,19 +1010,19 @@ export interface MdbSqlserverClusterUser {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#name MdbSqlserverCluster#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#password MdbSqlserverCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#password MdbSqlserverCluster#password}
   */
   readonly password: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#permission MdbSqlserverCluster#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#permission MdbSqlserverCluster#permission}
   */
   readonly permission?: MdbSqlserverClusterUserPermission[] | cdktf.IResolvable;
 }
@@ -1190,7 +1190,7 @@ export class MdbSqlserverClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster}
 */
 export class MdbSqlserverCluster extends cdktf.TerraformResource {
 
@@ -1206,7 +1206,7 @@ export class MdbSqlserverCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbSqlserverCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbSqlserverCluster to import
-  * @param importFromId The id of the existing MdbSqlserverCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbSqlserverCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbSqlserverCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1218,7 +1218,7 @@ export class MdbSqlserverCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sqlserver_cluster yandex_mdb_sqlserver_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1229,8 +1229,8 @@ export class MdbSqlserverCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_sqlserver_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

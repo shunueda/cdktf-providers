@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface MdbShardedPostgresqlClusterConfig extends cdktf.TerraformMetaAr
   /**
   * Configuration of the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
   */
   readonly config: MdbShardedPostgresqlClusterConfigA;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#deletion_protection MdbShardedPostgresqlCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#deletion_protection MdbShardedPostgresqlCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#description MdbShardedPostgresqlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#description MdbShardedPostgresqlCluster#description}
   */
   readonly description?: string;
   /**
   * Deployment environment of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#environment MdbShardedPostgresqlCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#environment MdbShardedPostgresqlCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#folder_id MdbShardedPostgresqlCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#folder_id MdbShardedPostgresqlCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A host configuration of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#hosts MdbShardedPostgresqlCluster#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#hosts MdbShardedPostgresqlCluster#hosts}
   */
   readonly hosts: { [key: string]: MdbShardedPostgresqlClusterHosts } | cdktf.IResolvable;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#labels MdbShardedPostgresqlCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#labels MdbShardedPostgresqlCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maintenance policy of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#maintenance_window MdbShardedPostgresqlCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#maintenance_window MdbShardedPostgresqlCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MdbShardedPostgresqlClusterMaintenanceWindow;
   /**
   * Name of the Sharded PostgreSQL cluster. Provided by the client when the cluster is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#name MdbShardedPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#name MdbShardedPostgresqlCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#network_id MdbShardedPostgresqlCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#network_id MdbShardedPostgresqlCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#security_group_ids MdbShardedPostgresqlCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#security_group_ids MdbShardedPostgresqlCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#timeouts MdbShardedPostgresqlCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#timeouts MdbShardedPostgresqlCluster#timeouts}
   */
   readonly timeouts?: MdbShardedPostgresqlClusterTimeouts;
 }
@@ -82,25 +82,25 @@ export interface MdbShardedPostgresqlClusterConfigAccess {
   /**
   * Allow access for Yandex DataLens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#data_lens MdbShardedPostgresqlCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#data_lens MdbShardedPostgresqlCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for DataTransfer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#data_transfer MdbShardedPostgresqlCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#data_transfer MdbShardedPostgresqlCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allow access for connection to managed databases from functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#serverless MdbShardedPostgresqlCluster#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#serverless MdbShardedPostgresqlCluster#serverless}
   */
   readonly serverless?: boolean | cdktf.IResolvable;
   /**
   * Allow access for SQL queries in the management console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#web_sql MdbShardedPostgresqlCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#web_sql MdbShardedPostgresqlCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -283,13 +283,13 @@ export interface MdbShardedPostgresqlClusterConfigBackupWindowStart {
   /**
   * The hour at which backup will be started (UTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#hours MdbShardedPostgresqlCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#hours MdbShardedPostgresqlCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started (UTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#minutes MdbShardedPostgresqlCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#minutes MdbShardedPostgresqlCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -414,19 +414,19 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigCoordin
   /**
   * Size of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * ID of the disk type that determines the disk performance characteristics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * ID of the resource preset that determines the number of CPU cores and memory size for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -571,13 +571,13 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigCoordin
   /**
   * Coordinator settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Resources allocated to routers of the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
   */
   readonly resources: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigCoordinatorResources;
 }
@@ -699,19 +699,19 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigInfraRe
   /**
   * Size of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * ID of the disk type that determines the disk performance characteristics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * ID of the resource preset that determines the number of CPU cores and memory size for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -856,19 +856,19 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigInfra {
   /**
   * Coordinator settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#coordinator MdbShardedPostgresqlCluster#coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#coordinator MdbShardedPostgresqlCluster#coordinator}
   */
   readonly coordinator?: { [key: string]: string };
   /**
   * Resources allocated to routers of the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
   */
   readonly resources: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigInfraResources;
   /**
   * Router settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#router MdbShardedPostgresqlCluster#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#router MdbShardedPostgresqlCluster#router}
   */
   readonly router?: { [key: string]: string };
 }
@@ -1019,19 +1019,19 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigRouterR
   /**
   * Size of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_size MdbShardedPostgresqlCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * ID of the disk type that determines the disk performance characteristics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#disk_type_id MdbShardedPostgresqlCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * ID of the resource preset that determines the number of CPU cores and memory size for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resource_preset_id MdbShardedPostgresqlCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1176,13 +1176,13 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigRouter 
   /**
   * Router settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#config MdbShardedPostgresqlCluster#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Resources allocated to routers of the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#resources MdbShardedPostgresqlCluster#resources}
   */
   readonly resources: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigRouterResources;
 }
@@ -1304,29 +1304,29 @@ export interface MdbShardedPostgresqlClusterConfigShardedPostgresqlConfig {
   /**
   * Balancer specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#balancer MdbShardedPostgresqlCluster#balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#balancer MdbShardedPostgresqlCluster#balancer}
   */
   readonly balancer?: { [key: string]: string };
   /**
   * General settings for all types of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#common MdbShardedPostgresqlCluster#common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#common MdbShardedPostgresqlCluster#common}
   */
   readonly common?: { [key: string]: string };
   /**
   * Coordinator specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#coordinator MdbShardedPostgresqlCluster#coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#coordinator MdbShardedPostgresqlCluster#coordinator}
   */
   readonly coordinator?: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigCoordinator;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#infra MdbShardedPostgresqlCluster#infra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#infra MdbShardedPostgresqlCluster#infra}
   */
   readonly infra?: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigInfra;
   /**
   * Router specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#router MdbShardedPostgresqlCluster#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#router MdbShardedPostgresqlCluster#router}
   */
   readonly router?: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfigRouter;
 }
@@ -1538,25 +1538,25 @@ export interface MdbShardedPostgresqlClusterConfigA {
   /**
   * Access policy to the Sharded PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#access MdbShardedPostgresqlCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#access MdbShardedPostgresqlCluster#access}
   */
   readonly access?: MdbShardedPostgresqlClusterConfigAccess;
   /**
   * The period in days during which backups are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#backup_retain_period_days MdbShardedPostgresqlCluster#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#backup_retain_period_days MdbShardedPostgresqlCluster#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * Time to start the daily backup, in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#backup_window_start MdbShardedPostgresqlCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#backup_window_start MdbShardedPostgresqlCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbShardedPostgresqlClusterConfigBackupWindowStart;
   /**
   * Sharded PostgreSQL cluster configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#sharded_postgresql_config MdbShardedPostgresqlCluster#sharded_postgresql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#sharded_postgresql_config MdbShardedPostgresqlCluster#sharded_postgresql_config}
   */
   readonly shardedPostgresqlConfig: MdbShardedPostgresqlClusterConfigShardedPostgresqlConfig;
 }
@@ -1736,23 +1736,23 @@ export interface MdbShardedPostgresqlClusterHosts {
   /**
   * Assign a public IP address to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#assign_public_ip MdbShardedPostgresqlCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#assign_public_ip MdbShardedPostgresqlCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * ID of the subnet where the host is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#subnet_id MdbShardedPostgresqlCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#subnet_id MdbShardedPostgresqlCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#type MdbShardedPostgresqlCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#type MdbShardedPostgresqlCluster#type}
   */
   readonly type: string;
   /**
   * The availability zone where the host is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#zone MdbShardedPostgresqlCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#zone MdbShardedPostgresqlCluster#zone}
   */
   readonly zone: string;
 }
@@ -1954,19 +1954,19 @@ export interface MdbShardedPostgresqlClusterMaintenanceWindow {
   /**
   * Day of the week (in DDD format). Allowed values: "MON", "TUE", "WED", "THU", "FRI", "SAT","SUN"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#day MdbShardedPostgresqlCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#day MdbShardedPostgresqlCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of the day in UTC (in HH format). Allowed value is between 1 and 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#hour MdbShardedPostgresqlCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#hour MdbShardedPostgresqlCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either ANYTIME or WEEKLY. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#type MdbShardedPostgresqlCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#type MdbShardedPostgresqlCluster#type}
   */
   readonly type?: string;
 }
@@ -2120,19 +2120,19 @@ export interface MdbShardedPostgresqlClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#create MdbShardedPostgresqlCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#create MdbShardedPostgresqlCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#delete MdbShardedPostgresqlCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#delete MdbShardedPostgresqlCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#update MdbShardedPostgresqlCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#update MdbShardedPostgresqlCluster#update}
   */
   readonly update?: string;
 }
@@ -2284,7 +2284,7 @@ export class MdbShardedPostgresqlClusterTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster yandex_mdb_sharded_postgresql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster yandex_mdb_sharded_postgresql_cluster}
 */
 export class MdbShardedPostgresqlCluster extends cdktf.TerraformResource {
 
@@ -2300,7 +2300,7 @@ export class MdbShardedPostgresqlCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbShardedPostgresqlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbShardedPostgresqlCluster to import
-  * @param importFromId The id of the existing MdbShardedPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbShardedPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbShardedPostgresqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2312,7 +2312,7 @@ export class MdbShardedPostgresqlCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_sharded_postgresql_cluster yandex_mdb_sharded_postgresql_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_sharded_postgresql_cluster yandex_mdb_sharded_postgresql_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2323,8 +2323,8 @@ export class MdbShardedPostgresqlCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_sharded_postgresql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

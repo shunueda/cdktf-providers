@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PostgresqlDisisolateDbInstanceOperationConfig extends cdktf.Ter
   /**
   * Whether to use vouchers. Valid values:true (yes), false (no). Default value:false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#auto_voucher PostgresqlDisisolateDbInstanceOperation#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#auto_voucher PostgresqlDisisolateDbInstanceOperation#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   * List of resource IDs. Note that currently you cannot remove multiple instances from isolation at the same time. Only one instance ID can be passed in here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#db_instance_id_set PostgresqlDisisolateDbInstanceOperation#db_instance_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#db_instance_id_set PostgresqlDisisolateDbInstanceOperation#db_instance_id_set}
   */
   readonly dbInstanceIdSet: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#id PostgresqlDisisolateDbInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#id PostgresqlDisisolateDbInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PostgresqlDisisolateDbInstanceOperationConfig extends cdktf.Ter
   /**
   * The valid period (in months) of the monthly-subscribed instance when removing it from isolation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#period PostgresqlDisisolateDbInstanceOperation#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#period PostgresqlDisisolateDbInstanceOperation#period}
   */
   readonly period?: number;
   /**
   * Voucher ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#voucher_ids PostgresqlDisisolateDbInstanceOperation#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#voucher_ids PostgresqlDisisolateDbInstanceOperation#voucher_ids}
   */
   readonly voucherIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation tencentcloud_postgresql_disisolate_db_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation tencentcloud_postgresql_disisolate_db_instance_operation}
 */
 export class PostgresqlDisisolateDbInstanceOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PostgresqlDisisolateDbInstanceOperation extends cdktf.TerraformReso
   * Generates CDKTF code for importing a PostgresqlDisisolateDbInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlDisisolateDbInstanceOperation to import
-  * @param importFromId The id of the existing PostgresqlDisisolateDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlDisisolateDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlDisisolateDbInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PostgresqlDisisolateDbInstanceOperation extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_disisolate_db_instance_operation tencentcloud_postgresql_disisolate_db_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_disisolate_db_instance_operation tencentcloud_postgresql_disisolate_db_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PostgresqlDisisolateDbInstanceOperation extends cdktf.TerraformReso
       terraformResourceType: 'tencentcloud_postgresql_disisolate_db_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

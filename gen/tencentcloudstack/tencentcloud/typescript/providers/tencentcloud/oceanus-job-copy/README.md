@@ -1,3 +1,3 @@
 # `tencentcloud_oceanus_job_copy`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_oceanus_job_copy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_copy).
+Refer to the Terraform Registry for docs: [`tencentcloud_oceanus_job_copy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_copy).

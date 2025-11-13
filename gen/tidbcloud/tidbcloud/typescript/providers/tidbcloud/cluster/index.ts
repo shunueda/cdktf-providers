@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enum: "AWS" "GCP", The cloud provider on which your TiDB cluster is hosted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Enum: "DEDICATED" "DEVELOPER", The cluster type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#cluster_type Cluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#cluster_type Cluster#cluster_type}
   */
   readonly clusterType: string;
   /**
   * The configuration of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#config Cluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#config Cluster#config}
   */
   readonly config: ClusterConfigA;
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * The ID of the project. You can get the project ID from [tidbcloud_projects datasource](../data-sources/projects.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#project_id Cluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#project_id Cluster#project_id}
   */
   readonly projectId: string;
   /**
   * the region value should match the cloud provider's region code. You can get the complete list of available regions from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#region Cluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#region Cluster#region}
   */
   readonly region: string;
 }
@@ -48,7 +48,7 @@ export interface ClusterConfigComponentsTidb {
   /**
   * The number of nodes in the cluster. You can get the minimum and step of a node quantity from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_quantity Cluster#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_quantity Cluster#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
@@ -57,7 +57,7 @@ export interface ClusterConfigComponentsTidb {
   *   - If the vCPUs of TiDB or TiKV component is 2 or 4, then the cluster does not support TiFlash.
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_size Cluster#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_size Cluster#node_size}
   */
   readonly nodeSize: string;
 }
@@ -167,21 +167,21 @@ export interface ClusterConfigComponentsTiflash {
   * The number of nodes in the cluster. You can get the minimum and step of a node quantity from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *   - TiFlash do not support decreasing node quantity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_quantity Cluster#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_quantity Cluster#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
   * The size of the TiFlash component in the cluster, You can get the available node size of each region from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_size Cluster#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_size Cluster#node_size}
   */
   readonly nodeSize: string;
   /**
   * The storage size of a node in the cluster. You can get the minimum and maximum of storage size from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *   - Can not modify storage_size_gib of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#storage_size_gib Cluster#storage_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#storage_size_gib Cluster#storage_size_gib}
   */
   readonly storageSizeGib: number;
 }
@@ -328,7 +328,7 @@ export interface ClusterConfigComponentsTikv {
   *   - TiKV do not support decreasing node quantity.
   *   - The node_quantity of TiKV must be a multiple of 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_quantity Cluster#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_quantity Cluster#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
@@ -337,14 +337,14 @@ export interface ClusterConfigComponentsTikv {
   *   - If the vCPUs of TiDB or TiKV component is 2 or 4, then the cluster does not support TiFlash.
   *   - Can not modify node_size of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#node_size Cluster#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#node_size Cluster#node_size}
   */
   readonly nodeSize: string;
   /**
   * The storage size of a node in the cluster. You can get the minimum and maximum of storage size from the [tidbcloud_cluster_specs datasource](../data-sources/cluster_specs.md).
   *   - Can not modify storage_size_gib of an existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#storage_size_gib Cluster#storage_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#storage_size_gib Cluster#storage_size_gib}
   */
   readonly storageSizeGib: number;
 }
@@ -479,19 +479,19 @@ export interface ClusterConfigComponents {
   /**
   * The TiDB component of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#tidb Cluster#tidb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#tidb Cluster#tidb}
   */
   readonly tidb: ClusterConfigComponentsTidb;
   /**
   * The TiFlash component of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#tiflash Cluster#tiflash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#tiflash Cluster#tiflash}
   */
   readonly tiflash?: ClusterConfigComponentsTiflash;
   /**
   * The TiKV component of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#tikv Cluster#tikv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#tikv Cluster#tikv}
   */
   readonly tikv: ClusterConfigComponentsTikv;
 }
@@ -639,13 +639,13 @@ export interface ClusterConfigIpAccessListStruct {
   /**
   * The IP address or CIDR range that you want to add to the cluster's IP access list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#cidr Cluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#cidr Cluster#cidr}
   */
   readonly cidr: string;
   /**
   * Description that explains the purpose of the entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#description Cluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#description Cluster#description}
   */
   readonly description: string;
 }
@@ -787,33 +787,33 @@ export interface ClusterConfigA {
   * The components of the cluster.
   *   - For a Serverless Tier cluster, the components value can not be set.  - For a Dedicated Tier cluster, the components value must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#components Cluster#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#components Cluster#components}
   */
   readonly components?: ClusterConfigComponents;
   /**
   * A list of IP addresses and Classless Inter-Domain Routing (CIDR) addresses that are allowed to access the TiDB Cloud cluster via [standard connection](https://docs.pingcap.com/tidbcloud/connect-to-tidb-cluster#connect-via-standard-connection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#ip_access_list Cluster#ip_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#ip_access_list Cluster#ip_access_list}
   */
   readonly ipAccessList?: ClusterConfigIpAccessListStruct[] | cdktf.IResolvable;
   /**
   * lag that indicates whether the cluster is paused. true means to pause the cluster, and false means to resume the cluster.
   *   - The cluster can be paused only when the cluster_status is "AVAILABLE".  - The cluster can be resumed only when the cluster_status is "PAUSED".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#paused Cluster#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#paused Cluster#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The TiDB port for connection. The port must be in the range of 1024-65535 except 10080, 4000 in default.
   *   - For a Serverless Tier cluster, only port 4000 is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#port Cluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#port Cluster#port}
   */
   readonly port?: number;
   /**
   * The root password to access the cluster. It must be 8-64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#root_password Cluster#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#root_password Cluster#root_password}
   */
   readonly rootPassword?: string;
 }
@@ -1272,7 +1272,7 @@ export class ClusterStatusOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster tidbcloud_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster tidbcloud_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -1288,7 +1288,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/cluster tidbcloud_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/cluster tidbcloud_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,8 +1311,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

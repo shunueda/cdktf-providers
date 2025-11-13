@@ -362,7 +362,8 @@ export class Ipv4SharedNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'infoblox_ipv4_shared_network',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

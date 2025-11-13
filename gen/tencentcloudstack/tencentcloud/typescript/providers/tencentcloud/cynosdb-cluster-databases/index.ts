@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CynosdbClusterDatabasesConfig extends cdktf.TerraformMetaArgume
   /**
   * Character Set Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#character_set CynosdbClusterDatabases#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#character_set CynosdbClusterDatabases#character_set}
   */
   readonly characterSet: string;
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#cluster_id CynosdbClusterDatabases#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#cluster_id CynosdbClusterDatabases#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Sort Rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#collate_rule CynosdbClusterDatabases#collate_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#collate_rule CynosdbClusterDatabases#collate_rule}
   */
   readonly collateRule: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#db_name CynosdbClusterDatabases#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#db_name CynosdbClusterDatabases#db_name}
   */
   readonly dbName: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#description CynosdbClusterDatabases#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#description CynosdbClusterDatabases#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#id CynosdbClusterDatabases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#id CynosdbClusterDatabases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface CynosdbClusterDatabasesConfig extends cdktf.TerraformMetaArgume
   /**
   * user_host_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#user_host_privileges CynosdbClusterDatabases#user_host_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#user_host_privileges CynosdbClusterDatabases#user_host_privileges}
   */
   readonly userHostPrivileges?: CynosdbClusterDatabasesUserHostPrivileges[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface CynosdbClusterDatabasesUserHostPrivileges {
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#db_host CynosdbClusterDatabases#db_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#db_host CynosdbClusterDatabases#db_host}
   */
   readonly dbHost: string;
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#db_privilege CynosdbClusterDatabases#db_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#db_privilege CynosdbClusterDatabases#db_privilege}
   */
   readonly dbPrivilege: string;
   /**
   * Authorized Users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#db_user_name CynosdbClusterDatabases#db_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#db_user_name CynosdbClusterDatabases#db_user_name}
   */
   readonly dbUserName: string;
 }
@@ -232,7 +232,7 @@ export class CynosdbClusterDatabasesUserHostPrivilegesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases tencentcloud_cynosdb_cluster_databases}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases tencentcloud_cynosdb_cluster_databases}
 */
 export class CynosdbClusterDatabases extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class CynosdbClusterDatabases extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbClusterDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbClusterDatabases to import
-  * @param importFromId The id of the existing CynosdbClusterDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbClusterDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbClusterDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class CynosdbClusterDatabases extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_cluster_databases tencentcloud_cynosdb_cluster_databases} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_cluster_databases tencentcloud_cynosdb_cluster_databases} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class CynosdbClusterDatabases extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster_databases',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

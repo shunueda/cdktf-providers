@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivatelinkAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allowed principals to access the endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#allowed_principals PrivatelinkAws#allowed_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#allowed_principals PrivatelinkAws#allowed_principals}
   */
   readonly allowedPrincipals: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#id PrivatelinkAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#id PrivatelinkAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface PrivatelinkAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CloudAMQP instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#instance_id PrivatelinkAws#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#instance_id PrivatelinkAws#instance_id}
   */
   readonly instanceId: number;
   /**
   * Configurable sleep in seconds between retries when enable PrivateLink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#sleep PrivatelinkAws#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#sleep PrivatelinkAws#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout in seconds when enable PrivateLink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#timeout PrivatelinkAws#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#timeout PrivatelinkAws#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws cloudamqp_privatelink_aws}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws cloudamqp_privatelink_aws}
 */
 export class PrivatelinkAws extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PrivatelinkAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivatelinkAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivatelinkAws to import
-  * @param importFromId The id of the existing PrivatelinkAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivatelinkAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivatelinkAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PrivatelinkAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/privatelink_aws cloudamqp_privatelink_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/privatelink_aws cloudamqp_privatelink_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class PrivatelinkAws extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_privatelink_aws',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

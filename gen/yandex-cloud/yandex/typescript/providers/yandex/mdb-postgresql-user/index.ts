@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface MdbPostgresqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Authentication method for the user. Possible values are `AUTH_METHOD_PASSWORD`, `AUTH_METHOD_IAM`. Default is `AUTH_METHOD_PASSWORD`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#auth_method MdbPostgresqlUser#auth_method}
+  */
+  readonly authMethod?: string;
+  /**
   * The ID of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#cluster_id MdbPostgresqlUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#cluster_id MdbPostgresqlUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The maximum number of connections per user. (Default 50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#conn_limit MdbPostgresqlUser#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#conn_limit MdbPostgresqlUser#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#deletion_protection MdbPostgresqlUser#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#deletion_protection MdbPostgresqlUser#deletion_protection}
   */
   readonly deletionProtection?: string;
   /**
@@ -31,17 +37,17 @@ export interface MdbPostgresqlUserConfig extends cdktf.TerraformMetaArguments {
   * ~> **Must specify either password or generate_password**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#generate_password MdbPostgresqlUser#generate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#generate_password MdbPostgresqlUser#generate_password}
   */
   readonly generatePassword?: boolean | cdktf.IResolvable;
   /**
   * List of the user's grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#grants MdbPostgresqlUser#grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#grants MdbPostgresqlUser#grants}
   */
   readonly grants?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#id MdbPostgresqlUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#id MdbPostgresqlUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,19 +56,19 @@ export interface MdbPostgresqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User's ability to login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#login MdbPostgresqlUser#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#login MdbPostgresqlUser#login}
   */
   readonly login?: boolean | cdktf.IResolvable;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#name MdbPostgresqlUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#name MdbPostgresqlUser#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#password MdbPostgresqlUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#password MdbPostgresqlUser#password}
   */
   readonly password?: string;
   /**
@@ -112,19 +118,19 @@ export interface MdbPostgresqlUserConfig extends cdktf.TerraformMetaArguments {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#settings MdbPostgresqlUser#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#settings MdbPostgresqlUser#settings}
   */
   readonly settings?: { [key: string]: string };
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#permission MdbPostgresqlUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#permission MdbPostgresqlUser#permission}
   */
   readonly permission?: MdbPostgresqlUserPermission[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#timeouts MdbPostgresqlUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#timeouts MdbPostgresqlUser#timeouts}
   */
   readonly timeouts?: MdbPostgresqlUserTimeouts;
 }
@@ -132,7 +138,7 @@ export interface MdbPostgresqlUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#database_name MdbPostgresqlUser#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#database_name MdbPostgresqlUser#database_name}
   */
   readonly databaseName: string;
 }
@@ -245,19 +251,19 @@ export class MdbPostgresqlUserPermissionList extends cdktf.ComplexList {
 }
 export interface MdbPostgresqlUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#create MdbPostgresqlUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#create MdbPostgresqlUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#delete MdbPostgresqlUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#delete MdbPostgresqlUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#read MdbPostgresqlUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#read MdbPostgresqlUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#update MdbPostgresqlUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#update MdbPostgresqlUser#update}
   */
   readonly update?: string;
 }
@@ -438,7 +444,7 @@ export class MdbPostgresqlUserTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user yandex_mdb_postgresql_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user yandex_mdb_postgresql_user}
 */
 export class MdbPostgresqlUser extends cdktf.TerraformResource {
 
@@ -454,7 +460,7 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbPostgresqlUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbPostgresqlUser to import
-  * @param importFromId The id of the existing MdbPostgresqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbPostgresqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbPostgresqlUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +472,7 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_postgresql_user yandex_mdb_postgresql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_postgresql_user yandex_mdb_postgresql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +483,8 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_postgresql_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -488,6 +494,7 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._authMethod = config.authMethod;
     this._clusterId = config.clusterId;
     this._connLimit = config.connLimit;
     this._deletionProtection = config.deletionProtection;
@@ -505,6 +512,22 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // auth_method - computed: false, optional: true, required: false
+  private _authMethod?: string; 
+  public get authMethod() {
+    return this.getStringAttribute('auth_method');
+  }
+  public set authMethod(value: string) {
+    this._authMethod = value;
+  }
+  public resetAuthMethod() {
+    this._authMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authMethodInput() {
+    return this._authMethod;
+  }
 
   // cluster_id - computed: false, optional: false, required: true
   private _clusterId?: string; 
@@ -704,6 +727,7 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      auth_method: cdktf.stringToTerraform(this._authMethod),
       cluster_id: cdktf.stringToTerraform(this._clusterId),
       conn_limit: cdktf.numberToTerraform(this._connLimit),
       deletion_protection: cdktf.stringToTerraform(this._deletionProtection),
@@ -721,6 +745,12 @@ export class MdbPostgresqlUser extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      auth_method: {
+        value: cdktf.stringToHclTerraform(this._authMethod),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       cluster_id: {
         value: cdktf.stringToHclTerraform(this._clusterId),
         isBlock: false,

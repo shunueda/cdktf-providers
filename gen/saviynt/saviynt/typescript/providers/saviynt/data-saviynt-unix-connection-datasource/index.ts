@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSaviyntUnixConnectionDatasourceConfig extends cdktf.Terrafo
   /**
   * If false, do not store connection_attributes in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource#authenticate DataSaviyntUnixConnectionDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource#authenticate DataSaviyntUnixConnectionDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * The key of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource#connection_key DataSaviyntUnixConnectionDatasource#connection_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource#connection_key DataSaviyntUnixConnectionDatasource#connection_key}
   */
   readonly connectionKey?: number;
   /**
   * The name of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource#connection_name DataSaviyntUnixConnectionDatasource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource#connection_name DataSaviyntUnixConnectionDatasource#connection_name}
   */
   readonly connectionName?: string;
 }
@@ -317,7 +317,7 @@ export class DataSaviyntUnixConnectionDatasourceConnectionAttributesOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource saviynt_unix_connection_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource saviynt_unix_connection_datasource}
 */
 export class DataSaviyntUnixConnectionDatasource extends cdktf.TerraformDataSource {
 
@@ -333,7 +333,7 @@ export class DataSaviyntUnixConnectionDatasource extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSaviyntUnixConnectionDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntUnixConnectionDatasource to import
-  * @param importFromId The id of the existing DataSaviyntUnixConnectionDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntUnixConnectionDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntUnixConnectionDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DataSaviyntUnixConnectionDatasource extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/unix_connection_datasource saviynt_unix_connection_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/unix_connection_datasource saviynt_unix_connection_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class DataSaviyntUnixConnectionDatasource extends cdktf.TerraformDataSour
       terraformResourceType: 'saviynt_unix_connection_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ContainerRepositoryLifecyclePolicyConfig extends cdktf.Terrafor
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#description ContainerRepositoryLifecyclePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#description ContainerRepositoryLifecyclePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#id ContainerRepositoryLifecyclePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#id ContainerRepositoryLifecyclePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ContainerRepositoryLifecyclePolicyConfig extends cdktf.Terrafor
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#name ContainerRepositoryLifecyclePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#name ContainerRepositoryLifecyclePolicy#name}
   */
   readonly name?: string;
   /**
   * The ID of the repository that the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#repository_id ContainerRepositoryLifecyclePolicy#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#repository_id ContainerRepositoryLifecyclePolicy#repository_id}
   */
   readonly repositoryId: string;
   /**
   * The status of lifecycle policy. Must be `active` or `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#status ContainerRepositoryLifecyclePolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#status ContainerRepositoryLifecyclePolicy#status}
   */
   readonly status: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#rule ContainerRepositoryLifecyclePolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#rule ContainerRepositoryLifecyclePolicy#rule}
   */
   readonly rule?: ContainerRepositoryLifecyclePolicyRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#timeouts ContainerRepositoryLifecyclePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#timeouts ContainerRepositoryLifecyclePolicy#timeouts}
   */
   readonly timeouts?: ContainerRepositoryLifecyclePolicyTimeouts;
 }
@@ -55,31 +55,31 @@ export interface ContainerRepositoryLifecyclePolicyRule {
   /**
   * Description of the lifecycle policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#description ContainerRepositoryLifecyclePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#description ContainerRepositoryLifecyclePolicy#description}
   */
   readonly description?: string;
   /**
   * The period of time that must pass after creating a image for it to suit the automatic deletion criteria. It must be a multiple of 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#expire_period ContainerRepositoryLifecyclePolicy#expire_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#expire_period ContainerRepositoryLifecyclePolicy#expire_period}
   */
   readonly expirePeriod?: string;
   /**
   * The number of images to be retained even if the `expire_period` already expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#retained_top ContainerRepositoryLifecyclePolicy#retained_top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#retained_top ContainerRepositoryLifecyclePolicy#retained_top}
   */
   readonly retainedTop?: number;
   /**
   * Tag to specify a filter as a regular expression. For example `.*` - all images with tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#tag_regexp ContainerRepositoryLifecyclePolicy#tag_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#tag_regexp ContainerRepositoryLifecyclePolicy#tag_regexp}
   */
   readonly tagRegexp?: string;
   /**
   * If enabled, rules apply to untagged Docker images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#untagged ContainerRepositoryLifecyclePolicy#untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#untagged ContainerRepositoryLifecyclePolicy#untagged}
   */
   readonly untagged?: boolean | cdktf.IResolvable;
 }
@@ -311,7 +311,7 @@ export class ContainerRepositoryLifecyclePolicyRuleList extends cdktf.ComplexLis
 }
 export interface ContainerRepositoryLifecyclePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#default ContainerRepositoryLifecyclePolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#default ContainerRepositoryLifecyclePolicy#default}
   */
   readonly default?: string;
 }
@@ -405,7 +405,7 @@ export class ContainerRepositoryLifecyclePolicyTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy}
 */
 export class ContainerRepositoryLifecyclePolicy extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class ContainerRepositoryLifecyclePolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ContainerRepositoryLifecyclePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerRepositoryLifecyclePolicy to import
-  * @param importFromId The id of the existing ContainerRepositoryLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerRepositoryLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerRepositoryLifecyclePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class ContainerRepositoryLifecyclePolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/container_repository_lifecycle_policy yandex_container_repository_lifecycle_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class ContainerRepositoryLifecyclePolicy extends cdktf.TerraformResource 
       terraformResourceType: 'yandex_container_repository_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

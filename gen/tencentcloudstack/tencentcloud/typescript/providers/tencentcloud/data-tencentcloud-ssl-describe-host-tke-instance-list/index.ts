@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudSslDescribeHostTkeInstanceListConfig extends cd
   /**
   * Whether to cache asynchronous.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#async_cache DataTencentcloudSslDescribeHostTkeInstanceList#async_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#async_cache DataTencentcloudSslDescribeHostTkeInstanceList#async_cache}
   */
   readonly asyncCache?: number;
   /**
   * Certificate ID to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#certificate_id DataTencentcloudSslDescribeHostTkeInstanceList#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#certificate_id DataTencentcloudSslDescribeHostTkeInstanceList#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#id DataTencentcloudSslDescribeHostTkeInstanceList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#id DataTencentcloudSslDescribeHostTkeInstanceList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudSslDescribeHostTkeInstanceListConfig extends cd
   /**
   * Whether to query the cache, 1: Yes; 0: No, the default is the query cache, the cache is half an hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#is_cache DataTencentcloudSslDescribeHostTkeInstanceList#is_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#is_cache DataTencentcloudSslDescribeHostTkeInstanceList#is_cache}
   */
   readonly isCache?: number;
   /**
   * Original certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#old_certificate_id DataTencentcloudSslDescribeHostTkeInstanceList#old_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#old_certificate_id DataTencentcloudSslDescribeHostTkeInstanceList#old_certificate_id}
   */
   readonly oldCertificateId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#result_output_file DataTencentcloudSslDescribeHostTkeInstanceList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#result_output_file DataTencentcloudSslDescribeHostTkeInstanceList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#filters DataTencentcloudSslDescribeHostTkeInstanceList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#filters DataTencentcloudSslDescribeHostTkeInstanceList#filters}
   */
   readonly filters?: DataTencentcloudSslDescribeHostTkeInstanceListFilters[] | cdktf.IResolvable;
 }
@@ -408,13 +408,13 @@ export interface DataTencentcloudSslDescribeHostTkeInstanceListFilters {
   /**
   * Filter parameter key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#filter_key DataTencentcloudSslDescribeHostTkeInstanceList#filter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#filter_key DataTencentcloudSslDescribeHostTkeInstanceList#filter_key}
   */
   readonly filterKey: string;
   /**
   * Filter parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#filter_value DataTencentcloudSslDescribeHostTkeInstanceList#filter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#filter_value DataTencentcloudSslDescribeHostTkeInstanceList#filter_value}
   */
   readonly filterValue: string;
 }
@@ -553,7 +553,7 @@ export class DataTencentcloudSslDescribeHostTkeInstanceListFiltersList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list tencentcloud_ssl_describe_host_tke_instance_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list tencentcloud_ssl_describe_host_tke_instance_list}
 */
 export class DataTencentcloudSslDescribeHostTkeInstanceList extends cdktf.TerraformDataSource {
 
@@ -569,7 +569,7 @@ export class DataTencentcloudSslDescribeHostTkeInstanceList extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudSslDescribeHostTkeInstanceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSslDescribeHostTkeInstanceList to import
-  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostTkeInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSslDescribeHostTkeInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSslDescribeHostTkeInstanceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +581,7 @@ export class DataTencentcloudSslDescribeHostTkeInstanceList extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ssl_describe_host_tke_instance_list tencentcloud_ssl_describe_host_tke_instance_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ssl_describe_host_tke_instance_list tencentcloud_ssl_describe_host_tke_instance_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,8 +592,8 @@ export class DataTencentcloudSslDescribeHostTkeInstanceList extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_ssl_describe_host_tke_instance_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

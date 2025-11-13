@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataZpaApplicationSegmentMultimatchBulkConfig extends cdktf.Ter
   /**
   * List of domain names to check for unsupported multimatch references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk#domain_names DataZpaApplicationSegmentMultimatchBulk#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk#domain_names DataZpaApplicationSegmentMultimatchBulk#domain_names}
   */
   readonly domainNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk#id DataZpaApplicationSegmentMultimatchBulk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk#id DataZpaApplicationSegmentMultimatchBulk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ export class DataZpaApplicationSegmentMultimatchBulkUnsupportedReferencesList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk zpa_application_segment_multimatch_bulk}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk zpa_application_segment_multimatch_bulk}
 */
 export class DataZpaApplicationSegmentMultimatchBulk extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataZpaApplicationSegmentMultimatchBulk extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataZpaApplicationSegmentMultimatchBulk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaApplicationSegmentMultimatchBulk to import
-  * @param importFromId The id of the existing DataZpaApplicationSegmentMultimatchBulk that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaApplicationSegmentMultimatchBulk that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaApplicationSegmentMultimatchBulk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataZpaApplicationSegmentMultimatchBulk extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/application_segment_multimatch_bulk zpa_application_segment_multimatch_bulk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/application_segment_multimatch_bulk zpa_application_segment_multimatch_bulk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataZpaApplicationSegmentMultimatchBulk extends cdktf.TerraformData
       terraformResourceType: 'zpa_application_segment_multimatch_bulk',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface UserPortalControllerConfig extends cdktf.TerraformMetaArguments
   /**
   * Certificate ID for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#certificate_id UserPortalController#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#certificate_id UserPortalController#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Description of the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#description UserPortalController#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#description UserPortalController#description}
   */
   readonly description?: string;
   /**
   * Domain for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#domain UserPortalController#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#domain UserPortalController#domain}
   */
   readonly domain?: string;
   /**
   * Whether this User Portal Controller is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#enabled UserPortalController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#enabled UserPortalController#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * External domain for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#ext_domain UserPortalController#ext_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#ext_domain UserPortalController#ext_domain}
   */
   readonly extDomain?: string;
   /**
   * External domain name for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#ext_domain_name UserPortalController#ext_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#ext_domain_name UserPortalController#ext_domain_name}
   */
   readonly extDomainName?: string;
   /**
   * External domain translation for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#ext_domain_translation UserPortalController#ext_domain_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#ext_domain_translation UserPortalController#ext_domain_translation}
   */
   readonly extDomainTranslation?: string;
   /**
   * External label for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#ext_label UserPortalController#ext_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#ext_label UserPortalController#ext_label}
   */
   readonly extLabel?: string;
   /**
   * Microtenant ID for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#microtenant_id UserPortalController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#microtenant_id UserPortalController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#name UserPortalController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#name UserPortalController#name}
   */
   readonly name: string;
   /**
   * User notification message for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#user_notification UserPortalController#user_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#user_notification UserPortalController#user_notification}
   */
   readonly userNotification?: string;
   /**
   * Whether user notifications are enabled for the User Portal Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#user_notification_enabled UserPortalController#user_notification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#user_notification_enabled UserPortalController#user_notification_enabled}
   */
   readonly userNotificationEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller zpa_user_portal_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller zpa_user_portal_controller}
 */
 export class UserPortalController extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class UserPortalController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserPortalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserPortalController to import
-  * @param importFromId The id of the existing UserPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserPortalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class UserPortalController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/user_portal_controller zpa_user_portal_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/user_portal_controller zpa_user_portal_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class UserPortalController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_user_portal_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * If enabled, WarpStream will refuse to delete this topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#enable_deletion_protection Topic#enable_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#enable_deletion_protection Topic#enable_deletion_protection}
   */
   readonly enableDeletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Partition Count of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#partition_count Topic#partition_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#partition_count Topic#partition_count}
   */
   readonly partitionCount: number;
   /**
   * Topic Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#topic_name Topic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#topic_name Topic#topic_name}
   */
   readonly topicName: string;
   /**
   * Virtual Cluster ID associated with the Topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#virtual_cluster_id Topic#virtual_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#virtual_cluster_id Topic#virtual_cluster_id}
   */
   readonly virtualClusterId: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#config Topic#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#config Topic#config}
   */
   readonly config?: TopicConfigA[] | cdktf.IResolvable;
 }
 export interface TopicConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#name Topic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#name Topic#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#value Topic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#value Topic#value}
   */
   readonly value: string;
 }
@@ -183,7 +183,7 @@ export class TopicConfigAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic warpstream_topic}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic warpstream_topic}
 */
 export class Topic extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class Topic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Topic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Topic to import
-  * @param importFromId The id of the existing Topic that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Topic that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Topic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class Topic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/topic warpstream_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/topic warpstream_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class Topic extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_topic',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.1',
+        providerVersionConstraint: '2.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

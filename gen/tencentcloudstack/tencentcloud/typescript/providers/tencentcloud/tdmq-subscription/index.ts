@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TdmqSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to automatically create a dead letter topic and a retry letter topic. true: yes; false: no(default value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#auto_create_policy_topic TdmqSubscription#auto_create_policy_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#auto_create_policy_topic TdmqSubscription#auto_create_policy_topic}
   */
   readonly autoCreatePolicyTopic?: boolean | cdktf.IResolvable;
   /**
   * Whether to automatically delete a dead letter topic and a retry letter topic. Setting is only allowed when `auto_create_policy_topic` is true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#auto_delete_policy_topic TdmqSubscription#auto_delete_policy_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#auto_delete_policy_topic TdmqSubscription#auto_delete_policy_topic}
   */
   readonly autoDeletePolicyTopic?: boolean | cdktf.IResolvable;
   /**
   * Pulsar cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#cluster_id TdmqSubscription#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#cluster_id TdmqSubscription#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Environment (namespace) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#environment_id TdmqSubscription#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#environment_id TdmqSubscription#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#id TdmqSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#id TdmqSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface TdmqSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Remarks (up to 128 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#remark TdmqSubscription#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#remark TdmqSubscription#remark}
   */
   readonly remark?: string;
   /**
   * Subscriber name, which can contain up to 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#subscription_name TdmqSubscription#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#subscription_name TdmqSubscription#subscription_name}
   */
   readonly subscriptionName: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#topic_name TdmqSubscription#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#topic_name TdmqSubscription#topic_name}
   */
   readonly topicName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription tencentcloud_tdmq_subscription}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription tencentcloud_tdmq_subscription}
 */
 export class TdmqSubscription extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TdmqSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqSubscription to import
-  * @param importFromId The id of the existing TdmqSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TdmqSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdmq_subscription tencentcloud_tdmq_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdmq_subscription tencentcloud_tdmq_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TdmqSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_subscription',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

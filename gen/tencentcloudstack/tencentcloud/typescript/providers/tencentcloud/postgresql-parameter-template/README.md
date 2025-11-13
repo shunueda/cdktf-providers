@@ -1,3 +1,3 @@
 # `tencentcloud_postgresql_parameter_template`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_postgresql_parameter_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/postgresql_parameter_template).
+Refer to the Terraform Registry for docs: [`tencentcloud_postgresql_parameter_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/postgresql_parameter_template).

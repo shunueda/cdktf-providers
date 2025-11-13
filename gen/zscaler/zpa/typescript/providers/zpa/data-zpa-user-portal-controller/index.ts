@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaUserPortalControllerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller#id DataZpaUserPortalController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller#id DataZpaUserPortalController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller#microtenant_id DataZpaUserPortalController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller#microtenant_id DataZpaUserPortalController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller#name DataZpaUserPortalController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller#name DataZpaUserPortalController#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller zpa_user_portal_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller zpa_user_portal_controller}
 */
 export class DataZpaUserPortalController extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataZpaUserPortalController extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaUserPortalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaUserPortalController to import
-  * @param importFromId The id of the existing DataZpaUserPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaUserPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaUserPortalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataZpaUserPortalController extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/user_portal_controller zpa_user_portal_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/user_portal_controller zpa_user_portal_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataZpaUserPortalController extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_user_portal_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

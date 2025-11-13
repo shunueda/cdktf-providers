@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudDedicatedNodeGroupConfig extends cdktf.TerraformMe
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group#cluster_id DataTidbcloudDedicatedNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group#cluster_id DataTidbcloudDedicatedNodeGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The ID of the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group#node_group_id DataTidbcloudDedicatedNodeGroup#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group#node_group_id DataTidbcloudDedicatedNodeGroup#node_group_id}
   */
   readonly nodeGroupId: string;
 }
@@ -316,7 +316,7 @@ export class DataTidbcloudDedicatedNodeGroupTiproxySettingOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group tidbcloud_dedicated_node_group}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group tidbcloud_dedicated_node_group}
 */
 export class DataTidbcloudDedicatedNodeGroup extends cdktf.TerraformDataSource {
 
@@ -332,7 +332,7 @@ export class DataTidbcloudDedicatedNodeGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudDedicatedNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudDedicatedNodeGroup to import
-  * @param importFromId The id of the existing DataTidbcloudDedicatedNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudDedicatedNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudDedicatedNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class DataTidbcloudDedicatedNodeGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_node_group tidbcloud_dedicated_node_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_node_group tidbcloud_dedicated_node_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class DataTidbcloudDedicatedNodeGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_dedicated_node_group',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

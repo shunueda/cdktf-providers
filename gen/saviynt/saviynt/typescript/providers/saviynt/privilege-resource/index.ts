@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PrivilegeResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the endpoint to which the entitlement type belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#endpoint PrivilegeResource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#endpoint PrivilegeResource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Name of the entitlement type for the privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#entitlement_type PrivilegeResource#entitlement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#entitlement_type PrivilegeResource#entitlement_type}
   */
   readonly entitlementType: string;
   /**
   * Map of privileges to create/manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#privileges PrivilegeResource#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#privileges PrivilegeResource#privileges}
   */
   readonly privileges: { [key: string]: PrivilegeResourcePrivileges } | cdktf.IResolvable;
   /**
   * Name of the security system to which the endpoint belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#security_system PrivilegeResource#security_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#security_system PrivilegeResource#security_system}
   */
   readonly securitySystem: string;
 }
@@ -36,91 +36,91 @@ export interface PrivilegeResourcePrivileges {
   /**
   * Action string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#action_string PrivilegeResource#action_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#action_string PrivilegeResource#action_string}
   */
   readonly actionString?: string;
   /**
   * Configuration type for the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#attribute_config PrivilegeResource#attribute_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#attribute_config PrivilegeResource#attribute_config}
   */
   readonly attributeConfig: string;
   /**
   * Attribute group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#attribute_group PrivilegeResource#attribute_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#attribute_group PrivilegeResource#attribute_group}
   */
   readonly attributeGroup?: string;
   /**
   * Attribute name for the privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#attribute_name PrivilegeResource#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#attribute_name PrivilegeResource#attribute_name}
   */
   readonly attributeName: string;
   /**
   * Type of the attribute/privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#attribute_type PrivilegeResource#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#attribute_type PrivilegeResource#attribute_type}
   */
   readonly attributeType: string;
   /**
   * Child action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#child_action PrivilegeResource#child_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#child_action PrivilegeResource#child_action}
   */
   readonly childAction?: string;
   /**
   * Default value for the privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#default_value PrivilegeResource#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#default_value PrivilegeResource#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Description for the privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#description PrivilegeResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#description PrivilegeResource#description}
   */
   readonly description?: string;
   /**
   * Hide on create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#hide_on_create PrivilegeResource#hide_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#hide_on_create PrivilegeResource#hide_on_create}
   */
   readonly hideOnCreate?: boolean | cdktf.IResolvable;
   /**
   * Hide on update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#hide_on_update PrivilegeResource#hide_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#hide_on_update PrivilegeResource#hide_on_update}
   */
   readonly hideOnUpdate?: boolean | cdktf.IResolvable;
   /**
   * Label for the privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#label PrivilegeResource#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#label PrivilegeResource#label}
   */
   readonly label?: string;
   /**
   * Order index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#order_index PrivilegeResource#order_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#order_index PrivilegeResource#order_index}
   */
   readonly orderIndex?: string;
   /**
   * Parent attribute for the given privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#parent_attribute PrivilegeResource#parent_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#parent_attribute PrivilegeResource#parent_attribute}
   */
   readonly parentAttribute?: string;
   /**
   * Is requestable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#requestable PrivilegeResource#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#requestable PrivilegeResource#requestable}
   */
   readonly requestable?: boolean | cdktf.IResolvable;
   /**
   * Is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#required PrivilegeResource#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#required PrivilegeResource#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -631,7 +631,7 @@ export class PrivilegeResourcePrivilegesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource saviynt_privilege_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource saviynt_privilege_resource}
 */
 export class PrivilegeResource extends cdktf.TerraformResource {
 
@@ -647,7 +647,7 @@ export class PrivilegeResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivilegeResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivilegeResource to import
-  * @param importFromId The id of the existing PrivilegeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivilegeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivilegeResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +659,7 @@ export class PrivilegeResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/privilege_resource saviynt_privilege_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/privilege_resource saviynt_privilege_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +670,8 @@ export class PrivilegeResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_privilege_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

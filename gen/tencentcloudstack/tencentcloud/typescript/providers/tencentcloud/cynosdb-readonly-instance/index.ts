@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CynosdbReadonlyInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Cluster ID which the readonly instance belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#cluster_id CynosdbReadonlyInstance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#cluster_id CynosdbReadonlyInstance#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Indicate whether to delete readonly instance directly or not. Default is false. If set true, instance will be deleted instead of staying recycle bin. Note: works for both `PREPAID` and `POSTPAID_BY_HOUR` cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#force_delete CynosdbReadonlyInstance#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#force_delete CynosdbReadonlyInstance#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#id CynosdbReadonlyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#id CynosdbReadonlyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface CynosdbReadonlyInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * The number of CPU cores of read-write type instance in the CynosDB cluster. Required while creating normal cluster. Note: modification of this field will take effect immediately, if want to upgrade on maintenance window, please upgrade from console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_cpu_core CynosdbReadonlyInstance#instance_cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_cpu_core CynosdbReadonlyInstance#instance_cpu_core}
   */
   readonly instanceCpuCore?: number;
   /**
   * Duration time for maintenance, unit in second. `3600` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_maintain_duration CynosdbReadonlyInstance#instance_maintain_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_maintain_duration CynosdbReadonlyInstance#instance_maintain_duration}
   */
   readonly instanceMaintainDuration?: number;
   /**
   * Offset time from 00:00, unit in second. For example, 03:00am should be `10800`. `10800` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_maintain_start_time CynosdbReadonlyInstance#instance_maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_maintain_start_time CynosdbReadonlyInstance#instance_maintain_start_time}
   */
   readonly instanceMaintainStartTime?: number;
   /**
   * Weekdays for maintenance. `["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_maintain_weekdays CynosdbReadonlyInstance#instance_maintain_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_maintain_weekdays CynosdbReadonlyInstance#instance_maintain_weekdays}
   */
   readonly instanceMaintainWeekdays?: string[];
   /**
   * Memory capacity of read-write type instance, unit in GB. Required while creating normal cluster. Note: modification of this field will take effect immediately, if want to upgrade on maintenance window, please upgrade from console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_memory_size CynosdbReadonlyInstance#instance_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_memory_size CynosdbReadonlyInstance#instance_memory_size}
   */
   readonly instanceMemorySize?: number;
   /**
   * Name of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#instance_name CynosdbReadonlyInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#instance_name CynosdbReadonlyInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * ID of the subnet within this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#subnet_id CynosdbReadonlyInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#subnet_id CynosdbReadonlyInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#vpc_id CynosdbReadonlyInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#vpc_id CynosdbReadonlyInstance#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance tencentcloud_cynosdb_readonly_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance tencentcloud_cynosdb_readonly_instance}
 */
 export class CynosdbReadonlyInstance extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class CynosdbReadonlyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbReadonlyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbReadonlyInstance to import
-  * @param importFromId The id of the existing CynosdbReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbReadonlyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class CynosdbReadonlyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cynosdb_readonly_instance tencentcloud_cynosdb_readonly_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cynosdb_readonly_instance tencentcloud_cynosdb_readonly_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class CynosdbReadonlyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_readonly_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

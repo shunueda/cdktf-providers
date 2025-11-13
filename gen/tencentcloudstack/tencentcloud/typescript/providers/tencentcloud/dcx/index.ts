@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DcxConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bandwidth of the DC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#bandwidth Dcx#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#bandwidth Dcx#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * BGP ASN of the user. A required field within BGP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#bgp_asn Dcx#bgp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#bgp_asn Dcx#bgp_asn}
   */
   readonly bgpAsn?: number;
   /**
   * BGP key of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#bgp_auth_key Dcx#bgp_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#bgp_auth_key Dcx#bgp_auth_key}
   */
   readonly bgpAuthKey?: string;
   /**
   * Interconnect IP of the DC within client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#customer_address Dcx#customer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#customer_address Dcx#customer_address}
   */
   readonly customerAddress?: string;
   /**
   * ID of the DC to be queried, application deployment offline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#dc_id Dcx#dc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#dc_id Dcx#dc_id}
   */
   readonly dcId: string;
   /**
   * Connection owner, who is the current customer by default. The developer account ID should be entered for shared connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#dc_owner_account Dcx#dc_owner_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#dc_owner_account Dcx#dc_owner_account}
   */
   readonly dcOwnerAccount?: string;
   /**
   * ID of the DC Gateway. Currently only new in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#dcg_id Dcx#dcg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#dcg_id Dcx#dcg_id}
   */
   readonly dcgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#id Dcx#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#id Dcx#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface DcxConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the dedicated tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#name Dcx#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#name Dcx#name}
   */
   readonly name: string;
   /**
   * Network region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#network_region Dcx#network_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#network_region Dcx#network_region}
   */
   readonly networkRegion?: string;
   /**
   * Type of the network. Valid value: `VPC`, `BMVPC` and `CCN`. The default value is `VPC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#network_type Dcx#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#network_type Dcx#network_type}
   */
   readonly networkType?: string;
   /**
   * Static route, the network address of the user IDC. It can be modified after setting but cannot be deleted. AN unable field within BGP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#route_filter_prefixes Dcx#route_filter_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#route_filter_prefixes Dcx#route_filter_prefixes}
   */
   readonly routeFilterPrefixes?: string[];
   /**
   * Type of the route, and available values include BGP and STATIC. The default value is `BGP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#route_type Dcx#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#route_type Dcx#route_type}
   */
   readonly routeType?: string;
   /**
   * Interconnect IP of the DC within Tencent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#tencent_address Dcx#tencent_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#tencent_address Dcx#tencent_address}
   */
   readonly tencentAddress?: string;
   /**
   * Vlan of the dedicated tunnels. Valid value ranges: (0~3000). `0` means that only one tunnel can be created for the physical connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#vlan Dcx#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#vlan Dcx#vlan}
   */
   readonly vlan?: number;
   /**
   * ID of the VPC or BMVPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#vpc_id Dcx#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#vpc_id Dcx#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx tencentcloud_dcx}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx tencentcloud_dcx}
 */
 export class Dcx extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class Dcx extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dcx resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dcx to import
-  * @param importFromId The id of the existing Dcx that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dcx that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dcx to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class Dcx extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dcx tencentcloud_dcx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dcx tencentcloud_dcx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class Dcx extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcx',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

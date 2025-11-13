@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudKmsWhiteBoxDecryptKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key#id DataTencentcloudKmsWhiteBoxDecryptKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key#id DataTencentcloudKmsWhiteBoxDecryptKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudKmsWhiteBoxDecryptKeyConfig extends cdktf.Terra
   /**
   * Globally unique identifier for the white box key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key#key_id DataTencentcloudKmsWhiteBoxDecryptKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key#key_id DataTencentcloudKmsWhiteBoxDecryptKey#key_id}
   */
   readonly keyId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key#result_output_file DataTencentcloudKmsWhiteBoxDecryptKey#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key#result_output_file DataTencentcloudKmsWhiteBoxDecryptKey#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key tencentcloud_kms_white_box_decrypt_key}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key tencentcloud_kms_white_box_decrypt_key}
 */
 export class DataTencentcloudKmsWhiteBoxDecryptKey extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudKmsWhiteBoxDecryptKey extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudKmsWhiteBoxDecryptKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKmsWhiteBoxDecryptKey to import
-  * @param importFromId The id of the existing DataTencentcloudKmsWhiteBoxDecryptKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKmsWhiteBoxDecryptKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKmsWhiteBoxDecryptKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudKmsWhiteBoxDecryptKey extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/kms_white_box_decrypt_key tencentcloud_kms_white_box_decrypt_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/kms_white_box_decrypt_key tencentcloud_kms_white_box_decrypt_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudKmsWhiteBoxDecryptKey extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_kms_white_box_decrypt_key',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

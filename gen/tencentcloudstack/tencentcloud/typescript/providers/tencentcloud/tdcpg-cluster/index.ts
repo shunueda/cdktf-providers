@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TdcpgClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#cluster_name TdcpgCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#cluster_name TdcpgCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * cpu cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#cpu TdcpgCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#cpu TdcpgCluster#cpu}
   */
   readonly cpu: number;
   /**
   * community version number, default to 10.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#db_version TdcpgCluster#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#db_version TdcpgCluster#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#id TdcpgCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#id TdcpgCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface TdcpgClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#instance_count TdcpgCluster#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#instance_count TdcpgCluster#instance_count}
   */
   readonly instanceCount?: number;
   /**
   * user password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#master_user_password TdcpgCluster#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#master_user_password TdcpgCluster#master_user_password}
   */
   readonly masterUserPassword: string;
   /**
   * memory size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#memory TdcpgCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#memory TdcpgCluster#memory}
   */
   readonly memory: number;
   /**
   * pay mode, the value is either PREPAID or POSTPAID_BY_HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#pay_mode TdcpgCluster#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#pay_mode TdcpgCluster#pay_mode}
   */
   readonly payMode: string;
   /**
   * purchase time, required when PayMode is PREPAID, the value range is 1~60, default to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#period TdcpgCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#period TdcpgCluster#period}
   */
   readonly period?: number;
   /**
   * project id, default to 0, means default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#project_id TdcpgCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#project_id TdcpgCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * max storage, the unit is GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#storage TdcpgCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#storage TdcpgCluster#storage}
   */
   readonly storage?: number;
   /**
   * subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#subnet_id TdcpgCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#subnet_id TdcpgCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#vpc_id TdcpgCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#vpc_id TdcpgCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#zone TdcpgCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#zone TdcpgCluster#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster tencentcloud_tdcpg_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster tencentcloud_tdcpg_cluster}
 */
 export class TdcpgCluster extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class TdcpgCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdcpgCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdcpgCluster to import
-  * @param importFromId The id of the existing TdcpgCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdcpgCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdcpgCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class TdcpgCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tdcpg_cluster tencentcloud_tdcpg_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tdcpg_cluster tencentcloud_tdcpg_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class TdcpgCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdcpg_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

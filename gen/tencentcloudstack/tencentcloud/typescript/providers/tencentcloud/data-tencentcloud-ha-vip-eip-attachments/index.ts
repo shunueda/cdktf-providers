@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudHaVipEipAttachmentsConfig extends cdktf.Terrafo
   /**
   * Public IP address of EIP to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments#address_ip DataTencentcloudHaVipEipAttachments#address_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments#address_ip DataTencentcloudHaVipEipAttachments#address_ip}
   */
   readonly addressIp?: string;
   /**
   * ID of the attached HA VIP to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments#havip_id DataTencentcloudHaVipEipAttachments#havip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments#havip_id DataTencentcloudHaVipEipAttachments#havip_id}
   */
   readonly havipId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments#id DataTencentcloudHaVipEipAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments#id DataTencentcloudHaVipEipAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataTencentcloudHaVipEipAttachmentsConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments#result_output_file DataTencentcloudHaVipEipAttachments#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments#result_output_file DataTencentcloudHaVipEipAttachments#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -115,7 +115,7 @@ export class DataTencentcloudHaVipEipAttachmentsHaVipEipAttachmentListStructList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments tencentcloud_ha_vip_eip_attachments}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments tencentcloud_ha_vip_eip_attachments}
 */
 export class DataTencentcloudHaVipEipAttachments extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataTencentcloudHaVipEipAttachments extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudHaVipEipAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudHaVipEipAttachments to import
-  * @param importFromId The id of the existing DataTencentcloudHaVipEipAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudHaVipEipAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudHaVipEipAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataTencentcloudHaVipEipAttachments extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/ha_vip_eip_attachments tencentcloud_ha_vip_eip_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/ha_vip_eip_attachments tencentcloud_ha_vip_eip_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class DataTencentcloudHaVipEipAttachments extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_ha_vip_eip_attachments',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

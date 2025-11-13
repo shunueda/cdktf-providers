@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudScfTriggersConfig extends cdktf.TerraformMetaAr
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#function_name DataTencentcloudScfTriggers#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#function_name DataTencentcloudScfTriggers#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#id DataTencentcloudScfTriggers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#id DataTencentcloudScfTriggers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudScfTriggersConfig extends cdktf.TerraformMetaAr
   /**
   * Namespace. Default value: default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#namespace DataTencentcloudScfTriggers#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#namespace DataTencentcloudScfTriggers#namespace}
   */
   readonly namespace?: string;
   /**
   * Indicates whether the returned results are sorted in ascending or descending order. Valid values: ASC, DESC. Default value: DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#order DataTencentcloudScfTriggers#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#order DataTencentcloudScfTriggers#order}
   */
   readonly order?: string;
   /**
   * Indicates by which field to sort the returned results. Valid values: add_time, mod_time. Default value: mod_time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#order_by DataTencentcloudScfTriggers#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#order_by DataTencentcloudScfTriggers#order_by}
   */
   readonly orderBy?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#result_output_file DataTencentcloudScfTriggers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#result_output_file DataTencentcloudScfTriggers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#filters DataTencentcloudScfTriggers#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#filters DataTencentcloudScfTriggers#filters}
   */
   readonly filters?: DataTencentcloudScfTriggersFilters[] | cdktf.IResolvable;
 }
@@ -185,13 +185,13 @@ export interface DataTencentcloudScfTriggersFilters {
   /**
   * Fields to be filtered. Up to 10 conditions allowed.Values of Name: VpcId, SubnetId, ClsTopicId, ClsLogsetId, Role, CfsId, CfsMountInsId, Eip. Values limit: 1.Name options: Status, Runtime, FunctionType, PublicNetStatus, AsyncRunEnable, TraceEnable. Values limit: 20.When Name is Runtime, CustomImage refers to the image type function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#name DataTencentcloudScfTriggers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#name DataTencentcloudScfTriggers#name}
   */
   readonly name: string;
   /**
   * Filter values of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#values DataTencentcloudScfTriggers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#values DataTencentcloudScfTriggers#values}
   */
   readonly values: string[];
 }
@@ -330,7 +330,7 @@ export class DataTencentcloudScfTriggersFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers tencentcloud_scf_triggers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers tencentcloud_scf_triggers}
 */
 export class DataTencentcloudScfTriggers extends cdktf.TerraformDataSource {
 
@@ -346,7 +346,7 @@ export class DataTencentcloudScfTriggers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudScfTriggers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudScfTriggers to import
-  * @param importFromId The id of the existing DataTencentcloudScfTriggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudScfTriggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudScfTriggers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class DataTencentcloudScfTriggers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/scf_triggers tencentcloud_scf_triggers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/scf_triggers tencentcloud_scf_triggers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class DataTencentcloudScfTriggers extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_scf_triggers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

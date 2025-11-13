@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudApiGatewayApiPluginsConfig extends cdktf.Terraf
   /**
   * API ID to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#api_id DataTencentcloudApiGatewayApiPlugins#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#api_id DataTencentcloudApiGatewayApiPlugins#api_id}
   */
   readonly apiId: string;
   /**
   * Environment information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#environment_name DataTencentcloudApiGatewayApiPlugins#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#environment_name DataTencentcloudApiGatewayApiPlugins#environment_name}
   */
   readonly environmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#id DataTencentcloudApiGatewayApiPlugins#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#id DataTencentcloudApiGatewayApiPlugins#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudApiGatewayApiPluginsConfig extends cdktf.Terraf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#result_output_file DataTencentcloudApiGatewayApiPlugins#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#result_output_file DataTencentcloudApiGatewayApiPlugins#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The service ID to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#service_id DataTencentcloudApiGatewayApiPlugins#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#service_id DataTencentcloudApiGatewayApiPlugins#service_id}
   */
   readonly serviceId: string;
 }
@@ -146,7 +146,7 @@ export class DataTencentcloudApiGatewayApiPluginsResultList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins tencentcloud_api_gateway_api_plugins}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins tencentcloud_api_gateway_api_plugins}
 */
 export class DataTencentcloudApiGatewayApiPlugins extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataTencentcloudApiGatewayApiPlugins extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudApiGatewayApiPlugins resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudApiGatewayApiPlugins to import
-  * @param importFromId The id of the existing DataTencentcloudApiGatewayApiPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudApiGatewayApiPlugins that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudApiGatewayApiPlugins to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataTencentcloudApiGatewayApiPlugins extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/api_gateway_api_plugins tencentcloud_api_gateway_api_plugins} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/api_gateway_api_plugins tencentcloud_api_gateway_api_plugins} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataTencentcloudApiGatewayApiPlugins extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_api_gateway_api_plugins',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

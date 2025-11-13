@@ -1,3 +1,3 @@
 # `tencentcloud_tem_application`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_tem_application`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tem_application).
+Refer to the Terraform Registry for docs: [`tencentcloud_tem_application`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tem_application).

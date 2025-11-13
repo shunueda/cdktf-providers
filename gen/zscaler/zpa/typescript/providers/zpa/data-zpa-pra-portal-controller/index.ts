@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataZpaPraPortalControllerConfig extends cdktf.TerraformMetaArg
   /**
   * The external domain name prefix of the Browser Access application that is used for Zscaler-managed certificates when creating a privileged portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#ext_domain DataZpaPraPortalController#ext_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#ext_domain DataZpaPraPortalController#ext_domain}
   */
   readonly extDomain?: string;
   /**
   * The domain suffix for the privileged portal URL. This field must be one of the customer's authentication domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#ext_domain_name DataZpaPraPortalController#ext_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#ext_domain_name DataZpaPraPortalController#ext_domain_name}
   */
   readonly extDomainName?: string;
   /**
   * The translation of the external domain name prefix of the Browser Access application that is used for Zscaler-managed certificates when creating a privileged portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#ext_domain_translation DataZpaPraPortalController#ext_domain_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#ext_domain_translation DataZpaPraPortalController#ext_domain_translation}
   */
   readonly extDomainTranslation?: string;
   /**
   * The domain prefix for the privileged portal URL. The supported string can include numbers, lower case characters, and only supports a hyphen (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#ext_label DataZpaPraPortalController#ext_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#ext_label DataZpaPraPortalController#ext_label}
   */
   readonly extLabel?: string;
   /**
   * The unique identifier of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#id DataZpaPraPortalController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#id DataZpaPraPortalController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,13 +43,13 @@ export interface DataZpaPraPortalControllerConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the privileged portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#name DataZpaPraPortalController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#name DataZpaPraPortalController#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller zpa_pra_portal_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller zpa_pra_portal_controller}
 */
 export class DataZpaPraPortalController extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataZpaPraPortalController extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaPraPortalController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaPraPortalController to import
-  * @param importFromId The id of the existing DataZpaPraPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaPraPortalController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaPraPortalController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataZpaPraPortalController extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/data-sources/pra_portal_controller zpa_pra_portal_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/data-sources/pra_portal_controller zpa_pra_portal_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataZpaPraPortalController extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_pra_portal_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

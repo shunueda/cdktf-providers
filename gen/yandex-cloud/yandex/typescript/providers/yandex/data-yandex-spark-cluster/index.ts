@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataYandexSparkClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the cloud folder that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#folder_id DataYandexSparkCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#folder_id DataYandexSparkCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Unique ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#id DataYandexSparkCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#id DataYandexSparkCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataYandexSparkClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of the cluster. The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#name DataYandexSparkCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#name DataYandexSparkCluster#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#timeouts DataYandexSparkCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#timeouts DataYandexSparkCluster#timeouts}
   */
   readonly timeouts?: DataYandexSparkClusterTimeouts;
 }
@@ -665,7 +665,7 @@ export interface DataYandexSparkClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#read DataYandexSparkCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#read DataYandexSparkCluster#read}
   */
   readonly read?: string;
 }
@@ -759,7 +759,7 @@ export class DataYandexSparkClusterTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster yandex_spark_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster yandex_spark_cluster}
 */
 export class DataYandexSparkCluster extends cdktf.TerraformDataSource {
 
@@ -775,7 +775,7 @@ export class DataYandexSparkCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexSparkCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexSparkCluster to import
-  * @param importFromId The id of the existing DataYandexSparkCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexSparkCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexSparkCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -787,7 +787,7 @@ export class DataYandexSparkCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/spark_cluster yandex_spark_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/spark_cluster yandex_spark_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -798,8 +798,8 @@ export class DataYandexSparkCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_spark_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

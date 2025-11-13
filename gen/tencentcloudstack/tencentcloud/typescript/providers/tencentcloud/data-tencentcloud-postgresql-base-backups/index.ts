@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudPostgresqlBaseBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#id DataTencentcloudPostgresqlBaseBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#id DataTencentcloudPostgresqlBaseBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudPostgresqlBaseBackupsConfig extends cdktf.Terra
   /**
   * Maximum end time of a backup in the format of `2018-01-01 00:00:00`. It is the current time by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#max_finish_time DataTencentcloudPostgresqlBaseBackups#max_finish_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#max_finish_time DataTencentcloudPostgresqlBaseBackups#max_finish_time}
   */
   readonly maxFinishTime?: string;
   /**
   * Minimum end time of a backup in the format of `2018-01-01 00:00:00`. It is 7 days ago by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#min_finish_time DataTencentcloudPostgresqlBaseBackups#min_finish_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#min_finish_time DataTencentcloudPostgresqlBaseBackups#min_finish_time}
   */
   readonly minFinishTime?: string;
   /**
   * Sorting field. Valid values: `StartTime`, `FinishTime`, `Size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#order_by DataTencentcloudPostgresqlBaseBackups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#order_by DataTencentcloudPostgresqlBaseBackups#order_by}
   */
   readonly orderBy?: string;
   /**
   * Sorting order. Valid values: `asc` (ascending), `desc` (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#order_by_type DataTencentcloudPostgresqlBaseBackups#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#order_by_type DataTencentcloudPostgresqlBaseBackups#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#result_output_file DataTencentcloudPostgresqlBaseBackups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#result_output_file DataTencentcloudPostgresqlBaseBackups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#filters DataTencentcloudPostgresqlBaseBackups#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#filters DataTencentcloudPostgresqlBaseBackups#filters}
   */
   readonly filters?: DataTencentcloudPostgresqlBaseBackupsFilters[] | cdktf.IResolvable;
 }
@@ -175,13 +175,13 @@ export interface DataTencentcloudPostgresqlBaseBackupsFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#name DataTencentcloudPostgresqlBaseBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#name DataTencentcloudPostgresqlBaseBackups#name}
   */
   readonly name?: string;
   /**
   * One or more filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#values DataTencentcloudPostgresqlBaseBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#values DataTencentcloudPostgresqlBaseBackups#values}
   */
   readonly values?: string[];
 }
@@ -326,7 +326,7 @@ export class DataTencentcloudPostgresqlBaseBackupsFiltersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups tencentcloud_postgresql_base_backups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups tencentcloud_postgresql_base_backups}
 */
 export class DataTencentcloudPostgresqlBaseBackups extends cdktf.TerraformDataSource {
 
@@ -342,7 +342,7 @@ export class DataTencentcloudPostgresqlBaseBackups extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlBaseBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlBaseBackups to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlBaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlBaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlBaseBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class DataTencentcloudPostgresqlBaseBackups extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/postgresql_base_backups tencentcloud_postgresql_base_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/postgresql_base_backups tencentcloud_postgresql_base_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class DataTencentcloudPostgresqlBaseBackups extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_postgresql_base_backups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

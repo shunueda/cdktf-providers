@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTidbcloudRestoresConfig extends cdktf.TerraformMetaArgument
   /**
   * Default:1 The number of pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores#page DataTidbcloudRestores#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores#page DataTidbcloudRestores#page}
   */
   readonly page?: number;
   /**
   * Default:10 The size of a pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores#page_size DataTidbcloudRestores#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores#page_size DataTidbcloudRestores#page_size}
   */
   readonly pageSize?: number;
   /**
   * The ID of the project. You can get the project ID from [tidbcloud_projects datasource](../data-sources/projects.md).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores#project_id DataTidbcloudRestores#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores#project_id DataTidbcloudRestores#project_id}
   */
   readonly projectId: string;
 }
@@ -198,7 +198,7 @@ export class DataTidbcloudRestoresItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores tidbcloud_restores}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores tidbcloud_restores}
 */
 export class DataTidbcloudRestores extends cdktf.TerraformDataSource {
 
@@ -214,7 +214,7 @@ export class DataTidbcloudRestores extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudRestores resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudRestores to import
-  * @param importFromId The id of the existing DataTidbcloudRestores that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudRestores that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudRestores to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DataTidbcloudRestores extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/restores tidbcloud_restores} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/restores tidbcloud_restores} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DataTidbcloudRestores extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_restores',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

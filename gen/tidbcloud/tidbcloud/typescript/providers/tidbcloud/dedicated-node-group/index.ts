@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DedicatedNodeGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#cluster_id DedicatedNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#cluster_id DedicatedNodeGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The display name of the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#display_name DedicatedNodeGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#display_name DedicatedNodeGroup#display_name}
   */
   readonly displayName: string;
   /**
   * The count of the nodes in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#node_count DedicatedNodeGroup#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#node_count DedicatedNodeGroup#node_count}
   */
   readonly nodeCount: number;
   /**
   * Settings for public endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#public_endpoint_setting DedicatedNodeGroup#public_endpoint_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#public_endpoint_setting DedicatedNodeGroup#public_endpoint_setting}
   */
   readonly publicEndpointSetting?: DedicatedNodeGroupPublicEndpointSetting;
   /**
   * Settings for TiProxy nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#tiproxy_setting DedicatedNodeGroup#tiproxy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#tiproxy_setting DedicatedNodeGroup#tiproxy_setting}
   */
   readonly tiproxySetting?: DedicatedNodeGroupTiproxySetting;
 }
@@ -218,13 +218,13 @@ export interface DedicatedNodeGroupPublicEndpointSetting {
   /**
   * Whether public endpoint is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#enabled DedicatedNodeGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#enabled DedicatedNodeGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP access list for the public endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#ip_access_list DedicatedNodeGroup#ip_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#ip_access_list DedicatedNodeGroup#ip_access_list}
   */
   readonly ipAccessList?: DedicatedNodeGroupPublicEndpointSettingIpAccessListStruct[] | cdktf.IResolvable;
 }
@@ -349,13 +349,13 @@ export interface DedicatedNodeGroupTiproxySetting {
   /**
   * The number of TiProxy nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#node_count DedicatedNodeGroup#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#node_count DedicatedNodeGroup#node_count}
   */
   readonly nodeCount: number;
   /**
   * The key of the node spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#node_spec_key DedicatedNodeGroup#node_spec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#node_spec_key DedicatedNodeGroup#node_spec_key}
   */
   readonly nodeSpecKey: string;
 }
@@ -482,7 +482,7 @@ export class DedicatedNodeGroupTiproxySettingOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group tidbcloud_dedicated_node_group}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group tidbcloud_dedicated_node_group}
 */
 export class DedicatedNodeGroup extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class DedicatedNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedNodeGroup to import
-  * @param importFromId The id of the existing DedicatedNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class DedicatedNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_node_group tidbcloud_dedicated_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_node_group tidbcloud_dedicated_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class DedicatedNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_dedicated_node_group',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

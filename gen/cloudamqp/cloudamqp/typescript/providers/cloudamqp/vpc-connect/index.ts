@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpcConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of allowed prinicpals used by AWS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#allowed_principals VpcConnect#allowed_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#allowed_principals VpcConnect#allowed_principals}
   */
   readonly allowedPrincipals?: string[];
   /**
   * List of allowed projects used by GCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#allowed_projects VpcConnect#allowed_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#allowed_projects VpcConnect#allowed_projects}
   */
   readonly allowedProjects?: string[];
   /**
   * List of approved subscriptions used by Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#approved_subscriptions VpcConnect#approved_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#approved_subscriptions VpcConnect#approved_subscriptions}
   */
   readonly approvedSubscriptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#id VpcConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#id VpcConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface VpcConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The CloudAMQP instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#instance_id VpcConnect#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#instance_id VpcConnect#instance_id}
   */
   readonly instanceId: number;
   /**
   * The region where the CloudAMQP instance is hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#region VpcConnect#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#region VpcConnect#region}
   */
   readonly region: string;
   /**
   * Configurable sleep in seconds between retries when enable PrivateLink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#sleep VpcConnect#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#sleep VpcConnect#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout in seconds when enable PrivateLink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#timeout VpcConnect#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#timeout VpcConnect#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect cloudamqp_vpc_connect}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect cloudamqp_vpc_connect}
 */
 export class VpcConnect extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class VpcConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcConnect to import
-  * @param importFromId The id of the existing VpcConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class VpcConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.1/docs/resources/vpc_connect cloudamqp_vpc_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.38.2/docs/resources/vpc_connect cloudamqp_vpc_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class VpcConnect extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_vpc_connect',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1',
-        providerVersionConstraint: '1.38.1'
+        providerVersion: '1.38.2',
+        providerVersionConstraint: '1.38.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataSaviyntConnectionsDatasourceConfig extends cdktf.TerraformM
   /**
   * If false, do not store connection results in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#authenticate DataSaviyntConnectionsDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#authenticate DataSaviyntConnectionsDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * Filter by connection name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#connection_name DataSaviyntConnectionsDatasource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#connection_name DataSaviyntConnectionsDatasource#connection_name}
   */
   readonly connectionName?: string;
   /**
   * Filter by connection type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#connection_type DataSaviyntConnectionsDatasource#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#connection_type DataSaviyntConnectionsDatasource#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Maximum number of connections to retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#max DataSaviyntConnectionsDatasource#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#max DataSaviyntConnectionsDatasource#max}
   */
   readonly max?: string;
   /**
   * Offset for pagination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#offset DataSaviyntConnectionsDatasource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#offset DataSaviyntConnectionsDatasource#offset}
   */
   readonly offset?: string;
 }
@@ -150,7 +150,7 @@ export class DataSaviyntConnectionsDatasourceResultsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource saviynt_connections_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource saviynt_connections_datasource}
 */
 export class DataSaviyntConnectionsDatasource extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataSaviyntConnectionsDatasource extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSaviyntConnectionsDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntConnectionsDatasource to import
-  * @param importFromId The id of the existing DataSaviyntConnectionsDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntConnectionsDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntConnectionsDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataSaviyntConnectionsDatasource extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/connections_datasource saviynt_connections_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/connections_datasource saviynt_connections_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataSaviyntConnectionsDatasource extends cdktf.TerraformDataSource 
       terraformResourceType: 'saviynt_connections_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

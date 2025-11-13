@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CbsDiskBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Backup point name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup#disk_backup_name CbsDiskBackup#disk_backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup#disk_backup_name CbsDiskBackup#disk_backup_name}
   */
   readonly diskBackupName?: string;
   /**
   * ID of the original cloud disk of the backup point, which can be queried through the DescribeDisks API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup#disk_id CbsDiskBackup#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup#disk_id CbsDiskBackup#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup#id CbsDiskBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup#id CbsDiskBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface CbsDiskBackupConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup tencentcloud_cbs_disk_backup}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup tencentcloud_cbs_disk_backup}
 */
 export class CbsDiskBackup extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CbsDiskBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbsDiskBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbsDiskBackup to import
-  * @param importFromId The id of the existing CbsDiskBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbsDiskBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbsDiskBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CbsDiskBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cbs_disk_backup tencentcloud_cbs_disk_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cbs_disk_backup tencentcloud_cbs_disk_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CbsDiskBackup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cbs_disk_backup',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

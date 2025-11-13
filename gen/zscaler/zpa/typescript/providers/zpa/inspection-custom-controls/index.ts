@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface InspectionCustomControlsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#control_type InspectionCustomControls#control_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#control_type InspectionCustomControls#control_type}
   */
   readonly controlType?: string;
   /**
   * The performed action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#default_action InspectionCustomControls#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#default_action InspectionCustomControls#default_action}
   */
   readonly defaultAction?: string;
   /**
   * This is used to provide the redirect URL if the default action is set to REDIRECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#default_action_value InspectionCustomControls#default_action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#default_action_value InspectionCustomControls#default_action_value}
   */
   readonly defaultActionValue?: string;
   /**
   * Description of the custom control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#description InspectionCustomControls#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#description InspectionCustomControls#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#name InspectionCustomControls#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#name InspectionCustomControls#name}
   */
   readonly name: string;
   /**
   * OWASP Predefined Paranoia Level. Range: [1-4], inclusive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#paranoia_level InspectionCustomControls#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#paranoia_level InspectionCustomControls#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#protocol_type InspectionCustomControls#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#protocol_type InspectionCustomControls#protocol_type}
   */
   readonly protocolType?: string;
   /**
   * Severity of the control number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#severity InspectionCustomControls#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#severity InspectionCustomControls#severity}
   */
   readonly severity: string;
   /**
   * Rules to be applied to the request or response type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#type InspectionCustomControls#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#type InspectionCustomControls#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#version InspectionCustomControls#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#version InspectionCustomControls#version}
   */
   readonly version?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#rules InspectionCustomControls#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#rules InspectionCustomControls#rules}
   */
   readonly rules?: InspectionCustomControlsRules[] | cdktf.IResolvable;
 }
@@ -70,19 +70,19 @@ export interface InspectionCustomControlsRulesConditions {
   /**
   * Signifies the key for the object type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#lhs InspectionCustomControls#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#lhs InspectionCustomControls#lhs}
   */
   readonly lhs?: string;
   /**
   * Denotes the operation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#op InspectionCustomControls#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#op InspectionCustomControls#op}
   */
   readonly op?: string;
   /**
   * Denotes the value for the given object type. Its value depends on the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#rhs InspectionCustomControls#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#rhs InspectionCustomControls#rhs}
   */
   readonly rhs?: string;
 }
@@ -258,19 +258,19 @@ export interface InspectionCustomControlsRules {
   /**
   * Name of the rules. If rules.type is set to REQUEST_HEADERS, REQUEST_COOKIES, or RESPONSE_HEADERS, the rules.name field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#names InspectionCustomControls#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#names InspectionCustomControls#names}
   */
   readonly names?: string[];
   /**
   * Type value for the rules. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#type InspectionCustomControls#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#type InspectionCustomControls#type}
   */
   readonly type?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#conditions InspectionCustomControls#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#conditions InspectionCustomControls#conditions}
   */
   readonly conditions?: InspectionCustomControlsRulesConditions[] | cdktf.IResolvable;
 }
@@ -444,7 +444,7 @@ export class InspectionCustomControlsRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls zpa_inspection_custom_controls}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls zpa_inspection_custom_controls}
 */
 export class InspectionCustomControls extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class InspectionCustomControls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InspectionCustomControls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InspectionCustomControls to import
-  * @param importFromId The id of the existing InspectionCustomControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InspectionCustomControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InspectionCustomControls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class InspectionCustomControls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/inspection_custom_controls zpa_inspection_custom_controls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/inspection_custom_controls zpa_inspection_custom_controls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class InspectionCustomControls extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_inspection_custom_controls',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

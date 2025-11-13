@@ -1,3 +1,3 @@
 # `tencentcloud_ha_vip_eip_attachment`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_ha_vip_eip_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/ha_vip_eip_attachment).
+Refer to the Terraform Registry for docs: [`tencentcloud_ha_vip_eip_attachment`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/ha_vip_eip_attachment).

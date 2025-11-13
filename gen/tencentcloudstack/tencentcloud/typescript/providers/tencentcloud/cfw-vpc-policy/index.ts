@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CfwVpcPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Describe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#description CfwVpcPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#description CfwVpcPolicy#description}
   */
   readonly description: string;
   /**
   * Access purpose example: net:IP/CIDR(192.168.0.2) domain:domain rule, for example*.qq.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#dest_content CfwVpcPolicy#dest_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#dest_content CfwVpcPolicy#dest_content}
   */
   readonly destContent: string;
   /**
   * Access purpose type, the type can be: net, template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#dest_type CfwVpcPolicy#dest_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#dest_type CfwVpcPolicy#dest_type}
   */
   readonly destType: string;
   /**
   * Rule status, true means enabled, false means disabled. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#enable CfwVpcPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#enable CfwVpcPolicy#enable}
   */
   readonly enable?: string;
   /**
   * Firewall instance ID where the rule takes effect. Default is ALL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#fw_group_id CfwVpcPolicy#fw_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#fw_group_id CfwVpcPolicy#fw_group_id}
   */
   readonly fwGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#id CfwVpcPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#id CfwVpcPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface CfwVpcPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The port for the access control policy. Value: -1/-1: All ports; 80: port 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#port CfwVpcPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#port CfwVpcPolicy#port}
   */
   readonly port: string;
   /**
   * Protocol, optional value:TCP, UDP, ICMP, ANY, HTTP, HTTPS, HTTP/HTTPS, SMTP, SMTPS, SMTP/SMTPS, FTP, DNS, TLS/SSL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#protocol CfwVpcPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#protocol CfwVpcPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * How traffic set in the access control policy passes through the cloud firewall. Value: accept:accept, drop:drop, log:log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#rule_action CfwVpcPolicy#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#rule_action CfwVpcPolicy#rule_action}
   */
   readonly ruleAction: string;
   /**
   * Access source examplnet:IP/CIDR(192.168.0.2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#source_content CfwVpcPolicy#source_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#source_content CfwVpcPolicy#source_content}
   */
   readonly sourceContent: string;
   /**
   * Access source type, the type can be: net, template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#source_type CfwVpcPolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#source_type CfwVpcPolicy#source_type}
   */
   readonly sourceType: string;
 }
@@ -162,7 +162,7 @@ export class CfwVpcPolicyBetaListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy tencentcloud_cfw_vpc_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy tencentcloud_cfw_vpc_policy}
 */
 export class CfwVpcPolicy extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class CfwVpcPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwVpcPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwVpcPolicy to import
-  * @param importFromId The id of the existing CfwVpcPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwVpcPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwVpcPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class CfwVpcPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/cfw_vpc_policy tencentcloud_cfw_vpc_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/cfw_vpc_policy tencentcloud_cfw_vpc_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class CfwVpcPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_vpc_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

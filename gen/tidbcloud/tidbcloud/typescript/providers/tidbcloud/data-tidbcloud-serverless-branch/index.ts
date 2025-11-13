@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudServerlessBranchConfig extends cdktf.TerraformMeta
   /**
   * The ID of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch#branch_id DataTidbcloudServerlessBranch#branch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch#branch_id DataTidbcloudServerlessBranch#branch_id}
   */
   readonly branchId: string;
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch#cluster_id DataTidbcloudServerlessBranch#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch#cluster_id DataTidbcloudServerlessBranch#cluster_id}
   */
   readonly clusterId: string;
 }
@@ -271,7 +271,7 @@ export class DataTidbcloudServerlessBranchEndpointsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch tidbcloud_serverless_branch}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch tidbcloud_serverless_branch}
 */
 export class DataTidbcloudServerlessBranch extends cdktf.TerraformDataSource {
 
@@ -287,7 +287,7 @@ export class DataTidbcloudServerlessBranch extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudServerlessBranch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudServerlessBranch to import
-  * @param importFromId The id of the existing DataTidbcloudServerlessBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudServerlessBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudServerlessBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class DataTidbcloudServerlessBranch extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/serverless_branch tidbcloud_serverless_branch} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/serverless_branch tidbcloud_serverless_branch} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class DataTidbcloudServerlessBranch extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_serverless_branch',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

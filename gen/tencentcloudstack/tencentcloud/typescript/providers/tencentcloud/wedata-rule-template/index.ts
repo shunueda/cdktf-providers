@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WedataRuleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#description WedataRuleTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#description WedataRuleTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#id WedataRuleTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#id WedataRuleTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface WedataRuleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to associate other library tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#multi_source_flag WedataRuleTemplate#multi_source_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#multi_source_flag WedataRuleTemplate#multi_source_flag}
   */
   readonly multiSourceFlag?: boolean | cdktf.IResolvable;
   /**
   * Template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#name WedataRuleTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#name WedataRuleTemplate#name}
   */
   readonly name?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#project_id WedataRuleTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#project_id WedataRuleTemplate#project_id}
   */
   readonly projectId: string;
   /**
   * Quality inspection dimensions. `1`: Accuracy, `2`: Uniqueness, `3`: Completeness, `4`: Consistency, `5`: Timeliness, `6`: Effectiveness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#quality_dim WedataRuleTemplate#quality_dim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#quality_dim WedataRuleTemplate#quality_dim}
   */
   readonly qualityDim?: number;
   /**
   * The engine type corresponding to the source. `2`: hive,`4`: spark, `16`: dlc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#source_engine_types WedataRuleTemplate#source_engine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#source_engine_types WedataRuleTemplate#source_engine_types}
   */
   readonly sourceEngineTypes?: number[];
   /**
   * Source data object type. `1`: Constant, `2`: Offline table level, `3`: Offline field level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#source_object_type WedataRuleTemplate#source_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#source_object_type WedataRuleTemplate#source_object_type}
   */
   readonly sourceObjectType?: number;
   /**
   * SQL Expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#sql_expression WedataRuleTemplate#sql_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#sql_expression WedataRuleTemplate#sql_expression}
   */
   readonly sqlExpression?: string;
   /**
   * Template type. `1` means System template, `2` means Custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#type WedataRuleTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#type WedataRuleTemplate#type}
   */
   readonly type?: number;
   /**
   * If add where.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#where_flag WedataRuleTemplate#where_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#where_flag WedataRuleTemplate#where_flag}
   */
   readonly whereFlag?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template tencentcloud_wedata_rule_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template tencentcloud_wedata_rule_template}
 */
 export class WedataRuleTemplate extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class WedataRuleTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataRuleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataRuleTemplate to import
-  * @param importFromId The id of the existing WedataRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataRuleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataRuleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class WedataRuleTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template tencentcloud_wedata_rule_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template tencentcloud_wedata_rule_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class WedataRuleTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_rule_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

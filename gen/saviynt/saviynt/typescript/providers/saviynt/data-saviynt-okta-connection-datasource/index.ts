@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSaviyntOktaConnectionDatasourceConfig extends cdktf.Terrafo
   /**
   * If false, do not store connection_attributes in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource#authenticate DataSaviyntOktaConnectionDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource#authenticate DataSaviyntOktaConnectionDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * The key of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource#connection_key DataSaviyntOktaConnectionDatasource#connection_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource#connection_key DataSaviyntOktaConnectionDatasource#connection_key}
   */
   readonly connectionKey?: number;
   /**
   * The name of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource#connection_name DataSaviyntOktaConnectionDatasource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource#connection_name DataSaviyntOktaConnectionDatasource#connection_name}
   */
   readonly connectionName?: string;
 }
@@ -242,7 +242,7 @@ export class DataSaviyntOktaConnectionDatasourceConnectionAttributesOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource saviynt_okta_connection_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource saviynt_okta_connection_datasource}
 */
 export class DataSaviyntOktaConnectionDatasource extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataSaviyntOktaConnectionDatasource extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSaviyntOktaConnectionDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntOktaConnectionDatasource to import
-  * @param importFromId The id of the existing DataSaviyntOktaConnectionDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntOktaConnectionDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntOktaConnectionDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataSaviyntOktaConnectionDatasource extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/okta_connection_datasource saviynt_okta_connection_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/okta_connection_datasource saviynt_okta_connection_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataSaviyntOktaConnectionDatasource extends cdktf.TerraformDataSour
       terraformResourceType: 'saviynt_okta_connection_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DedicatedClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#display_name DedicatedCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#display_name DedicatedCluster#display_name}
   */
   readonly displayName: string;
   /**
   * Whether the cluster is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#paused DedicatedCluster#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#paused DedicatedCluster#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The port used for accessing the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#port DedicatedCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#port DedicatedCluster#port}
   */
   readonly port?: number;
   /**
   * The ID of the project. When not provided, the default project will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#project_id DedicatedCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#project_id DedicatedCluster#project_id}
   */
   readonly projectId?: string;
   /**
   * The region where the cluster is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#region_id DedicatedCluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#region_id DedicatedCluster#region_id}
   */
   readonly regionId: string;
   /**
   * The root password to access the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#root_password DedicatedCluster#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#root_password DedicatedCluster#root_password}
   */
   readonly rootPassword?: string;
   /**
   * Settings for TiDB nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#tidb_node_setting DedicatedCluster#tidb_node_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#tidb_node_setting DedicatedCluster#tidb_node_setting}
   */
   readonly tidbNodeSetting: DedicatedClusterTidbNodeSetting;
   /**
   * Settings for TiFlash nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#tiflash_node_setting DedicatedCluster#tiflash_node_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#tiflash_node_setting DedicatedCluster#tiflash_node_setting}
   */
   readonly tiflashNodeSetting?: DedicatedClusterTiflashNodeSetting;
   /**
   * Settings for TiKV nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#tikv_node_setting DedicatedCluster#tikv_node_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#tikv_node_setting DedicatedCluster#tikv_node_setting}
   */
   readonly tikvNodeSetting: DedicatedClusterTikvNodeSetting;
 }
@@ -301,13 +301,13 @@ export interface DedicatedClusterTidbNodeSettingPublicEndpointSetting {
   /**
   * Whether public endpoint is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#enabled DedicatedCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#enabled DedicatedCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP access list for the public endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#ip_access_list DedicatedCluster#ip_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#ip_access_list DedicatedCluster#ip_access_list}
   */
   readonly ipAccessList?: DedicatedClusterTidbNodeSettingPublicEndpointSettingIpAccessListStruct[] | cdktf.IResolvable;
 }
@@ -432,13 +432,13 @@ export interface DedicatedClusterTidbNodeSettingTiproxySetting {
   /**
   * The number of TiProxy nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
   */
   readonly nodeCount: number;
   /**
   * The key of the node spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
   */
   readonly nodeSpecKey: string;
 }
@@ -567,25 +567,25 @@ export interface DedicatedClusterTidbNodeSetting {
   /**
   * The number of nodes in the default node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
   */
   readonly nodeCount: number;
   /**
   * The key of the node spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
   */
   readonly nodeSpecKey: string;
   /**
   * Settings for public endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#public_endpoint_setting DedicatedCluster#public_endpoint_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#public_endpoint_setting DedicatedCluster#public_endpoint_setting}
   */
   readonly publicEndpointSetting?: DedicatedClusterTidbNodeSettingPublicEndpointSetting;
   /**
   * Settings for TiProxy nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#tiproxy_setting DedicatedCluster#tiproxy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#tiproxy_setting DedicatedCluster#tiproxy_setting}
   */
   readonly tiproxySetting?: DedicatedClusterTidbNodeSettingTiproxySetting;
 }
@@ -793,31 +793,31 @@ export interface DedicatedClusterTiflashNodeSetting {
   /**
   * The number of nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
   */
   readonly nodeCount: number;
   /**
   * The node specification key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
   */
   readonly nodeSpecKey: string;
   /**
   * The IOPS of raft store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#raft_store_iops DedicatedCluster#raft_store_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#raft_store_iops DedicatedCluster#raft_store_iops}
   */
   readonly raftStoreIops?: number;
   /**
   * The storage size in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#storage_size_gi DedicatedCluster#storage_size_gi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#storage_size_gi DedicatedCluster#storage_size_gi}
   */
   readonly storageSizeGi: number;
   /**
   * The storage type.- Basic: Data disk: gp3; Raft log disk: none.- Standard: Data disk: gp3; Raft log disk: gp3.- Performance: Data disk: gp3; Raft log disk: io2.- Plus: Data disk: io2; Raft log disk: none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#storage_type DedicatedCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#storage_type DedicatedCluster#storage_type}
   */
   readonly storageType?: string;
 }
@@ -1025,31 +1025,31 @@ export interface DedicatedClusterTikvNodeSetting {
   /**
   * The number of nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_count DedicatedCluster#node_count}
   */
   readonly nodeCount: number;
   /**
   * The node specification key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#node_spec_key DedicatedCluster#node_spec_key}
   */
   readonly nodeSpecKey: string;
   /**
   * The IOPS of raft store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#raft_store_iops DedicatedCluster#raft_store_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#raft_store_iops DedicatedCluster#raft_store_iops}
   */
   readonly raftStoreIops?: number;
   /**
   * The storage size in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#storage_size_gi DedicatedCluster#storage_size_gi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#storage_size_gi DedicatedCluster#storage_size_gi}
   */
   readonly storageSizeGi: number;
   /**
   * The storage type.- Basic: Data disk: gp3; Raft log disk: none.- Standard: Data disk: gp3; Raft log disk: gp3.- Performance: Data disk: gp3; Raft log disk: io2.- Plus: Data disk: io2; Raft log disk: none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#storage_type DedicatedCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#storage_type DedicatedCluster#storage_type}
   */
   readonly storageType?: string;
 }
@@ -1255,7 +1255,7 @@ export class DedicatedClusterTikvNodeSettingOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster tidbcloud_dedicated_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster tidbcloud_dedicated_cluster}
 */
 export class DedicatedCluster extends cdktf.TerraformResource {
 
@@ -1271,7 +1271,7 @@ export class DedicatedCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedCluster to import
-  * @param importFromId The id of the existing DedicatedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1283,7 +1283,7 @@ export class DedicatedCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_cluster tidbcloud_dedicated_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_cluster tidbcloud_dedicated_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1294,8 +1294,8 @@ export class DedicatedCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_dedicated_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

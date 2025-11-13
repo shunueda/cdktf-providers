@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,307 +10,307 @@ export interface AdsiConnectionResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Map EIC and AD attributes for account import (AD attributes must be in lower case)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#account_attribute AdsiConnectionResource#account_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#account_attribute AdsiConnectionResource#account_attribute}
   */
   readonly accountAttribute?: string;
   /**
   * Rule to generate account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#accountnamerule AdsiConnectionResource#accountnamerule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#accountnamerule AdsiConnectionResource#accountnamerule}
   */
   readonly accountnamerule?: string;
   /**
   * Configuration to Add nested group hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#addaccessentitlementjson AdsiConnectionResource#addaccessentitlementjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#addaccessentitlementjson AdsiConnectionResource#addaccessentitlementjson}
   */
   readonly addaccessentitlementjson?: string;
   /**
   * Configuration to ADD Access (cross domain/forest group membership) to an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#addaccessjson AdsiConnectionResource#addaccessjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#addaccessjson AdsiConnectionResource#addaccessjson}
   */
   readonly addaccessjson?: string;
   /**
   * Evaluate the uniqueness of an attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#checkforunique AdsiConnectionResource#checkforunique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#checkforunique AdsiConnectionResource#checkforunique}
   */
   readonly checkforunique?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#connection_name AdsiConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#connection_name AdsiConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * ADSI remote agent Connection URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#connection_url AdsiConnectionResource#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#connection_url AdsiConnectionResource#connection_url}
   */
   readonly connectionUrl: string;
   /**
   * Specify the attributes values which will be used to Create the New Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#createaccountjson AdsiConnectionResource#createaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#createaccountjson AdsiConnectionResource#createaccountjson}
   */
   readonly createaccountjson?: string;
   /**
   * Configuration to Create a Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#creategroupjson AdsiConnectionResource#creategroupjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#creategroupjson AdsiConnectionResource#creategroupjson}
   */
   readonly creategroupjson?: string;
   /**
   * Specify the Field Value which will be used to Create the New Service Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#createserviceaccountjson AdsiConnectionResource#createserviceaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#createserviceaccountjson AdsiConnectionResource#createserviceaccountjson}
   */
   readonly createserviceaccountjson?: string;
   /**
   * Custom configuration JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#customconfigjson AdsiConnectionResource#customconfigjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#customconfigjson AdsiConnectionResource#customconfigjson}
   */
   readonly customconfigjson?: string;
   /**
   * Default SAV Role to be assigned to all the new users that gets imported via User Import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#default_user_role AdsiConnectionResource#default_user_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#default_user_role AdsiConnectionResource#default_user_role}
   */
   readonly defaultUserRole?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#defaultsavroles AdsiConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#defaultsavroles AdsiConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#description AdsiConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#description AdsiConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Specify the actions and attributes updates to be performed for disabling an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#disableaccountjson AdsiConnectionResource#disableaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#disableaccountjson AdsiConnectionResource#disableaccountjson}
   */
   readonly disableaccountjson?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#email_template AdsiConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#email_template AdsiConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * Specify the actions and attribute updates to be performed for enabling an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#enableaccountjson AdsiConnectionResource#enableaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#enableaccountjson AdsiConnectionResource#enableaccountjson}
   */
   readonly enableaccountjson?: string;
   /**
   * Provide the configuration to create Child Endpoints and import associated accounts and entitlements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#endpoints_filter AdsiConnectionResource#endpoints_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#endpoints_filter AdsiConnectionResource#endpoints_filter}
   */
   readonly endpointsFilter?: string;
   /**
   * Account attribute that contains group membership
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#entitlement_attribute AdsiConnectionResource#entitlement_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#entitlement_attribute AdsiConnectionResource#entitlement_attribute}
   */
   readonly entitlementAttribute?: string;
   /**
   * Forest List (Comma Separated) which we need to manage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#forestlist AdsiConnectionResource#forestlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#forestlist AdsiConnectionResource#forestlist}
   */
   readonly forestlist: string;
   /**
   * Map AD group attribute to EIC entitlement attribute for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#group_import_mapping AdsiConnectionResource#group_import_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#group_import_mapping AdsiConnectionResource#group_import_mapping}
   */
   readonly groupImportMapping?: string;
   /**
   * Group Search Filter to specify the starting point of the directory from where the groups needs to be imported. You can have multiple BaseDNs here separated by ###.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#group_search_base_dn AdsiConnectionResource#group_search_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#group_search_base_dn AdsiConnectionResource#group_search_base_dn}
   */
   readonly groupSearchBaseDn?: string;
   /**
   * Specify if you want the connector to import all indirect or nested membership of an account or a group during access import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#import_nested_membership AdsiConnectionResource#import_nested_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#import_nested_membership AdsiConnectionResource#import_nested_membership}
   */
   readonly importNestedMembership?: string;
   /**
   * Specify this parameter to transform the data during user import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#modifyuserdatajson AdsiConnectionResource#modifyuserdatajson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#modifyuserdatajson AdsiConnectionResource#modifyuserdatajson}
   */
   readonly modifyuserdatajson?: string;
   /**
   * Object Filter is used to filter the objects that will be returned.This filter will be same for all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#objectfilter AdsiConnectionResource#objectfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#objectfilter AdsiConnectionResource#objectfilter}
   */
   readonly objectfilter?: string;
   /**
   * Page size defines the number of objects to be returned from each AD operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#page_size AdsiConnectionResource#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#page_size AdsiConnectionResource#page_size}
   */
   readonly pageSize?: string;
   /**
   * JSON to specify Bootstrap Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#pam_config AdsiConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#pam_config AdsiConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Service account password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#password AdsiConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#password AdsiConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Service account password_wo (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#password_wo AdsiConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#password_wo AdsiConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * ADSI remote agent Provisioning URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#provisioning_url AdsiConnectionResource#provisioning_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#provisioning_url AdsiConnectionResource#provisioning_url}
   */
   readonly provisioningUrl?: string;
   /**
   * Configuration to Remove nested group hierarchy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#removeaccessentitlementjson AdsiConnectionResource#removeaccessentitlementjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#removeaccessentitlementjson AdsiConnectionResource#removeaccessentitlementjson}
   */
   readonly removeaccessentitlementjson?: string;
   /**
   * Configuration to REMOVE Access (cross domain/forest group membership) to an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#removeaccessjson AdsiConnectionResource#removeaccessjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#removeaccessjson AdsiConnectionResource#removeaccessjson}
   */
   readonly removeaccessjson?: string;
   /**
   * Specify the actions to be performed for deleting an account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#removeaccountjson AdsiConnectionResource#removeaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#removeaccountjson AdsiConnectionResource#removeaccountjson}
   */
   readonly removeaccountjson?: string;
   /**
   * Configuration to Delete a Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#removegroupjson AdsiConnectionResource#removegroupjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#removegroupjson AdsiConnectionResource#removegroupjson}
   */
   readonly removegroupjson?: string;
   /**
   * Specify the actions to be performed while deleting a service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#removeserviceaccountjson AdsiConnectionResource#removeserviceaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#removeserviceaccountjson AdsiConnectionResource#removeserviceaccountjson}
   */
   readonly removeserviceaccountjson?: string;
   /**
   * Configuration to Reset and Change Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#resetandchangepasswrdjson AdsiConnectionResource#resetandchangepasswrdjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#resetandchangepasswrdjson AdsiConnectionResource#resetandchangepasswrdjson}
   */
   readonly resetandchangepasswrdjson?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#save_in_vault AdsiConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#save_in_vault AdsiConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Account Search Filter to specify the starting point of the directory from where the accounts needs to be imported. You can have multiple BaseDNs here separated by ###.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#searchfilter AdsiConnectionResource#searchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#searchfilter AdsiConnectionResource#searchfilter}
   */
   readonly searchfilter?: string;
   /**
   * Account status and threshold related config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#status_threshold_config AdsiConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#status_threshold_config AdsiConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * JSON configuration to specify Users status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#statuskeyjson AdsiConnectionResource#statuskeyjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#statuskeyjson AdsiConnectionResource#statuskeyjson}
   */
   readonly statuskeyjson?: string;
   /**
   * Specify the attributes values which will be used to Update existing Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#updateaccountjson AdsiConnectionResource#updateaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#updateaccountjson AdsiConnectionResource#updateaccountjson}
   */
   readonly updateaccountjson?: string;
   /**
   * Configuration to Update a Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#updategroupjson AdsiConnectionResource#updategroupjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#updategroupjson AdsiConnectionResource#updategroupjson}
   */
   readonly updategroupjson?: string;
   /**
   * Specify the Field Value which will be used to update the existing Service Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#updateserviceaccountjson AdsiConnectionResource#updateserviceaccountjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#updateserviceaccountjson AdsiConnectionResource#updateserviceaccountjson}
   */
   readonly updateserviceaccountjson?: string;
   /**
   * Specify the attribute Value which will be used to Update existing User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#updateuserjson AdsiConnectionResource#updateuserjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#updateuserjson AdsiConnectionResource#updateuserjson}
   */
   readonly updateuserjson?: string;
   /**
   * Primary/root domain URL list (comma Separated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#url AdsiConnectionResource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#url AdsiConnectionResource#url}
   */
   readonly url: string;
   /**
   * Map EIC and AD attributes for user import (AD attributes must be in lower case)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#user_attribute AdsiConnectionResource#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#user_attribute AdsiConnectionResource#user_attribute}
   */
   readonly userAttribute?: string;
   /**
   * Service account username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#username AdsiConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#username AdsiConnectionResource#username}
   */
   readonly username: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#vault_configuration AdsiConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#vault_configuration AdsiConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#vault_connection AdsiConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#vault_connection AdsiConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#wo_version AdsiConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#wo_version AdsiConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource saviynt_adsi_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource saviynt_adsi_connection_resource}
 */
 export class AdsiConnectionResource extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class AdsiConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdsiConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdsiConnectionResource to import
-  * @param importFromId The id of the existing AdsiConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdsiConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdsiConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class AdsiConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/resources/adsi_connection_resource saviynt_adsi_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/resources/adsi_connection_resource saviynt_adsi_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class AdsiConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_adsi_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

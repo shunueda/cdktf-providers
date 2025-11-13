@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MdbClickhouseDatabaseConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the ClickHouse cluster. Provided by the client when the database is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#cluster_id MdbClickhouseDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#cluster_id MdbClickhouseDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#name MdbClickhouseDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#name MdbClickhouseDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#timeouts MdbClickhouseDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#timeouts MdbClickhouseDatabase#timeouts}
   */
   readonly timeouts?: MdbClickhouseDatabaseTimeouts;
 }
@@ -28,13 +28,13 @@ export interface MdbClickhouseDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#create MdbClickhouseDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#create MdbClickhouseDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#delete MdbClickhouseDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#delete MdbClickhouseDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -157,7 +157,7 @@ export class MdbClickhouseDatabaseTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database yandex_mdb_clickhouse_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database yandex_mdb_clickhouse_database}
 */
 export class MdbClickhouseDatabase extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class MdbClickhouseDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbClickhouseDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbClickhouseDatabase to import
-  * @param importFromId The id of the existing MdbClickhouseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbClickhouseDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbClickhouseDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class MdbClickhouseDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_clickhouse_database yandex_mdb_clickhouse_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_clickhouse_database yandex_mdb_clickhouse_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class MdbClickhouseDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_clickhouse_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AgentKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Agent Key Name. Must be unique across WarpStream account. Must start with 'akn_' and contain underscores and alphanumeric characters only. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key#name AgentKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key#name AgentKey#name}
   */
   readonly name: string;
   /**
   * Virtual Cluster ID associated with the Agent Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key#virtual_cluster_id AgentKey#virtual_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key#virtual_cluster_id AgentKey#virtual_cluster_id}
   */
   readonly virtualClusterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key warpstream_agent_key}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key warpstream_agent_key}
 */
 export class AgentKey extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AgentKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AgentKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentKey to import
-  * @param importFromId The id of the existing AgentKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AgentKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/agent_key warpstream_agent_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/agent_key warpstream_agent_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AgentKey extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_agent_key',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.1',
+        providerVersionConstraint: '2.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MpsFlowConfig extends cdktf.TerraformMetaArguments {
   /**
   * The event ID associated with this Flow. Each flow can only be associated with one Event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#event_id MpsFlow#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#event_id MpsFlow#event_id}
   */
   readonly eventId?: string;
   /**
   * Flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#flow_name MpsFlow#flow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#flow_name MpsFlow#flow_name}
   */
   readonly flowName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#id MpsFlow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#id MpsFlow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface MpsFlowConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum bandwidth, unit bps, optional [10000000, 20000000, 50000000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#max_bandwidth MpsFlow#max_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#max_bandwidth MpsFlow#max_bandwidth}
   */
   readonly maxBandwidth: number;
   /**
   * input_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#input_group MpsFlow#input_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#input_group MpsFlow#input_group}
   */
   readonly inputGroup?: MpsFlowInputGroup[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface MpsFlowInputGroupHlsPullSettingsSourceAddresses {
   /**
   * The URL address of the HLS origin site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#url MpsFlow#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#url MpsFlow#url}
   */
   readonly url: string;
 }
@@ -158,7 +158,7 @@ export interface MpsFlowInputGroupHlsPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
   */
   readonly sourceAddresses: MpsFlowInputGroupHlsPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -241,13 +241,13 @@ export interface MpsFlowInputGroupResilientStream {
   /**
   * Delay time, in seconds, currently supports a range of 10 to 300 seconds. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#buffer_time MpsFlow#buffer_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#buffer_time MpsFlow#buffer_time}
   */
   readonly bufferTime?: number;
   /**
   * Whether to enable the delayed broadcast smooth spit stream, true is enabled, false is not enabled, and the default is not enabled. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#enable MpsFlow#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#enable MpsFlow#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -362,13 +362,13 @@ export interface MpsFlowInputGroupRtmpPullSettingsSourceAddresses {
   /**
   * StreamKey information of the RTMP source site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#stream_key MpsFlow#stream_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#stream_key MpsFlow#stream_key}
   */
   readonly streamKey: string;
   /**
   * TcUrl address of the RTMP source server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#tc_url MpsFlow#tc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#tc_url MpsFlow#tc_url}
   */
   readonly tcUrl: string;
 }
@@ -509,7 +509,7 @@ export interface MpsFlowInputGroupRtmpPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
   */
   readonly sourceAddresses: MpsFlowInputGroupRtmpPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -592,13 +592,13 @@ export interface MpsFlowInputGroupRtpSettings {
   /**
   * Defaults to none, optional values[none].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#fec MpsFlow#fec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#fec MpsFlow#fec}
   */
   readonly fec?: string;
   /**
   * Idle timeout, the default is 5000, the unit is ms, and the range is [1000, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#idle_timeout MpsFlow#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#idle_timeout MpsFlow#idle_timeout}
   */
   readonly idleTimeout?: number;
 }
@@ -713,7 +713,7 @@ export interface MpsFlowInputGroupRtspPullSettingsSourceAddresses {
   /**
   * The URL address of the RTSP source site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#url MpsFlow#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#url MpsFlow#url}
   */
   readonly url: string;
 }
@@ -828,7 +828,7 @@ export interface MpsFlowInputGroupRtspPullSettings {
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
   */
   readonly sourceAddresses: MpsFlowInputGroupRtspPullSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -911,13 +911,13 @@ export interface MpsFlowInputGroupSrtSettingsSourceAddresses {
   /**
   * Peer IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#ip MpsFlow#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#ip MpsFlow#ip}
   */
   readonly ip: string;
   /**
   * Peer port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#port MpsFlow#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#port MpsFlow#port}
   */
   readonly port: number;
 }
@@ -1058,55 +1058,55 @@ export interface MpsFlowInputGroupSrtSettings {
   /**
   * Delay, default 0, unit ms, range [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#latency MpsFlow#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#latency MpsFlow#latency}
   */
   readonly latency?: number;
   /**
   * SRT mode, optional [LISTENER|CALLER], default is LISTENER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#mode MpsFlow#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#mode MpsFlow#mode}
   */
   readonly mode?: string;
   /**
   * The decryption key, which is empty by default, means no encryption. Only ascii code values can be filled in, and the length is [10, 79].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#passphrase MpsFlow#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#passphrase MpsFlow#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Key length, default is 0, optional [0|16|24|32].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#pb_key_len MpsFlow#pb_key_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#pb_key_len MpsFlow#pb_key_len}
   */
   readonly pbKeyLen?: number;
   /**
   * Peer timeout, default is 5000, unit ms, range is [1000, 10000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#peer_idle_timeout MpsFlow#peer_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#peer_idle_timeout MpsFlow#peer_idle_timeout}
   */
   readonly peerIdleTimeout?: number;
   /**
   * Peer delay, the default is 0, the unit is ms, and the range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#peer_latency MpsFlow#peer_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#peer_latency MpsFlow#peer_latency}
   */
   readonly peerLatency?: number;
   /**
   * Receiving delay, default is 120, unit ms, range is [0, 3000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#recv_latency MpsFlow#recv_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#recv_latency MpsFlow#recv_latency}
   */
   readonly recvLatency?: number;
   /**
   * Stream ID, optional uppercase and lowercase letters, numbers and special characters (.#!:&amp;,=_-), length 0~512. For specific format, please refer to:https://github.com/Haivision/srt/blob/master/docs/features/access-control.md#standard-keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#stream_id MpsFlow#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#stream_id MpsFlow#stream_id}
   */
   readonly streamId?: string;
   /**
   * source_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#source_addresses MpsFlow#source_addresses}
   */
   readonly sourceAddresses?: MpsFlowInputGroupSrtSettingsSourceAddresses[] | cdktf.IResolvable;
 }
@@ -1424,67 +1424,67 @@ export interface MpsFlowInputGroup {
   /**
   * The input IP whitelist, the format is CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#allow_ip_list MpsFlow#allow_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#allow_ip_list MpsFlow#allow_ip_list}
   */
   readonly allowIpList?: string[];
   /**
   * Input description with a length of [0, 255].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#description MpsFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#description MpsFlow#description}
   */
   readonly description?: string;
   /**
   * The active/standby switch of the input, [OPEN|CLOSE] is optional, and the default is CLOSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#fail_over MpsFlow#fail_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#fail_over MpsFlow#fail_over}
   */
   readonly failOver?: string;
   /**
   * Input name, you can fill in uppercase and lowercase letters, numbers and underscores, and the length is [1, 32].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#input_name MpsFlow#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#input_name MpsFlow#input_name}
   */
   readonly inputName: string;
   /**
   * Input protocol, optional [SRT|RTP|RTMP|RTMP_PULL].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#protocol MpsFlow#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#protocol MpsFlow#protocol}
   */
   readonly protocol: string;
   /**
   * hls_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#hls_pull_settings MpsFlow#hls_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#hls_pull_settings MpsFlow#hls_pull_settings}
   */
   readonly hlsPullSettings?: MpsFlowInputGroupHlsPullSettings;
   /**
   * resilient_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#resilient_stream MpsFlow#resilient_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#resilient_stream MpsFlow#resilient_stream}
   */
   readonly resilientStream?: MpsFlowInputGroupResilientStream;
   /**
   * rtmp_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#rtmp_pull_settings MpsFlow#rtmp_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#rtmp_pull_settings MpsFlow#rtmp_pull_settings}
   */
   readonly rtmpPullSettings?: MpsFlowInputGroupRtmpPullSettings;
   /**
   * rtp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#rtp_settings MpsFlow#rtp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#rtp_settings MpsFlow#rtp_settings}
   */
   readonly rtpSettings?: MpsFlowInputGroupRtpSettings;
   /**
   * rtsp_pull_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#rtsp_pull_settings MpsFlow#rtsp_pull_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#rtsp_pull_settings MpsFlow#rtsp_pull_settings}
   */
   readonly rtspPullSettings?: MpsFlowInputGroupRtspPullSettings;
   /**
   * srt_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#srt_settings MpsFlow#srt_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#srt_settings MpsFlow#srt_settings}
   */
   readonly srtSettings?: MpsFlowInputGroupSrtSettings;
 }
@@ -1884,7 +1884,7 @@ export class MpsFlowInputGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow tencentcloud_mps_flow}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow tencentcloud_mps_flow}
 */
 export class MpsFlow extends cdktf.TerraformResource {
 
@@ -1900,7 +1900,7 @@ export class MpsFlow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsFlow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsFlow to import
-  * @param importFromId The id of the existing MpsFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1912,7 +1912,7 @@ export class MpsFlow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mps_flow tencentcloud_mps_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mps_flow tencentcloud_mps_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1923,8 +1923,8 @@ export class MpsFlow extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_flow',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

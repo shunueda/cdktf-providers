@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_cloud_providers
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_cloud_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudDedicatedCloudProvidersConfig extends cdktf.Terraf
   /**
   * The ID of the project. If not set, it will return the cloud providers that can be selected under the default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_cloud_providers#project_id DataTidbcloudDedicatedCloudProviders#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_cloud_providers#project_id DataTidbcloudDedicatedCloudProviders#project_id}
   */
   readonly projectId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_cloud_providers tidbcloud_dedicated_cloud_providers}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_cloud_providers tidbcloud_dedicated_cloud_providers}
 */
 export class DataTidbcloudDedicatedCloudProviders extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataTidbcloudDedicatedCloudProviders extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTidbcloudDedicatedCloudProviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudDedicatedCloudProviders to import
-  * @param importFromId The id of the existing DataTidbcloudDedicatedCloudProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_cloud_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudDedicatedCloudProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_cloud_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudDedicatedCloudProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataTidbcloudDedicatedCloudProviders extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_cloud_providers tidbcloud_dedicated_cloud_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_cloud_providers tidbcloud_dedicated_cloud_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataTidbcloudDedicatedCloudProviders extends cdktf.TerraformDataSou
       terraformResourceType: 'tidbcloud_dedicated_cloud_providers',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

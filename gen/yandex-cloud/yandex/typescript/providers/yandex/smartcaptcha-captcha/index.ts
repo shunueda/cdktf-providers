@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface SmartcaptchaCaptchaConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of allowed host names, see [Domain validation](https://yandex.cloud/docs/smartcaptcha/concepts/domain-validation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#allowed_sites SmartcaptchaCaptcha#allowed_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#allowed_sites SmartcaptchaCaptcha#allowed_sites}
   */
   readonly allowedSites?: string[];
   /**
@@ -20,13 +20,13 @@ export interface SmartcaptchaCaptchaConfig extends cdktf.TerraformMetaArguments 
   * * `KALEIDOSCOPE` - Kaleidoscope: The user has to build a picture from individual parts by shuffling them using a slider.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#challenge_type SmartcaptchaCaptcha#challenge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#challenge_type SmartcaptchaCaptcha#challenge_type}
   */
   readonly challengeType?: string;
   /**
   * The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#cloud_id SmartcaptchaCaptcha#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#cloud_id SmartcaptchaCaptcha#cloud_id}
   */
   readonly cloudId?: string;
   /**
@@ -37,23 +37,23 @@ export interface SmartcaptchaCaptchaConfig extends cdktf.TerraformMetaArguments 
   * * `FORCE_HARD` - Impossible to pass pre-check and hard advanced challenge.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#complexity SmartcaptchaCaptcha#complexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#complexity SmartcaptchaCaptcha#complexity}
   */
   readonly complexity?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#deletion_protection SmartcaptchaCaptcha#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#deletion_protection SmartcaptchaCaptcha#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#folder_id SmartcaptchaCaptcha#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#folder_id SmartcaptchaCaptcha#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#id SmartcaptchaCaptcha#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#id SmartcaptchaCaptcha#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ export interface SmartcaptchaCaptchaConfig extends cdktf.TerraformMetaArguments 
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
   */
   readonly name?: string;
   /**
@@ -71,37 +71,37 @@ export interface SmartcaptchaCaptchaConfig extends cdktf.TerraformMetaArguments 
   * * `SLIDER` - User must move the slider from left to right.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pre_check_type SmartcaptchaCaptcha#pre_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pre_check_type SmartcaptchaCaptcha#pre_check_type}
   */
   readonly preCheckType?: string;
   /**
   * JSON with variables to define the captcha appearance. For more details see generated JSON in cloud console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#style_json SmartcaptchaCaptcha#style_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#style_json SmartcaptchaCaptcha#style_json}
   */
   readonly styleJson?: string;
   /**
   * Turn off host name check, see [Domain validation](https://yandex.cloud/docs/smartcaptcha/concepts/domain-validation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#turn_off_hostname_check SmartcaptchaCaptcha#turn_off_hostname_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#turn_off_hostname_check SmartcaptchaCaptcha#turn_off_hostname_check}
   */
   readonly turnOffHostnameCheck?: boolean | cdktf.IResolvable;
   /**
   * override_variant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#override_variant SmartcaptchaCaptcha#override_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#override_variant SmartcaptchaCaptcha#override_variant}
   */
   readonly overrideVariant?: SmartcaptchaCaptchaOverrideVariant[] | cdktf.IResolvable;
   /**
   * security_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#security_rule SmartcaptchaCaptcha#security_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#security_rule SmartcaptchaCaptcha#security_rule}
   */
   readonly securityRule?: SmartcaptchaCaptchaSecurityRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#timeouts SmartcaptchaCaptcha#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#timeouts SmartcaptchaCaptcha#timeouts}
   */
   readonly timeouts?: SmartcaptchaCaptchaTimeouts;
 }
@@ -109,31 +109,31 @@ export interface SmartcaptchaCaptchaOverrideVariant {
   /**
   * Additional task type of the captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#challenge_type SmartcaptchaCaptcha#challenge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#challenge_type SmartcaptchaCaptcha#challenge_type}
   */
   readonly challengeType?: string;
   /**
   * Complexity of the captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#complexity SmartcaptchaCaptcha#complexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#complexity SmartcaptchaCaptcha#complexity}
   */
   readonly complexity?: string;
   /**
   * Optional description of the rule. 0-512 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#description SmartcaptchaCaptcha#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#description SmartcaptchaCaptcha#description}
   */
   readonly description?: string;
   /**
   * Basic check type of the captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pre_check_type SmartcaptchaCaptcha#pre_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pre_check_type SmartcaptchaCaptcha#pre_check_type}
   */
   readonly preCheckType?: string;
   /**
   * Unique identifier of the variant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#uuid SmartcaptchaCaptcha#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#uuid SmartcaptchaCaptcha#uuid}
   */
   readonly uuid?: string;
 }
@@ -365,27 +365,27 @@ export class SmartcaptchaCaptchaOverrideVariantList extends cdktf.ComplexList {
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -614,13 +614,13 @@ export class SmartcaptchaCaptchaSecurityRuleConditionHeadersValueOutputReference
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#value SmartcaptchaCaptcha#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#value SmartcaptchaCaptcha#value}
   */
   readonly value: SmartcaptchaCaptchaSecurityRuleConditionHeadersValue;
 }
@@ -762,27 +762,27 @@ export class SmartcaptchaCaptchaSecurityRuleConditionHeadersList extends cdktf.C
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionHostHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1045,7 +1045,7 @@ export interface SmartcaptchaCaptchaSecurityRuleConditionHost {
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#hosts SmartcaptchaCaptcha#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#hosts SmartcaptchaCaptcha#hosts}
   */
   readonly hosts?: SmartcaptchaCaptchaSecurityRuleConditionHostHosts[] | cdktf.IResolvable;
 }
@@ -1129,7 +1129,7 @@ export class SmartcaptchaCaptchaSecurityRuleConditionHostOutputReference extends
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#locations SmartcaptchaCaptcha#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#locations SmartcaptchaCaptcha#locations}
   */
   readonly locations?: string[];
 }
@@ -1213,7 +1213,7 @@ export class SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpMatchOutputRef
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#locations SmartcaptchaCaptcha#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#locations SmartcaptchaCaptcha#locations}
   */
   readonly locations?: string[];
 }
@@ -1297,7 +1297,7 @@ export class SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpNotMatchOutput
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#ip_ranges SmartcaptchaCaptcha#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#ip_ranges SmartcaptchaCaptcha#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -1381,7 +1381,7 @@ export class SmartcaptchaCaptchaSecurityRuleConditionSourceIpIpRangesMatchOutput
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#ip_ranges SmartcaptchaCaptcha#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#ip_ranges SmartcaptchaCaptcha#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -1467,25 +1467,25 @@ export interface SmartcaptchaCaptchaSecurityRuleConditionSourceIp {
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#geo_ip_match SmartcaptchaCaptcha#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#geo_ip_match SmartcaptchaCaptcha#geo_ip_match}
   */
   readonly geoIpMatch?: SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#geo_ip_not_match SmartcaptchaCaptcha#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#geo_ip_not_match SmartcaptchaCaptcha#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SmartcaptchaCaptchaSecurityRuleConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#ip_ranges_match SmartcaptchaCaptcha#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#ip_ranges_match SmartcaptchaCaptcha#ip_ranges_match}
   */
   readonly ipRangesMatch?: SmartcaptchaCaptchaSecurityRuleConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#ip_ranges_not_match SmartcaptchaCaptcha#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#ip_ranges_not_match SmartcaptchaCaptcha#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SmartcaptchaCaptchaSecurityRuleConditionSourceIpIpRangesNotMatch;
 }
@@ -1656,27 +1656,27 @@ export class SmartcaptchaCaptchaSecurityRuleConditionSourceIpOutputReference ext
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1905,27 +1905,27 @@ export class SmartcaptchaCaptchaSecurityRuleConditionUriPathOutputReference exte
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_match SmartcaptchaCaptcha#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#exact_not_match SmartcaptchaCaptcha#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_match SmartcaptchaCaptcha#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#pire_regex_not_match SmartcaptchaCaptcha#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_match SmartcaptchaCaptcha#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#prefix_not_match SmartcaptchaCaptcha#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -2154,13 +2154,13 @@ export class SmartcaptchaCaptchaSecurityRuleConditionUriQueriesValueOutputRefere
 }
 export interface SmartcaptchaCaptchaSecurityRuleConditionUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#key SmartcaptchaCaptcha#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#key SmartcaptchaCaptcha#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#value SmartcaptchaCaptcha#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#value SmartcaptchaCaptcha#value}
   */
   readonly value: SmartcaptchaCaptchaSecurityRuleConditionUriQueriesValue;
 }
@@ -2301,13 +2301,13 @@ export interface SmartcaptchaCaptchaSecurityRuleConditionUri {
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#path SmartcaptchaCaptcha#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#path SmartcaptchaCaptcha#path}
   */
   readonly path?: SmartcaptchaCaptchaSecurityRuleConditionUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#queries SmartcaptchaCaptcha#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#queries SmartcaptchaCaptcha#queries}
   */
   readonly queries?: SmartcaptchaCaptchaSecurityRuleConditionUriQueries[] | cdktf.IResolvable;
 }
@@ -2422,25 +2422,25 @@ export interface SmartcaptchaCaptchaSecurityRuleCondition {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#headers SmartcaptchaCaptcha#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#headers SmartcaptchaCaptcha#headers}
   */
   readonly headers?: SmartcaptchaCaptchaSecurityRuleConditionHeaders[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#host SmartcaptchaCaptcha#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#host SmartcaptchaCaptcha#host}
   */
   readonly host?: SmartcaptchaCaptchaSecurityRuleConditionHost;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#source_ip SmartcaptchaCaptcha#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#source_ip SmartcaptchaCaptcha#source_ip}
   */
   readonly sourceIp?: SmartcaptchaCaptchaSecurityRuleConditionSourceIp;
   /**
   * uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#uri SmartcaptchaCaptcha#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#uri SmartcaptchaCaptcha#uri}
   */
   readonly uri?: SmartcaptchaCaptchaSecurityRuleConditionUri;
 }
@@ -2613,31 +2613,31 @@ export interface SmartcaptchaCaptchaSecurityRule {
   /**
   * Description of the rule. 0-512 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#description SmartcaptchaCaptcha#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#description SmartcaptchaCaptcha#description}
   */
   readonly description?: string;
   /**
   * Name of the rule. The name is unique within the captcha. 1-50 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#name SmartcaptchaCaptcha#name}
   */
   readonly name?: string;
   /**
   * Variant UUID to show in case of match the rule. Keep empty to use defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#override_variant_uuid SmartcaptchaCaptcha#override_variant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#override_variant_uuid SmartcaptchaCaptcha#override_variant_uuid}
   */
   readonly overrideVariantUuid?: string;
   /**
   * Priority of the rule. Lower value means higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#priority SmartcaptchaCaptcha#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#priority SmartcaptchaCaptcha#priority}
   */
   readonly priority?: number;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#condition SmartcaptchaCaptcha#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#condition SmartcaptchaCaptcha#condition}
   */
   readonly condition?: SmartcaptchaCaptchaSecurityRuleCondition;
 }
@@ -2869,19 +2869,19 @@ export class SmartcaptchaCaptchaSecurityRuleList extends cdktf.ComplexList {
 }
 export interface SmartcaptchaCaptchaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#create SmartcaptchaCaptcha#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#create SmartcaptchaCaptcha#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#delete SmartcaptchaCaptcha#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#delete SmartcaptchaCaptcha#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#read SmartcaptchaCaptcha#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#read SmartcaptchaCaptcha#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#update SmartcaptchaCaptcha#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#update SmartcaptchaCaptcha#update}
   */
   readonly update?: string;
 }
@@ -3062,7 +3062,7 @@ export class SmartcaptchaCaptchaTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha yandex_smartcaptcha_captcha}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha yandex_smartcaptcha_captcha}
 */
 export class SmartcaptchaCaptcha extends cdktf.TerraformResource {
 
@@ -3078,7 +3078,7 @@ export class SmartcaptchaCaptcha extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmartcaptchaCaptcha resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmartcaptchaCaptcha to import
-  * @param importFromId The id of the existing SmartcaptchaCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmartcaptchaCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmartcaptchaCaptcha to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3090,7 +3090,7 @@ export class SmartcaptchaCaptcha extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/smartcaptcha_captcha yandex_smartcaptcha_captcha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/smartcaptcha_captcha yandex_smartcaptcha_captcha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3101,8 +3101,8 @@ export class SmartcaptchaCaptcha extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_smartcaptcha_captcha',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

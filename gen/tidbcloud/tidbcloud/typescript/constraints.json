@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "tidbcloud": "0.4.5"
+    "tidbcloud": "0.4.6"
   }
 }

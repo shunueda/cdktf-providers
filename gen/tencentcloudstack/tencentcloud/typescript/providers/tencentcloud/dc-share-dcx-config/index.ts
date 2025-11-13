@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DcShareDcxConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * the direct connect owner accept or reject the apply of direct connect tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config#direct_connect_tunnel_id DcShareDcxConfig#direct_connect_tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config#direct_connect_tunnel_id DcShareDcxConfig#direct_connect_tunnel_id}
   */
   readonly directConnectTunnelId: string;
   /**
   * if accept or reject direct connect tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config#enable DcShareDcxConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config#enable DcShareDcxConfig#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config#id DcShareDcxConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config#id DcShareDcxConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DcShareDcxConfigConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config tencentcloud_dc_share_dcx_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config tencentcloud_dc_share_dcx_config}
 */
 export class DcShareDcxConfig extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DcShareDcxConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcShareDcxConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcShareDcxConfig to import
-  * @param importFromId The id of the existing DcShareDcxConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcShareDcxConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcShareDcxConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DcShareDcxConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/dc_share_dcx_config tencentcloud_dc_share_dcx_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/dc_share_dcx_config tencentcloud_dc_share_dcx_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DcShareDcxConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dc_share_dcx_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

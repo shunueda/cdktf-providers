@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorTmpMultipleWritesListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#id MonitorTmpMultipleWritesList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#id MonitorTmpMultipleWritesList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MonitorTmpMultipleWritesListConfig extends cdktf.TerraformMetaA
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#instance_id MonitorTmpMultipleWritesList#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#instance_id MonitorTmpMultipleWritesList#instance_id}
   */
   readonly instanceId: string;
   /**
   * remote_writes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#remote_writes MonitorTmpMultipleWritesList#remote_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#remote_writes MonitorTmpMultipleWritesList#remote_writes}
   */
   readonly remoteWrites?: MonitorTmpMultipleWritesListRemoteWrites[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface MonitorTmpMultipleWritesListRemoteWritesBasicAuth {
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#password MonitorTmpMultipleWritesList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#password MonitorTmpMultipleWritesList#password}
   */
   readonly password?: string;
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#user_name MonitorTmpMultipleWritesList#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#user_name MonitorTmpMultipleWritesList#user_name}
   */
   readonly userName?: string;
 }
@@ -152,13 +152,13 @@ export interface MonitorTmpMultipleWritesListRemoteWritesHeaders {
   /**
   * HTTP header key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#key MonitorTmpMultipleWritesList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#key MonitorTmpMultipleWritesList#key}
   */
   readonly key: string;
   /**
   * HTTP header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#value MonitorTmpMultipleWritesList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#value MonitorTmpMultipleWritesList#value}
   */
   readonly value?: string;
 }
@@ -302,37 +302,37 @@ export interface MonitorTmpMultipleWritesListRemoteWrites {
   /**
   * Label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#label MonitorTmpMultipleWritesList#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#label MonitorTmpMultipleWritesList#label}
   */
   readonly label?: string;
   /**
   * Maximum block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#max_block_size MonitorTmpMultipleWritesList#max_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#max_block_size MonitorTmpMultipleWritesList#max_block_size}
   */
   readonly maxBlockSize?: string;
   /**
   * Data multiple write url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#url MonitorTmpMultipleWritesList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#url MonitorTmpMultipleWritesList#url}
   */
   readonly url: string;
   /**
   * RelabelConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#url_relabel_config MonitorTmpMultipleWritesList#url_relabel_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#url_relabel_config MonitorTmpMultipleWritesList#url_relabel_config}
   */
   readonly urlRelabelConfig?: string;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#basic_auth MonitorTmpMultipleWritesList#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#basic_auth MonitorTmpMultipleWritesList#basic_auth}
   */
   readonly basicAuth?: MonitorTmpMultipleWritesListRemoteWritesBasicAuth;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#headers MonitorTmpMultipleWritesList#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#headers MonitorTmpMultipleWritesList#headers}
   */
   readonly headers?: MonitorTmpMultipleWritesListRemoteWritesHeaders[] | cdktf.IResolvable;
 }
@@ -590,7 +590,7 @@ export class MonitorTmpMultipleWritesListRemoteWritesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list tencentcloud_monitor_tmp_multiple_writes_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list tencentcloud_monitor_tmp_multiple_writes_list}
 */
 export class MonitorTmpMultipleWritesList extends cdktf.TerraformResource {
 
@@ -606,7 +606,7 @@ export class MonitorTmpMultipleWritesList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitorTmpMultipleWritesList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitorTmpMultipleWritesList to import
-  * @param importFromId The id of the existing MonitorTmpMultipleWritesList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitorTmpMultipleWritesList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitorTmpMultipleWritesList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class MonitorTmpMultipleWritesList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/monitor_tmp_multiple_writes_list tencentcloud_monitor_tmp_multiple_writes_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/monitor_tmp_multiple_writes_list tencentcloud_monitor_tmp_multiple_writes_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class MonitorTmpMultipleWritesList extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_multiple_writes_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

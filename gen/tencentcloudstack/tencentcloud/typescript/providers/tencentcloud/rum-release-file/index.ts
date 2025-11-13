@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RumReleaseFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Release file hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#file_hash RumReleaseFile#file_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#file_hash RumReleaseFile#file_hash}
   */
   readonly fileHash: string;
   /**
   * Release file unique key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#file_key RumReleaseFile#file_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#file_key RumReleaseFile#file_key}
   */
   readonly fileKey: string;
   /**
   * Release file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#file_name RumReleaseFile#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#file_name RumReleaseFile#file_name}
   */
   readonly fileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#id RumReleaseFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#id RumReleaseFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface RumReleaseFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#project_id RumReleaseFile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#project_id RumReleaseFile#project_id}
   */
   readonly projectId: number;
   /**
   * Release file id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#release_file_id RumReleaseFile#release_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#release_file_id RumReleaseFile#release_file_id}
   */
   readonly releaseFileId: number;
   /**
   * Release File version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#version RumReleaseFile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#version RumReleaseFile#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file tencentcloud_rum_release_file}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file tencentcloud_rum_release_file}
 */
 export class RumReleaseFile extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class RumReleaseFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumReleaseFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumReleaseFile to import
-  * @param importFromId The id of the existing RumReleaseFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumReleaseFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumReleaseFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class RumReleaseFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/rum_release_file tencentcloud_rum_release_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/rum_release_file tencentcloud_rum_release_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class RumReleaseFile extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_rum_release_file',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

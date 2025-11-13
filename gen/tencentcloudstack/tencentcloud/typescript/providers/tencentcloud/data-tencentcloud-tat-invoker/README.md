@@ -1,3 +1,3 @@
 # `data_tencentcloud_tat_invoker`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_tat_invoker`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invoker).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_tat_invoker`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invoker).

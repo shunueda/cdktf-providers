@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication method of the user. Only mysql_native_password is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#auth_method SqlUser#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#auth_method SqlUser#auth_method}
   */
   readonly authMethod?: string;
   /**
   * The built-in role of the sql user, available values [role_admin, role_readonly, role_readwrite]. The built-in role [role_readonly, role_readwrite] must start with user_prefix for serverless cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#builtin_role SqlUser#builtin_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#builtin_role SqlUser#builtin_role}
   */
   readonly builtinRole: string;
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#cluster_id SqlUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#cluster_id SqlUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The custom roles of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#custom_roles SqlUser#custom_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#custom_roles SqlUser#custom_roles}
   */
   readonly customRoles?: string[];
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#password SqlUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#password SqlUser#password}
   */
   readonly password: string;
   /**
   * The name of the user. The user name must start with user_prefix for serverless cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#user_name SqlUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#user_name SqlUser#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user tidbcloud_sql_user}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user tidbcloud_sql_user}
 */
 export class SqlUser extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SqlUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlUser to import
-  * @param importFromId The id of the existing SqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SqlUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/sql_user tidbcloud_sql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/sql_user tidbcloud_sql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_sql_user',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

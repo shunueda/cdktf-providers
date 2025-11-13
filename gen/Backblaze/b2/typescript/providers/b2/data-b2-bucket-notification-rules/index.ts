@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules
+// https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataB2BucketNotificationRulesConfig extends cdktf.TerraformMeta
   /**
   * The ID of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules#bucket_id DataB2BucketNotificationRules#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules#bucket_id DataB2BucketNotificationRules#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules#id DataB2BucketNotificationRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules#id DataB2BucketNotificationRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -300,7 +300,7 @@ export class DataB2BucketNotificationRulesNotificationRulesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules b2_bucket_notification_rules}
+* Represents a {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules b2_bucket_notification_rules}
 */
 export class DataB2BucketNotificationRules extends cdktf.TerraformDataSource {
 
@@ -316,7 +316,7 @@ export class DataB2BucketNotificationRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataB2BucketNotificationRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataB2BucketNotificationRules to import
-  * @param importFromId The id of the existing DataB2BucketNotificationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataB2BucketNotificationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataB2BucketNotificationRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class DataB2BucketNotificationRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.10.0/docs/data-sources/bucket_notification_rules b2_bucket_notification_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/backblaze/b2/0.11.0/docs/data-sources/bucket_notification_rules b2_bucket_notification_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class DataB2BucketNotificationRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'b2_bucket_notification_rules',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

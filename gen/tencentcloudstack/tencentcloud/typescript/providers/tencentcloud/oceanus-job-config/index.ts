@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface OceanusJobConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Oceanus platform job recovery switch 1: on -1: off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#auto_recover OceanusJobConfigA#auto_recover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#auto_recover OceanusJobConfigA#auto_recover}
   */
   readonly autoRecover?: number;
   /**
   * CLS logset ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#cls_logset_id OceanusJobConfigA#cls_logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#cls_logset_id OceanusJobConfigA#cls_logset_id}
   */
   readonly clsLogsetId?: string;
   /**
   * CLS log topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#cls_topic_id OceanusJobConfigA#cls_topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#cls_topic_id OceanusJobConfigA#cls_topic_id}
   */
   readonly clsTopicId?: string;
   /**
   * COS storage bucket name used by the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#cos_bucket OceanusJobConfigA#cos_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#cos_bucket OceanusJobConfigA#cos_bucket}
   */
   readonly cosBucket?: string;
   /**
   * Job default parallelism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#default_parallelism OceanusJobConfigA#default_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#default_parallelism OceanusJobConfigA#default_parallelism}
   */
   readonly defaultParallelism?: number;
   /**
   * Main class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#entrypoint_class OceanusJobConfigA#entrypoint_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#entrypoint_class OceanusJobConfigA#entrypoint_class}
   */
   readonly entrypointClass?: string;
   /**
   * Whether to enable expert mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#expert_mode_on OceanusJobConfigA#expert_mode_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#expert_mode_on OceanusJobConfigA#expert_mode_on}
   */
   readonly expertModeOn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface OceanusJobConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Job ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#job_id OceanusJobConfigA#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#job_id OceanusJobConfigA#job_id}
   */
   readonly jobId: string;
   /**
   * JobManager specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#job_manager_spec OceanusJobConfigA#job_manager_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#job_manager_spec OceanusJobConfigA#job_manager_spec}
   */
   readonly jobManagerSpec?: number;
   /**
   * Whether to collect job logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#log_collect OceanusJobConfigA#log_collect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#log_collect OceanusJobConfigA#log_collect}
   */
   readonly logCollect?: boolean | cdktf.IResolvable;
   /**
   * Log collection type 2:CLS; 3:COS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#log_collect_type OceanusJobConfigA#log_collect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#log_collect_type OceanusJobConfigA#log_collect_type}
   */
   readonly logCollectType?: number;
   /**
   * Log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#log_level OceanusJobConfigA#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#log_level OceanusJobConfigA#log_level}
   */
   readonly logLevel?: string;
   /**
   * Main class parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#program_args OceanusJobConfigA#program_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#program_args OceanusJobConfigA#program_args}
   */
   readonly programArgs?: string;
   /**
   * Python version used by the pyflink job at runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#python_version OceanusJobConfigA#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#python_version OceanusJobConfigA#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#remark OceanusJobConfigA#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#remark OceanusJobConfigA#remark}
   */
   readonly remark?: string;
   /**
   * TaskManager specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#task_manager_spec OceanusJobConfigA#task_manager_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#task_manager_spec OceanusJobConfigA#task_manager_spec}
   */
   readonly taskManagerSpec?: number;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#work_space_id OceanusJobConfigA#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#work_space_id OceanusJobConfigA#work_space_id}
   */
   readonly workSpaceId?: string;
   /**
   * clazz_levels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#clazz_levels OceanusJobConfigA#clazz_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#clazz_levels OceanusJobConfigA#clazz_levels}
   */
   readonly clazzLevels?: OceanusJobConfigClazzLevels[] | cdktf.IResolvable;
   /**
   * expert_mode_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#expert_mode_configuration OceanusJobConfigA#expert_mode_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#expert_mode_configuration OceanusJobConfigA#expert_mode_configuration}
   */
   readonly expertModeConfiguration?: OceanusJobConfigExpertModeConfiguration;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#properties OceanusJobConfigA#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#properties OceanusJobConfigA#properties}
   */
   readonly properties?: OceanusJobConfigProperties[] | cdktf.IResolvable;
   /**
   * resource_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#resource_refs OceanusJobConfigA#resource_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#resource_refs OceanusJobConfigA#resource_refs}
   */
   readonly resourceRefs?: OceanusJobConfigResourceRefs[] | cdktf.IResolvable;
 }
@@ -145,13 +145,13 @@ export interface OceanusJobConfigClazzLevels {
   /**
   * Java class full pathNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#clazz OceanusJobConfigA#clazz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#clazz OceanusJobConfigA#clazz}
   */
   readonly clazz: string;
   /**
   * Log level TRACE, DEBUG, INFO, WARN, ERRORNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#level OceanusJobConfigA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#level OceanusJobConfigA#level}
   */
   readonly level: string;
 }
@@ -292,13 +292,13 @@ export interface OceanusJobConfigExpertModeConfigurationJobGraphEdges {
   /**
   * Starting node ID of the edgeNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#source OceanusJobConfigA#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#source OceanusJobConfigA#source}
   */
   readonly source: number;
   /**
   * Target node ID of the edgeNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#target OceanusJobConfigA#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#target OceanusJobConfigA#target}
   */
   readonly target: number;
 }
@@ -439,13 +439,13 @@ export interface OceanusJobConfigExpertModeConfigurationJobGraphNodes {
   /**
   * Node descriptionNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#description OceanusJobConfigA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#description OceanusJobConfigA#description}
   */
   readonly description: string;
   /**
   * Node IDNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -454,13 +454,13 @@ export interface OceanusJobConfigExpertModeConfigurationJobGraphNodes {
   /**
   * Node nameNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#name OceanusJobConfigA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#name OceanusJobConfigA#name}
   */
   readonly name: string;
   /**
   * Node parallelismNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#parallelism OceanusJobConfigA#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#parallelism OceanusJobConfigA#parallelism}
   */
   readonly parallelism: number;
 }
@@ -653,13 +653,13 @@ export interface OceanusJobConfigExpertModeConfigurationJobGraph {
   /**
   * edges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#edges OceanusJobConfigA#edges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#edges OceanusJobConfigA#edges}
   */
   readonly edges?: OceanusJobConfigExpertModeConfigurationJobGraphEdges[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#nodes OceanusJobConfigA#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#nodes OceanusJobConfigA#nodes}
   */
   readonly nodes?: OceanusJobConfigExpertModeConfigurationJobGraphNodes[] | cdktf.IResolvable;
 }
@@ -774,13 +774,13 @@ export interface OceanusJobConfigExpertModeConfigurationNodeConfigConfiguration 
   /**
   * System configuration key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#key OceanusJobConfigA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#key OceanusJobConfigA#key}
   */
   readonly key: string;
   /**
   * System configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#value OceanusJobConfigA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#value OceanusJobConfigA#value}
   */
   readonly value: string;
 }
@@ -921,7 +921,7 @@ export interface OceanusJobConfigExpertModeConfigurationNodeConfig {
   /**
   * Node IDNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#id OceanusJobConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -930,25 +930,25 @@ export interface OceanusJobConfigExpertModeConfigurationNodeConfig {
   /**
   * Node parallelismNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#parallelism OceanusJobConfigA#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#parallelism OceanusJobConfigA#parallelism}
   */
   readonly parallelism?: number;
   /**
   * Slot sharing groupNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#slot_sharing_group OceanusJobConfigA#slot_sharing_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#slot_sharing_group OceanusJobConfigA#slot_sharing_group}
   */
   readonly slotSharingGroup?: string;
   /**
   * State TTL configuration of the node, separated by semicolonsNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#state_ttl OceanusJobConfigA#state_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#state_ttl OceanusJobConfigA#state_ttl}
   */
   readonly stateTtl?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#configuration OceanusJobConfigA#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#configuration OceanusJobConfigA#configuration}
   */
   readonly configuration?: OceanusJobConfigExpertModeConfigurationNodeConfigConfiguration[] | cdktf.IResolvable;
 }
@@ -1179,25 +1179,25 @@ export interface OceanusJobConfigExpertModeConfigurationSlotSharingGroupsSpec {
   /**
   * Applicable CPUNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#cpu OceanusJobConfigA#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#cpu OceanusJobConfigA#cpu}
   */
   readonly cpu: number;
   /**
   * Default is b, supporting units are b, kb, mb, gbNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#heap_memory OceanusJobConfigA#heap_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#heap_memory OceanusJobConfigA#heap_memory}
   */
   readonly heapMemory: string;
   /**
   * Default is b, supporting units are b, kb, mb, gbNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#managed_memory OceanusJobConfigA#managed_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#managed_memory OceanusJobConfigA#managed_memory}
   */
   readonly managedMemory?: string;
   /**
   * Default is b, supporting units are b, kb, mb, gbNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#off_heap_memory OceanusJobConfigA#off_heap_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#off_heap_memory OceanusJobConfigA#off_heap_memory}
   */
   readonly offHeapMemory?: string;
 }
@@ -1364,19 +1364,19 @@ export interface OceanusJobConfigExpertModeConfigurationSlotSharingGroups {
   /**
   * Description of the SlotSharingGroupNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#description OceanusJobConfigA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#description OceanusJobConfigA#description}
   */
   readonly description?: string;
   /**
   * Name of the SlotSharingGroupNote: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#name OceanusJobConfigA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#name OceanusJobConfigA#name}
   */
   readonly name: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#spec OceanusJobConfigA#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#spec OceanusJobConfigA#spec}
   */
   readonly spec: OceanusJobConfigExpertModeConfigurationSlotSharingGroupsSpec;
 }
@@ -1546,19 +1546,19 @@ export interface OceanusJobConfigExpertModeConfiguration {
   /**
   * job_graph block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#job_graph OceanusJobConfigA#job_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#job_graph OceanusJobConfigA#job_graph}
   */
   readonly jobGraph?: OceanusJobConfigExpertModeConfigurationJobGraph;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#node_config OceanusJobConfigA#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#node_config OceanusJobConfigA#node_config}
   */
   readonly nodeConfig?: OceanusJobConfigExpertModeConfigurationNodeConfig[] | cdktf.IResolvable;
   /**
   * slot_sharing_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#slot_sharing_groups OceanusJobConfigA#slot_sharing_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#slot_sharing_groups OceanusJobConfigA#slot_sharing_groups}
   */
   readonly slotSharingGroups?: OceanusJobConfigExpertModeConfigurationSlotSharingGroups[] | cdktf.IResolvable;
 }
@@ -1702,13 +1702,13 @@ export interface OceanusJobConfigProperties {
   /**
   * System configuration key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#key OceanusJobConfigA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#key OceanusJobConfigA#key}
   */
   readonly key: string;
   /**
   * System configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#value OceanusJobConfigA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#value OceanusJobConfigA#value}
   */
   readonly value: string;
 }
@@ -1849,19 +1849,19 @@ export interface OceanusJobConfigResourceRefs {
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#resource_id OceanusJobConfigA#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#resource_id OceanusJobConfigA#resource_id}
   */
   readonly resourceId: string;
   /**
   * Reference resource type, for example, setting the main resource to 1 represents the jar package where the main class is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#type OceanusJobConfigA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#type OceanusJobConfigA#type}
   */
   readonly type: number;
   /**
   * Resource version ID, -1 indicates the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#version OceanusJobConfigA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#version OceanusJobConfigA#version}
   */
   readonly version: number;
 }
@@ -2026,7 +2026,7 @@ export class OceanusJobConfigResourceRefsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config tencentcloud_oceanus_job_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config tencentcloud_oceanus_job_config}
 */
 export class OceanusJobConfigA extends cdktf.TerraformResource {
 
@@ -2042,7 +2042,7 @@ export class OceanusJobConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusJobConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusJobConfigA to import
-  * @param importFromId The id of the existing OceanusJobConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusJobConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusJobConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2054,7 +2054,7 @@ export class OceanusJobConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/oceanus_job_config tencentcloud_oceanus_job_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/oceanus_job_config tencentcloud_oceanus_job_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2065,8 +2065,8 @@ export class OceanusJobConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_job_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

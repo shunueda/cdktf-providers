@@ -92,7 +92,8 @@ export class CnameRecord extends cdktf.TerraformResource {
       terraformResourceType: 'infoblox_cname_record',
       terraformGeneratorMetadata: {
         providerName: 'infoblox',
-        providerVersion: '2.11.0'
+        providerVersion: '2.11.0',
+        providerVersionConstraint: '2.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

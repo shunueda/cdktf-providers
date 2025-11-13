@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,129 +8,129 @@ import * as cdktf from 'cdktf';
 
 export interface AppConnectorGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#city_country AppConnectorGroup#city_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#city_country AppConnectorGroup#city_country}
   */
   readonly cityCountry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#country_code AppConnectorGroup#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#country_code AppConnectorGroup#country_code}
   */
   readonly countryCode?: string;
   /**
   * Description of the App Connector Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#description AppConnectorGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#description AppConnectorGroup#description}
   */
   readonly description?: string;
   /**
   * Whether to enable IPv4 or IPv6, or both, for DNS resolution of all applications in the App Connector Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#dns_query_type AppConnectorGroup#dns_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#dns_query_type AppConnectorGroup#dns_query_type}
   */
   readonly dnsQueryType?: string;
   /**
   * Whether this App Connector Group is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#enabled AppConnectorGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#enabled AppConnectorGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Latitude of the App Connector Group. Integer or decimal. With values in the range of -90 to 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#latitude AppConnectorGroup#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#latitude AppConnectorGroup#latitude}
   */
   readonly latitude: string;
   /**
   * Location of the App Connector Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#location AppConnectorGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#location AppConnectorGroup#location}
   */
   readonly location: string;
   /**
   * Longitude of the App Connector Group. Integer or decimal. With values in the range of -180 to 180
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#longitude AppConnectorGroup#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#longitude AppConnectorGroup#longitude}
   */
   readonly longitude: string;
   /**
   * Whether or not the App Connector Group is configured for the Log Streaming Service (LSS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#lss_app_connector_group AppConnectorGroup#lss_app_connector_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#lss_app_connector_group AppConnectorGroup#lss_app_connector_group}
   */
   readonly lssAppConnectorGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#microtenant_id AppConnectorGroup#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#microtenant_id AppConnectorGroup#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the App Connector Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#name AppConnectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#name AppConnectorGroup#name}
   */
   readonly name: string;
   /**
   * Whether the default version profile of the App Connector Group is applied or overridden. Supported values: true, false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#override_version_profile AppConnectorGroup#override_version_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#override_version_profile AppConnectorGroup#override_version_profile}
   */
   readonly overrideVersionProfile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#pra_enabled AppConnectorGroup#pra_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#pra_enabled AppConnectorGroup#pra_enabled}
   */
   readonly praEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether TCP Quick Acknowledgement is enabled or disabled for the application. The tcpQuickAckApp, tcpQuickAckAssistant, and tcpQuickAckReadAssistant fields must all share the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#tcp_quick_ack_app AppConnectorGroup#tcp_quick_ack_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#tcp_quick_ack_app AppConnectorGroup#tcp_quick_ack_app}
   */
   readonly tcpQuickAckApp?: boolean | cdktf.IResolvable;
   /**
   * Whether TCP Quick Acknowledgement is enabled or disabled for the application. The tcpQuickAckApp, tcpQuickAckAssistant, and tcpQuickAckReadAssistant fields must all share the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#tcp_quick_ack_assistant AppConnectorGroup#tcp_quick_ack_assistant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#tcp_quick_ack_assistant AppConnectorGroup#tcp_quick_ack_assistant}
   */
   readonly tcpQuickAckAssistant?: boolean | cdktf.IResolvable;
   /**
   * Whether TCP Quick Acknowledgement is enabled or disabled for the application. The tcpQuickAckApp, tcpQuickAckAssistant, and tcpQuickAckReadAssistant fields must all share the same value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#tcp_quick_ack_read_assistant AppConnectorGroup#tcp_quick_ack_read_assistant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#tcp_quick_ack_read_assistant AppConnectorGroup#tcp_quick_ack_read_assistant}
   */
   readonly tcpQuickAckReadAssistant?: boolean | cdktf.IResolvable;
   /**
   * App Connectors in this group will attempt to update to a newer version of the software during this specified day. List of valid days (i.e., Sunday, Monday)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#upgrade_day AppConnectorGroup#upgrade_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#upgrade_day AppConnectorGroup#upgrade_day}
   */
   readonly upgradeDay?: string;
   /**
   * App Connectors in this group will attempt to update to a newer version of the software during this specified time. Integer in seconds (i.e., -66600). The integer should be greater than or equal to 0 and less than 86400, in 15 minute intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#upgrade_time_in_secs AppConnectorGroup#upgrade_time_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#upgrade_time_in_secs AppConnectorGroup#upgrade_time_in_secs}
   */
   readonly upgradeTimeInSecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#use_in_dr_mode AppConnectorGroup#use_in_dr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#use_in_dr_mode AppConnectorGroup#use_in_dr_mode}
   */
   readonly useInDrMode?: boolean | cdktf.IResolvable;
   /**
   * ID of the version profile. To learn more, see Version Profile Use Cases. This value is required, if the value for overrideVersionProfile is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#version_profile_id AppConnectorGroup#version_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#version_profile_id AppConnectorGroup#version_profile_id}
   */
   readonly versionProfileId?: string;
   /**
   * Name of the version profile. To learn more, see Version Profile Use Cases. This value is required, if the value for overrideVersionProfile is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#version_profile_name AppConnectorGroup#version_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#version_profile_name AppConnectorGroup#version_profile_name}
   */
   readonly versionProfileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#waf_disabled AppConnectorGroup#waf_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#waf_disabled AppConnectorGroup#waf_disabled}
   */
   readonly wafDisabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group zpa_app_connector_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group zpa_app_connector_group}
 */
 export class AppConnectorGroup extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class AppConnectorGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectorGroup to import
-  * @param importFromId The id of the existing AppConnectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class AppConnectorGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.2/docs/resources/app_connector_group zpa_app_connector_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.3/docs/resources/app_connector_group zpa_app_connector_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class AppConnectorGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_app_connector_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2',
-        providerVersionConstraint: '4.3.2'
+        providerVersion: '4.3.3',
+        providerVersionConstraint: '4.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

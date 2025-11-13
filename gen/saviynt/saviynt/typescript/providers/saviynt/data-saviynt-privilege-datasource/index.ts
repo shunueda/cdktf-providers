@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataSaviyntPrivilegeDatasourceConfig extends cdktf.TerraformMet
   /**
   * If false, do not store sensitive attributes in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#authenticate DataSaviyntPrivilegeDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#authenticate DataSaviyntPrivilegeDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * The name of the endpoint to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#endpoint DataSaviyntPrivilegeDatasource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#endpoint DataSaviyntPrivilegeDatasource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The name of the entitlement type to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#entitlement_type DataSaviyntPrivilegeDatasource#entitlement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#entitlement_type DataSaviyntPrivilegeDatasource#entitlement_type}
   */
   readonly entitlementType?: string;
   /**
   * Maximum number of privileges to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#max DataSaviyntPrivilegeDatasource#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#max DataSaviyntPrivilegeDatasource#max}
   */
   readonly max?: string;
   /**
   * Pagination offset for retrieving privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#offset DataSaviyntPrivilegeDatasource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#offset DataSaviyntPrivilegeDatasource#offset}
   */
   readonly offset?: string;
 }
@@ -42,7 +42,7 @@ export interface DataSaviyntPrivilegeDatasourcePrivilegesListStruct {
   /**
   * Hide on create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#hide_on_create DataSaviyntPrivilegeDatasource#hide_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#hide_on_create DataSaviyntPrivilegeDatasource#hide_on_create}
   */
   readonly hideOnCreate?: boolean | cdktf.IResolvable;
 }
@@ -218,7 +218,7 @@ export class DataSaviyntPrivilegeDatasourcePrivilegesListStructList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource saviynt_privilege_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource saviynt_privilege_datasource}
 */
 export class DataSaviyntPrivilegeDatasource extends cdktf.TerraformDataSource {
 
@@ -234,7 +234,7 @@ export class DataSaviyntPrivilegeDatasource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSaviyntPrivilegeDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntPrivilegeDatasource to import
-  * @param importFromId The id of the existing DataSaviyntPrivilegeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntPrivilegeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntPrivilegeDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class DataSaviyntPrivilegeDatasource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.2.13/docs/data-sources/privilege_datasource saviynt_privilege_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.0/docs/data-sources/privilege_datasource saviynt_privilege_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class DataSaviyntPrivilegeDatasource extends cdktf.TerraformDataSource {
       terraformResourceType: 'saviynt_privilege_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

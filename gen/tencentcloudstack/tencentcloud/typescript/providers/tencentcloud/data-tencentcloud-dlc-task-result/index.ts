@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDlcTaskResultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#id DataTencentcloudDlcTaskResult#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#id DataTencentcloudDlcTaskResult#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudDlcTaskResultConfig extends cdktf.TerraformMeta
   /**
   * Whether to convert the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#is_transform_data_type DataTencentcloudDlcTaskResult#is_transform_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#is_transform_data_type DataTencentcloudDlcTaskResult#is_transform_data_type}
   */
   readonly isTransformDataType?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of returned rows. Value range: 0-1,000. Default value: 1,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#max_results DataTencentcloudDlcTaskResult#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#max_results DataTencentcloudDlcTaskResult#max_results}
   */
   readonly maxResults?: number;
   /**
   * The pagination information returned by the last response. This parameter can be omitted for the first response, where the data will be returned from the beginning. The data with a volume set by the `MaxResults` field is returned each time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#next_token DataTencentcloudDlcTaskResult#next_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#next_token DataTencentcloudDlcTaskResult#next_token}
   */
   readonly nextToken?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#result_output_file DataTencentcloudDlcTaskResult#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#result_output_file DataTencentcloudDlcTaskResult#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Unique task ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#task_id DataTencentcloudDlcTaskResult#task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#task_id DataTencentcloudDlcTaskResult#task_id}
   */
   readonly taskId: string;
 }
@@ -338,7 +338,7 @@ export class DataTencentcloudDlcTaskResultTaskInfoList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result tencentcloud_dlc_task_result}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result tencentcloud_dlc_task_result}
 */
 export class DataTencentcloudDlcTaskResult extends cdktf.TerraformDataSource {
 
@@ -354,7 +354,7 @@ export class DataTencentcloudDlcTaskResult extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDlcTaskResult resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcTaskResult to import
-  * @param importFromId The id of the existing DataTencentcloudDlcTaskResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcTaskResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcTaskResult to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class DataTencentcloudDlcTaskResult extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/dlc_task_result tencentcloud_dlc_task_result} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/dlc_task_result tencentcloud_dlc_task_result} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class DataTencentcloudDlcTaskResult extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dlc_task_result',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface StorageBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access key to use when applying changes. This value can also be provided as `storage_access_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#access_key StorageBucket#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#access_key StorageBucket#access_key}
   */
   readonly accessKey?: string;
   /**
@@ -19,25 +19,25 @@ export interface StorageBucketConfig extends cdktf.TerraformMetaArguments {
   * ~> To change ACL after creation, service account with `storage.admin` role should be used, though this role is not necessary to create a bucket with any ACL.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#acl StorageBucket#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#acl StorageBucket#acl}
   */
   readonly acl?: string;
   /**
   * The name of the bucket. If omitted, Terraform will assign a random, unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#bucket StorageBucket#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#bucket StorageBucket#bucket}
   */
   readonly bucket?: string;
   /**
   * Creates a unique bucket name beginning with the specified prefix. Conflicts with `bucket`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#bucket_prefix StorageBucket#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#bucket_prefix StorageBucket#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
   * Storage class which is used for storing objects by default. Available values are: "STANDARD", "COLD", "ICE". Default is `"STANDARD"`. See [Storage Class](https://yandex.cloud/docs/storage/concepts/storage-class) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#default_storage_class StorageBucket#default_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#default_storage_class StorageBucket#default_storage_class}
   */
   readonly defaultStorageClass?: string;
   /**
@@ -46,17 +46,17 @@ export interface StorageBucketConfig extends cdktf.TerraformMetaArguments {
   * ~> It will try to create bucket using `IAM-token`, not using `access keys`.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#folder_id StorageBucket#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#folder_id StorageBucket#folder_id}
   */
   readonly folderId?: string;
   /**
   *  A boolean that indicates all objects should be deleted from the bucket so that the bucket can be destroyed without error. These objects are *not* recoverable. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#force_destroy StorageBucket#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#force_destroy StorageBucket#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#id StorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#id StorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface StorageBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * The size of bucket, in bytes. See [Size Limiting](https://yandex.cloud/docs/storage/operations/buckets/limit-max-volume) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#max_size StorageBucket#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#max_size StorageBucket#max_size}
   */
   readonly maxSize?: number;
   /**
   * The `policy` object should contain the only field with the text of the policy. See [policy documentation](https://yandex.cloud/docs/storage/concepts/policy) for more information on policy format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#policy StorageBucket#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#policy StorageBucket#policy}
   */
   readonly policy?: string;
   /**
   * The secret key to use when applying changes. This value can also be provided as `storage_secret_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#secret_key StorageBucket#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#secret_key StorageBucket#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The `tags` object for setting tags (or labels) for bucket. See [Tags](https://yandex.cloud/docs/storage/concepts/tags) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#tags StorageBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#tags StorageBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The domain of the website endpoint, if the bucket is configured with a website. If not, this will be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#website_domain StorageBucket#website_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#website_domain StorageBucket#website_domain}
   */
   readonly websiteDomain?: string;
   /**
   * The website endpoint, if the bucket is configured with a website. If not, this will be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#website_endpoint StorageBucket#website_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#website_endpoint StorageBucket#website_endpoint}
   */
   readonly websiteEndpoint?: string;
   /**
   * anonymous_access_flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#anonymous_access_flags StorageBucket#anonymous_access_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#anonymous_access_flags StorageBucket#anonymous_access_flags}
   */
   readonly anonymousAccessFlags?: StorageBucketAnonymousAccessFlags;
   /**
   * cors_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#cors_rule StorageBucket#cors_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#cors_rule StorageBucket#cors_rule}
   */
   readonly corsRule?: StorageBucketCorsRule[] | cdktf.IResolvable;
   /**
   * grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#grant StorageBucket#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#grant StorageBucket#grant}
   */
   readonly grant?: StorageBucketGrant[] | cdktf.IResolvable;
   /**
   * https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#https StorageBucket#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#https StorageBucket#https}
   */
   readonly https?: StorageBucketHttps;
   /**
   * lifecycle_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#lifecycle_rule StorageBucket#lifecycle_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#lifecycle_rule StorageBucket#lifecycle_rule}
   */
   readonly lifecycleRule?: StorageBucketLifecycleRule[] | cdktf.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#logging StorageBucket#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#logging StorageBucket#logging}
   */
   readonly logging?: StorageBucketLogging[] | cdktf.IResolvable;
   /**
   * object_lock_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_lock_configuration StorageBucket#object_lock_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_lock_configuration StorageBucket#object_lock_configuration}
   */
   readonly objectLockConfiguration?: StorageBucketObjectLockConfiguration;
   /**
   * server_side_encryption_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#server_side_encryption_configuration StorageBucket#server_side_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#server_side_encryption_configuration StorageBucket#server_side_encryption_configuration}
   */
   readonly serverSideEncryptionConfiguration?: StorageBucketServerSideEncryptionConfiguration;
   /**
   * versioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#versioning StorageBucket#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#versioning StorageBucket#versioning}
   */
   readonly versioning?: StorageBucketVersioning;
   /**
   * website block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#website StorageBucket#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#website StorageBucket#website}
   */
   readonly website?: StorageBucketWebsite;
 }
@@ -163,19 +163,19 @@ export interface StorageBucketAnonymousAccessFlags {
   /**
   * Allows to read bucket configuration anonymously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#config_read StorageBucket#config_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#config_read StorageBucket#config_read}
   */
   readonly configRead?: boolean | cdktf.IResolvable;
   /**
   * Allows to list object in bucket anonymously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#list StorageBucket#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#list StorageBucket#list}
   */
   readonly list?: boolean | cdktf.IResolvable;
   /**
   * Allows to read objects in bucket anonymously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#read StorageBucket#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#read StorageBucket#read}
   */
   readonly read?: boolean | cdktf.IResolvable;
 }
@@ -319,31 +319,31 @@ export interface StorageBucketCorsRule {
   /**
   * Specifies which headers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#allowed_headers StorageBucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#allowed_headers StorageBucket#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
   * Specifies which methods are allowed. Can be `GET`, `PUT`, `POST`, `DELETE` or `HEAD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#allowed_methods StorageBucket#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#allowed_methods StorageBucket#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
   * Specifies which origins are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#allowed_origins StorageBucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#allowed_origins StorageBucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
   * Specifies expose header in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#expose_headers StorageBucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#expose_headers StorageBucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies time in seconds that browser can cache the response for a preflight request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#max_age_seconds StorageBucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#max_age_seconds StorageBucket#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -571,7 +571,7 @@ export interface StorageBucketGrant {
   /**
   * Canonical user id to grant for. Used only when type is `CanonicalUser`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#id StorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#id StorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -580,19 +580,19 @@ export interface StorageBucketGrant {
   /**
   * List of permissions to apply for grantee. Valid values are `READ`, `WRITE`, `FULL_CONTROL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#permissions StorageBucket#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#permissions StorageBucket#permissions}
   */
   readonly permissions: string[];
   /**
   * Type of grantee to apply for. Valid values are `CanonicalUser` and `Group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#type StorageBucket#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#type StorageBucket#type}
   */
   readonly type: string;
   /**
   * URI address to grant for. Used only when type is Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#uri StorageBucket#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#uri StorageBucket#uri}
   */
   readonly uri?: string;
 }
@@ -791,7 +791,7 @@ export interface StorageBucketHttps {
   /**
   * Id of the certificate in Certificate Manager, that will be used for bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#certificate_id StorageBucket#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#certificate_id StorageBucket#certificate_id}
   */
   readonly certificateId: string;
 }
@@ -874,19 +874,19 @@ export interface StorageBucketLifecycleRuleExpiration {
   /**
   * Specifies the date after which you want the corresponding action to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#date StorageBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#date StorageBucket#date}
   */
   readonly date?: string;
   /**
   * Specifies the number of days after object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#days StorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#days StorageBucket#days}
   */
   readonly days?: number;
   /**
   * n a versioned bucket (versioning-enabled or versioning-suspended bucket), you can add this element in the lifecycle configuration to direct Object Storage to delete expired object delete markers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#expired_object_delete_marker StorageBucket#expired_object_delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#expired_object_delete_marker StorageBucket#expired_object_delete_marker}
   */
   readonly expiredObjectDeleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -1030,25 +1030,25 @@ export interface StorageBucketLifecycleRuleFilterAnd {
   /**
   * Minimum object size to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_size_greater_than StorageBucket#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_size_greater_than StorageBucket#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
   * Maximum object size to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_size_less_than StorageBucket#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_size_less_than StorageBucket#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * Object key prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * The `tags` object for setting tags (or labels) for bucket. See [Tags](https://yandex.cloud/docs/storage/concepts/tags) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#tags StorageBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#tags StorageBucket#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1221,13 +1221,13 @@ export interface StorageBucketLifecycleRuleFilterTag {
   /**
   * A key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#key StorageBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#key StorageBucket#key}
   */
   readonly key: string;
   /**
   * A value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#value StorageBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#value StorageBucket#value}
   */
   readonly value: string;
 }
@@ -1336,31 +1336,31 @@ export interface StorageBucketLifecycleRuleFilter {
   /**
   * Minimum object size to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_size_greater_than StorageBucket#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_size_greater_than StorageBucket#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
   * Maximum object size to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_size_less_than StorageBucket#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_size_less_than StorageBucket#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * Object key prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#and StorageBucket#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#and StorageBucket#and}
   */
   readonly and?: StorageBucketLifecycleRuleFilterAnd;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#tag StorageBucket#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#tag StorageBucket#tag}
   */
   readonly tag?: StorageBucketLifecycleRuleFilterTag;
 }
@@ -1562,7 +1562,7 @@ export interface StorageBucketLifecycleRuleNoncurrentVersionExpiration {
   /**
   * Specifies the number of days noncurrent object versions expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#days StorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#days StorageBucket#days}
   */
   readonly days?: number;
 }
@@ -1648,13 +1648,13 @@ export interface StorageBucketLifecycleRuleNoncurrentVersionTransition {
   /**
   * Specifies the number of days noncurrent object versions transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#days StorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#days StorageBucket#days}
   */
   readonly days?: number;
   /**
   * Specifies the storage class to which you want the noncurrent object versions to transition. Supported values: [`STANDARD_IA`, `COLD`, `ICE`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#storage_class StorageBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#storage_class StorageBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1798,19 +1798,19 @@ export interface StorageBucketLifecycleRuleTransition {
   /**
   * Specifies the date after which you want the corresponding action to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#date StorageBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#date StorageBucket#date}
   */
   readonly date?: string;
   /**
   * Specifies the number of days after object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#days StorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#days StorageBucket#days}
   */
   readonly days?: number;
   /**
   * Specifies the storage class to which you want the object to transition. Supported values: [`STANDARD_IA`, `COLD`, `ICE`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#storage_class StorageBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#storage_class StorageBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1983,19 +1983,19 @@ export interface StorageBucketLifecycleRule {
   /**
   * Specifies the number of days after initiating a multipart upload when the multipart upload must be completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#abort_incomplete_multipart_upload_days StorageBucket#abort_incomplete_multipart_upload_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#abort_incomplete_multipart_upload_days StorageBucket#abort_incomplete_multipart_upload_days}
   */
   readonly abortIncompleteMultipartUploadDays?: number;
   /**
   * Specifies lifecycle rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#enabled StorageBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#enabled StorageBucket#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Unique identifier for the rule. Must be less than or equal to 255 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#id StorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#id StorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2004,37 +2004,37 @@ export interface StorageBucketLifecycleRule {
   /**
   * Object key prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#prefix StorageBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#expiration StorageBucket#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#expiration StorageBucket#expiration}
   */
   readonly expiration?: StorageBucketLifecycleRuleExpiration;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#filter StorageBucket#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#filter StorageBucket#filter}
   */
   readonly filter?: StorageBucketLifecycleRuleFilter;
   /**
   * noncurrent_version_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#noncurrent_version_expiration StorageBucket#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#noncurrent_version_expiration StorageBucket#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: StorageBucketLifecycleRuleNoncurrentVersionExpiration;
   /**
   * noncurrent_version_transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#noncurrent_version_transition StorageBucket#noncurrent_version_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#noncurrent_version_transition StorageBucket#noncurrent_version_transition}
   */
   readonly noncurrentVersionTransition?: StorageBucketLifecycleRuleNoncurrentVersionTransition[] | cdktf.IResolvable;
   /**
   * transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#transition StorageBucket#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#transition StorageBucket#transition}
   */
   readonly transition?: StorageBucketLifecycleRuleTransition[] | cdktf.IResolvable;
 }
@@ -2381,13 +2381,13 @@ export interface StorageBucketLogging {
   /**
   * The name of the bucket that will receive the log objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#target_bucket StorageBucket#target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#target_bucket StorageBucket#target_bucket}
   */
   readonly targetBucket: string;
   /**
   * To specify a key prefix for log objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#target_prefix StorageBucket#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#target_prefix StorageBucket#target_prefix}
   */
   readonly targetPrefix?: string;
 }
@@ -2531,19 +2531,19 @@ export interface StorageBucketObjectLockConfigurationRuleDefaultRetention {
   /**
   * Specifies a retention period in days after uploading an object version. It must be a positive integer. You can't set it simultaneously with `years`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#days StorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#days StorageBucket#days}
   */
   readonly days?: number;
   /**
   * Specifies a type of object lock. One of `["GOVERNANCE", "COMPLIANCE"]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#mode StorageBucket#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#mode StorageBucket#mode}
   */
   readonly mode: string;
   /**
   * Specifies a retention period in years after uploading an object version. It must be a positive integer. You can't set it simultaneously with `days`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#years StorageBucket#years}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#years StorageBucket#years}
   */
   readonly years?: number;
 }
@@ -2684,7 +2684,7 @@ export interface StorageBucketObjectLockConfigurationRule {
   /**
   * default_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#default_retention StorageBucket#default_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#default_retention StorageBucket#default_retention}
   */
   readonly defaultRetention: StorageBucketObjectLockConfigurationRuleDefaultRetention;
 }
@@ -2767,13 +2767,13 @@ export interface StorageBucketObjectLockConfiguration {
   /**
   * Enable object locking in a bucket. Require versioning to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#object_lock_enabled StorageBucket#object_lock_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#object_lock_enabled StorageBucket#object_lock_enabled}
   */
   readonly objectLockEnabled?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#rule StorageBucket#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#rule StorageBucket#rule}
   */
   readonly rule?: StorageBucketObjectLockConfigurationRule;
 }
@@ -2888,13 +2888,13 @@ export interface StorageBucketServerSideEncryptionConfigurationRuleApplyServerSi
   /**
   * The KMS master key ID used for the SSE-KMS encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#kms_master_key_id StorageBucket#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#kms_master_key_id StorageBucket#kms_master_key_id}
   */
   readonly kmsMasterKeyId: string;
   /**
   * The server-side encryption algorithm to use. Single valid value is `aws:kms`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#sse_algorithm StorageBucket#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#sse_algorithm StorageBucket#sse_algorithm}
   */
   readonly sseAlgorithm: string;
 }
@@ -3003,7 +3003,7 @@ export interface StorageBucketServerSideEncryptionConfigurationRule {
   /**
   * apply_server_side_encryption_by_default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#apply_server_side_encryption_by_default StorageBucket#apply_server_side_encryption_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#apply_server_side_encryption_by_default StorageBucket#apply_server_side_encryption_by_default}
   */
   readonly applyServerSideEncryptionByDefault: StorageBucketServerSideEncryptionConfigurationRuleApplyServerSideEncryptionByDefault;
 }
@@ -3086,7 +3086,7 @@ export interface StorageBucketServerSideEncryptionConfiguration {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#rule StorageBucket#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#rule StorageBucket#rule}
   */
   readonly rule: StorageBucketServerSideEncryptionConfigurationRule;
 }
@@ -3169,7 +3169,7 @@ export interface StorageBucketVersioning {
   /**
   * Enable versioning. Once you version-enable a bucket, it can never return to an unversioned state. You can, however, suspend versioning on that bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#enabled StorageBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#enabled StorageBucket#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3255,25 +3255,25 @@ export interface StorageBucketWebsite {
   /**
   * An absolute path to the document to return in case of a 4XX error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#error_document StorageBucket#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#error_document StorageBucket#error_document}
   */
   readonly errorDocument?: string;
   /**
   * Storage returns this index document when requests are made to the root domain or any of the subfolders (unless using `redirect_all_requests_to`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#index_document StorageBucket#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#index_document StorageBucket#index_document}
   */
   readonly indexDocument?: string;
   /**
   * A hostname to redirect all website requests for this bucket to. Hostname can optionally be prefixed with a protocol (`http://` or `https://`) to use when redirecting requests. The default is the protocol that is used in the original request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#redirect_all_requests_to StorageBucket#redirect_all_requests_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#redirect_all_requests_to StorageBucket#redirect_all_requests_to}
   */
   readonly redirectAllRequestsTo?: string;
   /**
   * A JSON array containing [routing rules](https://yandex.cloud/docs/storage/s3/api-ref/hosting/upload#request-scheme) describing redirect behavior and when redirects are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#routing_rules StorageBucket#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#routing_rules StorageBucket#routing_rules}
   */
   readonly routingRules?: string;
 }
@@ -3444,7 +3444,7 @@ export class StorageBucketWebsiteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket yandex_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket yandex_storage_bucket}
 */
 export class StorageBucket extends cdktf.TerraformResource {
 
@@ -3460,7 +3460,7 @@ export class StorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageBucket to import
-  * @param importFromId The id of the existing StorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3472,7 +3472,7 @@ export class StorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/storage_bucket yandex_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket yandex_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3483,8 +3483,8 @@ export class StorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

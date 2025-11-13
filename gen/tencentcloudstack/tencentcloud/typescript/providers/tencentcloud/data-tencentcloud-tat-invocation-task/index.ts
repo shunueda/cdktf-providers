@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTatInvocationTaskConfig extends cdktf.Terraform
   /**
   * Whether to hide the output. Valid values:True (default): Hide the outputFalse: Show the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#hide_output DataTencentcloudTatInvocationTask#hide_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#hide_output DataTencentcloudTatInvocationTask#hide_output}
   */
   readonly hideOutput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#id DataTencentcloudTatInvocationTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#id DataTencentcloudTatInvocationTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudTatInvocationTaskConfig extends cdktf.Terraform
   /**
   * List of execution task IDs. Up to 100 IDs are allowed for each request. InvocationTaskIds and Filters cannot be specified at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#invocation_task_ids DataTencentcloudTatInvocationTask#invocation_task_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#invocation_task_ids DataTencentcloudTatInvocationTask#invocation_task_ids}
   */
   readonly invocationTaskIds?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#result_output_file DataTencentcloudTatInvocationTask#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#result_output_file DataTencentcloudTatInvocationTask#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#filters DataTencentcloudTatInvocationTask#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#filters DataTencentcloudTatInvocationTask#filters}
   */
   readonly filters?: DataTencentcloudTatInvocationTaskFilters[] | cdktf.IResolvable;
 }
@@ -390,13 +390,13 @@ export interface DataTencentcloudTatInvocationTaskFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#name DataTencentcloudTatInvocationTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#name DataTencentcloudTatInvocationTask#name}
   */
   readonly name: string;
   /**
   * Filter values of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#values DataTencentcloudTatInvocationTask#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#values DataTencentcloudTatInvocationTask#values}
   */
   readonly values: string[];
 }
@@ -535,7 +535,7 @@ export class DataTencentcloudTatInvocationTaskFiltersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task tencentcloud_tat_invocation_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task tencentcloud_tat_invocation_task}
 */
 export class DataTencentcloudTatInvocationTask extends cdktf.TerraformDataSource {
 
@@ -551,7 +551,7 @@ export class DataTencentcloudTatInvocationTask extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudTatInvocationTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTatInvocationTask to import
-  * @param importFromId The id of the existing DataTencentcloudTatInvocationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTatInvocationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTatInvocationTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class DataTencentcloudTatInvocationTask extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/data-sources/tat_invocation_task tencentcloud_tat_invocation_task} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/data-sources/tat_invocation_task tencentcloud_tat_invocation_task} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class DataTencentcloudTatInvocationTask extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_tat_invocation_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

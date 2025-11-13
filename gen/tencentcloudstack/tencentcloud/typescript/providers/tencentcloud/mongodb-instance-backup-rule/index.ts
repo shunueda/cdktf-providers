@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,23 +13,23 @@ export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArgu
   * - 1: Physical backup;
   * - 3: Snapshot backup (supported only in cloud disk version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#backup_method MongodbInstanceBackupRule#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#backup_method MongodbInstanceBackupRule#backup_method}
   */
   readonly backupMethod: number;
   /**
   * Specify the number of days to save backup data. The default is 7 days, and the support settings are 7, 30, 90, 180, 365.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#backup_retention_period MongodbInstanceBackupRule#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#backup_retention_period MongodbInstanceBackupRule#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
   * Set the start time for automatic backup. The value range is: [0,23]. For example, setting this parameter to 2 means that backup starts at 02:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#backup_time MongodbInstanceBackupRule#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#backup_time MongodbInstanceBackupRule#backup_time}
   */
   readonly backupTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#id MongodbInstanceBackupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#id MongodbInstanceBackupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,13 +38,13 @@ export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#instance_id MongodbInstanceBackupRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#instance_id MongodbInstanceBackupRule#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule}
 */
 export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
 
@@ -60,7 +60,7 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceBackupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceBackupRule to import
-  * @param importFromId The id of the existing MongodbInstanceBackupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceBackupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceBackupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,8 +83,8 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_backup_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

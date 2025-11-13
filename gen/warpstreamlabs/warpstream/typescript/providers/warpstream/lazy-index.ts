@@ -4,6 +4,7 @@ Object.defineProperty(exports, 'agentKey', { get: function () { return require('
 Object.defineProperty(exports, 'applicationKey', { get: function () { return require('./application-key'); } });
 Object.defineProperty(exports, 'pipeline', { get: function () { return require('./pipeline'); } });
 Object.defineProperty(exports, 'schemaRegistry', { get: function () { return require('./schema-registry'); } });
+Object.defineProperty(exports, 'tableflowCluster', { get: function () { return require('./tableflow-cluster'); } });
 Object.defineProperty(exports, 'topic', { get: function () { return require('./topic'); } });
 Object.defineProperty(exports, 'userRole', { get: function () { return require('./user-role'); } });
 Object.defineProperty(exports, 'virtualCluster', { get: function () { return require('./virtual-cluster'); } });
@@ -13,6 +14,7 @@ Object.defineProperty(exports, 'dataWarpstreamAccount', { get: function () { ret
 Object.defineProperty(exports, 'dataWarpstreamAgentKeys', { get: function () { return require('./data-warpstream-agent-keys'); } });
 Object.defineProperty(exports, 'dataWarpstreamApplicationKeys', { get: function () { return require('./data-warpstream-application-keys'); } });
 Object.defineProperty(exports, 'dataWarpstreamSchemaRegistry', { get: function () { return require('./data-warpstream-schema-registry'); } });
+Object.defineProperty(exports, 'dataWarpstreamTableflowCluster', { get: function () { return require('./data-warpstream-tableflow-cluster'); } });
 Object.defineProperty(exports, 'dataWarpstreamUserRole', { get: function () { return require('./data-warpstream-user-role'); } });
 Object.defineProperty(exports, 'dataWarpstreamVirtualCluster', { get: function () { return require('./data-warpstream-virtual-cluster'); } });
 Object.defineProperty(exports, 'dataWarpstreamVirtualClusters', { get: function () { return require('./data-warpstream-virtual-clusters'); } });

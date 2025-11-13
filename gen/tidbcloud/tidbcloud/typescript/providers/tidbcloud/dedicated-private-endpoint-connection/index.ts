@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DedicatedPrivateEndpointConnectionConfig extends cdktf.Terrafor
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection#cluster_id DedicatedPrivateEndpointConnection#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection#cluster_id DedicatedPrivateEndpointConnection#cluster_id}
   */
   readonly clusterId: string;
   /**
@@ -19,25 +19,25 @@ export interface DedicatedPrivateEndpointConnectionConfig extends cdktf.Terrafor
   * For GCP, it's private service connect endpoint ID.
   * For Azure, it's private endpoint resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection#endpoint_id DedicatedPrivateEndpointConnection#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection#endpoint_id DedicatedPrivateEndpointConnection#endpoint_id}
   */
   readonly endpointId: string;
   /**
   * The ID of the node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection#node_group_id DedicatedPrivateEndpointConnection#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection#node_group_id DedicatedPrivateEndpointConnection#node_group_id}
   */
   readonly nodeGroupId: string;
   /**
   * The private IP address of the private endpoint in the user's vNet.TiDB Cloud will setup a public DNS record for this private IP address. So the user can use DNS address to connect to the cluster.Only available for Azure clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection#private_ip_address DedicatedPrivateEndpointConnection#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection#private_ip_address DedicatedPrivateEndpointConnection#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection tidbcloud_dedicated_private_endpoint_connection}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection tidbcloud_dedicated_private_endpoint_connection}
 */
 export class DedicatedPrivateEndpointConnection extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class DedicatedPrivateEndpointConnection extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DedicatedPrivateEndpointConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedPrivateEndpointConnection to import
-  * @param importFromId The id of the existing DedicatedPrivateEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedPrivateEndpointConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedPrivateEndpointConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DedicatedPrivateEndpointConnection extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/resources/dedicated_private_endpoint_connection tidbcloud_dedicated_private_endpoint_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/resources/dedicated_private_endpoint_connection tidbcloud_dedicated_private_endpoint_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DedicatedPrivateEndpointConnection extends cdktf.TerraformResource 
       terraformResourceType: 'tidbcloud_dedicated_private_endpoint_connection',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

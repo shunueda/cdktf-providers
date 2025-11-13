@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface TseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Client public network access, `true`: on, `false`: off, default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#enable_client_internet_access TseInstance#enable_client_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#enable_client_internet_access TseInstance#enable_client_internet_access}
   */
   readonly enableClientInternetAccess?: boolean | cdktf.IResolvable;
   /**
   * engien name. Reference value: nacos-test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_name TseInstance#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_name TseInstance#engine_name}
   */
   readonly engineName: string;
   /**
   * engine node num. see EngineProductVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_node_num TseInstance#engine_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_node_num TseInstance#engine_node_num}
   */
   readonly engineNodeNum?: number;
   /**
   * Engine product version. Reference value: `Nacos`: `TRIAL`: Development version, optional node num: `1`, optional spec list: `1C1G`; `STANDARD`: Standard versions, optional node num: `3`, `5`, `7`, optional spec list: `1C2G`, `2C4G`, `4C8G`, `8C16G`, `16C32G`. `Zookeeper`: `TRIAL`: Development version, optional node num: `1`, optional spec list: `1C1G`; `STANDARD`: Standard versions, optional node num: `3`, `5`, `7`, optional spec list: `1C2G`, `2C4G`, `4C8G`, `8C16G`, `16C32G`; `PROFESSIONAL`: professional versions, optional node num: `3`, `5`, `7`, optional spec list: `1C2G`, `2C4G`, `4C8G`, `8C16G`, `16C32G`. `Polarismesh`: `BASE`: Base version, optional node num: `1`, optional spec list: `NUM50`; `PROFESSIONAL`: Enterprise versions, optional node num: `2`, `3`, optional spec list: `NUM50`, `NUM100`, `NUM200`, `NUM500`, `NUM1000`, `NUM5000`, `NUM10000`, `NUM50000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_product_version TseInstance#engine_product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_product_version TseInstance#engine_product_version}
   */
   readonly engineProductVersion: string;
   /**
   * engine deploy region. Reference value: `China area` Reference value: `ap-guangzhou`, `ap-beijing`, `ap-chengdu`, `ap-chongqing`, `ap-nanjing`, `ap-shanghai` `ap-beijing-fsi`, `ap-shanghai-fsi`, `ap-shenzhen-fsi`. `Asia Pacific` area Reference value: `ap-hongkong`, `ap-taipei`, `ap-jakarta`, `ap-singapore`, `ap-bangkok`, `ap-seoul`, `ap-tokyo`. `North America area` Reference value: `na-toronto`, `sa-saopaulo`, `na-siliconvalley`, `na-ashburn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_region TseInstance#engine_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_region TseInstance#engine_region}
   */
   readonly engineRegion: string;
   /**
   * engine spec ID. see EngineProductVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_resource_spec TseInstance#engine_resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_resource_spec TseInstance#engine_resource_spec}
   */
   readonly engineResourceSpec?: string;
   /**
   * engine type. Reference value: `zookeeper`, `nacos`, `polaris`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_type TseInstance#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_type TseInstance#engine_type}
   */
   readonly engineType: string;
   /**
   * An open source version of the engine. Each engine supports different open source versions, refer to the product documentation or console purchase page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_version TseInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_version TseInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#id TseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#id TseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface TseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Prepaid time, in monthly units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#prepaid_period TseInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#prepaid_period TseInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * Automatic renewal mark, prepaid only.  Reference value: `0`: No automatic renewal, `1`: Automatic renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#prepaid_renew_flag TseInstance#prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#prepaid_renew_flag TseInstance#prepaid_renew_flag}
   */
   readonly prepaidRenewFlag?: number;
   /**
   * subnet ID. Assign an IP address to the engine in the VPC subnet. Reference value: subnet-ahde9me9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#subnet_id TseInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#subnet_id TseInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#tags TseInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#tags TseInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * trade type. Reference value:- 0:postpaid- 1:Prepaid (Interface does not support the creation of prepaid instances yet).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#trade_type TseInstance#trade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#trade_type TseInstance#trade_type}
   */
   readonly tradeType: number;
   /**
   * VPC ID. Assign an IP address to the engine in the VPC subnet. Reference value: vpc-conz6aix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#vpc_id TseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#vpc_id TseInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * engine_region_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_region_infos TseInstance#engine_region_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_region_infos TseInstance#engine_region_infos}
   */
   readonly engineRegionInfos?: TseInstanceEngineRegionInfos[] | cdktf.IResolvable;
 }
@@ -109,19 +109,19 @@ export interface TseInstanceEngineRegionInfosVpcInfos {
   /**
   * Intranet access addressNote: This field may return null, indicating that a valid value is not available..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#intranet_address TseInstance#intranet_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#intranet_address TseInstance#intranet_address}
   */
   readonly intranetAddress?: string;
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#subnet_id TseInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#subnet_id TseInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Vpc Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#vpc_id TseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#vpc_id TseInstance#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -291,19 +291,19 @@ export interface TseInstanceEngineRegionInfos {
   /**
   * Engine node region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#engine_region TseInstance#engine_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#engine_region TseInstance#engine_region}
   */
   readonly engineRegion: string;
   /**
   * The number of nodes allocated in this region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#replica TseInstance#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#replica TseInstance#replica}
   */
   readonly replica: number;
   /**
   * vpc_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#vpc_infos TseInstance#vpc_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#vpc_infos TseInstance#vpc_infos}
   */
   readonly vpcInfos: TseInstanceEngineRegionInfosVpcInfos[] | cdktf.IResolvable;
 }
@@ -468,7 +468,7 @@ export class TseInstanceEngineRegionInfosList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance tencentcloud_tse_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance tencentcloud_tse_instance}
 */
 export class TseInstance extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class TseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseInstance to import
-  * @param importFromId The id of the existing TseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class TseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/tse_instance tencentcloud_tse_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/tse_instance tencentcloud_tse_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class TseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35',
-        providerVersionConstraint: '1.82.35'
+        providerVersion: '1.82.36',
+        providerVersionConstraint: '1.82.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

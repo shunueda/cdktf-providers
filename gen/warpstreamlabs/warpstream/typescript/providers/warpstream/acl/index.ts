@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface AclConfig extends cdktf.TerraformMetaArguments {
   /**
   * Host from which the principal will have access. Use * to allow access from any host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#host Acl#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#host Acl#host}
   */
   readonly host: string;
   /**
   * The operation type for the ACL. Accepted values are: `ALL`, `READ`, `WRITE`, `CREATE`, `DELETE`, `ALTER`, `DESCRIBE`, `CLUSTER_ACTION`, `DESCRIBE_CONFIGS`, `ALTER_CONFIGS` or `IDEMPOTENT_WRITE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#operation Acl#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#operation Acl#operation}
   */
   readonly operation: string;
   /**
   * The pattern type for the ACL. Accepted values are `LITERAL` or `PREFIXED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#pattern_type Acl#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#pattern_type Acl#pattern_type}
   */
   readonly patternType: string;
   /**
   * The permission for the ACL. Accepted values are: `ALLOW` or `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#permission_type Acl#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#permission_type Acl#permission_type}
   */
   readonly permissionType: string;
   /**
   * The principal for the ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#principal Acl#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#principal Acl#principal}
   */
   readonly principal: string;
   /**
   * The resource name for the ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#resource_name Acl#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#resource_name Acl#resource_name}
   */
   readonly resourceName: string;
   /**
   * The type of the resource. Accepted values are: `TOPIC`, `GROUP`, `CLUSTER`, `TRANSACTIONAL_ID` or `DELEGATION_TOKEN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#resource_type Acl#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#resource_type Acl#resource_type}
   */
   readonly resourceType: string;
   /**
   * The ID of the Virtual Cluster that the ACL applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#virtual_cluster_id Acl#virtual_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#virtual_cluster_id Acl#virtual_cluster_id}
   */
   readonly virtualClusterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl warpstream_acl}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl warpstream_acl}
 */
 export class Acl extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class Acl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Acl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Acl to import
-  * @param importFromId The id of the existing Acl that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Acl that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Acl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class Acl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/acl warpstream_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.3.1/docs/resources/acl warpstream_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class Acl extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_acl',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.3',
-        providerVersionConstraint: '2.2.3'
+        providerVersion: '2.3.1',
+        providerVersionConstraint: '2.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

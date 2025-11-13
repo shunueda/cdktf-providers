@@ -1,3 +1,3 @@
 # `tencentcloud_wedata_rule_template`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_wedata_rule_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/wedata_rule_template).
+Refer to the Terraform Registry for docs: [`tencentcloud_wedata_rule_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/wedata_rule_template).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions
+// https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTidbcloudDedicatedRegionsConfig extends cdktf.TerraformMeta
   /**
   * The cloud provider of the regions. If not set, it will return the regions that can be selected from all cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions#cloud_provider DataTidbcloudDedicatedRegions#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions#cloud_provider DataTidbcloudDedicatedRegions#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The ID of the project. If not set, it will return the regions that can be selected under the default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions#project_id DataTidbcloudDedicatedRegions#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions#project_id DataTidbcloudDedicatedRegions#project_id}
   */
   readonly projectId?: string;
 }
@@ -107,7 +107,7 @@ export class DataTidbcloudDedicatedRegionsRegionsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions tidbcloud_dedicated_regions}
+* Represents a {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions tidbcloud_dedicated_regions}
 */
 export class DataTidbcloudDedicatedRegions extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataTidbcloudDedicatedRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTidbcloudDedicatedRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTidbcloudDedicatedRegions to import
-  * @param importFromId The id of the existing DataTidbcloudDedicatedRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTidbcloudDedicatedRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTidbcloudDedicatedRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataTidbcloudDedicatedRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.5/docs/data-sources/dedicated_regions tidbcloud_dedicated_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tidbcloud/tidbcloud/0.4.6/docs/data-sources/dedicated_regions tidbcloud_dedicated_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataTidbcloudDedicatedRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_dedicated_regions',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5',
-        providerVersionConstraint: '0.4.5'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataYandexTrinoCatalogConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the Trino cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#cluster_id DataYandexTrinoCatalog#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#cluster_id DataYandexTrinoCatalog#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#id DataYandexTrinoCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#id DataYandexTrinoCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataYandexTrinoCatalogConfig extends cdktf.TerraformMetaArgumen
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#name DataYandexTrinoCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#name DataYandexTrinoCatalog#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#timeouts DataYandexTrinoCatalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#timeouts DataYandexTrinoCatalog#timeouts}
   */
   readonly timeouts?: DataYandexTrinoCatalogTimeouts;
 }
@@ -1991,7 +1991,7 @@ export interface DataYandexTrinoCatalogTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#read DataYandexTrinoCatalog#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#read DataYandexTrinoCatalog#read}
   */
   readonly read?: string;
 }
@@ -2085,7 +2085,7 @@ export class DataYandexTrinoCatalogTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog yandex_trino_catalog}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog yandex_trino_catalog}
 */
 export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
 
@@ -2101,7 +2101,7 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexTrinoCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexTrinoCatalog to import
-  * @param importFromId The id of the existing DataYandexTrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexTrinoCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexTrinoCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2113,7 +2113,7 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/data-sources/trino_catalog yandex_trino_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/trino_catalog yandex_trino_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2124,8 +2124,8 @@ export class DataYandexTrinoCatalog extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_trino_catalog',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

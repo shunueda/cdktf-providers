@@ -1,3 +1,3 @@
 # `tencentcloud_mariadb_flush_binlog`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_mariadb_flush_binlog`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.35/docs/resources/mariadb_flush_binlog).
+Refer to the Terraform Registry for docs: [`tencentcloud_mariadb_flush_binlog`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.36/docs/resources/mariadb_flush_binlog).

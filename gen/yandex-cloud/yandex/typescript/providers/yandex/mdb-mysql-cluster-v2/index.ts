@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,125 +10,125 @@ export interface MdbMysqlClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Access policy to the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#access MdbMysqlClusterV2#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#access MdbMysqlClusterV2#access}
   */
   readonly access?: MdbMysqlClusterV2Access;
   /**
   * The period in days during which backups are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#backup_retain_period_days MdbMysqlClusterV2#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#backup_retain_period_days MdbMysqlClusterV2#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * Time to start the daily backup, in the UTC timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#backup_window_start MdbMysqlClusterV2#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#backup_window_start MdbMysqlClusterV2#backup_window_start}
   */
   readonly backupWindowStart?: MdbMysqlClusterV2BackupWindowStart;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#deletion_protection MdbMysqlClusterV2#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#deletion_protection MdbMysqlClusterV2#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#description MdbMysqlClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#description MdbMysqlClusterV2#description}
   */
   readonly description?: string;
   /**
   * ID of the symmetric encryption key used to encrypt the disk of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#disk_encryption_key_id MdbMysqlClusterV2#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#disk_encryption_key_id MdbMysqlClusterV2#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * Cluster disk size autoscaling settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#disk_size_autoscaling MdbMysqlClusterV2#disk_size_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#disk_size_autoscaling MdbMysqlClusterV2#disk_size_autoscaling}
   */
   readonly diskSizeAutoscaling?: MdbMysqlClusterV2DiskSizeAutoscaling;
   /**
   * Deployment environment of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#environment MdbMysqlClusterV2#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#environment MdbMysqlClusterV2#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#folder_id MdbMysqlClusterV2#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#folder_id MdbMysqlClusterV2#folder_id}
   */
   readonly folderId?: string;
   /**
   * A host configuration of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#hosts MdbMysqlClusterV2#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#hosts MdbMysqlClusterV2#hosts}
   */
   readonly hosts: { [key: string]: MdbMysqlClusterV2Hosts } | cdktf.IResolvable;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#labels MdbMysqlClusterV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#labels MdbMysqlClusterV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maintenance policy of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#maintenance_window MdbMysqlClusterV2#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#maintenance_window MdbMysqlClusterV2#maintenance_window}
   */
   readonly maintenanceWindow?: MdbMysqlClusterV2MaintenanceWindow;
   /**
   * MySQL cluster config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#mysql_config MdbMysqlClusterV2#mysql_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#mysql_config MdbMysqlClusterV2#mysql_config}
   */
   readonly mysqlConfig?: { [key: string]: string };
   /**
   * Name of the MySQL cluster. Provided by the client when the cluster is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#name MdbMysqlClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#name MdbMysqlClusterV2#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#network_id MdbMysqlClusterV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#network_id MdbMysqlClusterV2#network_id}
   */
   readonly networkId: string;
   /**
   * Cluster performance diagnostics settings. The structure is documented below.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#performance_diagnostics MdbMysqlClusterV2#performance_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#performance_diagnostics MdbMysqlClusterV2#performance_diagnostics}
   */
   readonly performanceDiagnostics?: MdbMysqlClusterV2PerformanceDiagnostics;
   /**
   * The cluster will be created from the specified backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#restore MdbMysqlClusterV2#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#restore MdbMysqlClusterV2#restore}
   */
   readonly restore?: MdbMysqlClusterV2Restore;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#security_group_ids MdbMysqlClusterV2#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#security_group_ids MdbMysqlClusterV2#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#timeouts MdbMysqlClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#timeouts MdbMysqlClusterV2#timeouts}
   */
   readonly timeouts?: MdbMysqlClusterV2Timeouts;
   /**
   * Version of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#version MdbMysqlClusterV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#version MdbMysqlClusterV2#version}
   */
   readonly version: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#resources MdbMysqlClusterV2#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#resources MdbMysqlClusterV2#resources}
   */
   readonly resources: MdbMysqlClusterV2Resources;
 }
@@ -136,19 +136,19 @@ export interface MdbMysqlClusterV2Access {
   /**
   * Allow access for Yandex DataLens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#data_lens MdbMysqlClusterV2#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#data_lens MdbMysqlClusterV2#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for DataTransfer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#data_transfer MdbMysqlClusterV2#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#data_transfer MdbMysqlClusterV2#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allow access for SQL queries in the management console
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#web_sql MdbMysqlClusterV2#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#web_sql MdbMysqlClusterV2#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -302,13 +302,13 @@ export interface MdbMysqlClusterV2BackupWindowStart {
   /**
   * The hour at which backup will be started (UTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#hours MdbMysqlClusterV2#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#hours MdbMysqlClusterV2#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started (UTC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#minutes MdbMysqlClusterV2#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#minutes MdbMysqlClusterV2#minutes}
   */
   readonly minutes?: number;
 }
@@ -433,19 +433,19 @@ export interface MdbMysqlClusterV2DiskSizeAutoscaling {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#disk_size_limit MdbMysqlClusterV2#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#disk_size_limit MdbMysqlClusterV2#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#emergency_usage_threshold MdbMysqlClusterV2#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#emergency_usage_threshold MdbMysqlClusterV2#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#planned_usage_threshold MdbMysqlClusterV2#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#planned_usage_threshold MdbMysqlClusterV2#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -596,25 +596,25 @@ export interface MdbMysqlClusterV2Hosts {
   /**
   * Assign a public IP address to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#assign_public_ip MdbMysqlClusterV2#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#assign_public_ip MdbMysqlClusterV2#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * FQDN of the host that is used as a replication source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#replication_source MdbMysqlClusterV2#replication_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#replication_source MdbMysqlClusterV2#replication_source}
   */
   readonly replicationSource?: string;
   /**
   * ID of the subnet where the host is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#subnet_id MdbMysqlClusterV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#subnet_id MdbMysqlClusterV2#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The availability zone where the host is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#zone MdbMysqlClusterV2#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#zone MdbMysqlClusterV2#zone}
   */
   readonly zone: string;
 }
@@ -819,19 +819,19 @@ export interface MdbMysqlClusterV2MaintenanceWindow {
   /**
   * Day of the week (in DDD format). Allowed values: "MON", "TUE", "WED", "THU", "FRI", "SAT","SUN"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#day MdbMysqlClusterV2#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#day MdbMysqlClusterV2#day}
   */
   readonly day?: string;
   /**
   * Hour of the day in UTC (in HH format). Allowed value is between 1 and 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#hour MdbMysqlClusterV2#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#hour MdbMysqlClusterV2#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either ANYTIME or WEEKLY. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#type MdbMysqlClusterV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#type MdbMysqlClusterV2#type}
   */
   readonly type?: string;
 }
@@ -985,19 +985,19 @@ export interface MdbMysqlClusterV2PerformanceDiagnostics {
   /**
   * Enable performance diagnostics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#enabled MdbMysqlClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#enabled MdbMysqlClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interval (in seconds) for pg_stat_activity sampling Acceptable values are 1 to 86400, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#sessions_sampling_interval MdbMysqlClusterV2#sessions_sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#sessions_sampling_interval MdbMysqlClusterV2#sessions_sampling_interval}
   */
   readonly sessionsSamplingInterval: number;
   /**
   * Interval (in seconds) for pg_stat_statements sampling Acceptable values are 60 to 86400, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#statements_sampling_interval MdbMysqlClusterV2#statements_sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#statements_sampling_interval MdbMysqlClusterV2#statements_sampling_interval}
   */
   readonly statementsSamplingInterval: number;
 }
@@ -1145,13 +1145,13 @@ export interface MdbMysqlClusterV2Restore {
   /**
   * Backup ID. The cluster will be created from the specified backup. [How to get a list of MySQL backups](https://yandex.cloud/docs/managed-mysql/operations/cluster-backups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#backup_id MdbMysqlClusterV2#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#backup_id MdbMysqlClusterV2#backup_id}
   */
   readonly backupId: string;
   /**
   * Timestamp of the moment to which the MySQL cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#time MdbMysqlClusterV2#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#time MdbMysqlClusterV2#time}
   */
   readonly time?: string;
 }
@@ -1273,19 +1273,19 @@ export interface MdbMysqlClusterV2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#create MdbMysqlClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#create MdbMysqlClusterV2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#delete MdbMysqlClusterV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#delete MdbMysqlClusterV2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#update MdbMysqlClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#update MdbMysqlClusterV2#update}
   */
   readonly update?: string;
 }
@@ -1439,19 +1439,19 @@ export interface MdbMysqlClusterV2Resources {
   /**
   * Size of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#disk_size MdbMysqlClusterV2#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#disk_size MdbMysqlClusterV2#disk_size}
   */
   readonly diskSize: number;
   /**
   * ID of the disk type that determines the disk performance characteristics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#disk_type_id MdbMysqlClusterV2#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#disk_type_id MdbMysqlClusterV2#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * ID of the resource preset that determines the number of CPU cores and memory size for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#resource_preset_id MdbMysqlClusterV2#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#resource_preset_id MdbMysqlClusterV2#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1594,7 +1594,7 @@ export class MdbMysqlClusterV2ResourcesOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2 yandex_mdb_mysql_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2 yandex_mdb_mysql_cluster_v2}
 */
 export class MdbMysqlClusterV2 extends cdktf.TerraformResource {
 
@@ -1610,7 +1610,7 @@ export class MdbMysqlClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMysqlClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMysqlClusterV2 to import
-  * @param importFromId The id of the existing MdbMysqlClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMysqlClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMysqlClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1622,7 +1622,7 @@ export class MdbMysqlClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.169.0/docs/resources/mdb_mysql_cluster_v2 yandex_mdb_mysql_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_mysql_cluster_v2 yandex_mdb_mysql_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1633,8 +1633,8 @@ export class MdbMysqlClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mysql_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0',
-        providerVersionConstraint: '0.169.0'
+        providerVersion: '0.170.0',
+        providerVersionConstraint: '0.170.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
