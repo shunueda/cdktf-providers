@@ -64,7 +64,6 @@ for await (const { attributes, id } of fetchProviderData()) {
             module: ModuleKind.ES2022,
             target: ScriptTarget.ES2022,
             declaration: true,
-            sourceMap: true,
             outDir: join(dir, 'dist'),
             // Skip type cheking because we process files in chunks. We assume the
             // generated code is always valid. Also speeds up the compilation.
