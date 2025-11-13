@@ -10,13 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v5.0.0
       - uses: ./.github/actions/setup-node
       - uses: ./.github/actions/setup-terraform
-      - run: npm run generate
+      - run: npm run start
         env:
           NODE_OPTIONS: '--max_old_space_size=8192'
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: 'chore: update'
+          commit_message: 'chore: autoupdate'

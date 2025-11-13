@@ -13,9 +13,9 @@ export function createReadmeContent({
 
 This package provides the prebuilt [Terraform ${terraformProviderName} provider](https://registry.terraform.io/providers/${terraformProviderName}/${version}/docs) bindings for [CDK for Terraform (CDKTF)](https://cdk.tf).
 
-The bindings are **automatically generated** from the upstream provider schema. They are intended for use in TypeScript CDKTF applications, and follow the same versioning as the underlying Terraform provider.
+The bindings are **automatically generated** from the upstream provider schema. They are intended for use in TypeScript CDKTF applications, and always match the version of the upstream Terraform provider.
 
-For details see the [cdktf-providers](https://github.com/YOUR_ORG/cdktf-providers) repository.
+For more details, see the [cdktf-providers](https://github.com/shunueda/cdktf-providers) repository.
 
 ## Installation
 

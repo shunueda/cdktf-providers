@@ -1,5 +1,6 @@
 import { log, warn } from 'node:console'
 import { cp, glob, writeFile } from 'node:fs/promises'
+import { EOL } from 'node:os'
 import { join } from 'node:path'
 import { ModuleKind, ScriptTarget } from 'typescript'
 import { generateProviderConstruct, type Language } from './cdktf.ts'
@@ -12,7 +13,8 @@ import { tsc } from './typescript/compile.ts'
 import {
   createNpmPackageName,
   createPackageJson,
-  isNpmPackagePublished
+  isNpmPackagePublished,
+  publishNpmPackage
 } from './typescript/npm.ts'
 
 for await (const { attributes, id } of fetchProviderData()) {
@@ -77,7 +79,17 @@ for await (const { attributes, id } of fetchProviderData()) {
 
           await writeFile(
             join(dir, 'package.json'),
-            JSON.stringify(createPackageJson(pkgname, version, dir), null, 2)
+            JSON.stringify(
+              createPackageJson({
+                pkgname,
+                namespace,
+                name,
+                version,
+                dir
+              }),
+              null,
+              2
+            ) + EOL
           )
 
           await writeFile(
@@ -86,12 +98,12 @@ for await (const { attributes, id } of fetchProviderData()) {
               terraformProviderName: fullname,
               npmPackageName: pkgname,
               version
-            })
+            }) + EOL
           )
 
           await cp('LICENSE', join(dir, 'LICENSE'))
 
-          // await publishNpmPackage(dir, env.NPM_TOKEN)
+          await publishNpmPackage(dir)
           log(prefix, 'Done.')
         }
       }
