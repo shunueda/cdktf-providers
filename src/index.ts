@@ -4,7 +4,6 @@ import { EOL } from 'node:os'
 import { join } from 'node:path'
 import { ModuleKind, ScriptTarget } from 'typescript'
 import { generateProviderConstruct, type Language } from './cdktf.ts'
-import { createReadmeContent } from './readme.ts'
 import {
   fetchProviderData,
   fetchProviderVerionData
@@ -13,6 +12,7 @@ import { tsc } from './typescript/compile.ts'
 import {
   createNpmPackageName,
   createPackageJson,
+  createReadmeContent,
   isNpmPackagePublished,
   publishNpmPackage
 } from './typescript/npm.ts'
