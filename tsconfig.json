@@ -8,6 +8,7 @@
     "moduleResolution": "nodenext",
     "allowImportingTsExtensions": true,
     "rewriteRelativeImportExtensions": true,
+    "resolveJsonModule": true,
     "allowJs": true,
     "strict": true,
     "noImplicitOverride": true,

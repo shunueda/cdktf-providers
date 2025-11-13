@@ -7,7 +7,9 @@
 import type { PackageJSON } from '@npm/types'
 import { Arborist } from '@npmcli/arborist'
 import { publish } from 'libnpmpublish'
+import { env } from 'node:process'
 import pacote from 'pacote'
+import { versions } from '../versions.ts'
 
 const npmPackageScope = '@cdktf-providers'
 
@@ -46,30 +48,38 @@ export async function isNpmPackagePublished(
 /**
  * Publish an NPM package located in the given directory.
  */
-export async function publishNpmPackage(directory: string, token?: string) {
-  const manifest = await pacote.manifest(directory)
-  const tarball = await pacote.tarball(directory, { Arborist })
+export async function publishNpmPackage(dir: string) {
+  const manifest = await pacote.manifest(dir)
+  const tarball = await pacote.tarball(dir, { Arborist })
   // libnpmpublish typing is wrong
-  await publish(manifest as any, tarball, {
+  await publish(manifest as Parameters<typeof publish>[0], tarball, {
     provenance: true,
     forceAuth: {
-      token
+      token: env.NPM_TOKEN
     }
   })
 }
 
-export function createPackageJson(
-  name: string,
-  version: string,
-  directory: string
-): Readonly<PackageJSON> {
+export function createPackageJson({
+  pkgname,
+  namespace,
+  name,
+  version,
+  dir
+}: {
+  pkgname: string
+  namespace: string
+  name: string
+  version: string
+  dir: string
+}): Readonly<PackageJSON> {
   return {
-    name,
+    name: pkgname,
     version,
     repository: {
       type: 'git',
       url: 'https://github.com/shunueda/cdktf-providers.git',
-      directory
+      directory: dir
     },
     type: 'module',
     exports: {
@@ -89,6 +99,13 @@ export function createPackageJson(
         require: './dist/*/index.js'
       }
     },
-    files: ['dist']
+    files: ['dist'],
+    keywords: ['cdk', 'cdktf', 'provider', 'terraform'].concat(
+      namespace === name ? [name] : [namespace, name]
+    ),
+    peerDependencies: {
+      cdktf: `^${versions.cdktf}`,
+      constructs: `^${versions.constructs}`
+    }
   }
 }
