@@ -76,6 +76,7 @@ export function createPackageJson({
   return {
     name: pkgname,
     version,
+    description: `Prebuilt ${namespace === name ? name : `${namespace}/${name}`} Provider for Terraform CDK (cdktf)`,
     repository: {
       type: 'git',
       url: 'https://github.com/shunueda/cdktf-providers.git',
