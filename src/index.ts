@@ -21,11 +21,6 @@ for await (const { attributes, id } of fetchProviderData()) {
   // E.g. { "name": "aws", "namespace": "hashicorp", "full-name": "hashicorp/aws" }
   const { name, namespace, ['full-name']: fullname } = attributes
 
-  // NOMERGE
-  if (name !== 'coder') {
-    continue
-  }
-
   // Get the latest version that matches x.x.x
   const versionData = await fetchProviderVerionData(id)
   const version = versionData
@@ -110,8 +105,6 @@ for await (const { attributes, id } of fetchProviderData()) {
 
           await publishNpmPackage(dir)
           log(prefix, 'Done.')
-          // NOMERGE
-          process.exit(0)
         }
       }
     } catch (error) {

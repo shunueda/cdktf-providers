@@ -81,6 +81,7 @@ export function createPackageJson({
       url: 'https://github.com/shunueda/cdktf-providers.git',
       directory: dir
     },
+    license: 'MPL-2.0',
     type: 'module',
     exports: {
       '.': {
